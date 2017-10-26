@@ -1,0 +1,7 @@
+
+
+1. Write unit tests for all libraries we write.
+    esp:
+    a. Events
+    b. DMA
+ 
