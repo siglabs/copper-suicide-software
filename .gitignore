@@ -113,3 +113,7 @@ release
 # Debug files
 *.dSYM/
 
+# OS files
+.DS_Store
+
+
