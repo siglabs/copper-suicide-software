@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "cs_rev2_cfg_fpga_impl1.log"
+-o "cs_rev2_cfg_fpga_impl1.csv"
+-pr "cs_rev2_cfg_fpga_impl1.prf"

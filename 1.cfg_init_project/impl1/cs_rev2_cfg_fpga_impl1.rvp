@@ -1,0 +1,35 @@
+#-- Lattice Semiconductor Corporation Ltd.
+#-- Bali Reveal project file
+
+#device options
+[Device]
+part = LFE5U-85F-8BG756C
+family = ECP5U
+device = LFE5U-85F
+speed = 8
+package = CABGA756
+operation = Commercial
+
+#design options
+[Design]
+title = cs_rev2_cfg_fpga
+path = C:/R_and_D/cs_rev2/CS_CFG_FPGA/impl1
+core_generate = C:/R_and_D/cs_rev2/CS_CFG_FPGA/impl1
+search_path = C:/R_and_D/cs_rev2/CS_CFG_FPGA
+top = cs_rev2_cfg_fpga
+lpf = C:/R_and_D/cs_rev2/CS_CFG_FPGA/cs_rev2_cfg_fpga.lpf
+synthesis = synplify
+
+#strategy options
+VHDL2008 = false
+
+#HDLs options
+[HDLs]
+C:/R_and_D/cs_rev2/CS_CFG_FPGA/cs_rev2_cfg_pga.v = Verilog
+[HDL_Defines]
+SBP_SYNTHESIS=
+[HDL_Param]
+[Generated]
+C:/R_and_D/cs_rev2/CS_CFG_FPGA/impl1/reveal_workspace/tmpreveal/cs_rev2_cfg_fpga_la0_trig_gen.v=Verilog
+C:/R_and_D/cs_rev2/CS_CFG_FPGA/impl1/reveal_workspace/tmpreveal/cs_rev2_cfg_fpga_la0_gen.v=Verilog
+C:/R_and_D/cs_rev2/CS_CFG_FPGA/impl1/reveal_workspace/tmpreveal/cs_rev2_cfg_fpga_rvl.v=Verilog,work

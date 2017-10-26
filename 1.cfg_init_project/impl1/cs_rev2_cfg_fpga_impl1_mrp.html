@@ -1,0 +1,314 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>
+       Lattice Mapping Report File for Design Module 'cs_rev2_cfg_fpga'
+
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a ECP5UM -p LFE5UM-85F -t CABGA756 -s 8 -oc Commercial
+     cs_rev2_cfg_fpga_impl1.ngd -o cs_rev2_cfg_fpga_impl1_map.ncd -pr
+     cs_rev2_cfg_fpga_impl1.prf -mp cs_rev2_cfg_fpga_impl1.mrp -lpf
+     C:/R_and_D/cs_rev2/CS_CFG_FPGA/impl1/cs_rev2_cfg_fpga_impl1_synplify.lpf
+     -lpf C:/R_and_D/cs_rev2/CS_CFG_FPGA/cs_rev2_cfg_fpga.lpf -gui -msgset
+     C:/R_and_D/cs_rev2/CS_CFG_FPGA/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LFE5UM-85FCABGA756
+Target Performance:   8
+Mapper:  sa5p00m,  version:  Diamond (64-bit) 3.9.1.119
+Mapped on:  08/04/17  14:27:53
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:     24 out of 84735 (0%)
+      PFU registers:           24 out of 83640 (0%)
+      PIO registers:            0 out of  1095 (0%)
+   Number of SLICEs:        17 out of 41820 (0%)
+      SLICEs as Logic/ROM:     17 out of 41820 (0%)
+      SLICEs as RAM:            0 out of 31365 (0%)
+      SLICEs as Carry:         17 out of 41820 (0%)
+   Number of LUT4s:         34 out of 83640 (0%)
+      Number used as logic LUTs:          0
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       34
+      Number used as shift registers:     0
+   Number of PIO sites used: 18 out of 365 (5%)
+   Number of block RAMs:  0 out of 208 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   DTR used :   No
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 4 (0%)
+   Number of Dynamic Bank Controller (BCLVDSOB):  0 out of 4 (0%)
+   Number of DCC:  0 out of 60 (0%)
+   Number of DCS:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 4 (0%)
+   Number of DDRDLLs:  0 out of 4 (0%)
+   Number of CLKDIV:  0 out of 4 (0%)
+   Number of ECLKSYNC:  0 out of 10 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Number of DCUs:  0 out of 2 (0%)
+   Number of DCU Channels:  0 out of 4 (0%)
+   Number of EXTREFs:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+        Number Of Mapped DSP Components:
+   --------------------------------
+
+   MULT18X18D          0
+   MULT9X9D            0
+   ALU54B              0
+   ALU24B              0
+   PRADD18A            0
+   PRADD9A             0
+   --------------------------------
+   Number of Used DSP MULT Sites:  0 out of 312 (0 %)
+   Number of Used DSP ALU Sites:  0 out of 156 (0 %)
+   Number of Used DSP PRADD Sites:  0 out of 312 (0 %)
+   Number of clocks:  1
+     Net CLK_c: 14 loads, 14 rising, 0 falling (Driver: PIO CLK )
+   Number of Clock Enables:  0
+   Number of LSRs:  0
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net counter[0]: 2 loads
+     Net counter[11]: 2 loads
+     Net counter[1]: 2 loads
+     Net counter[2]: 2 loads
+     Net counter[3]: 2 loads
+     Net counter[4]: 2 loads
+     Net counter[5]: 2 loads
+     Net counter[6]: 2 loads
+     Net counter[7]: 2 loads
+     Net led_c: 2 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+   No errors or warnings present.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| PROG_N[0]           | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| CLK                 | INPUT     | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| led                 | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| PROG_N[15]          | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| PROG_N[14]          | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+
+| PROG_N[13]          | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| PROG_N[12]          | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| PROG_N[11]          | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| PROG_N[10]          | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| PROG_N[9]           | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| PROG_N[8]           | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| PROG_N[7]           | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| PROG_N[6]           | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| PROG_N[5]           | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| PROG_N[4]           | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| PROG_N[3]           | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| PROG_N[2]           | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| PROG_N[1]           | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block GSR_INST undriven or does not drive anything - clipped.
+Block GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal counter_cry_0_S0[0] undriven or does not drive anything - clipped.
+Signal N_1 undriven or does not drive anything - clipped.
+Signal counter_s_0_S1[23] undriven or does not drive anything - clipped.
+Signal counter_s_0_COUT[23] undriven or does not drive anything - clipped.
+Signal counter_qxu_par_1_S0[10] undriven or does not drive anything - clipped.
+Signal counter_qxu_par_1_S1[6] undriven or does not drive anything - clipped.
+Signal counter_qxu_par_1_S0[6] undriven or does not drive anything - clipped.
+Signal counter_qxu_par_1_S1[2] undriven or does not drive anything - clipped.
+Signal counter_qxu_par_1_S0[2] undriven or does not drive anything - clipped.
+Signal counter_qxu_par_1_S1[0] undriven or does not drive anything - clipped.
+Signal counter_qxu_par_1_S0[0] undriven or does not drive anything - clipped.
+Signal N_2 undriven or does not drive anything - clipped.
+Signal counter_s_0_S1[11] undriven or does not drive anything - clipped.
+Signal counter_s_0_COUT[11] undriven or does not drive anything - clipped.
+Block VCC was optimized away.
+
+
+
+<A name="mrp_mem"></A><B><U><big>Memory Usage</big></U></B>
+
+
+     
+
+
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 1 secs  
+   Total REAL Time: 2 secs  
+   Peak Memory Usage: 242 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

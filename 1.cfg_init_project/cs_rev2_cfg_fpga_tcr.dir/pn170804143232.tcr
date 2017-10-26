@@ -1,0 +1,12 @@
+#Start recording tcl command: 8/4/2017 14:17:51
+#Project Location: C:/R_and_D/cs_rev2/CS_CFG_FPGA; Project name: cs_rev2_cfg_fpga
+prj_project open "C:/R_and_D/cs_rev2/CS_CFG_FPGA/cs_rev2_cfg_fpga.ldf"
+prj_run Map -impl impl1 -task MapTrace
+prj_run Map -impl impl1 -task MapTrace
+prj_run Map -impl impl1 -task MapTrace
+prj_run Map -impl impl1 -task MapTrace
+prj_run Export -impl impl1 -task Bitgen
+prj_run Translate -impl impl1
+prj_run Map -impl impl1 -task MapTrace
+prj_run Export -impl impl1 -task Bitgen
+#Stop recording: 8/4/2017 14:32:32

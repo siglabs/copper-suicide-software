@@ -1,0 +1,235 @@
+
+Loading design for application trce from file cs_rev2_cfg_fpga_impl1_map.ncd.
+Design name: cs_rev2_cfg_fpga
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5UM-85F
+Package:     CABGA756
+Performance: 8
+Loading device for application trce from file 'sa5p85m.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.54.
+Performance Hardware Data Status:   Final          Version 51.1.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.9.1.119
+Fri Aug 04 14:27:57 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o cs_rev2_cfg_fpga_impl1.tw1 -gui -msgset C:/R_and_D/cs_rev2/CS_CFG_FPGA/promote.xml cs_rev2_cfg_fpga_impl1_map.ncd cs_rev2_cfg_fpga_impl1.prf 
+Design file:     cs_rev2_cfg_fpga_impl1_map.ncd
+Preference file: cs_rev2_cfg_fpga_impl1.prf
+Device,speed:    LFE5UM-85F,8
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK JTAG PATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY PORT "CLK" 125.000000 MHz ;
+            300 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 3.000ns
+         The internal maximum frequency of the following component is 200.000 MHz
+
+ Logical Details:  Cell type  Pin name       Component name
+
+   Destination:    PIO        PAD            CLK
+
+   Delay:               5.000ns -- based on Minimum Pulse Width
+
+
+Passed: The following path meets requirements by 6.255ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              counter[1]  (from CLK_c +)
+   Destination:    FF         Data in        counter[23]  (to CLK_c +)
+
+   Delay:               1.955ns  (78.1% logic, 21.9% route), 11 logic levels.
+
+ Constraint Details:
+
+      1.955ns physical path delay SLICE_12 to SLICE_10 meets
+      8.000ns delay constraint less
+     -0.210ns DIN_SET requirement (totaling 8.210ns) by 6.255ns
+
+ Physical Path Details:
+
+      Data path SLICE_12 to SLICE_10:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.395   SLICE_12.CLK to    SLICE_12.Q0 SLICE_12 (from CLK_c)
+ROUTE         2   e 0.419    SLICE_12.Q0 to     SLICE_1.B1 counter[1]
+C1TOFCO_DE  ---     0.355     SLICE_1.B1 to    SLICE_1.FCO SLICE_1
+ROUTE         1   e 0.001    SLICE_1.FCO to    SLICE_2.FCI counter_qxu_par_1_COUT[0]
+FCITOFCO_D  ---     0.056    SLICE_2.FCI to    SLICE_2.FCO SLICE_2
+ROUTE         1   e 0.001    SLICE_2.FCO to    SLICE_3.FCI counter_qxu_par_1_COUT[2]
+FCITOFCO_D  ---     0.056    SLICE_3.FCI to    SLICE_3.FCO SLICE_3
+ROUTE         1   e 0.001    SLICE_3.FCO to    SLICE_4.FCI counter_qxu_par_1_COUT[6]
+FCITOFCO_D  ---     0.056    SLICE_4.FCI to    SLICE_4.FCO SLICE_4
+ROUTE         1   e 0.001    SLICE_4.FCO to    SLICE_5.FCI counter_cry[12]
+FCITOFCO_D  ---     0.056    SLICE_5.FCI to    SLICE_5.FCO SLICE_5
+ROUTE         1   e 0.001    SLICE_5.FCO to    SLICE_6.FCI counter_cry[14]
+FCITOFCO_D  ---     0.056    SLICE_6.FCI to    SLICE_6.FCO SLICE_6
+ROUTE         1   e 0.001    SLICE_6.FCO to    SLICE_7.FCI counter_cry[16]
+FCITOFCO_D  ---     0.056    SLICE_7.FCI to    SLICE_7.FCO SLICE_7
+ROUTE         1   e 0.001    SLICE_7.FCO to    SLICE_8.FCI counter_cry[18]
+FCITOFCO_D  ---     0.056    SLICE_8.FCI to    SLICE_8.FCO SLICE_8
+ROUTE         1   e 0.001    SLICE_8.FCO to    SLICE_9.FCI counter_cry[20]
+FCITOFCO_D  ---     0.056    SLICE_9.FCI to    SLICE_9.FCO SLICE_9
+ROUTE         1   e 0.001    SLICE_9.FCO to   SLICE_10.FCI counter_cry[22]
+FCITOF0_DE  ---     0.328   SLICE_10.FCI to    SLICE_10.F0 SLICE_10
+ROUTE         1   e 0.001    SLICE_10.F0 to   SLICE_10.DI0 counter_s[23] (to CLK_c)
+                  --------
+                    1.955   (78.1% logic, 21.9% route), 11 logic levels.
+
+Report:  200.000MHz is the maximum frequency for this preference.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY PORT "CLK" 125.000000 MHz ;   |  125.000 MHz|  200.000 MHz|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 1 clocks:
+
+Clock Domain: CLK_c   Source: CLK.PAD   Loads: 14
+   Covered under: FREQUENCY PORT "CLK" 125.000000 MHz ;
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 300 paths, 1 nets, and 89 connections (98.89% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.9.1.119
+Fri Aug 04 14:27:57 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o cs_rev2_cfg_fpga_impl1.tw1 -gui -msgset C:/R_and_D/cs_rev2/CS_CFG_FPGA/promote.xml cs_rev2_cfg_fpga_impl1_map.ncd cs_rev2_cfg_fpga_impl1.prf 
+Design file:     cs_rev2_cfg_fpga_impl1_map.ncd
+Preference file: cs_rev2_cfg_fpga_impl1.prf
+Device,speed:    LFE5UM-85F,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK JTAG PATHS
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Preference: FREQUENCY PORT "CLK" 125.000000 MHz ;
+            300 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.179ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              counter[0]  (from CLK_c +)
+   Destination:    FF         Data in        counter[0]  (to CLK_c +)
+
+   Delay:               0.298ns  (80.2% logic, 19.8% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.298ns physical path delay SLICE_11 to SLICE_11 meets
+      0.119ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling 0.119ns) by 0.179ns
+
+ Physical Path Details:
+
+      Data path SLICE_11 to SLICE_11:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.163   SLICE_11.CLK to    SLICE_11.Q1 SLICE_11 (from CLK_c)
+ROUTE         2   e 0.058    SLICE_11.Q1 to    SLICE_11.A1 counter[0]
+CTOF_DEL    ---     0.076    SLICE_11.A1 to    SLICE_11.F1 SLICE_11
+ROUTE         1   e 0.001    SLICE_11.F1 to   SLICE_11.DI1 counter_s[0] (to CLK_c)
+                  --------
+                    0.298   (80.2% logic, 19.8% route), 2 logic levels.
+
+Report Summary
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY PORT "CLK" 125.000000 MHz ;   |            -|            -|   2  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+Clock Domains Analysis
+------------------------
+
+Found 1 clocks:
+
+Clock Domain: CLK_c   Source: CLK.PAD   Loads: 14
+   Covered under: FREQUENCY PORT "CLK" 125.000000 MHz ;
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 300 paths, 1 nets, and 89 connections (98.89% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+

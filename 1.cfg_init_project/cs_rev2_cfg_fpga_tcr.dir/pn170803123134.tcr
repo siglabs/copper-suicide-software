@@ -1,0 +1,6 @@
+#Start recording tcl command: 8/3/2017 11:15:14
+#Project Location: C:/R_and_D/cs_rev2/CS_CFG_FPGA; Project name: cs_rev2_cfg_fpga
+prj_project open "C:/R_and_D/cs_rev2/CS_CFG_FPGA/cs_rev2_cfg_fpga.ldf"
+prj_dev set -part LFE5UM-85F-8BG756C
+prj_run Export -impl impl1 -task Bitgen
+#Stop recording: 8/3/2017 12:31:34

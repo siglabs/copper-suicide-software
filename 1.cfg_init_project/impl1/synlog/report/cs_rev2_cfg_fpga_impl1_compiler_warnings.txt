@@ -1,0 +1,4 @@
+@W: CG360 :"C:\R_and_D\cs_rev2\CS_CFG_FPGA\cs_rev2_cfg_pga.v":2:24:2:26|Removing wire led, as there is no assignment to it.
+@W: CL169 :"C:\R_and_D\cs_rev2\CS_CFG_FPGA\cs_rev2_cfg_pga.v":13:0:13:5|Pruning unused register counter[23:0]. Make sure that there are no unused intermediate registers.
+@W: CL157 :"C:\R_and_D\cs_rev2\CS_CFG_FPGA\cs_rev2_cfg_pga.v":2:24:2:26|*Output led has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+

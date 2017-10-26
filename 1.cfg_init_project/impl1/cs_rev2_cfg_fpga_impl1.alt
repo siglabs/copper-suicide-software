@@ -1,0 +1,26 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Aug 04 14:29:10 2017 *
+NOTE DESIGN NAME: cs_rev2_cfg_fpga *
+NOTE DEVICE NAME: LFE5UM-85F-8CABGA756 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS PROG_N[0] : F20 : out *
+NOTE PINS CLK : A18 : in *
+NOTE PINS led : A8 : out *
+NOTE PINS PROG_N[15] : K7 : out *
+NOTE PINS PROG_N[14] : H5 : out *
+NOTE PINS PROG_N[13] : N26 : out *
+NOTE PINS PROG_N[12] : AG28 : out *
+NOTE PINS PROG_N[11] : N29 : out *
+NOTE PINS PROG_N[10] : H32 : out *
+NOTE PINS PROG_N[9] : C32 : out *
+NOTE PINS PROG_N[8] : AK28 : out *
+NOTE PINS PROG_N[7] : L29 : out *
+NOTE PINS PROG_N[6] : K30 : out *
+NOTE PINS PROG_N[5] : C31 : out *
+NOTE PINS PROG_N[4] : F18 : out *
+NOTE PINS PROG_N[3] : E30 : out *
+NOTE PINS PROG_N[2] : D28 : out *
+NOTE PINS PROG_N[1] : H30 : out *
+NOTE CONFIGURATION MODE: JTAG *
+NOTE COMPRESSION: off *

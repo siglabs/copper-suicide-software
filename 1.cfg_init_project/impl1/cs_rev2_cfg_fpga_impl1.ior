@@ -1,0 +1,42 @@
+Loading design for application iotiming from file cs_rev2_cfg_fpga_impl1.ncd.
+Design name: cs_rev2_cfg_fpga
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5UM-85F
+Package:     CABGA756
+Performance: 9
+Package Status:                     Final          Version 1.54.
+Performance Hardware Data Status:   Final          Version 51.1.
+Loading design for application iotiming from file cs_rev2_cfg_fpga_impl1.ncd.
+Design name: cs_rev2_cfg_fpga
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5UM-85F
+Package:     CABGA756
+Performance: M
+Package Status:                     Final          Version 1.54.
+Performance Hardware Data Status:   Final          Version 51.1.
+// Design: cs_rev2_cfg_fpga
+// Package: CABGA756
+// ncd File: cs_rev2_cfg_fpga_impl1.ncd
+// Version: Diamond (64-bit) 3.9.1.119
+// Written on Fri Aug 04 14:29:00 2017
+// M: Minimum Performance Grade
+// iotiming cs_rev2_cfg_fpga_impl1.ncd cs_rev2_cfg_fpga_impl1.prf -gui -msgset C:/R_and_D/cs_rev2/CS_CFG_FPGA/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 9, 8):
+
+// Input Setup and Hold Times
+
+Port  Clock Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+(no input setup/hold data)
+
+
+// Clock to Output Delay
+
+Port  Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+led   CLK   R     8.709         8        4.060          M

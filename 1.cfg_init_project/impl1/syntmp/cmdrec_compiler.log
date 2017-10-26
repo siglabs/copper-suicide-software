@@ -1,0 +1,9 @@
+C:\lscc\diamond\3.9_x64\synpbase\bin64\c_hdl.exe  -osyn  C:\R_and_D\cs_rev2\CS_CFG_FPGA\impl1\synwork\cs_rev2_cfg_fpga_impl1_comp.srs  -top  cs_rev2_cfg_fpga  -hdllog  C:\R_and_D\cs_rev2\CS_CFG_FPGA\impl1\synlog\cs_rev2_cfg_fpga_impl1_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -verilog  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver   -I C:\R_and_D\cs_rev2\CS_CFG_FPGA  -I C:\R_and_D\cs_rev2\CS_CFG_FPGA\impl1\  -I C:\lscc\diamond\3.9_x64\synpbase\lib   -v2001  -devicelib  C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\ecp5um.v  -devicelib  C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v  -encrypt  -pro  -dmgen  C:\R_and_D\cs_rev2\CS_CFG_FPGA\impl1\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -D_MULTIPLE_FILE_COMPILATION_UNIT_  -lib work C:\R_and_D\cs_rev2\CS_CFG_FPGA\cs_rev2_cfg_pga.v 
+rc:0 success:1 runtime:2
+file:C:\R_and_D\cs_rev2\CS_CFG_FPGA\impl1\synwork\cs_rev2_cfg_fpga_impl1_comp.srs|io:o|time:1501882068|size:1573|exec:0
+file:C:\R_and_D\cs_rev2\CS_CFG_FPGA\impl1\synlog\cs_rev2_cfg_fpga_impl1_compiler.srr|io:o|time:1501882068|size:2950|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\ecp5um.v|io:i|time:1489054444|size:89971|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v|io:i|time:1489054444|size:40584|exec:0
+file:C:\R_and_D\cs_rev2\CS_CFG_FPGA\cs_rev2_cfg_pga.v|io:i|time:1501882066|size:340|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\bin\c_hdl.exe|io:i|time:1489229968|size:1338368|exec:1
+file:C:\lscc\diamond\3.9_x64\synpbase\bin64\c_hdl.exe|io:i|time:1489230174|size:1754112|exec:1
