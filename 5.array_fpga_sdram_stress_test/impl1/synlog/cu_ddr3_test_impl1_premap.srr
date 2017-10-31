@@ -1,0 +1,83 @@
+# Thu Jul 13 15:48:48 2017
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1682R, Built Mar 10 2017 10:47:08
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\cu_ddr3_test_impl1_scck.rpt 
+Printing clock  summary report in "C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\cu_ddr3_test_impl1_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 120MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 120MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 123MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 125MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: BN115 :"c:\fpga\cs-verification\fpga\fpgas\manual\ddr3_sdram_cs_test\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2748:19:2748:27|Removing instance U_lfsr128 (in view: work.data_gen_chk_uniq_1(verilog)) of type view:work.lfsr128_uniq_1(verilog) because it does not drive other instances.
+@N: BN115 :"c:\fpga\cs-verification\fpga\fpgas\manual\ddr3_sdram_cs_test\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2789:19:2789:30|Removing instance U_lfsr128exp (in view: work.data_gen_chk_uniq_1(verilog)) of type view:work.lfsr128_uniq_2(verilog) because it does not drive other instances.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=208  set on top level netlist ddr3_test_top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 151MB peak: 153MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                         Requested     Requested     Clock        Clock                     Clock
+Clock                                         Frequency     Period        Type         Group                     Load 
+----------------------------------------------------------------------------------------------------------------------
+System                                        621.2 MHz     1.610         system       system_clkgroup           0    
+ddr3_sdram_mem_top_inst1_uniq_1|sclk          302.1 MHz     3.310         inferred     Autoconstr_clkgroup_2     1793 
+ddr3_test_top|fpga_int_clk_inferred_clock     2.4 MHz       412.903       inferred     Autoconstr_clkgroup_0     17   
+reveal_coretop|jtck_inferred_clock[0]         367.5 MHz     2.721         inferred     Autoconstr_clkgroup_1     832  
+======================================================================================================================
+
+@W: MT529 :"c:\fpga\cs-verification\fpga\fpgas\manual\ddr3_sdram_cs_test\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":1709:4:1709:9|Found inferred clock ddr3_test_top|fpga_int_clk_inferred_clock which controls 17 sequential elements including rst_n. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"c:\fpga\cs-verification\fpga\fpgas\manual\ddr3_sdram_cs_test\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2793:4:2793:9|Found inferred clock ddr3_sdram_mem_top_inst1_uniq_1|sclk which controls 1793 sequential elements including u_ddr_ulogic.U_data_gen_chk.seqd32e[31:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 150MB peak: 153MB)
+
+Encoding state machine cmdgen[6:0] (in view: work.ddr_ulogic_uniq_1(verilog))
+original code -> new code
+   0000 -> 0000001
+   0010 -> 0000010
+   0011 -> 0000100
+   0100 -> 0001000
+   0101 -> 0010000
+   0110 -> 0100000
+   0111 -> 1000000
+Encoding state machine next_then_shift[2:0] (in view: work.rvl_te_Z3(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 154MB peak: 156MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 67MB peak: 156MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jul 13 15:48:49 2017
+
+###########################################################]

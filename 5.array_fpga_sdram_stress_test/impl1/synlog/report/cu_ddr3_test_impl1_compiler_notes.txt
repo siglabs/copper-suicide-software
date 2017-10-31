@@ -1,0 +1,22 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\ecp5u.v":1746:7:1746:10|Synthesizing module OSCG in library work.
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":3244:7:3244:11|Synthesizing module inst1 in library work.
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":3306:7:3306:20|Synthesizing module ddr_clks_inst1 in library work.
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":637:7:637:37|Synthesizing module ddr3_sdram_mem_top_inst1_uniq_1 in library work.
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":749:7:749:20|Synthesizing module ddr3_ip_uniq_1 in library work.
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2915:7:2915:20|Synthesizing module lfsr128_uniq_1 in library work.
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":3077:7:3077:20|Synthesizing module lfsr128_uniq_2 in library work.
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2697:7:2697:25|Synthesizing module data_gen_chk_uniq_1 in library work.
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2193:7:2193:23|Synthesizing module ddr_ulogic_uniq_1 in library work.
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\ecp5u.v":757:7:757:9|Synthesizing module VHI in library work.
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_la0_trig_gen.v":11:7:11:28|Synthesizing module ddr3_test_top_la0_trig in library work.
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_la0_gen.v":12:7:12:23|Synthesizing module ddr3_test_top_la0 in library work.
+@N: CG364 :"C:\lscc\diamond\3.9_x64\cae_library\synthesis\verilog\pmi_def.v":1162:7:1162:16|Synthesizing module jtagconn16 in library work.
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2:7:2:20|Synthesizing module reveal_coretop in library work.
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":1639:7:1639:19|Synthesizing module ddr3_test_top in library work.
+@N: CL159 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_la0_gen.v":65:7:65:13|Input reset_n is unused.
+@N: CL159 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_la0_gen.v":83:7:83:16|Input trigger_en is unused.
+@N: CL201 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2420:4:2420:9|Trying to extract state machine for register cmdgen.
+@N|Running in 64-bit mode
+

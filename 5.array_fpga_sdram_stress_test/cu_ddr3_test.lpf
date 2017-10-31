@@ -1,0 +1,198 @@
+rvl_alias "sclk" "sclk";
+COMMERCIAL ;
+BLOCK RESETPATHS ;
+BLOCK ASYNCPATHS ;
+BLOCK JTAGPATHS ;
+BANK 3 VCCIO 1.5 V;
+BANK 4 VCCIO 1.5 V;
+#BANK 1 VCCIO 1.35 V;
+##########################################################################
+# Frequency Declerations
+##########################################################################
+FREQUENCY NET "sclk*" 200.000000 MHz PAR_ADJ 40.000000 ;
+FREQUENCY NET "*clkop*" 400.000000 MHz PAR_ADJ 80.000000 ;
+##########################################################################
+# Block, Maxdelay, Multicycle preferences
+##########################################################################
+#BLOCK PATH FROM PORT "rst_*" ;
+BLOCK PATH FROM CLKNET "*/clkos*" TO CLKNET "*eclk" ;
+BLOCK PATH FROM CLKNET "*/clkos*" TO CLKNET "sclk*" ;
+MAXDELAY NET "*/U1_ddr3_sdram_phy/ddr3_read_data_out[*]" 4.500000 ns ;
+MAXDELAY NET "*/U1_ddr3_sdram_phy/datavalid_o[*]" 4.400000 ns ;
+MAXDELAY FROM CELL "*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_wr_data_val_in[*]" 4.500000 ns ;
+MAXDELAY FROM CELL "*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_dqsout_in[*]" 4.500000 ns ;
+MAXDELAY NET "*/U1_ddr3_sdram_phy/burstdet[*]" 4.500000 ns ;
+MAXDELAY NET "*/U1_ddr3_sdram_phy/rt_rdclksel[*]" 4.500000 ns ;
+MAXDELAY NET "*/U1_ddr3_sdram_phy/rt_dqs_read[*]" 4.500000 ns ;
+MAXDELAY NET "*/U1_ddr3_sdram_phy/dqsbufd_pause" 4.500000 ns ;
+MAXDELAY NET "*/U1_ddr3_sdram_phy/ddrin[*]" 2.500000 ns ;
+MAXDELAY NET "*/U1_ddr3_sdram_phy/wl_dyndelay[*]" 4.500000 ns ;
+##########################################################################
+# IO Type Declarations
+##########################################################################
+IOBUF ALLPORTS IO_TYPE=LVCMOS12 ;
+DEFINE PORT GROUP "EM_DDR_DQS_GRP" "em_ddr_dqs[*]" ;
+IOBUF GROUP "EM_DDR_DQS_GRP" IO_TYPE=SSTL135D_I DIFFRESISTOR=100 TERMINATION=OFF SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_clk[0]" IO_TYPE=SSTL15D_I ;
+DEFINE PORT GROUP "EM_DDR_DATA_GRP" "em_ddr_data[*]" ;
+IOBUF GROUP "EM_DDR_DATA_GRP" IO_TYPE=SSTL135_I TERMINATION=75 SLEWRATE=FAST ;
+DEFINE PORT GROUP "EM_DDR_DM_GRP" "em_ddr_dm[*]" ;
+IOBUF GROUP "EM_DDR_DM_GRP" IO_TYPE=SSTL135_I SLEWRATE=FAST ;
+DEFINE PORT GROUP "EM_DDR_ADDR_GRP" "em_ddr_addr[*]" ;
+IOBUF GROUP "EM_DDR_ADDR_GRP" IO_TYPE=SSTL135_I SLEWRATE=FAST ;
+DEFINE PORT GROUP "EM_DDR_BA_GRP" "em_ddr_ba[*]" ;
+IOBUF GROUP "EM_DDR_BA_GRP" IO_TYPE=SSTL135_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_ras_n" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_cas_n" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_we_n" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+DEFINE PORT GROUP "EM_DDR_CS_GRP" "em_ddr_cs_n[*]" ;
+IOBUF GROUP "EM_DDR_CS_GRP" IO_TYPE=SSTL135_I SLEWRATE=FAST ;
+DEFINE PORT GROUP "EM_DDR_ODT_GRP" "em_ddr_odt[*]" ;
+IOBUF GROUP "EM_DDR_ODT_GRP" IO_TYPE=SSTL135_I SLEWRATE=FAST ;
+DEFINE PORT GROUP "EM_DDR_CKE_GRP" "em_ddr_cke[*]" ;
+IOBUF GROUP "EM_DDR_CKE_GRP" IO_TYPE=SSTL135_I SLEWRATE=FAST ;
+DEFINE PORT GROUP "EM_DDR_CLK_GRP" "em_ddr_clk[*]" ;
+IOBUF GROUP "EM_DDR_CLK_GRP" IO_TYPE=SSTL135D_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_reset_n" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+USE PRIMARY NET "clk_in" ;
+##########################################################################
+# LOCATE FOR DQS pins                                                     
+##########################################################################
+#LOCATE COMP "clk_in" SITE "B29" ;# As told by Joel
+LOCATE COMP "clk_in" SITE "A18" ;
+IOBUF PORT "clk_in" IO_TYPE=LVCMOS15 PULLMODE=NONE ;
+LOCATE VREF "BANK_3_VREF" SITE "V29" ;
+# BANK 3 : G1 - [DQ 0 to DQ 7] DDR3 SDRAM 1
+LOCATE COMP "em_ddr_data[0]" SITE "W30" ;
+LOCATE COMP "em_ddr_data[1]" SITE "P31" ;
+LOCATE COMP "em_ddr_data[2]" SITE "N32" ;
+LOCATE COMP "em_ddr_data[3]" SITE "R30" ;
+LOCATE COMP "em_ddr_data[4]" SITE "U31" ;
+LOCATE COMP "em_ddr_data[5]" SITE "P32" ;
+LOCATE COMP "em_ddr_data[6]" SITE "U30" ;
+LOCATE COMP "em_ddr_data[7]" SITE "P30" ;
+LOCATE COMP "em_ddr_dqs[0]" SITE "R32" ;# LDQS
+LOCATE COMP "em_ddr_dm[0]" SITE "T30" ;# LDM
+# BANK 3 : G0 - [DQ 8 to DQ 15] DDR3 SDRAM 1
+LOCATE COMP "em_ddr_data[8]" SITE "T29" ;
+LOCATE COMP "em_ddr_data[9]" SITE "P28" ;
+LOCATE COMP "em_ddr_data[10]" SITE "U27" ;
+LOCATE COMP "em_ddr_data[11]" SITE "R27" ;
+LOCATE COMP "em_ddr_data[12]" SITE "T27" ;
+LOCATE COMP "em_ddr_data[13]" SITE "T26" ;
+LOCATE COMP "em_ddr_data[14]" SITE "U26" ;
+LOCATE COMP "em_ddr_data[15]" SITE "R26" ;
+LOCATE COMP "em_ddr_dqs[1]" SITE "R29" ;# UDQS
+LOCATE COMP "em_ddr_dm[1]" SITE "P29" ;# UDM 
+# BANK 3 : G3 - [DQ 0 to DQ 7] DDR3 SDRAM 2
+LOCATE COMP "em_ddr_data[16]" SITE "Y32" ;
+LOCATE COMP "em_ddr_data[17]" SITE "AB30" ;
+LOCATE COMP "em_ddr_data[18]" SITE "AE30" ;
+LOCATE COMP "em_ddr_data[19]" SITE "AC28" ;
+LOCATE COMP "em_ddr_data[20]" SITE "W31" ;
+LOCATE COMP "em_ddr_data[21]" SITE "AD30" ;
+LOCATE COMP "em_ddr_data[22]" SITE "AC31" ;
+LOCATE COMP "em_ddr_data[23]" SITE "AD29" ;
+LOCATE COMP "em_ddr_dqs[2]" SITE "AC30" ;# LDQS
+LOCATE COMP "em_ddr_dm[2]" SITE "AB29" ;# LDM
+# BANK 3 - [DQ 8 to DQ 15] DDR3 SDRAM 2
+LOCATE COMP "em_ddr_data[24]" SITE "Y27" ;
+LOCATE COMP "em_ddr_data[25]" SITE "W29" ;
+LOCATE COMP "em_ddr_data[26]" SITE "AC27" ;
+LOCATE COMP "em_ddr_data[27]" SITE "Y26" ;
+LOCATE COMP "em_ddr_data[28]" SITE "AB26" ;
+LOCATE COMP "em_ddr_data[29]" SITE "W28" ;
+LOCATE COMP "em_ddr_data[30]" SITE "AC26" ;
+LOCATE COMP "em_ddr_data[31]" SITE "Y28" ;
+LOCATE COMP "em_ddr_dqs[3]" SITE "AB28" ;# UDQS
+LOCATE COMP "em_ddr_dm[3]" SITE "Y29" ;# UDM
+# BANK 4
+LOCATE COMP "em_ddr_addr[0]" SITE "AH30" ;# UPDATED AND ADDED TO MATCH COPPER SUICIDE SCHEMATIC
+LOCATE COMP "em_ddr_addr[1]" SITE "AM31" ;
+LOCATE COMP "em_ddr_addr[3]" SITE "AG28" ;
+LOCATE COMP "em_ddr_addr[4]" SITE "AK30" ;
+LOCATE COMP "em_ddr_addr[5]" SITE "AL30" ;
+LOCATE COMP "em_ddr_addr[6]" SITE "AK31" ;
+LOCATE COMP "em_ddr_addr[7]" SITE "AG30" ;
+LOCATE COMP "em_ddr_addr[8]" SITE "AK32" ;
+LOCATE COMP "em_ddr_addr[9]" SITE "AL32" ;
+LOCATE COMP "em_ddr_addr[10]" SITE "AM30" ;
+LOCATE COMP "em_ddr_addr[12]" SITE "AG29" ;
+LOCATE COMP "em_ddr_addr[13]" SITE "AH32" ;
+LOCATE COMP "em_ddr_addr[14]" SITE "AJ31" ;
+# LOCATE COMP "em_ddr_addr[15]" is not connected  
+LOCATE COMP "em_ddr_cke[0]" SITE "U28" ;
+LOCATE COMP "em_ddr_ba[0]" SITE "AM29" ;
+LOCATE COMP "em_ddr_ba[2]" SITE "AK29" ;
+LOCATE COMP "em_ddr_ras_n" SITE "AD26" ;
+LOCATE COMP "em_ddr_we_n" SITE "AJ28" ;
+LOCATE COMP "em_ddr_cas_n" SITE "AM28" ;
+LOCATE COMP "em_ddr_odt[0]" SITE "Y30" ;
+LOCATE COMP "em_ddr_reset_n" SITE "AJ32" ;
+IOBUF PORT "em_ddr_data[0]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;# UPDATED FOR GRAVITON
+IOBUF PORT "em_ddr_data[1]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[2]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[3]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[4]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[5]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[6]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[7]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[8]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[9]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[10]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[11]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[12]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[13]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[14]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[15]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[16]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;# ADDED FOR GRAVITON
+IOBUF PORT "em_ddr_data[17]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[18]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[19]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[20]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[21]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[22]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[23]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[24]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[25]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[26]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[27]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[28]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[29]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[30]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_data[31]" VREF="BANK_3_VREF" IO_TYPE=SSTL15_I SLEWRATE=FAST ;
+FREQUENCY PORT "clk_in" 125.000000 MHz ;
+LOCATE COMP "em_ddr_ba[1]" SITE "AL28" ;
+LOCATE COMP "em_ddr_addr[2]" SITE "AK28" ;
+LOCATE COMP "em_ddr_clk[0]" SITE "AD32" ;
+LOCATE COMP "em_ddr_cs_n[0]" SITE "AE31" ;
+LOCATE COMP "em_ddr_addr[11]" SITE "AH28" ;
+IOBUF PORT "em_ddr_addr[0]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_addr[1]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_addr[2]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_addr[3]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_addr[4]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_addr[5]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_addr[6]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_addr[7]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_addr[8]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_addr[9]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_addr[10]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_addr[11]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_addr[12]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_addr[13]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_addr[14]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_ba[0]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_ba[1]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_ba[2]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_cke[0]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_cs_n[0]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_dm[0]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_dm[1]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_dm[2]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_dm[3]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_odt[0]" IO_TYPE=SSTL15_I ;
+IOBUF PORT "em_ddr_dqs[0]" IO_TYPE=SSTL15D_I DIFFRESISTOR=100 SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_dqs[1]" IO_TYPE=SSTL15D_I DIFFRESISTOR=100 SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_dqs[2]" IO_TYPE=SSTL15D_I DIFFRESISTOR=100 SLEWRATE=FAST ;
+IOBUF PORT "em_ddr_dqs[3]" IO_TYPE=SSTL15D_I DIFFRESISTOR=100 SLEWRATE=FAST ;

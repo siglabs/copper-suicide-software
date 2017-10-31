@@ -1,0 +1,436 @@
+<HTML>
+<HEAD><TITLE>Place & Route Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Par"></A>PAR: Place And Route Diamond (64-bit) 3.9.1.119.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&amp;T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Fri Jul 14 14:25:50 2017
+
+C:/lscc/diamond/3.9_x64/ispfpga\bin\nt64\par -f cu_ddr3_test_impl1.p2t
+cu_ddr3_test_impl1_map.ncd cu_ddr3_test_impl1.dir cu_ddr3_test_impl1.prf -gui
+-msgset
+C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/promote.xml
+
+
+Preference file: cu_ddr3_test_impl1.prf.
+
+<A name="par_cts"></A><B><U><big>Cost Table Summary</big></U></B>
+Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
+Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
+----------   --------     -----        ------       -----------  -----------  ----         ------
+5_1   *      0            1.057        0            0.174        0            01:15        Complete
+
+
+* : Design saved.
+
+Total (real) run time for 1-seed: 1 mins 15 secs 
+
+par done!
+
+Lattice Place and Route Report for Design &quot;cu_ddr3_test_impl1_map.ncd&quot;
+Fri Jul 14 14:25:50 2017
+
+
+<A name="par_best"></A><B><U><big>Best Par Run</big></U></B>
+PAR: Place And Route Diamond (64-bit) 3.9.1.119.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/promote.xml -exp parUseNBR=1:parCDP=auto:parCDR=1:parPathBased=OFF cu_ddr3_test_impl1_map.ncd cu_ddr3_test_impl1.dir/5_1.ncd cu_ddr3_test_impl1.prf
+Preference file: cu_ddr3_test_impl1.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file cu_ddr3_test_impl1_map.ncd.
+Design name: ddr3_test_top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-85F
+Package:     CABGA756
+Performance: 8
+Loading device for application par from file &apos;sa5p85.nph&apos; in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.40.
+Performance Hardware Data Status:   Final          Version 50.1.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+
+<A name="par_dus"></A><B><U><big>Device utilization summary:</big></U></B>
+
+   PIO (prelim)      72/365          19% used
+                     72/365          19% bonded
+   IOLOGIC           65/365          17% used
+
+   SLICE           4785/41820        11% used
+
+   GSR                1/1           100% used
+   OSC                1/1           100% used
+   CLKDIV             1/4            25% used
+   JTAG               1/1           100% used
+   EBR               73/208          35% used
+   PLL                1/4            25% used
+   DDRDLL             1/4            25% used
+   ECLKSYNC           1/10           10% used
+
+
+2 potential circuit loops found in timing analysis.
+Based on the preference: FREQUENCY PORT &quot;clk_in&quot; 125.000000 MHz ;
+A new generated preference: FREQUENCY NET &quot;sclk&quot; 62.500000 MHz ;
+Number of Signals: 12255
+Number of Connections: 33540
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[5]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[28]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[22]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[11]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[27]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[10]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[21]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[4]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[6]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[29]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[12]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[14]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[18]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[1]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[24]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[7]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[30]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[19]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[2]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[13]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[15]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[25]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[8]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[31]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[26]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[16]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[20]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[3]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[17]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[9]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[0]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+WARNING - par: Ignore located PIO comp &quot;em_ddr_data[23]&quot; in PIO PGROUP &quot;PIOauto_BANK_3_VREF&quot;.
+
+Pin Constraint Summary:
+   67 out of 67 pins locked (100% locked).
+
+..
+WARNING - par: Missing VCCIO pin for DQS group &apos;u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[1].bidi_dqs/inst_dqsbuf&apos;..etc
+WARNING - par: Missing VCCIO pin for DQS group &apos;u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[3].bidi_dqs/inst_dqsbuf&apos;..etc
+WARNING - par: Missing VCCIO pin for DQS group &apos;u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[2].bidi_dqs/inst_dqsbuf&apos;..etc
+WARNING - par: Missing VCCIO pin for DQS group &apos;u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf&apos;..etc
+== INFO: CLKI &apos;clk_in&apos; at &apos;A18&apos; driving &apos;u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0&apos; at PLL_BR0 will use clocktree.
+The following 10 signals are selected to use the primary clock routing resources:
+    u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkop (driver: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0, clk/ce/sr load #: 1/0/0)
+    fpga_int_clk (driver: oscg_inst, clk/ce/sr load #: 10/0/0)
+    jtaghub16_jtck (driver: sa5phub/genblk8.jtagg_u, clk/ce/sr load #: 536/0/0)
+    sclk (driver: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_CLKDIVF, clk/ce/sr load #: 2479/0/0)
+    u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos (driver: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0, clk/ce/sr load #: 12/0/0)
+    sa5pht/rdcnt[9] (driver: sa5pht/SLICE_1652, clk/ce/sr load #: 23/0/0)
+    sa5pht/lclk (driver: sa5pht/SLICE_3829, clk/ce/sr load #: 8/0/0)
+    ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/reset_rvl_n (driver: ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/SLICE_4919, clk/ce/sr load #: 0/0/752)
+    jtaghub16_jrstn (driver: sa5phub/genblk8.jtagg_u, clk/ce/sr load #: 0/0/461)
+    u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clk_in_c (driver: clk_in, clk/ce/sr load #: 1/0/0)
+
+
+Signal lip_ngo_xxxxxx_hardtimer is selected as Global Set/Reset.
+Starting Placer Phase 0.
+...............
+Finished Placer Phase 0.  REAL time: 9 secs 
+
+Starting Placer Phase 1.
+.............................
+Placer score = 3576768.
+Finished Placer Phase 1.  REAL time: 27 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  3392661
+Finished Placer Phase 2.  REAL time: 34 secs 
+
+
+
+<A name="par_clk"></A><B><U><big>Clock Report</big></U></B>
+
+Global Clock Resources:
+  CLK_PIN    : 1 out of 12 (8%)
+  GR_PCLK    : 0 out of 12 (0%)
+  PLL        : 1 out of 4 (25%)
+  DCS        : 0 out of 2 (0%)
+  DCC        : 0 out of 60 (0%)
+  CLKDIV     : 1 out of 4 (25%)
+
+Quadrant TL Clocks:
+  PRIMARY &quot;jtaghub16_jtck&quot; from JTCK on comp &quot;sa5phub/genblk8.jtagg_u&quot; on site &quot;JTAG&quot;, CLK/CE/SR load = 4
+  PRIMARY &quot;sclk&quot; from comp &quot;u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_CLKDIVF&quot; on CLKDIV site &quot;CLKDIV_R0&quot;, CLK/CE/SR load = 4
+  PRIMARY &quot;ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/reset_rvl_n&quot; from F0 on comp &quot;ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/SLICE_4919&quot; on site &quot;R35C67A&quot;, CLK/CE/SR load = 8
+
+  PRIMARY  : 3 out of 16 (18%)
+
+Quadrant TR Clocks:
+  PRIMARY &quot;sclk&quot; from comp &quot;u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_CLKDIVF&quot; on CLKDIV site &quot;CLKDIV_R0&quot;, CLK/CE/SR load = 5
+
+  PRIMARY  : 1 out of 16 (6%)
+
+Quadrant BL Clocks:
+  PRIMARY &quot;jtaghub16_jtck&quot; from JTCK on comp &quot;sa5phub/genblk8.jtagg_u&quot; on site &quot;JTAG&quot;, CLK/CE/SR load = 246
+  PRIMARY &quot;sclk&quot; from comp &quot;u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_CLKDIVF&quot; on CLKDIV site &quot;CLKDIV_R0&quot;, CLK/CE/SR load = 378
+  PRIMARY &quot;sa5pht/lclk&quot; from F0 on comp &quot;sa5pht/SLICE_3829&quot; on site &quot;R59C68A&quot;, CLK/CE/SR load = 1
+  PRIMARY &quot;ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/reset_rvl_n&quot; from F0 on comp &quot;ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/SLICE_4919&quot; on site &quot;R35C67A&quot;, CLK/CE/SR load = 399
+  PRIMARY &quot;jtaghub16_jrstn&quot; from JRSTN on comp &quot;sa5phub/genblk8.jtagg_u&quot; on site &quot;JTAG&quot;, CLK/CE/SR load = 214
+
+  PRIMARY  : 5 out of 16 (31%)
+
+Quadrant BR Clocks:
+  PRIMARY &quot;u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkop&quot; from CLKOP on comp &quot;u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0&quot; on PLL site &quot;PLL_BR0&quot;, CLK/CE/SR load = 1
+  PRIMARY &quot;fpga_int_clk&quot; from OSC on comp &quot;oscg_inst&quot; on site &quot;OSC&quot;, CLK/CE/SR load = 10
+  PRIMARY &quot;jtaghub16_jtck&quot; from JTCK on comp &quot;sa5phub/genblk8.jtagg_u&quot; on site &quot;JTAG&quot;, CLK/CE/SR load = 286
+  PRIMARY &quot;sclk&quot; from comp &quot;u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_CLKDIVF&quot; on CLKDIV site &quot;CLKDIV_R0&quot;, CLK/CE/SR load = 2092
+  PRIMARY &quot;u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos&quot; from CLKOS on comp &quot;u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0&quot; on PLL site &quot;PLL_BR0&quot;, CLK/CE/SR load = 12
+  PRIMARY &quot;sa5pht/rdcnt[9]&quot; from Q0 on comp &quot;sa5pht/SLICE_1652&quot; on site &quot;R59C67A&quot;, CLK/CE/SR load = 23
+  PRIMARY &quot;sa5pht/lclk&quot; from F0 on comp &quot;sa5pht/SLICE_3829&quot; on site &quot;R59C68A&quot;, CLK/CE/SR load = 7
+  PRIMARY &quot;ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/reset_rvl_n&quot; from F0 on comp &quot;ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/SLICE_4919&quot; on site &quot;R35C67A&quot;, CLK/CE/SR load = 345
+  PRIMARY &quot;jtaghub16_jrstn&quot; from JRSTN on comp &quot;sa5phub/genblk8.jtagg_u&quot; on site &quot;JTAG&quot;, CLK/CE/SR load = 247
+  PRIMARY &quot;u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clk_in_c&quot; from comp &quot;clk_in&quot; on CLK_PIN site &quot;A18 (PT71A)&quot;, CLK/CE/SR load = 1
+
+  PRIMARY  : 10 out of 16 (62%)
+
+Edge Clocks:
+
+  ECLK &quot;u_ddr3_sdram_mem_top/inst1_inst/eclk&quot;: BANK3_ECLK0
+    - From GPLL_CLKOP &quot;PLL_BR0&quot;.CLKOP, driver &quot;u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0&quot;.
+
+
+
+
++
+DQSDLL Usage Summary:
+   Number of DQSDLL used: 1.
+   DQSDLL used: Bottom.
+
+I/O Usage Summary (final):
+   73 out of 365 (20.0%) PIO sites used.
+   73 out of 365 (20.0%) bonded PIO sites used.
+   Number of PIO comps: 67; differential: 5.
+   Number of Vref pins used: 1.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-------------+------------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref1  | Bank Vref2 |
++----------+----------------+------------+-------------+------------+
+| 0        | 0 / 56 (  0%)  | -          | -           | -          |
+| 1        | 1 / 48 (  2%)  | 1.5V       | -           | -          |
+| 2        | 0 / 48 (  0%)  | -          | -           | -          |
+| 3        | 51 / 64 ( 79%) | 1.5V       | 0.75V@VREF1 | -          |
+| 4        | 21 / 24 ( 87%) | 1.5V       | -           | -          |
+| 6        | 0 / 64 (  0%)  | -          | -           | -          |
+| 7        | 0 / 48 (  0%)  | -          | -           | -          |
+| 8        | 0 / 13 (  0%)  | -          | -           | -          |
++----------+----------------+------------+-------------+------------+
+
+Total placer CPU time: 34 secs 
+
+Dumping design to file cu_ddr3_test_impl1.dir/5_1.ncd.
+
+2 potential circuit loops found in timing analysis.
+0 connections routed; 33540 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 46 secs 
+
+Start NBR router at 14:26:37 07/14/17
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+2 potential circuit loops found in timing analysis.
+Start NBR special constraint process at 14:26:38 07/14/17
+
+Start NBR section for initial routing at 14:26:39 07/14/17
+Level 1, iteration 1
+0(0.00%) conflict; 25566(76.23%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.415ns/0.000ns; real time: 49 secs 
+Level 2, iteration 1
+0(0.00%) conflict; 25529(76.12%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.415ns/0.000ns; real time: 50 secs 
+Level 3, iteration 1
+27(0.00%) conflicts; 25262(75.32%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.415ns/0.000ns; real time: 50 secs 
+Level 4, iteration 1
+1926(0.05%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.415ns/0.000ns; real time: 55 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 14:26:45 07/14/17
+Level 1, iteration 1
+12(0.00%) conflicts; 2903(8.66%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.415ns/0.000ns; real time: 55 secs 
+Level 2, iteration 1
+4(0.00%) conflicts; 2952(8.80%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.415ns/0.000ns; real time: 56 secs 
+Level 3, iteration 1
+7(0.00%) conflicts; 2945(8.78%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.415ns/0.000ns; real time: 56 secs 
+Level 4, iteration 1
+1175(0.03%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.415ns/0.000ns; real time: 58 secs 
+Level 4, iteration 2
+562(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.415ns/0.000ns; real time: 59 secs 
+Level 4, iteration 3
+297(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.415ns/0.000ns; real time: 1 mins 
+Level 4, iteration 4
+167(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.415ns/0.000ns; real time: 1 mins 
+Level 4, iteration 5
+79(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.415ns/0.000ns; real time: 1 mins 1 secs 
+Level 4, iteration 6
+37(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.415ns/0.000ns; real time: 1 mins 1 secs 
+Level 4, iteration 7
+27(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.415ns/0.000ns; real time: 1 mins 1 secs 
+Level 4, iteration 8
+9(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.415ns/0.000ns; real time: 1 mins 2 secs 
+Level 4, iteration 9
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.415ns/0.000ns; real time: 1 mins 2 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 14:26:52 07/14/17
+2 potential circuit loops found in timing analysis.
+2 potential circuit loops found in timing analysis.
+
+Start NBR section for re-routing at 14:26:55 07/14/17
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack&lt;setup&gt;: 0.415ns/0.000ns; real time: 1 mins 5 secs 
+
+Start NBR section for post-routing at 14:26:55 07/14/17
+2 potential circuit loops found in timing analysis.
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack&lt;setup&gt; : 0.415ns
+  Timing score&lt;setup&gt; : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+2 potential circuit loops found in timing analysis.
+2 potential circuit loops found in timing analysis.
+2 potential circuit loops found in timing analysis.
+Total CPU time 1 mins 10 secs 
+Total REAL time: 1 mins 12 secs 
+Completely routed.
+End of route.  33540 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file cu_ddr3_test_impl1.dir/5_1.ncd.
+
+
+All signals are completely routed.
+
+
+PAR_SUMMARY::Run status = completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack&lt;setup/&lt;ns&gt;&gt; = 1.057
+PAR_SUMMARY::Timing score&lt;setup/&lt;ns&gt;&gt; = 0.000
+PAR_SUMMARY::Worst  slack&lt;hold /&lt;ns&gt;&gt; = 0.174
+PAR_SUMMARY::Timing score&lt;hold /&lt;ns&gt;&gt; = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 1 mins 13 secs 
+Total REAL time to completion: 1 mins 15 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&amp;T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

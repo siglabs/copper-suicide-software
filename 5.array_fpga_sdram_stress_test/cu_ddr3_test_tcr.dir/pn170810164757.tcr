@@ -1,0 +1,4 @@
+#Start recording tcl command: 8/10/2017 11:59:37
+#Project Location: C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST; Project name: cu_ddr3_test
+prj_project open "C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/cu_ddr3_test.ldf"
+#Stop recording: 8/10/2017 16:47:57

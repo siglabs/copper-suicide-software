@@ -1,0 +1,1092 @@
+---------------------------------------------------
+Report for cell ddr3_test_top
+   Instance path: ddr3_test_top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    4785.00        100.0
+                                  LUT4	    5290.00        100.0
+                               DISTRAM	      72.00        100.0
+                                 IOBUF	         67        100.0
+                                PFUREG	       4916        100.0
+                                RIPPLE	        426        100.0
+                                   EBR	         73        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               sa5phub	          1         0.9
+                                sa5pht	          1         1.2
+                        reveal_coretop	          1        46.2
+                     ddr_ulogic_uniq_1	          1         6.2
+                        ddr3_ip_uniq_1	          1        45.0
+---------------------------------------------------
+Report for cell ddr_ulogic_uniq_1
+   Instance path: ddr3_test_top/u_ddr_ulogic
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     295.00         6.2
+                                  LUT4	     163.00         3.1
+                                PFUREG	        390         7.9
+                                RIPPLE	        118        27.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                   data_gen_chk_uniq_1	          1         3.6
+---------------------------------------------------
+Report for cell data_gen_chk_uniq_1
+   Instance path: ddr3_test_top/u_ddr_ulogic/U_data_gen_chk
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     172.00         3.6
+                                  LUT4	      18.00         0.3
+                                PFUREG	        240         4.9
+                                RIPPLE	         82        19.2
+---------------------------------------------------
+Report for cell ddr3_ip_uniq_1
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    2151.00        45.0
+                                  LUT4	    2616.00        49.5
+                               DISTRAM	      12.00        16.7
+                                 IOBUF	         66        98.5
+                                PFUREG	       2419        49.2
+                                RIPPLE	        108        25.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+       ddr3_sdram_mem_top_inst1_uniq_1	          1        45.0
+---------------------------------------------------
+Report for cell ddr3_sdram_mem_top_inst1_uniq_1
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    2151.00        45.0
+                                  LUT4	    2616.00        49.5
+                               DISTRAM	      12.00        16.7
+                                 IOBUF	         66        98.5
+                                PFUREG	       2419        49.2
+                                RIPPLE	        108        25.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 inst1	          1        44.1
+                        ddr_clks_inst1	          1         0.9
+---------------------------------------------------
+Report for cell inst1
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    2108.67        44.1
+                                  LUT4	    2552.50        48.3
+                               DISTRAM	      12.00        16.7
+                                 IOBUF	         65        97.0
+                                PFUREG	       2391        48.6
+                                RIPPLE	        108        25.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                            inst1_core	          1        23.2
+                        ddr3_sdram_phy	          1        20.8
+---------------------------------------------------
+Report for cell inst1_core
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_core
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    1111.00        23.2
+                                  LUT4	    1355.00        25.6
+                               DISTRAM	      12.00        16.7
+                                PFUREG	       1023        20.8
+                                RIPPLE	         69        16.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                       ddr3_sdram_core	          1        23.2
+---------------------------------------------------
+Report for cell ddr3_sdram_core
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    1111.00        23.2
+                                  LUT4	    1355.00        25.6
+                               DISTRAM	      12.00        16.7
+                                PFUREG	       1023        20.8
+                                RIPPLE	         69        16.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                   odt	          1         0.1
+                         intfc_cdl_cal	          1         0.6
+                                   cal	          1        16.4
+                                   cdl	          1         6.1
+---------------------------------------------------
+Report for cell odt
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/odt_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.00         0.1
+                                  LUT4	       5.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell cdl
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cdl_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     289.92         6.1
+                                  LUT4	     252.00         4.8
+                               DISTRAM	      12.00        16.7
+                                PFUREG	        350         7.1
+                                RIPPLE	         18         4.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          row_addr_tab	          1         0.2
+---------------------------------------------------
+Report for cell row_addr_tab
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cdl_0/U1_row_addr_tab
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.83         0.2
+                                  LUT4	       1.00         0.0
+                               DISTRAM	      12.00        16.7
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+pmi_distributed_dpramEbnonen15664pb76a973	          1         0.1
+---------------------------------------------------
+Report for cell pmi_distributed_dpramEbnonen15664pb76a973
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cdl_0/U1_row_addr_tab/pmi_distributed_dpram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.83         0.1
+                               DISTRAM	      12.00        16.7
+---------------------------------------------------
+Report for cell cal
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     786.25        16.4
+                                  LUT4	    1061.00        20.1
+                                PFUREG	        643        13.1
+                                RIPPLE	         51        12.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        spcial_cmd_top	          1         4.4
+                             main_ctrl	          1         0.3
+                                 dpath	          1         3.0
+                          cmd_flow_top	          1         6.9
+                        cmd_truth_tble	          1         1.8
+---------------------------------------------------
+Report for cell dpath
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0/dpath_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     142.67         3.0
+                                  LUT4	      95.50         1.8
+                                PFUREG	        195         4.0
+---------------------------------------------------
+Report for cell cmd_truth_tble
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0/cmd_truth_tble_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      84.50         1.8
+                                  LUT4	     115.00         2.2
+                                PFUREG	         56         1.1
+                                RIPPLE	          5         1.2
+---------------------------------------------------
+Report for cell cmd_flow_top
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0/cmd_flow_top_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     332.50         6.9
+                                  LUT4	     520.00         9.8
+                                PFUREG	        234         4.8
+                                RIPPLE	         23         5.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        flow_ctrl_tmrs	          1         2.8
+                           cmd_intrfce	          1         2.3
+                         cmd_flow_ctrl	          1         1.8
+---------------------------------------------------
+Report for cell cmd_intrfce
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0/cmd_flow_top_0/cmd_intrfce_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     110.67         2.3
+                                  LUT4	     190.50         3.6
+                                PFUREG	         82         1.7
+---------------------------------------------------
+Report for cell flow_ctrl_tmrs
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0/cmd_flow_top_0/flow_ctrl_tmrs_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     135.67         2.8
+                                  LUT4	     183.00         3.5
+                                PFUREG	        117         2.4
+                                RIPPLE	         23         5.4
+---------------------------------------------------
+Report for cell cmd_flow_ctrl
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0/cmd_flow_top_0/cmd_flow_ctrl_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      86.17         1.8
+                                  LUT4	     146.50         2.8
+                                PFUREG	         35         0.7
+---------------------------------------------------
+Report for cell spcial_cmd_top
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0/spcial_cmd_top_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     209.00         4.4
+                                  LUT4	     301.00         5.7
+                                PFUREG	        145         2.9
+                                RIPPLE	         23         5.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                      spcial_ctrl_tmrs	          1         1.1
+                        spcial_intrfce	          1         1.8
+                       spcial_cmd_ctrl	          1         1.4
+---------------------------------------------------
+Report for cell spcial_intrfce
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0/spcial_cmd_top_0/spcial_intrfce_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      88.00         1.8
+                                  LUT4	     150.00         2.8
+                                PFUREG	         31         0.6
+---------------------------------------------------
+Report for cell spcial_ctrl_tmrs
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0/spcial_cmd_top_0/spcial_ctrl_tmrs_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      52.83         1.1
+                                  LUT4	      49.00         0.9
+                                PFUREG	         56         1.1
+                                RIPPLE	         23         5.4
+---------------------------------------------------
+Report for cell spcial_cmd_ctrl
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0/spcial_cmd_top_0/spcial_cmd_ctrl_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      68.17         1.4
+                                  LUT4	     102.00         1.9
+                                PFUREG	         58         1.2
+---------------------------------------------------
+Report for cell main_ctrl
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/cal_0/main_ctrl_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      15.92         0.3
+                                  LUT4	      27.50         0.5
+                                PFUREG	         12         0.2
+---------------------------------------------------
+Report for cell intfc_cdl_cal
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_core/U1_LSC_IP_ddr_core/intfc_cdl_cal_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      30.50         0.6
+                                  LUT4	      37.00         0.7
+                                PFUREG	         26         0.5
+---------------------------------------------------
+Report for cell ddr3_sdram_phy
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     996.67        20.8
+                                  LUT4	    1196.50        22.6
+                                 IOBUF	         65        97.0
+                                PFUREG	       1368        27.8
+                                RIPPLE	         39         9.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               wr_path	          1         1.7
+                         read_training	          1         2.7
+                       rd_data_match_2	          1         0.2
+                       rd_data_match_3	          1         0.2
+                       rd_data_match_0	          1         0.2
+                       rd_data_match_1	          1         0.2
+                    phy_cmd_truth_tble	          1         1.1
+                              init_top	          1         1.6
+                            gen_data_1	          1         0.7
+                            gen_data_2	          1         0.7
+                              gen_data	          1         0.7
+                            gen_data_0	          1         0.8
+                         ddr3_wr_level	          1         4.0
+                          ddr3_data_io	          1         0.0
+                           ddr3_dqs_io	          1         0.5
+                            ddr3_dm_io	          1         0.0
+                          addr_cmd_blk	          1         0.8
+---------------------------------------------------
+Report for cell addr_cmd_blk
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_addr_cmd_blk
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      37.75         0.8
+                                  LUT4	      26.00         0.5
+                                PFUREG	         69         1.4
+---------------------------------------------------
+Report for cell wr_path
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_wr_path
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      83.00         1.7
+                                  LUT4	     159.00         3.0
+                                PFUREG	        160         3.3
+---------------------------------------------------
+Report for cell gen_data_2
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/u2[2].gen_data
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      34.50         0.7
+                                  LUT4	      35.00         0.7
+                                PFUREG	         66         1.3
+---------------------------------------------------
+Report for cell gen_data_1
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/u2[3].gen_data
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      34.50         0.7
+                                  LUT4	      35.00         0.7
+                                PFUREG	         66         1.3
+---------------------------------------------------
+Report for cell gen_data_0
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/u2[0].gen_data
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      37.33         0.8
+                                  LUT4	      37.00         0.7
+                                PFUREG	         69         1.4
+---------------------------------------------------
+Report for cell gen_data
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/u2[1].gen_data
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      34.50         0.7
+                                  LUT4	      35.00         0.7
+                                PFUREG	         66         1.3
+---------------------------------------------------
+Report for cell ddr3_dqs_io
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      22.00         0.5
+                                  LUT4	      16.00         0.3
+                                 IOBUF	          4         6.0
+                                PFUREG	          8         0.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              bidi_dqs	          1         0.1
+                            bidi_dqs_4	          1         0.1
+                            bidi_dqs_5	          1         0.1
+                            bidi_dqs_3	          1         0.1
+---------------------------------------------------
+Report for cell bidi_dqs_5
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[1].bidi_dqs
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.00         0.1
+                                  LUT4	       4.00         0.1
+                                 IOBUF	          1         1.5
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell bidi_dqs_4
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[3].bidi_dqs
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.00         0.1
+                                  LUT4	       4.00         0.1
+                                 IOBUF	          1         1.5
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell bidi_dqs_3
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[2].bidi_dqs
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.00         0.1
+                                  LUT4	       4.00         0.1
+                                 IOBUF	          1         1.5
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell bidi_dqs
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.00         0.1
+                                  LUT4	       4.00         0.1
+                                 IOBUF	          1         1.5
+                                PFUREG	          1         0.0
+---------------------------------------------------
+Report for cell ddr3_dm_io
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dm_io
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          4         6.0
+---------------------------------------------------
+Report for cell ddr3_data_io
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	         32        47.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           bidi_cell_2	          1         0.0
+                           bidi_cell_6	          1         0.0
+                           bidi_cell_8	          1         0.0
+                           bidi_cell_9	          1         0.0
+                           bidi_cell_7	          1         0.0
+                          bidi_cell_27	          1         0.0
+                           bidi_cell_3	          1         0.0
+                           bidi_cell_4	          1         0.0
+                           bidi_cell_5	          1         0.0
+                          bidi_cell_30	          1         0.0
+                          bidi_cell_28	          1         0.0
+                          bidi_cell_29	          1         0.0
+                          bidi_cell_23	          1         0.0
+                          bidi_cell_25	          1         0.0
+                          bidi_cell_26	          1         0.0
+                          bidi_cell_24	          1         0.0
+                          bidi_cell_21	          1         0.0
+                          bidi_cell_22	          1         0.0
+                          bidi_cell_20	          1         0.0
+                          bidi_cell_11	          1         0.0
+                          bidi_cell_14	          1         0.0
+                          bidi_cell_17	          1         0.0
+                          bidi_cell_18	          1         0.0
+                          bidi_cell_19	          1         0.0
+                          bidi_cell_16	          1         0.0
+                          bidi_cell_15	          1         0.0
+                          bidi_cell_12	          1         0.0
+                          bidi_cell_13	          1         0.0
+                           bidi_cell_0	          1         0.0
+                           bidi_cell_1	          1         0.0
+                          bidi_cell_10	          1         0.0
+                             bidi_cell	          1         0.0
+---------------------------------------------------
+Report for cell bidi_cell_30
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[5].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_29
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[28].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_28
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[22].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_27
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[11].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_26
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[27].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_25
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[10].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_24
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[21].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_23
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[4].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_22
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[6].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_21
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[29].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_20
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[12].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_19
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[14].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_18
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[18].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_17
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[1].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_16
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[24].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_15
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[7].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_14
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[30].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_13
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[19].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_12
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[2].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_11
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[13].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_10
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[15].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_9
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[25].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_8
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[8].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_7
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[31].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_6
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[26].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_5
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[16].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_4
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[20].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_3
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[3].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_2
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[17].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_1
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[9].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell_0
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[0].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell bidi_cell
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_data_io/u[23].bidi_cell
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          1         1.5
+---------------------------------------------------
+Report for cell phy_cmd_truth_tble
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/phy_cmd_truth_tble_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      54.00         1.1
+                                  LUT4	     120.00         2.3
+                                PFUREG	         17         0.3
+---------------------------------------------------
+Report for cell init_top
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/init_top_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      78.08         1.6
+                                  LUT4	     113.00         2.1
+                                PFUREG	         72         1.5
+                                RIPPLE	         14         3.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                             init_tmrs	          1         0.7
+                              init_fsm	          1         1.0
+---------------------------------------------------
+Report for cell init_tmrs
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/init_top_0/init_tmrs_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      32.50         0.7
+                                  LUT4	      33.00         0.6
+                                PFUREG	         40         0.8
+                                RIPPLE	         14         3.3
+---------------------------------------------------
+Report for cell init_fsm
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/init_top_0/init_fsm_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      45.58         1.0
+                                  LUT4	      80.00         1.5
+                                PFUREG	         32         0.7
+---------------------------------------------------
+Report for cell rd_data_match_0
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/u4[0].rd_data_match
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.50         0.2
+                                  LUT4	      14.00         0.3
+                                PFUREG	          2         0.0
+---------------------------------------------------
+Report for cell rd_data_match_1
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/u4[3].rd_data_match
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.50         0.2
+                                  LUT4	      13.00         0.2
+                                PFUREG	          2         0.0
+---------------------------------------------------
+Report for cell rd_data_match_2
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/u4[2].rd_data_match
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.50         0.2
+                                  LUT4	      13.00         0.2
+                                PFUREG	          2         0.0
+---------------------------------------------------
+Report for cell rd_data_match_3
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/u4[1].rd_data_match
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.50         0.2
+                                  LUT4	      13.00         0.2
+                                PFUREG	          2         0.0
+---------------------------------------------------
+Report for cell read_training
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/read_training_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     128.83         2.7
+                                  LUT4	     200.00         3.8
+                                PFUREG	        117         2.4
+                                RIPPLE	          9         2.1
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                        store_rdclksel	          1         0.2
+                      store_rdclksel_1	          1         0.2
+                      store_rdclksel_2	          1         0.2
+                      store_rdclksel_0	          1         0.2
+---------------------------------------------------
+Report for cell store_rdclksel_2
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/read_training_0/genblk1.u1[2].store_rdclksel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.17         0.2
+                                  LUT4	       7.00         0.1
+                                PFUREG	         12         0.2
+---------------------------------------------------
+Report for cell store_rdclksel_1
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/read_training_0/genblk1.u1[3].store_rdclksel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.50         0.2
+                                  LUT4	       7.00         0.1
+                                PFUREG	         12         0.2
+---------------------------------------------------
+Report for cell store_rdclksel_0
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/read_training_0/genblk1.u1[1].store_rdclksel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      10.67         0.2
+                                  LUT4	      12.00         0.2
+                                PFUREG	         12         0.2
+---------------------------------------------------
+Report for cell store_rdclksel
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/read_training_0/genblk1.u1[0].store_rdclksel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.00         0.2
+                                  LUT4	      11.00         0.2
+                                PFUREG	         12         0.2
+---------------------------------------------------
+Report for cell ddr3_wr_level
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/wr_level_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     193.25         4.0
+                                  LUT4	     278.00         5.3
+                                PFUREG	        182         3.7
+                                RIPPLE	         16         3.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                          store_dyndel	          1         0.1
+                        store_dyndel_1	          1         0.1
+                        store_dyndel_2	          1         0.1
+                        store_dyndel_0	          1         0.1
+---------------------------------------------------
+Report for cell store_dyndel_2
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/wr_level_0/genblk1.genblk1.u0[3].store_dyndel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.50         0.1
+                                  LUT4	       1.00         0.0
+                                PFUREG	          8         0.2
+---------------------------------------------------
+Report for cell store_dyndel_1
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/wr_level_0/genblk1.genblk1.u0[2].store_dyndel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.50         0.1
+                                  LUT4	       1.00         0.0
+                                PFUREG	          8         0.2
+---------------------------------------------------
+Report for cell store_dyndel_0
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/wr_level_0/genblk1.genblk1.u0[1].store_dyndel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.50         0.1
+                                  LUT4	       1.00         0.0
+                                PFUREG	          8         0.2
+---------------------------------------------------
+Report for cell store_dyndel
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/wr_level_0/genblk1.genblk1.u0[0].store_dyndel
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.50         0.1
+                                  LUT4	       9.00         0.2
+                                PFUREG	          8         0.2
+---------------------------------------------------
+Report for cell ddr_clks_inst1
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_clocking
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      41.33         0.9
+                                  LUT4	      62.50         1.2
+                                 IOBUF	          1         1.5
+                                PFUREG	         28         0.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+          pmi_pll_fp0O50E51441pedc76b1	          1         0.0
+                        mem_sync_inst1	          1         0.5
+                      ddrdll_upd_inst1	          1         0.3
+---------------------------------------------------
+Report for cell ddrdll_upd_inst1
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_dll_upd
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      14.50         0.3
+                                  LUT4	      20.00         0.4
+                                PFUREG	         13         0.3
+---------------------------------------------------
+Report for cell mem_sync_inst1
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      23.67         0.5
+                                  LUT4	      38.00         0.7
+                                PFUREG	         14         0.3
+---------------------------------------------------
+Report for cell pmi_pll_fp0O50E51441pedc76b1
+   Instance path: ddr3_test_top/u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         0.0
+                                  LUT4	       1.00         0.0
+---------------------------------------------------
+Report for cell reveal_coretop
+   Instance path: ddr3_test_top/ddr3_test_top_reveal_coretop_instance
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    2208.67        46.2
+                                  LUT4	    2375.00        44.9
+                               DISTRAM	      44.00        61.1
+                                PFUREG	       1994        40.6
+                                RIPPLE	        161        37.8
+                                   EBR	         73        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                     ddr3_test_top_la0	          1        46.2
+---------------------------------------------------
+Report for cell ddr3_test_top_la0
+   Instance path: ddr3_test_top/ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    2208.67        46.2
+                                  LUT4	    2375.00        44.9
+                               DISTRAM	      44.00        61.1
+                                PFUREG	       1994        40.6
+                                RIPPLE	        161        37.8
+                                   EBR	         73        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                             rvl_tm_Z5	          1         9.5
+rvl_jtag_int_317s_162s_0s_0s_9s_317s_317s	          1        12.7
+                ddr3_test_top_la0_trig	          1        23.9
+---------------------------------------------------
+Report for cell ddr3_test_top_la0_trig
+   Instance path: ddr3_test_top/ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	    1142.92        23.9
+                                  LUT4	    1058.00        20.0
+                               DISTRAM	      44.00        61.1
+                                PFUREG	        812        16.5
+                                RIPPLE	        124        29.1
+                                   EBR	          1         1.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+               rvl_tu_128s_0s_0s_0s_8s	          1        14.8
+               rvl_tu_1s_0s_0s_0s_1s_1	          1         0.2
+               rvl_tu_1s_0s_0s_0s_1s_3	          1         0.2
+                rvl_tu_28s_0s_0s_0s_2s	          1         3.2
+               rvl_tu_1s_0s_0s_0s_1s_2	          1         0.2
+             rvl_tu_1s_0s_0s_0s_1s_0_0	          1         0.3
+             rvl_tu_1s_0s_0s_0s_1s_0_1	          1         0.2
+               rvl_tu_1s_0s_0s_0s_1s_0	          1         0.3
+                             rvl_te_Z3	          1         2.1
+                             rvl_te_Z1	          1         1.2
+                   rvl_tcnt_2s_3s_1_0s	          1         0.3
+                      rvl_decode_8s_2s	          1         0.3
+---------------------------------------------------
+Report for cell rvl_decode_8s_2s
+   Instance path: ddr3_test_top/ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/decode_u
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      13.50         0.3
+                                  LUT4	      24.00         0.5
+---------------------------------------------------
+Report for cell rvl_tu_1s_0s_0s_0s_1s_3
+   Instance path: ddr3_test_top/ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      11.33         0.2
+                                  LUT4	      14.00         0.3
+                                PFUREG	          8         0.2
+---------------------------------------------------
+Report for cell rvl_tu_1s_0s_0s_0s_1s_2
+   Instance path: ddr3_test_top/ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      11.67         0.2
+                                  LUT4	      14.00         0.3
+                                PFUREG	          8         0.2
+---------------------------------------------------
+Report for cell rvl_tu_1s_0s_0s_0s_1s_1
+   Instance path: ddr3_test_top/ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      11.33         0.2
+                                  LUT4	      14.00         0.3
+                                PFUREG	          8         0.2
+---------------------------------------------------
+Report for cell rvl_tu_1s_0s_0s_0s_1s_0
+   Instance path: ddr3_test_top/ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      12.00         0.3
+                                  LUT4	      14.00         0.3
+                                PFUREG	          8         0.2
+---------------------------------------------------
+Report for cell rvl_tu_1s_0s_0s_0s_1s_0_1
+   Instance path: ddr3_test_top/ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      11.33         0.2
+                                  LUT4	      14.00         0.3
+                                PFUREG	          8         0.2
+---------------------------------------------------
+Report for cell rvl_tu_1s_0s_0s_0s_1s_0_0
+   Instance path: ddr3_test_top/ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      12.17         0.3
+                                  LUT4	      14.00         0.3
+                                PFUREG	          8         0.2
+---------------------------------------------------
+Report for cell rvl_tu_128s_0s_0s_0s_8s
+   Instance path: ddr3_test_top/ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     710.33        14.8
+                                  LUT4	     607.00        11.5
+                               DISTRAM	      12.00        16.7
+                                PFUREG	        543        11.0
+                                RIPPLE	         73        17.1
+---------------------------------------------------
+Report for cell rvl_tu_28s_0s_0s_0s_2s
+   Instance path: ddr3_test_top/ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_7
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     153.00         3.2
+                                  LUT4	     113.00         2.1
+                                PFUREG	        114         2.3
+                                RIPPLE	         23         5.4
+---------------------------------------------------
+Report for cell rvl_te_Z1
+   Instance path: ddr3_test_top/ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/te_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      55.83         1.2
+                                  LUT4	      57.50         1.1
+                                PFUREG	         52         1.1
+                                RIPPLE	         14         3.3
+                                   EBR	          1         1.4
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+pmi_ram_dpEbnonesadr1825618256p134ea4bb	          1         0.0
+---------------------------------------------------
+Report for cell pmi_ram_dpEbnonesadr1825618256p134ea4bb
+   Instance path: ddr3_test_top/ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/te_0/genblk1.te_tt_ebr_ram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         1.4
+---------------------------------------------------
+Report for cell rvl_te_Z3
+   Instance path: ddr3_test_top/ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/te_1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      99.67         2.1
+                                  LUT4	     100.00         1.9
+                               DISTRAM	      32.00        44.4
+                                PFUREG	         42         0.9
+                                RIPPLE	         14         3.3
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+pmi_distributed_dpramEbnoner28256pb50c005	          1         1.1
+---------------------------------------------------
+Report for cell pmi_distributed_dpramEbnoner28256pb50c005
+   Instance path: ddr3_test_top/ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/te_1/genblk1.te_tt_dist_ram
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      51.67         1.1
+                                  LUT4	      40.00         0.8
+                               DISTRAM	      32.00        44.4
+                                PFUREG	          2         0.0
+---------------------------------------------------
+Report for cell rvl_tcnt_2s_3s_1_0s
+   Instance path: ddr3_test_top/ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tcnt_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      15.08         0.3
+                                  LUT4	      21.50         0.4
+                                PFUREG	         13         0.3
+---------------------------------------------------
+Report for cell rvl_jtag_int_317s_162s_0s_0s_9s_317s_317s
+   Instance path: ddr3_test_top/ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/jtag_int_u
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     609.67        12.7
+                                  LUT4	     832.50        15.7
+                                PFUREG	        441         9.0
+                                RIPPLE	          9         2.1
+---------------------------------------------------
+Report for cell rvl_tm_Z5
+   Instance path: ddr3_test_top/ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/tm_u
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     454.75         9.5
+                                  LUT4	     483.00         9.1
+                                PFUREG	        741        15.1
+                                RIPPLE	         28         6.6
+                                   EBR	         72        98.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+pmi_ram_dpEbnonesadr317124096317124096p13cd7317	          1         1.7
+---------------------------------------------------
+Report for cell pmi_ram_dpEbnonesadr317124096317124096p13cd7317
+   Instance path: ddr3_test_top/ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/tm_u/genblk4.tr_mem
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      80.50         1.7
+                                  LUT4	     317.00         6.0
+                                PFUREG	          2         0.0
+                                   EBR	         72        98.6
+---------------------------------------------------
+Report for cell sa5pht
+   Instance path: ddr3_test_top/sa5pht
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      58.00         1.2
+                                  LUT4	      61.00         1.2
+                                PFUREG	         48         1.0
+                                RIPPLE	         22         5.2
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           reset_n_gen	          1         0.0
+                                  losc	          1         0.3
+---------------------------------------------------
+Report for cell reset_n_gen
+   Instance path: ddr3_test_top/sa5pht/reset_n_gen
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00         0.0
+                                  LUT4	       3.00         0.1
+                                PFUREG	          3         0.1
+---------------------------------------------------
+Report for cell losc
+   Instance path: ddr3_test_top/sa5pht/losc
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      14.50         0.3
+                                  LUT4	      28.00         0.5
+---------------------------------------------------
+Report for cell sa5phub
+   Instance path: ddr3_test_top/sa5phub
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      41.33         0.9
+                                  LUT4	      22.00         0.4
+                                PFUREG	         48         1.0
+                                RIPPLE	          8         1.9

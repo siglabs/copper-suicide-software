@@ -1,0 +1,225 @@
+<HTML>
+<HEAD><TITLE>I/O Timing Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Top"></A><B><U><big>I/O Timing Report</big></U></B>
+2 potential circuit loops found in timing analysis.
+Based on the preference: FREQUENCY PORT "clk_in" 125.000000 MHz ;
+A new generated preference: FREQUENCY NET "sclk" 62.500000 MHz ;
+Loading design for application iotiming from file cu_ddr3_test_impl1.ncd.
+Design name: ddr3_test_top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-85F
+Package:     CABGA756
+Performance: 9
+Package Status:                     Final          Version 1.40.
+Performance Hardware Data Status:   Final          Version 50.1.
+Loading design for application iotiming from file cu_ddr3_test_impl1.ncd.
+Design name: ddr3_test_top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-85F
+Package:     CABGA756
+Performance: M
+Package Status:                     Final          Version 1.40.
+Performance Hardware Data Status:   Final          Version 50.1.
+// Design: ddr3_test_top
+// Package: CABGA756
+// ncd File: cu_ddr3_test_impl1.ncd
+// Version: Diamond (64-bit) 3.9.1.119
+// Written on Fri Jul 14 14:27:23 2017
+// M: Minimum Performance Grade
+// iotiming cu_ddr3_test_impl1.ncd cu_ddr3_test_impl1.prf -gui -msgset C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 9, 8):
+
+// Input Setup and Hold Times
+
+Port            Clock         Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+em_ddr_data[0]  em_ddr_dqs[0] R    -1.710      8       2.063     8
+em_ddr_data[10] em_ddr_dqs[1] R    -1.710      8       2.063     8
+em_ddr_data[11] em_ddr_dqs[1] R    -1.710      8       2.063     8
+em_ddr_data[12] em_ddr_dqs[1] R    -1.710      8       2.063     8
+em_ddr_data[13] em_ddr_dqs[1] R    -1.710      8       2.063     8
+em_ddr_data[14] em_ddr_dqs[1] R    -1.710      8       2.063     8
+em_ddr_data[15] em_ddr_dqs[1] R    -1.710      8       2.063     8
+em_ddr_data[16] em_ddr_dqs[2] R    -1.710      8       2.063     8
+em_ddr_data[17] em_ddr_dqs[2] R    -1.710      8       2.063     8
+em_ddr_data[18] em_ddr_dqs[2] R    -1.710      8       2.063     8
+em_ddr_data[19] em_ddr_dqs[2] R    -1.710      8       2.063     8
+em_ddr_data[1]  em_ddr_dqs[0] R    -1.710      8       2.063     8
+em_ddr_data[20] em_ddr_dqs[2] R    -1.710      8       2.063     8
+em_ddr_data[21] em_ddr_dqs[2] R    -1.710      8       2.063     8
+em_ddr_data[22] em_ddr_dqs[2] R    -1.710      8       2.063     8
+em_ddr_data[23] em_ddr_dqs[2] R    -1.710      8       2.063     8
+em_ddr_data[24] em_ddr_dqs[3] R    -1.710      8       2.063     8
+em_ddr_data[25] em_ddr_dqs[3] R    -1.710      8       2.063     8
+em_ddr_data[26] em_ddr_dqs[3] R    -1.710      8       2.063     8
+em_ddr_data[27] em_ddr_dqs[3] R    -1.710      8       2.063     8
+em_ddr_data[28] em_ddr_dqs[3] R    -1.710      8       2.063     8
+em_ddr_data[29] em_ddr_dqs[3] R    -1.710      8       2.063     8
+em_ddr_data[2]  em_ddr_dqs[0] R    -1.710      8       2.063     8
+em_ddr_data[30] em_ddr_dqs[3] R    -1.710      8       2.063     8
+em_ddr_data[31] em_ddr_dqs[3] R    -1.710      8       2.063     8
+em_ddr_data[3]  em_ddr_dqs[0] R    -1.710      8       2.063     8
+em_ddr_data[4]  em_ddr_dqs[0] R    -1.710      8       2.063     8
+em_ddr_data[5]  em_ddr_dqs[0] R    -1.710      8       2.063     8
+em_ddr_data[6]  em_ddr_dqs[0] R    -1.710      8       2.063     8
+em_ddr_data[7]  em_ddr_dqs[0] R    -1.710      8       2.063     8
+em_ddr_data[8]  em_ddr_dqs[1] R    -1.710      8       2.063     8
+em_ddr_data[9]  em_ddr_dqs[1] R    -1.710      8       2.063     8
+
+
+// Clock to Output Delay
+
+Port            Clock  Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+em_ddr_clk[0]   clk_in R     6.183         8        3.226          M
+em_ddr_cs_n[0]  clk_in R     6.179         8        3.226          M
+em_ddr_data[0]  clk_in R     7.568         8        4.911          M
+em_ddr_data[10] clk_in R     7.568         8        4.911          M
+em_ddr_data[11] clk_in R     7.568         8        4.911          M
+em_ddr_data[12] clk_in R     7.568         8        4.911          M
+em_ddr_data[13] clk_in R     7.568         8        4.911          M
+em_ddr_data[14] clk_in R     7.568         8        4.911          M
+em_ddr_data[15] clk_in R     7.568         8        4.911          M
+em_ddr_data[16] clk_in R     7.568         8        4.911          M
+em_ddr_data[17] clk_in R     7.568         8        4.911          M
+em_ddr_data[18] clk_in R     7.568         8        4.911          M
+em_ddr_data[19] clk_in R     7.568         8        4.911          M
+em_ddr_data[1]  clk_in R     7.568         8        4.911          M
+em_ddr_data[20] clk_in R     7.568         8        4.911          M
+em_ddr_data[21] clk_in R     7.568         8        4.911          M
+em_ddr_data[22] clk_in R     7.568         8        4.911          M
+em_ddr_data[23] clk_in R     7.568         8        4.911          M
+em_ddr_data[24] clk_in R     7.568         8        4.911          M
+em_ddr_data[25] clk_in R     7.568         8        4.911          M
+em_ddr_data[26] clk_in R     7.568         8        4.911          M
+em_ddr_data[27] clk_in R     7.568         8        4.911          M
+em_ddr_data[28] clk_in R     7.568         8        4.911          M
+em_ddr_data[29] clk_in R     7.568         8        4.911          M
+em_ddr_data[2]  clk_in R     7.568         8        4.911          M
+em_ddr_data[30] clk_in R     7.568         8        4.911          M
+em_ddr_data[31] clk_in R     7.568         8        4.911          M
+em_ddr_data[3]  clk_in R     7.568         8        4.911          M
+em_ddr_data[4]  clk_in R     7.568         8        4.911          M
+em_ddr_data[5]  clk_in R     7.568         8        4.911          M
+em_ddr_data[6]  clk_in R     7.568         8        4.911          M
+em_ddr_data[7]  clk_in R     7.568         8        4.911          M
+em_ddr_data[8]  clk_in R     7.568         8        4.911          M
+em_ddr_data[9]  clk_in R     7.568         8        4.911          M
+em_ddr_dm[0]    clk_in R     8.029         8        5.204          M
+em_ddr_dm[1]    clk_in R     8.029         8        5.204          M
+em_ddr_dm[2]    clk_in R     8.029         8        5.204          M
+em_ddr_dm[3]    clk_in R     8.029         8        5.204          M
+em_ddr_dqs[0]   clk_in R     5.518         8        2.840          M
+em_ddr_dqs[1]   clk_in R     5.518         8        2.840          M
+em_ddr_dqs[2]   clk_in R     5.518         8        2.840          M
+em_ddr_dqs[3]   clk_in R     5.518         8        2.840          M
+
+
+// Internal_Clock to Input
+
+Port            Internal_Clock
+--------------------------------------------------------
+clk_in          sclk          
+em_ddr_dqs[0]   sclk          
+em_ddr_dqs[1]   sclk          
+em_ddr_dqs[2]   sclk          
+em_ddr_dqs[3]   sclk          
+
+
+// Internal_Clock to Output
+
+Port            Internal_Clock
+--------------------------------------------------------
+em_ddr_addr[0]  sclk          
+em_ddr_addr[10] sclk          
+em_ddr_addr[11] sclk          
+em_ddr_addr[12] sclk          
+em_ddr_addr[13] sclk          
+em_ddr_addr[14] sclk          
+em_ddr_addr[1]  sclk          
+em_ddr_addr[2]  sclk          
+em_ddr_addr[3]  sclk          
+em_ddr_addr[4]  sclk          
+em_ddr_addr[5]  sclk          
+em_ddr_addr[6]  sclk          
+em_ddr_addr[7]  sclk          
+em_ddr_addr[8]  sclk          
+em_ddr_addr[9]  sclk          
+em_ddr_ba[0]    sclk          
+em_ddr_ba[1]    sclk          
+em_ddr_ba[2]    sclk          
+em_ddr_cas_n    sclk          
+em_ddr_cke[0]   sclk          
+em_ddr_odt[0]   sclk          
+em_ddr_ras_n    sclk          
+em_ddr_reset_n  fpga_int_clk  
+em_ddr_reset_n  sclk          
+em_ddr_we_n     sclk          
+WARNING: you must also run trce with hold speed: 8
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

@@ -1,0 +1,131 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn170530175424"></A><B><U><big>pn170530175424</big></U></B>
+#Start recording tcl command: 5/30/2017 11:24:11
+#Project Location: C:/latest_cu_ddr3_test; Project name: cu_ddr3_test
+prj_project new -name "cu_ddr3_test" -impl "impl1" -dev LFE5U-85F-8BG756C -synthesis "synplify"
+prj_project save
+sbp_design new -dsgn "ddr3_ip" -path "C:/latest_cu_ddr3_test/ddr3_ip" -device "LFE5U-85F-8BG756C"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/latest_cu_ddr3_test/ddr3_ip/inst1"
+source "C:/latest_cu_ddr3_test/ddr3_ip/inst1/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_builder export_add -comp {ddr3_ip/inst1}
+sbp_design gen
+prj_src add "C:/latest_cu_ddr3_test/ddr3_ip/ddr3_ip.sbx"
+sbp_design drc
+prj_src add "C:/latest_cu_ddr3_test/src/data_gen_chk.v" "C:/latest_cu_ddr3_test/src/ddr_ulogic.v" "C:/latest_cu_ddr3_test/src/ddr3_test_params.v" "C:/latest_cu_ddr3_test/src/ddr3_test_top.v" "C:/latest_cu_ddr3_test/src/led_15seg_drv.v" "C:/latest_cu_ddr3_test/src/lfsr128.v"
+prj_src add "C:/latest_cu_ddr3_test/ddr3_sdram_mem_params_inst1.v"
+prj_run Translate -impl impl1
+prj_run Map -impl impl1
+prj_run Map -impl impl1
+prj_run Map -impl impl1 -task MapTrace
+prj_run PAR -impl impl1
+prj_run Export -impl impl1 -task Bitgen
+prj_run PAR -impl impl1 -task PARTrace
+prj_run PAR -impl impl1 -task IOTiming
+prj_run PAR -impl impl1 -task IOTiming
+prj_run PAR -impl impl1 -task IOTiming
+prj_run PAR -impl impl1 -task IOTiming
+prj_run PAR -impl impl1 -task IOTiming
+prj_run PAR -impl impl1 -task IOTiming
+prj_run PAR -impl impl1 -task IOTiming
+#Stop recording: 5/30/2017 17:54:24
+
+
+
+<A name="pn170531191709"></A><B><U><big>pn170531191709</big></U></B>
+#Start recording tcl command: 5/31/2017 19:11:48
+#Project Location: C:/latest_cu_ddr3_test; Project name: cu_ddr3_test
+prj_project open "C:/latest_cu_ddr3_test/cu_ddr3_test.ldf"
+#Stop recording: 5/31/2017 19:17:09
+
+
+
+<A name="pn170531193453"></A><B><U><big>pn170531193453</big></U></B>
+#Start recording tcl command: 5/31/2017 19:18:06
+#Project Location: C:/latest_cu_ddr3_test; Project name: cu_ddr3_test
+prj_project open "C:/latest_cu_ddr3_test/cu_ddr3_test.ldf"
+prj_run Map -impl impl1 -task MapTrace
+prj_run Export -impl impl1 -task Bitgen
+prj_run Export -impl impl1 -task Bitgen
+#Stop recording: 5/31/2017 19:34:53
+
+
+
+<A name="pn170601120608"></A><B><U><big>pn170601120608</big></U></B>
+#Start recording tcl command: 6/1/2017 11:08:44
+#Project Location: C:/latest_cu_ddr3_test; Project name: cu_ddr3_test
+prj_project open "C:/latest_cu_ddr3_test/cu_ddr3_test.ldf"
+prj_run PAR -impl impl1 -task IOTiming
+#Stop recording: 6/1/2017 12:06:08
+
+
+
+<A name="pn170718115222"></A><B><U><big>pn170718115222</big></U></B>
+#Start recording tcl command: 7/17/2017 14:04:00
+#Project Location: C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST; Project name: cu_ddr3_test
+prj_project open "C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/cu_ddr3_test.ldf"
+#Stop recording: 7/18/2017 11:52:22
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

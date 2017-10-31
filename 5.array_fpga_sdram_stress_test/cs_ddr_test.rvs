@@ -1,0 +1,354 @@
+<Project ModBy="Analyzer" Name="C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/cs_ddr_test.rvs" Date="2017-07-14">
+ <Core Name="ddr3_test_top_LA0">
+  <Setting>
+   <Capture SamplesPerTrig="4096" NumTrigsCap="1"/>
+   <Event EventCnt="0" CntEnableRun="0"/>
+   <TrigSetting PreTrgSamples="" AND_ALL="0" PostTrgSamples="" TURadix="0"/>
+  </Setting>
+  <Dataset Name="Base">
+   <Trace>
+    <Sig Name="clocking_good"/>
+    <Sig Name="wl_err"/>
+    <Sig Name="u_ddr_ulogic/mem_rst_n"/>
+    <Sig Name="u_ddr_ulogic/init_done"/>
+    <Sig Name="u_ddr_ulogic/datain_rdy"/>
+    <Sig Name="u_ddr_ulogic/read_data_valid"/>
+    <Bus Name="u_ddr_ulogic/read_data" Radix="0">
+     <Sig Name="u_ddr_ulogic/read_data:0"/>
+     <Sig Name="u_ddr_ulogic/read_data:1"/>
+     <Sig Name="u_ddr_ulogic/read_data:2"/>
+     <Sig Name="u_ddr_ulogic/read_data:3"/>
+     <Sig Name="u_ddr_ulogic/read_data:4"/>
+     <Sig Name="u_ddr_ulogic/read_data:5"/>
+     <Sig Name="u_ddr_ulogic/read_data:6"/>
+     <Sig Name="u_ddr_ulogic/read_data:7"/>
+     <Sig Name="u_ddr_ulogic/read_data:8"/>
+     <Sig Name="u_ddr_ulogic/read_data:9"/>
+     <Sig Name="u_ddr_ulogic/read_data:10"/>
+     <Sig Name="u_ddr_ulogic/read_data:11"/>
+     <Sig Name="u_ddr_ulogic/read_data:12"/>
+     <Sig Name="u_ddr_ulogic/read_data:13"/>
+     <Sig Name="u_ddr_ulogic/read_data:14"/>
+     <Sig Name="u_ddr_ulogic/read_data:15"/>
+     <Sig Name="u_ddr_ulogic/read_data:16"/>
+     <Sig Name="u_ddr_ulogic/read_data:17"/>
+     <Sig Name="u_ddr_ulogic/read_data:18"/>
+     <Sig Name="u_ddr_ulogic/read_data:19"/>
+     <Sig Name="u_ddr_ulogic/read_data:20"/>
+     <Sig Name="u_ddr_ulogic/read_data:21"/>
+     <Sig Name="u_ddr_ulogic/read_data:22"/>
+     <Sig Name="u_ddr_ulogic/read_data:23"/>
+     <Sig Name="u_ddr_ulogic/read_data:24"/>
+     <Sig Name="u_ddr_ulogic/read_data:25"/>
+     <Sig Name="u_ddr_ulogic/read_data:26"/>
+     <Sig Name="u_ddr_ulogic/read_data:27"/>
+     <Sig Name="u_ddr_ulogic/read_data:28"/>
+     <Sig Name="u_ddr_ulogic/read_data:29"/>
+     <Sig Name="u_ddr_ulogic/read_data:30"/>
+     <Sig Name="u_ddr_ulogic/read_data:31"/>
+     <Sig Name="u_ddr_ulogic/read_data:32"/>
+     <Sig Name="u_ddr_ulogic/read_data:33"/>
+     <Sig Name="u_ddr_ulogic/read_data:34"/>
+     <Sig Name="u_ddr_ulogic/read_data:35"/>
+     <Sig Name="u_ddr_ulogic/read_data:36"/>
+     <Sig Name="u_ddr_ulogic/read_data:37"/>
+     <Sig Name="u_ddr_ulogic/read_data:38"/>
+     <Sig Name="u_ddr_ulogic/read_data:39"/>
+     <Sig Name="u_ddr_ulogic/read_data:40"/>
+     <Sig Name="u_ddr_ulogic/read_data:41"/>
+     <Sig Name="u_ddr_ulogic/read_data:42"/>
+     <Sig Name="u_ddr_ulogic/read_data:43"/>
+     <Sig Name="u_ddr_ulogic/read_data:44"/>
+     <Sig Name="u_ddr_ulogic/read_data:45"/>
+     <Sig Name="u_ddr_ulogic/read_data:46"/>
+     <Sig Name="u_ddr_ulogic/read_data:47"/>
+     <Sig Name="u_ddr_ulogic/read_data:48"/>
+     <Sig Name="u_ddr_ulogic/read_data:49"/>
+     <Sig Name="u_ddr_ulogic/read_data:50"/>
+     <Sig Name="u_ddr_ulogic/read_data:51"/>
+     <Sig Name="u_ddr_ulogic/read_data:52"/>
+     <Sig Name="u_ddr_ulogic/read_data:53"/>
+     <Sig Name="u_ddr_ulogic/read_data:54"/>
+     <Sig Name="u_ddr_ulogic/read_data:55"/>
+     <Sig Name="u_ddr_ulogic/read_data:56"/>
+     <Sig Name="u_ddr_ulogic/read_data:57"/>
+     <Sig Name="u_ddr_ulogic/read_data:58"/>
+     <Sig Name="u_ddr_ulogic/read_data:59"/>
+     <Sig Name="u_ddr_ulogic/read_data:60"/>
+     <Sig Name="u_ddr_ulogic/read_data:61"/>
+     <Sig Name="u_ddr_ulogic/read_data:62"/>
+     <Sig Name="u_ddr_ulogic/read_data:63"/>
+     <Sig Name="u_ddr_ulogic/read_data:64"/>
+     <Sig Name="u_ddr_ulogic/read_data:65"/>
+     <Sig Name="u_ddr_ulogic/read_data:66"/>
+     <Sig Name="u_ddr_ulogic/read_data:67"/>
+     <Sig Name="u_ddr_ulogic/read_data:68"/>
+     <Sig Name="u_ddr_ulogic/read_data:69"/>
+     <Sig Name="u_ddr_ulogic/read_data:70"/>
+     <Sig Name="u_ddr_ulogic/read_data:71"/>
+     <Sig Name="u_ddr_ulogic/read_data:72"/>
+     <Sig Name="u_ddr_ulogic/read_data:73"/>
+     <Sig Name="u_ddr_ulogic/read_data:74"/>
+     <Sig Name="u_ddr_ulogic/read_data:75"/>
+     <Sig Name="u_ddr_ulogic/read_data:76"/>
+     <Sig Name="u_ddr_ulogic/read_data:77"/>
+     <Sig Name="u_ddr_ulogic/read_data:78"/>
+     <Sig Name="u_ddr_ulogic/read_data:79"/>
+     <Sig Name="u_ddr_ulogic/read_data:80"/>
+     <Sig Name="u_ddr_ulogic/read_data:81"/>
+     <Sig Name="u_ddr_ulogic/read_data:82"/>
+     <Sig Name="u_ddr_ulogic/read_data:83"/>
+     <Sig Name="u_ddr_ulogic/read_data:84"/>
+     <Sig Name="u_ddr_ulogic/read_data:85"/>
+     <Sig Name="u_ddr_ulogic/read_data:86"/>
+     <Sig Name="u_ddr_ulogic/read_data:87"/>
+     <Sig Name="u_ddr_ulogic/read_data:88"/>
+     <Sig Name="u_ddr_ulogic/read_data:89"/>
+     <Sig Name="u_ddr_ulogic/read_data:90"/>
+     <Sig Name="u_ddr_ulogic/read_data:91"/>
+     <Sig Name="u_ddr_ulogic/read_data:92"/>
+     <Sig Name="u_ddr_ulogic/read_data:93"/>
+     <Sig Name="u_ddr_ulogic/read_data:94"/>
+     <Sig Name="u_ddr_ulogic/read_data:95"/>
+     <Sig Name="u_ddr_ulogic/read_data:96"/>
+     <Sig Name="u_ddr_ulogic/read_data:97"/>
+     <Sig Name="u_ddr_ulogic/read_data:98"/>
+     <Sig Name="u_ddr_ulogic/read_data:99"/>
+     <Sig Name="u_ddr_ulogic/read_data:100"/>
+     <Sig Name="u_ddr_ulogic/read_data:101"/>
+     <Sig Name="u_ddr_ulogic/read_data:102"/>
+     <Sig Name="u_ddr_ulogic/read_data:103"/>
+     <Sig Name="u_ddr_ulogic/read_data:104"/>
+     <Sig Name="u_ddr_ulogic/read_data:105"/>
+     <Sig Name="u_ddr_ulogic/read_data:106"/>
+     <Sig Name="u_ddr_ulogic/read_data:107"/>
+     <Sig Name="u_ddr_ulogic/read_data:108"/>
+     <Sig Name="u_ddr_ulogic/read_data:109"/>
+     <Sig Name="u_ddr_ulogic/read_data:110"/>
+     <Sig Name="u_ddr_ulogic/read_data:111"/>
+     <Sig Name="u_ddr_ulogic/read_data:112"/>
+     <Sig Name="u_ddr_ulogic/read_data:113"/>
+     <Sig Name="u_ddr_ulogic/read_data:114"/>
+     <Sig Name="u_ddr_ulogic/read_data:115"/>
+     <Sig Name="u_ddr_ulogic/read_data:116"/>
+     <Sig Name="u_ddr_ulogic/read_data:117"/>
+     <Sig Name="u_ddr_ulogic/read_data:118"/>
+     <Sig Name="u_ddr_ulogic/read_data:119"/>
+     <Sig Name="u_ddr_ulogic/read_data:120"/>
+     <Sig Name="u_ddr_ulogic/read_data:121"/>
+     <Sig Name="u_ddr_ulogic/read_data:122"/>
+     <Sig Name="u_ddr_ulogic/read_data:123"/>
+     <Sig Name="u_ddr_ulogic/read_data:124"/>
+     <Sig Name="u_ddr_ulogic/read_data:125"/>
+     <Sig Name="u_ddr_ulogic/read_data:126"/>
+     <Sig Name="u_ddr_ulogic/read_data:127"/>
+    </Bus>
+    <Sig Name="u_ddr_ulogic/cmd_valid"/>
+    <Bus Name="u_ddr_ulogic/cmd" Radix="0">
+     <Sig Name="u_ddr_ulogic/cmd:0"/>
+     <Sig Name="u_ddr_ulogic/cmd:1"/>
+     <Sig Name="u_ddr_ulogic/cmd:2"/>
+     <Sig Name="u_ddr_ulogic/cmd:3"/>
+    </Bus>
+    <Bus Name="u_ddr_ulogic/cmd_burst_cnt" Radix="0">
+     <Sig Name="u_ddr_ulogic/cmd_burst_cnt:0"/>
+     <Sig Name="u_ddr_ulogic/cmd_burst_cnt:1"/>
+     <Sig Name="u_ddr_ulogic/cmd_burst_cnt:2"/>
+     <Sig Name="u_ddr_ulogic/cmd_burst_cnt:3"/>
+     <Sig Name="u_ddr_ulogic/cmd_burst_cnt:4"/>
+    </Bus>
+    <Bus Name="u_ddr_ulogic/addr" Radix="0">
+     <Sig Name="u_ddr_ulogic/addr:0"/>
+     <Sig Name="u_ddr_ulogic/addr:1"/>
+     <Sig Name="u_ddr_ulogic/addr:2"/>
+     <Sig Name="u_ddr_ulogic/addr:3"/>
+     <Sig Name="u_ddr_ulogic/addr:4"/>
+     <Sig Name="u_ddr_ulogic/addr:5"/>
+     <Sig Name="u_ddr_ulogic/addr:6"/>
+     <Sig Name="u_ddr_ulogic/addr:7"/>
+     <Sig Name="u_ddr_ulogic/addr:8"/>
+     <Sig Name="u_ddr_ulogic/addr:9"/>
+     <Sig Name="u_ddr_ulogic/addr:10"/>
+     <Sig Name="u_ddr_ulogic/addr:11"/>
+     <Sig Name="u_ddr_ulogic/addr:12"/>
+     <Sig Name="u_ddr_ulogic/addr:13"/>
+     <Sig Name="u_ddr_ulogic/addr:14"/>
+     <Sig Name="u_ddr_ulogic/addr:15"/>
+     <Sig Name="u_ddr_ulogic/addr:16"/>
+     <Sig Name="u_ddr_ulogic/addr:17"/>
+     <Sig Name="u_ddr_ulogic/addr:18"/>
+     <Sig Name="u_ddr_ulogic/addr:19"/>
+     <Sig Name="u_ddr_ulogic/addr:20"/>
+     <Sig Name="u_ddr_ulogic/addr:21"/>
+     <Sig Name="u_ddr_ulogic/addr:22"/>
+     <Sig Name="u_ddr_ulogic/addr:23"/>
+     <Sig Name="u_ddr_ulogic/addr:24"/>
+     <Sig Name="u_ddr_ulogic/addr:25"/>
+     <Sig Name="u_ddr_ulogic/addr:26"/>
+     <Sig Name="u_ddr_ulogic/addr:27"/>
+    </Bus>
+    <Bus Name="u_ddr_ulogic/write_data" Radix="0">
+     <Sig Name="u_ddr_ulogic/write_data:0"/>
+     <Sig Name="u_ddr_ulogic/write_data:1"/>
+     <Sig Name="u_ddr_ulogic/write_data:2"/>
+     <Sig Name="u_ddr_ulogic/write_data:3"/>
+     <Sig Name="u_ddr_ulogic/write_data:4"/>
+     <Sig Name="u_ddr_ulogic/write_data:5"/>
+     <Sig Name="u_ddr_ulogic/write_data:6"/>
+     <Sig Name="u_ddr_ulogic/write_data:7"/>
+     <Sig Name="u_ddr_ulogic/write_data:8"/>
+     <Sig Name="u_ddr_ulogic/write_data:9"/>
+     <Sig Name="u_ddr_ulogic/write_data:10"/>
+     <Sig Name="u_ddr_ulogic/write_data:11"/>
+     <Sig Name="u_ddr_ulogic/write_data:12"/>
+     <Sig Name="u_ddr_ulogic/write_data:13"/>
+     <Sig Name="u_ddr_ulogic/write_data:14"/>
+     <Sig Name="u_ddr_ulogic/write_data:15"/>
+     <Sig Name="u_ddr_ulogic/write_data:16"/>
+     <Sig Name="u_ddr_ulogic/write_data:17"/>
+     <Sig Name="u_ddr_ulogic/write_data:18"/>
+     <Sig Name="u_ddr_ulogic/write_data:19"/>
+     <Sig Name="u_ddr_ulogic/write_data:20"/>
+     <Sig Name="u_ddr_ulogic/write_data:21"/>
+     <Sig Name="u_ddr_ulogic/write_data:22"/>
+     <Sig Name="u_ddr_ulogic/write_data:23"/>
+     <Sig Name="u_ddr_ulogic/write_data:24"/>
+     <Sig Name="u_ddr_ulogic/write_data:25"/>
+     <Sig Name="u_ddr_ulogic/write_data:26"/>
+     <Sig Name="u_ddr_ulogic/write_data:27"/>
+     <Sig Name="u_ddr_ulogic/write_data:28"/>
+     <Sig Name="u_ddr_ulogic/write_data:29"/>
+     <Sig Name="u_ddr_ulogic/write_data:30"/>
+     <Sig Name="u_ddr_ulogic/write_data:31"/>
+     <Sig Name="u_ddr_ulogic/write_data:32"/>
+     <Sig Name="u_ddr_ulogic/write_data:33"/>
+     <Sig Name="u_ddr_ulogic/write_data:34"/>
+     <Sig Name="u_ddr_ulogic/write_data:35"/>
+     <Sig Name="u_ddr_ulogic/write_data:36"/>
+     <Sig Name="u_ddr_ulogic/write_data:37"/>
+     <Sig Name="u_ddr_ulogic/write_data:38"/>
+     <Sig Name="u_ddr_ulogic/write_data:39"/>
+     <Sig Name="u_ddr_ulogic/write_data:40"/>
+     <Sig Name="u_ddr_ulogic/write_data:41"/>
+     <Sig Name="u_ddr_ulogic/write_data:42"/>
+     <Sig Name="u_ddr_ulogic/write_data:43"/>
+     <Sig Name="u_ddr_ulogic/write_data:44"/>
+     <Sig Name="u_ddr_ulogic/write_data:45"/>
+     <Sig Name="u_ddr_ulogic/write_data:46"/>
+     <Sig Name="u_ddr_ulogic/write_data:47"/>
+     <Sig Name="u_ddr_ulogic/write_data:48"/>
+     <Sig Name="u_ddr_ulogic/write_data:49"/>
+     <Sig Name="u_ddr_ulogic/write_data:50"/>
+     <Sig Name="u_ddr_ulogic/write_data:51"/>
+     <Sig Name="u_ddr_ulogic/write_data:52"/>
+     <Sig Name="u_ddr_ulogic/write_data:53"/>
+     <Sig Name="u_ddr_ulogic/write_data:54"/>
+     <Sig Name="u_ddr_ulogic/write_data:55"/>
+     <Sig Name="u_ddr_ulogic/write_data:56"/>
+     <Sig Name="u_ddr_ulogic/write_data:57"/>
+     <Sig Name="u_ddr_ulogic/write_data:58"/>
+     <Sig Name="u_ddr_ulogic/write_data:59"/>
+     <Sig Name="u_ddr_ulogic/write_data:60"/>
+     <Sig Name="u_ddr_ulogic/write_data:61"/>
+     <Sig Name="u_ddr_ulogic/write_data:62"/>
+     <Sig Name="u_ddr_ulogic/write_data:63"/>
+     <Sig Name="u_ddr_ulogic/write_data:64"/>
+     <Sig Name="u_ddr_ulogic/write_data:65"/>
+     <Sig Name="u_ddr_ulogic/write_data:66"/>
+     <Sig Name="u_ddr_ulogic/write_data:67"/>
+     <Sig Name="u_ddr_ulogic/write_data:68"/>
+     <Sig Name="u_ddr_ulogic/write_data:69"/>
+     <Sig Name="u_ddr_ulogic/write_data:70"/>
+     <Sig Name="u_ddr_ulogic/write_data:71"/>
+     <Sig Name="u_ddr_ulogic/write_data:72"/>
+     <Sig Name="u_ddr_ulogic/write_data:73"/>
+     <Sig Name="u_ddr_ulogic/write_data:74"/>
+     <Sig Name="u_ddr_ulogic/write_data:75"/>
+     <Sig Name="u_ddr_ulogic/write_data:76"/>
+     <Sig Name="u_ddr_ulogic/write_data:77"/>
+     <Sig Name="u_ddr_ulogic/write_data:78"/>
+     <Sig Name="u_ddr_ulogic/write_data:79"/>
+     <Sig Name="u_ddr_ulogic/write_data:80"/>
+     <Sig Name="u_ddr_ulogic/write_data:81"/>
+     <Sig Name="u_ddr_ulogic/write_data:82"/>
+     <Sig Name="u_ddr_ulogic/write_data:83"/>
+     <Sig Name="u_ddr_ulogic/write_data:84"/>
+     <Sig Name="u_ddr_ulogic/write_data:85"/>
+     <Sig Name="u_ddr_ulogic/write_data:86"/>
+     <Sig Name="u_ddr_ulogic/write_data:87"/>
+     <Sig Name="u_ddr_ulogic/write_data:88"/>
+     <Sig Name="u_ddr_ulogic/write_data:89"/>
+     <Sig Name="u_ddr_ulogic/write_data:90"/>
+     <Sig Name="u_ddr_ulogic/write_data:91"/>
+     <Sig Name="u_ddr_ulogic/write_data:92"/>
+     <Sig Name="u_ddr_ulogic/write_data:93"/>
+     <Sig Name="u_ddr_ulogic/write_data:94"/>
+     <Sig Name="u_ddr_ulogic/write_data:95"/>
+     <Sig Name="u_ddr_ulogic/write_data:96"/>
+     <Sig Name="u_ddr_ulogic/write_data:97"/>
+     <Sig Name="u_ddr_ulogic/write_data:98"/>
+     <Sig Name="u_ddr_ulogic/write_data:99"/>
+     <Sig Name="u_ddr_ulogic/write_data:100"/>
+     <Sig Name="u_ddr_ulogic/write_data:101"/>
+     <Sig Name="u_ddr_ulogic/write_data:102"/>
+     <Sig Name="u_ddr_ulogic/write_data:103"/>
+     <Sig Name="u_ddr_ulogic/write_data:104"/>
+     <Sig Name="u_ddr_ulogic/write_data:105"/>
+     <Sig Name="u_ddr_ulogic/write_data:106"/>
+     <Sig Name="u_ddr_ulogic/write_data:107"/>
+     <Sig Name="u_ddr_ulogic/write_data:108"/>
+     <Sig Name="u_ddr_ulogic/write_data:109"/>
+     <Sig Name="u_ddr_ulogic/write_data:110"/>
+     <Sig Name="u_ddr_ulogic/write_data:111"/>
+     <Sig Name="u_ddr_ulogic/write_data:112"/>
+     <Sig Name="u_ddr_ulogic/write_data:113"/>
+     <Sig Name="u_ddr_ulogic/write_data:114"/>
+     <Sig Name="u_ddr_ulogic/write_data:115"/>
+     <Sig Name="u_ddr_ulogic/write_data:116"/>
+     <Sig Name="u_ddr_ulogic/write_data:117"/>
+     <Sig Name="u_ddr_ulogic/write_data:118"/>
+     <Sig Name="u_ddr_ulogic/write_data:119"/>
+     <Sig Name="u_ddr_ulogic/write_data:120"/>
+     <Sig Name="u_ddr_ulogic/write_data:121"/>
+     <Sig Name="u_ddr_ulogic/write_data:122"/>
+     <Sig Name="u_ddr_ulogic/write_data:123"/>
+     <Sig Name="u_ddr_ulogic/write_data:124"/>
+     <Sig Name="u_ddr_ulogic/write_data:125"/>
+     <Sig Name="u_ddr_ulogic/write_data:126"/>
+     <Sig Name="u_ddr_ulogic/write_data:127"/>
+    </Bus>
+    <Bus Name="u_ddr_ulogic/data_mask" Radix="0">
+     <Sig Name="u_ddr_ulogic/data_mask:0"/>
+     <Sig Name="u_ddr_ulogic/data_mask:1"/>
+     <Sig Name="u_ddr_ulogic/data_mask:2"/>
+     <Sig Name="u_ddr_ulogic/data_mask:3"/>
+     <Sig Name="u_ddr_ulogic/data_mask:4"/>
+     <Sig Name="u_ddr_ulogic/data_mask:5"/>
+     <Sig Name="u_ddr_ulogic/data_mask:6"/>
+     <Sig Name="u_ddr_ulogic/data_mask:7"/>
+     <Sig Name="u_ddr_ulogic/data_mask:8"/>
+     <Sig Name="u_ddr_ulogic/data_mask:9"/>
+     <Sig Name="u_ddr_ulogic/data_mask:10"/>
+     <Sig Name="u_ddr_ulogic/data_mask:11"/>
+     <Sig Name="u_ddr_ulogic/data_mask:12"/>
+     <Sig Name="u_ddr_ulogic/data_mask:13"/>
+     <Sig Name="u_ddr_ulogic/data_mask:14"/>
+     <Sig Name="u_ddr_ulogic/data_mask:15"/>
+    </Bus>
+    <Sig Name="u_ddr_ulogic/err_det"/>
+   </Trace>
+   <Trigger>
+    <TU Operator="0" Name="TU1" ID="1" Value="1" Radix="0"/>
+    <TU Operator="0" Name="TU2" ID="2" Value="1" Radix="0"/>
+    <TU Operator="0" Name="TU3" ID="3" Value="0" Radix="0"/>
+    <TU Operator="0" Name="TU4" ID="4" Value="0" Radix="0"/>
+    <TU Operator="0" Name="TU5" ID="5" Value="0" Radix="0"/>
+    <TU Operator="0" Name="TU6" ID="6" Value="0" Radix="0"/>
+    <TU Operator="0" Name="TU7" ID="7" Value="00000000000000000000000000000000" Radix="3"/>
+    <TU Operator="0" Name="TU8" ID="8" Value="ffffxxx" Radix="3"/>
+    <TE Enable="0" Expression="TU8" Name="TE1" ID="1"/>
+    <TE Enable="1" Expression="TU2" Name="TE2" ID="2"/>
+   </Trigger>
+  </Dataset>
+ </Core>
+</Project>

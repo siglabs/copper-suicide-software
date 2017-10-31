@@ -1,0 +1,442 @@
+----------------------------------------------------------------------
+Report for cell ddr3_test_top.verilog
+
+Register bits: 2401 of 83640 (3%)
+PIC Latch:       0
+I/O cells:       1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C      288       100.0
+                            FD1P3AX       34       100.0
+                            FD1P3BX       33       100.0
+                            FD1P3DX     1413       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3BX        8       100.0
+                            FD1S3DX      912       100.0
+                                GSR        1       100.0
+                                INV       27       100.0
+                            L6MUX21        7       100.0
+                                 OB        1       100.0
+                           ORCALUT4     2180       100.0
+                               OSCG        1       100.0
+                              PFUMX       38       100.0
+                                PUR        1       100.0
+                           SPR16X4C        4       100.0
+                                VHI       20       100.0
+                                VLO       19       100.0
+                     ddr_clks_inst1        1       100.0
+                              inst1        1       100.0
+                         jtagconn16        1       100.0
+          pmi_distributed_dpram_256s_8s_2s_reg_none_binary_ECP5U_pmi_distributed_dpram_Z4        1       100.0
+                      pmi_ram_dp_Z2        1       100.0
+                      pmi_ram_dp_Z6        1       100.0
+SUB MODULES 
+                data_gen_chk_uniq_1        1       100.0
+                     ddr3_ip_uniq_1        1       100.0
+          ddr3_sdram_mem_top_inst1_uniq_1        1       100.0
+                  ddr3_test_top_la0        1       100.0
+             ddr3_test_top_la0_trig        1       100.0
+                  ddr_ulogic_uniq_1        1       100.0
+                     reveal_coretop        1       100.0
+                   rvl_decode_8s_2s        1       100.0
+          rvl_jtag_int_317s_162s_0s_0s_9s_317s_317s        1       100.0
+                rvl_tcnt_2s_3s_1_0s        1       100.0
+                          rvl_te_Z1        1       100.0
+                          rvl_te_Z3        1       100.0
+                          rvl_tm_Z5        1       100.0
+            rvl_tu_128s_0s_0s_0s_8s        1       100.0
+            rvl_tu_1s_0s_0s_0s_1s_0        1       100.0
+          rvl_tu_1s_0s_0s_0s_1s_0_0        1       100.0
+          rvl_tu_1s_0s_0s_0s_1s_0_1        1       100.0
+            rvl_tu_1s_0s_0s_0s_1s_1        1       100.0
+            rvl_tu_1s_0s_0s_0s_1s_2        1       100.0
+            rvl_tu_1s_0s_0s_0s_1s_3        1       100.0
+             rvl_tu_28s_0s_0s_0s_2s        1       100.0
+                            
+                         TOTAL          5015           
+----------------------------------------------------------------------
+Report for cell ddr_ulogic_uniq_1.netlist
+     Instance path:  u_ddr_ulogic
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C      118        41.0
+                            FD1P3DX      153        10.8
+                            FD1S3BX        1        12.5
+                            FD1S3DX      236        25.9
+                                INV        5        18.5
+                           ORCALUT4      159         7.3
+                              PFUMX        3         7.9
+                                VHI        2        10.0
+SUB MODULES 
+                data_gen_chk_uniq_1        1       100.0
+                            
+                         TOTAL           678           
+----------------------------------------------------------------------
+Report for cell data_gen_chk_uniq_1.netlist
+     Instance path:  u_ddr_ulogic.U_data_gen_chk
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       82        28.5
+                            FD1P3DX       64         4.5
+                            FD1S3DX      176        19.3
+                           ORCALUT4       18         0.8
+                                VHI        1         5.0
+                            
+                         TOTAL           341           
+----------------------------------------------------------------------
+Report for cell ddr3_ip_uniq_1.netlist
+     Instance path:  u_ddr3_sdram_mem_top
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                VLO        1         5.3
+                     ddr_clks_inst1        1       100.0
+                              inst1        1       100.0
+SUB MODULES 
+          ddr3_sdram_mem_top_inst1_uniq_1        1       100.0
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell ddr3_sdram_mem_top_inst1_uniq_1.netlist
+     Instance path:  u_ddr3_sdram_mem_top.inst1_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                VLO        1         5.3
+                     ddr_clks_inst1        1       100.0
+                              inst1        1       100.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell reveal_coretop.verilog
+     Instance path:  ddr3_test_top_reveal_coretop_instance
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C      161        55.9
+                            FD1P3AX       18        52.9
+                            FD1P3BX       33       100.0
+                            FD1P3DX     1260        89.2
+                            FD1S3BX        3        37.5
+                            FD1S3DX      676        74.1
+                                INV       21        77.8
+                            L6MUX21        7       100.0
+                           ORCALUT4     2011        92.2
+                              PFUMX       35        92.1
+                           SPR16X4C        4       100.0
+                                VHI       17        85.0
+                                VLO       17        89.5
+                         jtagconn16        1       100.0
+          pmi_distributed_dpram_256s_8s_2s_reg_none_binary_ECP5U_pmi_distributed_dpram_Z4        1       100.0
+                      pmi_ram_dp_Z2        1       100.0
+                      pmi_ram_dp_Z6        1       100.0
+SUB MODULES 
+                  ddr3_test_top_la0        1       100.0
+             ddr3_test_top_la0_trig        1       100.0
+                   rvl_decode_8s_2s        1       100.0
+          rvl_jtag_int_317s_162s_0s_0s_9s_317s_317s        1       100.0
+                rvl_tcnt_2s_3s_1_0s        1       100.0
+                          rvl_te_Z1        1       100.0
+                          rvl_te_Z3        1       100.0
+                          rvl_tm_Z5        1       100.0
+            rvl_tu_128s_0s_0s_0s_8s        1       100.0
+            rvl_tu_1s_0s_0s_0s_1s_0        1       100.0
+          rvl_tu_1s_0s_0s_0s_1s_0_0        1       100.0
+          rvl_tu_1s_0s_0s_0s_1s_0_1        1       100.0
+            rvl_tu_1s_0s_0s_0s_1s_1        1       100.0
+            rvl_tu_1s_0s_0s_0s_1s_2        1       100.0
+            rvl_tu_1s_0s_0s_0s_1s_3        1       100.0
+             rvl_tu_28s_0s_0s_0s_2s        1       100.0
+                            
+                         TOTAL          4283           
+----------------------------------------------------------------------
+Report for cell ddr3_test_top_la0.netlist
+     Instance path:  ddr3_test_top_reveal_coretop_instance.ddr3_test_top_la0_inst_0
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C      161        55.9
+                            FD1P3AX       18        52.9
+                            FD1P3BX       33       100.0
+                            FD1P3DX     1260        89.2
+                            FD1S3BX        3        37.5
+                            FD1S3DX      676        74.1
+                                INV       21        77.8
+                            L6MUX21        7       100.0
+                           ORCALUT4     2011        92.2
+                              PFUMX       35        92.1
+                           SPR16X4C        4       100.0
+                                VHI       16        80.0
+                                VLO       16        84.2
+          pmi_distributed_dpram_256s_8s_2s_reg_none_binary_ECP5U_pmi_distributed_dpram_Z4        1       100.0
+                      pmi_ram_dp_Z2        1       100.0
+                      pmi_ram_dp_Z6        1       100.0
+SUB MODULES 
+             ddr3_test_top_la0_trig        1       100.0
+                   rvl_decode_8s_2s        1       100.0
+          rvl_jtag_int_317s_162s_0s_0s_9s_317s_317s        1       100.0
+                rvl_tcnt_2s_3s_1_0s        1       100.0
+                          rvl_te_Z1        1       100.0
+                          rvl_te_Z3        1       100.0
+                          rvl_tm_Z5        1       100.0
+            rvl_tu_128s_0s_0s_0s_8s        1       100.0
+            rvl_tu_1s_0s_0s_0s_1s_0        1       100.0
+          rvl_tu_1s_0s_0s_0s_1s_0_0        1       100.0
+          rvl_tu_1s_0s_0s_0s_1s_0_1        1       100.0
+            rvl_tu_1s_0s_0s_0s_1s_1        1       100.0
+            rvl_tu_1s_0s_0s_0s_1s_2        1       100.0
+            rvl_tu_1s_0s_0s_0s_1s_3        1       100.0
+             rvl_tu_28s_0s_0s_0s_2s        1       100.0
+                            
+                         TOTAL          4279           
+----------------------------------------------------------------------
+Report for cell ddr3_test_top_la0_trig.netlist
+     Instance path:  ddr3_test_top_reveal_coretop_instance.ddr3_test_top_la0_inst_0.trig_u
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C      124        43.1
+                            FD1P3AX       16        47.1
+                            FD1P3BX        1         3.0
+                            FD1P3DX      420        29.7
+                            FD1S3BX        3        37.5
+                            FD1S3DX      370        40.6
+                                INV       15        55.6
+                            L6MUX21        7       100.0
+                           ORCALUT4     1012        46.4
+                              PFUMX       19        50.0
+                           SPR16X4C        4       100.0
+                                VHI       13        65.0
+                                VLO       13        68.4
+          pmi_distributed_dpram_256s_8s_2s_reg_none_binary_ECP5U_pmi_distributed_dpram_Z4        1       100.0
+                      pmi_ram_dp_Z2        1       100.0
+SUB MODULES 
+                   rvl_decode_8s_2s        1       100.0
+                rvl_tcnt_2s_3s_1_0s        1       100.0
+                          rvl_te_Z1        1       100.0
+                          rvl_te_Z3        1       100.0
+            rvl_tu_128s_0s_0s_0s_8s        1       100.0
+            rvl_tu_1s_0s_0s_0s_1s_0        1       100.0
+          rvl_tu_1s_0s_0s_0s_1s_0_0        1       100.0
+          rvl_tu_1s_0s_0s_0s_1s_0_1        1       100.0
+            rvl_tu_1s_0s_0s_0s_1s_1        1       100.0
+            rvl_tu_1s_0s_0s_0s_1s_2        1       100.0
+            rvl_tu_1s_0s_0s_0s_1s_3        1       100.0
+             rvl_tu_28s_0s_0s_0s_2s        1       100.0
+                            
+                         TOTAL          2031           
+----------------------------------------------------------------------
+Report for cell rvl_decode_8s_2s.verilog
+     Instance path:  ddr3_test_top_reveal_coretop_instance.ddr3_test_top_la0_inst_0.trig_u.decode_u
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4       22         1.0
+                                VHI        1         5.0
+                                VLO        1         5.3
+                            
+                         TOTAL            24           
+----------------------------------------------------------------------
+Report for cell rvl_tu_1s_0s_0s_0s_1s_3.verilog
+  Original Cell name rvl_tu_1s_0s_0s_0s_1s
+     Instance path:  ddr3_test_top_reveal_coretop_instance.ddr3_test_top_la0_inst_0.trig_u.tu_0
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        5         0.4
+                            FD1S3DX        3         0.3
+                                INV        1         3.7
+                            L6MUX21        1        14.3
+                           ORCALUT4       14         0.6
+                              PFUMX        2         5.3
+                                VHI        1         5.0
+                                VLO        1         5.3
+                            
+                         TOTAL            28           
+----------------------------------------------------------------------
+Report for cell rvl_tu_1s_0s_0s_0s_1s_2.verilog
+  Original Cell name rvl_tu_1s_0s_0s_0s_1s
+     Instance path:  ddr3_test_top_reveal_coretop_instance.ddr3_test_top_la0_inst_0.trig_u.tu_1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        5         0.4
+                            FD1S3DX        3         0.3
+                                INV        1         3.7
+                            L6MUX21        1        14.3
+                           ORCALUT4       14         0.6
+                              PFUMX        2         5.3
+                                VHI        1         5.0
+                                VLO        1         5.3
+                            
+                         TOTAL            28           
+----------------------------------------------------------------------
+Report for cell rvl_tu_1s_0s_0s_0s_1s_1.verilog
+  Original Cell name rvl_tu_1s_0s_0s_0s_1s
+     Instance path:  ddr3_test_top_reveal_coretop_instance.ddr3_test_top_la0_inst_0.trig_u.tu_2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        5         0.4
+                            FD1S3DX        3         0.3
+                                INV        1         3.7
+                            L6MUX21        1        14.3
+                           ORCALUT4       14         0.6
+                              PFUMX        2         5.3
+                                VHI        1         5.0
+                                VLO        1         5.3
+                            
+                         TOTAL            28           
+----------------------------------------------------------------------
+Report for cell rvl_tu_1s_0s_0s_0s_1s_0.verilog
+  Original Cell name rvl_tu_1s_0s_0s_0s_1s
+     Instance path:  ddr3_test_top_reveal_coretop_instance.ddr3_test_top_la0_inst_0.trig_u.tu_3
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        5         0.4
+                            FD1S3DX        3         0.3
+                                INV        1         3.7
+                            L6MUX21        1        14.3
+                           ORCALUT4       14         0.6
+                              PFUMX        2         5.3
+                                VHI        1         5.0
+                                VLO        1         5.3
+                            
+                         TOTAL            28           
+----------------------------------------------------------------------
+Report for cell rvl_tu_1s_0s_0s_0s_1s_0_1.verilog
+  Original Cell name rvl_tu_1s_0s_0s_0s_1s
+     Instance path:  ddr3_test_top_reveal_coretop_instance.ddr3_test_top_la0_inst_0.trig_u.tu_4
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        5         0.4
+                            FD1S3DX        3         0.3
+                                INV        1         3.7
+                            L6MUX21        1        14.3
+                           ORCALUT4       14         0.6
+                              PFUMX        2         5.3
+                                VHI        1         5.0
+                                VLO        1         5.3
+                            
+                         TOTAL            28           
+----------------------------------------------------------------------
+Report for cell rvl_tu_1s_0s_0s_0s_1s_0_0.verilog
+  Original Cell name rvl_tu_1s_0s_0s_0s_1s
+     Instance path:  ddr3_test_top_reveal_coretop_instance.ddr3_test_top_la0_inst_0.trig_u.tu_5
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        5         0.4
+                            FD1S3DX        3         0.3
+                                INV        1         3.7
+                            L6MUX21        1        14.3
+                           ORCALUT4       14         0.6
+                              PFUMX        2         5.3
+                                VHI        1         5.0
+                                VLO        1         5.3
+                            
+                         TOTAL            28           
+----------------------------------------------------------------------
+Report for cell rvl_tu_128s_0s_0s_0s_8s.verilog
+     Instance path:  ddr3_test_top_reveal_coretop_instance.ddr3_test_top_la0_inst_0.trig_u.tu_6
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       73        25.3
+                            FD1P3DX      259        18.3
+                            FD1S3DX      284        31.1
+                                INV        1         3.7
+                           ORCALUT4      607        27.8
+                              PFUMX        2         5.3
+                           SPR16X4C        4       100.0
+                                VHI        1         5.0
+                                VLO        1         5.3
+                            
+                         TOTAL          1232           
+----------------------------------------------------------------------
+Report for cell rvl_tu_28s_0s_0s_0s_2s.verilog
+     Instance path:  ddr3_test_top_reveal_coretop_instance.ddr3_test_top_la0_inst_0.trig_u.tu_7
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       23         8.0
+                            FD1P3DX       63         4.5
+                            FD1S3DX       51         5.6
+                                INV        1         3.7
+                            L6MUX21        1        14.3
+                           ORCALUT4      113         5.2
+                              PFUMX        2         5.3
+                                VHI        1         5.0
+                                VLO        1         5.3
+                            
+                         TOTAL           256           
+----------------------------------------------------------------------
+Report for cell rvl_te_Z1.verilog
+     Instance path:  ddr3_test_top_reveal_coretop_instance.ddr3_test_top_la0_inst_0.trig_u.te_0
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       14         4.9
+                            FD1P3AX       16        47.1
+                            FD1P3DX       29         2.1
+                            FD1S3BX        1        12.5
+                            FD1S3DX        6         0.7
+                                INV        3        11.1
+                           ORCALUT4       58         2.7
+                              PFUMX        1         2.6
+                                VHI        1         5.0
+                                VLO        1         5.3
+                      pmi_ram_dp_Z2        1       100.0
+                            
+                         TOTAL           131           
+----------------------------------------------------------------------
+Report for cell rvl_te_Z3.verilog
+     Instance path:  ddr3_test_top_reveal_coretop_instance.ddr3_test_top_la0_inst_0.trig_u.te_1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       14         4.9
+                            FD1P3DX       32         2.3
+                            FD1S3BX        2        25.0
+                            FD1S3DX        6         0.7
+                                INV        3        11.1
+                           ORCALUT4       53         2.4
+                              PFUMX        1         2.6
+                                VHI        1         5.0
+                                VLO        1         5.3
+          pmi_distributed_dpram_256s_8s_2s_reg_none_binary_ECP5U_pmi_distributed_dpram_Z4        1       100.0
+                            
+                         TOTAL           114           
+----------------------------------------------------------------------
+Report for cell rvl_tcnt_2s_3s_1_0s.verilog
+     Instance path:  ddr3_test_top_reveal_coretop_instance.ddr3_test_top_la0_inst_0.trig_u.tcnt_0
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3BX        1         3.0
+                            FD1P3DX        7         0.5
+                            FD1S3DX        5         0.5
+                                INV        1         3.7
+                           ORCALUT4       22         1.0
+                              PFUMX        1         2.6
+                                VHI        1         5.0
+                                VLO        1         5.3
+                            
+                         TOTAL            39           
+----------------------------------------------------------------------
+Report for cell rvl_jtag_int_317s_162s_0s_0s_9s_317s_317s.verilog
+     Instance path:  ddr3_test_top_reveal_coretop_instance.ddr3_test_top_la0_inst_0.jtag_int_u
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C        9         3.1
+                            FD1P3AX        2         5.9
+                            FD1P3BX       32        97.0
+                            FD1P3DX      399        28.2
+                            FD1S3DX        8         0.9
+                                INV        3        11.1
+                           ORCALUT4      832        38.2
+                              PFUMX       16        42.1
+                                VHI        1         5.0
+                                VLO        1         5.3
+                            
+                         TOTAL          1303           
+----------------------------------------------------------------------
+Report for cell rvl_tm_Z5.verilog
+     Instance path:  ddr3_test_top_reveal_coretop_instance.ddr3_test_top_la0_inst_0.tm_u
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       28         9.7
+                            FD1P3DX      441        31.2
+                            FD1S3DX      298        32.7
+                                INV        3        11.1
+                           ORCALUT4      166         7.6
+                                VHI        1         5.0
+                                VLO        1         5.3
+                      pmi_ram_dp_Z6        1       100.0
+                            
+                         TOTAL           939           

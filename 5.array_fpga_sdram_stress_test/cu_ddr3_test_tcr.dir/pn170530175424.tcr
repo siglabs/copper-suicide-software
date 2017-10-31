@@ -1,0 +1,30 @@
+#Start recording tcl command: 5/30/2017 11:24:11
+#Project Location: C:/latest_cu_ddr3_test; Project name: cu_ddr3_test
+prj_project new -name "cu_ddr3_test" -impl "impl1" -dev LFE5U-85F-8BG756C -synthesis "synplify"
+prj_project save
+sbp_design new -dsgn "ddr3_ip" -path "C:/latest_cu_ddr3_test/ddr3_ip" -device "LFE5U-85F-8BG756C"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/latest_cu_ddr3_test/ddr3_ip/inst1"
+source "C:/latest_cu_ddr3_test/ddr3_ip/inst1/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_builder export_add -comp {ddr3_ip/inst1}
+sbp_design gen
+prj_src add "C:/latest_cu_ddr3_test/ddr3_ip/ddr3_ip.sbx"
+sbp_design drc
+prj_src add "C:/latest_cu_ddr3_test/src/data_gen_chk.v" "C:/latest_cu_ddr3_test/src/ddr_ulogic.v" "C:/latest_cu_ddr3_test/src/ddr3_test_params.v" "C:/latest_cu_ddr3_test/src/ddr3_test_top.v" "C:/latest_cu_ddr3_test/src/led_15seg_drv.v" "C:/latest_cu_ddr3_test/src/lfsr128.v"
+prj_src add "C:/latest_cu_ddr3_test/ddr3_sdram_mem_params_inst1.v"
+prj_run Translate -impl impl1
+prj_run Map -impl impl1
+prj_run Map -impl impl1
+prj_run Map -impl impl1 -task MapTrace
+prj_run PAR -impl impl1
+prj_run Export -impl impl1 -task Bitgen
+prj_run PAR -impl impl1 -task PARTrace
+prj_run PAR -impl impl1 -task IOTiming
+prj_run PAR -impl impl1 -task IOTiming
+prj_run PAR -impl impl1 -task IOTiming
+prj_run PAR -impl impl1 -task IOTiming
+prj_run PAR -impl impl1 -task IOTiming
+prj_run PAR -impl impl1 -task IOTiming
+prj_run PAR -impl impl1 -task IOTiming
+#Stop recording: 5/30/2017 17:54:24

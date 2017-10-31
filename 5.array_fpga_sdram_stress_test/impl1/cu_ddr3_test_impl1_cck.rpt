@@ -1,0 +1,176 @@
+# Synopsys Constraint Checker, version maplat, Build 1682R, built Mar 10 2017
+# Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Thu Jul 13 15:48:49 2017
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "ddr3_test_top"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                      Ending                                        |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                        System                                        |     1.610            |     No paths         |     No paths         |     No paths                         
+System                                        reveal_coretop|jtck_inferred_clock[0]         |     No paths         |     No paths         |     2.721            |     No paths                         
+System                                        ddr3_sdram_mem_top_inst1_uniq_1|sclk          |     3.310            |     No paths         |     No paths         |     No paths                         
+ddr3_test_top|fpga_int_clk_inferred_clock     System                                        |     412.903          |     No paths         |     No paths         |     No paths                         
+ddr3_test_top|fpga_int_clk_inferred_clock     ddr3_test_top|fpga_int_clk_inferred_clock     |     412.903          |     No paths         |     No paths         |     No paths                         
+ddr3_test_top|fpga_int_clk_inferred_clock     ddr3_sdram_mem_top_inst1_uniq_1|sclk          |     Diff grp         |     No paths         |     No paths         |     No paths                         
+reveal_coretop|jtck_inferred_clock[0]         System                                        |     No paths         |     No paths         |     No paths         |     2.721                            
+reveal_coretop|jtck_inferred_clock[0]         reveal_coretop|jtck_inferred_clock[0]         |     No paths         |     2.721            |     No paths         |     No paths                         
+reveal_coretop|jtck_inferred_clock[0]         ddr3_sdram_mem_top_inst1_uniq_1|sclk          |     No paths         |     No paths         |     No paths         |     Diff grp                         
+ddr3_sdram_mem_top_inst1_uniq_1|sclk          System                                        |     3.310            |     No paths         |     No paths         |     No paths                         
+ddr3_sdram_mem_top_inst1_uniq_1|sclk          reveal_coretop|jtck_inferred_clock[0]         |     No paths         |     No paths         |     Diff grp         |     No paths                         
+ddr3_sdram_mem_top_inst1_uniq_1|sclk          ddr3_sdram_mem_top_inst1_uniq_1|sclk          |     3.310            |     No paths         |     No paths         |     No paths                         
+=======================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:clk_in
+p:em_ddr_addr[0]
+p:em_ddr_addr[1]
+p:em_ddr_addr[2]
+p:em_ddr_addr[3]
+p:em_ddr_addr[4]
+p:em_ddr_addr[5]
+p:em_ddr_addr[6]
+p:em_ddr_addr[7]
+p:em_ddr_addr[8]
+p:em_ddr_addr[9]
+p:em_ddr_addr[10]
+p:em_ddr_addr[11]
+p:em_ddr_addr[12]
+p:em_ddr_addr[13]
+p:em_ddr_addr[14]
+p:em_ddr_ba[0]
+p:em_ddr_ba[1]
+p:em_ddr_ba[2]
+p:em_ddr_cas_n
+p:em_ddr_cke[0]
+p:em_ddr_clk[0]
+p:em_ddr_cs_n[0]
+p:em_ddr_data[0] (bidir end point)
+p:em_ddr_data[0] (bidir start point)
+p:em_ddr_data[1] (bidir end point)
+p:em_ddr_data[1] (bidir start point)
+p:em_ddr_data[2] (bidir end point)
+p:em_ddr_data[2] (bidir start point)
+p:em_ddr_data[3] (bidir end point)
+p:em_ddr_data[3] (bidir start point)
+p:em_ddr_data[4] (bidir end point)
+p:em_ddr_data[4] (bidir start point)
+p:em_ddr_data[5] (bidir end point)
+p:em_ddr_data[5] (bidir start point)
+p:em_ddr_data[6] (bidir end point)
+p:em_ddr_data[6] (bidir start point)
+p:em_ddr_data[7] (bidir end point)
+p:em_ddr_data[7] (bidir start point)
+p:em_ddr_data[8] (bidir end point)
+p:em_ddr_data[8] (bidir start point)
+p:em_ddr_data[9] (bidir end point)
+p:em_ddr_data[9] (bidir start point)
+p:em_ddr_data[10] (bidir end point)
+p:em_ddr_data[10] (bidir start point)
+p:em_ddr_data[11] (bidir end point)
+p:em_ddr_data[11] (bidir start point)
+p:em_ddr_data[12] (bidir end point)
+p:em_ddr_data[12] (bidir start point)
+p:em_ddr_data[13] (bidir end point)
+p:em_ddr_data[13] (bidir start point)
+p:em_ddr_data[14] (bidir end point)
+p:em_ddr_data[14] (bidir start point)
+p:em_ddr_data[15] (bidir end point)
+p:em_ddr_data[15] (bidir start point)
+p:em_ddr_data[16] (bidir end point)
+p:em_ddr_data[16] (bidir start point)
+p:em_ddr_data[17] (bidir end point)
+p:em_ddr_data[17] (bidir start point)
+p:em_ddr_data[18] (bidir end point)
+p:em_ddr_data[18] (bidir start point)
+p:em_ddr_data[19] (bidir end point)
+p:em_ddr_data[19] (bidir start point)
+p:em_ddr_data[20] (bidir end point)
+p:em_ddr_data[20] (bidir start point)
+p:em_ddr_data[21] (bidir end point)
+p:em_ddr_data[21] (bidir start point)
+p:em_ddr_data[22] (bidir end point)
+p:em_ddr_data[22] (bidir start point)
+p:em_ddr_data[23] (bidir end point)
+p:em_ddr_data[23] (bidir start point)
+p:em_ddr_data[24] (bidir end point)
+p:em_ddr_data[24] (bidir start point)
+p:em_ddr_data[25] (bidir end point)
+p:em_ddr_data[25] (bidir start point)
+p:em_ddr_data[26] (bidir end point)
+p:em_ddr_data[26] (bidir start point)
+p:em_ddr_data[27] (bidir end point)
+p:em_ddr_data[27] (bidir start point)
+p:em_ddr_data[28] (bidir end point)
+p:em_ddr_data[28] (bidir start point)
+p:em_ddr_data[29] (bidir end point)
+p:em_ddr_data[29] (bidir start point)
+p:em_ddr_data[30] (bidir end point)
+p:em_ddr_data[30] (bidir start point)
+p:em_ddr_data[31] (bidir end point)
+p:em_ddr_data[31] (bidir start point)
+p:em_ddr_dm[0]
+p:em_ddr_dm[1]
+p:em_ddr_dm[2]
+p:em_ddr_dm[3]
+p:em_ddr_dqs[0] (bidir end point)
+p:em_ddr_dqs[0] (bidir start point)
+p:em_ddr_dqs[1] (bidir end point)
+p:em_ddr_dqs[1] (bidir start point)
+p:em_ddr_dqs[2] (bidir end point)
+p:em_ddr_dqs[2] (bidir start point)
+p:em_ddr_dqs[3] (bidir end point)
+p:em_ddr_dqs[3] (bidir start point)
+p:em_ddr_odt[0]
+p:em_ddr_ras_n
+p:em_ddr_reset_n
+p:em_ddr_we_n
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

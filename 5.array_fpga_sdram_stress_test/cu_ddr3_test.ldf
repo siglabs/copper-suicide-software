@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="cu_ddr3_test" device="LFE5U-85F-8BG756C" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="led_15seg_drv" top="ddr3_test_top"/>
+        <Source name="ddr3_ip/ddr3_ip.sbx" type="sbx" type_short="SBX">
+            <Options/>
+        </Source>
+        <Source name="src/data_gen_chk.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="src/ddr_ulogic.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="src/ddr3_test_params.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="src/ddr3_test_top.v" type="Verilog" type_short="Verilog">
+            <Options top_module="ddr3_test_top"/>
+        </Source>
+        <Source name="src/led_15seg_drv.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="src/lfsr128.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="ddr3_sdram_mem_params_inst1.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="cs_ddr_test.rvl" type="Reveal" type_short="Reveal">
+            <Options/>
+        </Source>
+        <Source name="cu_ddr3_test.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="impl1/impl1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="untitled.rva" type="Reveal Analyzer Project File" type_short="RVA">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="cu_ddr3_test1.sty"/>
+</BaliProject>

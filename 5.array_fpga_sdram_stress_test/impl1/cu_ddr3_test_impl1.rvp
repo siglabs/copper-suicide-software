@@ -1,0 +1,45 @@
+#-- Lattice Semiconductor Corporation Ltd.
+#-- Bali Reveal project file
+
+#device options
+[Device]
+part = LFE5U-85F-8BG756C
+family = ECP5U
+device = LFE5U-85F
+speed = 8
+package = CABGA756
+operation = Commercial
+
+#design options
+[Design]
+title = cu_ddr3_test
+path = C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/impl1
+core_generate = C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/impl1
+search_path = C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST
+top = ddr3_test_top
+lpf = C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/cu_ddr3_test.lpf
+synthesis = synplify
+
+#strategy options
+VHDL2008 = false
+
+#HDLs options
+[HDLs]
+C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/ddr3_ip/inst1/ddr3_sdram_mem_top_wrapper_inst1.v = Verilog
+C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/ddr3_ip/inst1/inst1_bb.v = Verilog
+C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/ddr3_ip/inst1/ddr_clks_inst1_bb.v = Verilog
+C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/ddr3_ip/ddr3_ip.v = Verilog
+C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/src/data_gen_chk.v = Verilog
+C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/src/ddr_ulogic.v = Verilog
+C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/src/ddr3_test_params.v = Verilog
+C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/src/ddr3_test_top.v = Verilog
+C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/src/led_15seg_drv.v = Verilog
+C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/src/lfsr128.v = Verilog
+C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/ddr3_sdram_mem_params_inst1.v = Verilog
+[HDL_Defines]
+SBP_SYNTHESIS=
+[HDL_Param]
+[Generated]
+C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/impl1/reveal_workspace/tmpreveal/ddr3_test_top_la0_trig_gen.v=Verilog
+C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/impl1/reveal_workspace/tmpreveal/ddr3_test_top_la0_gen.v=Verilog
+C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/impl1/reveal_workspace/tmpreveal/ddr3_test_top_rvl.v=Verilog,work

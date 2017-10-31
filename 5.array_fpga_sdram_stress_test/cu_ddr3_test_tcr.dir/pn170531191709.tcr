@@ -1,0 +1,4 @@
+#Start recording tcl command: 5/31/2017 19:11:48
+#Project Location: C:/latest_cu_ddr3_test; Project name: cu_ddr3_test
+prj_project open "C:/latest_cu_ddr3_test/cu_ddr3_test.ldf"
+#Stop recording: 5/31/2017 19:17:09

@@ -1,0 +1,609 @@
+
+mpartrce -p "cu_ddr3_test_impl1.p2t" -f "cu_ddr3_test_impl1.p3t" -tf "cu_ddr3_test_impl1.pt" "cu_ddr3_test_impl1_map.ncd" "cu_ddr3_test_impl1.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "cu_ddr3_test_impl1_map.ncd"
+Fri Jul 14 14:25:50 2017
+
+PAR: Place And Route Diamond (64-bit) 3.9.1.119.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/promote.xml -exp parUseNBR=1:parCDP=auto:parCDR=1:parPathBased=OFF cu_ddr3_test_impl1_map.ncd cu_ddr3_test_impl1.dir/5_1.ncd cu_ddr3_test_impl1.prf
+Preference file: cu_ddr3_test_impl1.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file cu_ddr3_test_impl1_map.ncd.
+Design name: ddr3_test_top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-85F
+Package:     CABGA756
+Performance: 8
+Loading device for application par from file 'sa5p85.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.40.
+Performance Hardware Data Status:   Final          Version 50.1.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)      72/365          19% used
+                     72/365          19% bonded
+   IOLOGIC           65/365          17% used
+
+   SLICE           4785/41820        11% used
+
+   GSR                1/1           100% used
+   OSC                1/1           100% used
+   CLKDIV             1/4            25% used
+   JTAG               1/1           100% used
+   EBR               73/208          35% used
+   PLL                1/4            25% used
+   DDRDLL             1/4            25% used
+   ECLKSYNC           1/10           10% used
+
+
+2 potential circuit loops found in timing analysis.
+Based on the preference: FREQUENCY PORT "clk_in" 125.000000 MHz ;
+A new generated preference: FREQUENCY NET "sclk" 62.500000 MHz ;
+Number of Signals: 12255
+Number of Connections: 33540
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[5]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[28]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[22]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[11]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[27]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[10]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[21]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[4]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[6]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[29]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[12]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[14]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[18]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[1]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[24]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[7]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[30]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[19]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[2]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[13]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[15]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[25]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[8]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[31]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[26]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[16]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[20]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[3]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[17]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[9]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[0]" arg1="PIOauto_BANK_3_VREF"  />
+    <postMsg mid="61031158" type="Warning" dynamic="2" navigation="0" arg0="em_ddr_data[23]" arg1="PIOauto_BANK_3_VREF"  />
+
+Pin Constraint Summary:
+   67 out of 67 pins locked (100% locked).
+
+..
+    <postMsg mid="61121181" type="Warning" dynamic="1" navigation="0" arg0="u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[1].bidi_dqs/inst_dqsbuf"  />
+    <postMsg mid="61121181" type="Warning" dynamic="1" navigation="0" arg0="u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[3].bidi_dqs/inst_dqsbuf"  />
+    <postMsg mid="61121181" type="Warning" dynamic="1" navigation="0" arg0="u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[2].bidi_dqs/inst_dqsbuf"  />
+    <postMsg mid="61121181" type="Warning" dynamic="1" navigation="0" arg0="u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf"  />
+== INFO: CLKI 'clk_in' at 'A18' driving 'u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0' at PLL_BR0 will use clocktree.
+The following 10 signals are selected to use the primary clock routing resources:
+    u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkop (driver: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0, clk/ce/sr load #: 1/0/0)
+    fpga_int_clk (driver: oscg_inst, clk/ce/sr load #: 10/0/0)
+    jtaghub16_jtck (driver: sa5phub/genblk8.jtagg_u, clk/ce/sr load #: 536/0/0)
+    sclk (driver: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_CLKDIVF, clk/ce/sr load #: 2479/0/0)
+    u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos (driver: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0, clk/ce/sr load #: 12/0/0)
+    sa5pht/rdcnt[9] (driver: sa5pht/SLICE_1652, clk/ce/sr load #: 23/0/0)
+    sa5pht/lclk (driver: sa5pht/SLICE_3829, clk/ce/sr load #: 8/0/0)
+    ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/reset_rvl_n (driver: ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/SLICE_4919, clk/ce/sr load #: 0/0/752)
+    jtaghub16_jrstn (driver: sa5phub/genblk8.jtagg_u, clk/ce/sr load #: 0/0/461)
+    u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clk_in_c (driver: clk_in, clk/ce/sr load #: 1/0/0)
+
+
+Signal lip_ngo_xxxxxx_hardtimer is selected as Global Set/Reset.
+Starting Placer Phase 0.
+...............
+Finished Placer Phase 0.  REAL time: 9 secs 
+
+Starting Placer Phase 1.
+.............................
+Placer score = 3576768.
+Finished Placer Phase 1.  REAL time: 27 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  3392661
+Finished Placer Phase 2.  REAL time: 34 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 1 out of 12 (8%)
+  GR_PCLK    : 0 out of 12 (0%)
+  PLL        : 1 out of 4 (25%)
+  DCS        : 0 out of 2 (0%)
+  DCC        : 0 out of 60 (0%)
+  CLKDIV     : 1 out of 4 (25%)
+
+Quadrant TL Clocks:
+  PRIMARY "jtaghub16_jtck" from JTCK on comp "sa5phub/genblk8.jtagg_u" on site "JTAG", CLK/CE/SR load = 4
+  PRIMARY "sclk" from comp "u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_CLKDIVF" on CLKDIV site "CLKDIV_R0", CLK/CE/SR load = 4
+  PRIMARY "ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/reset_rvl_n" from F0 on comp "ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/SLICE_4919" on site "R35C67A", CLK/CE/SR load = 8
+
+  PRIMARY  : 3 out of 16 (18%)
+
+Quadrant TR Clocks:
+  PRIMARY "sclk" from comp "u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_CLKDIVF" on CLKDIV site "CLKDIV_R0", CLK/CE/SR load = 5
+
+  PRIMARY  : 1 out of 16 (6%)
+
+Quadrant BL Clocks:
+  PRIMARY "jtaghub16_jtck" from JTCK on comp "sa5phub/genblk8.jtagg_u" on site "JTAG", CLK/CE/SR load = 246
+  PRIMARY "sclk" from comp "u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_CLKDIVF" on CLKDIV site "CLKDIV_R0", CLK/CE/SR load = 378
+  PRIMARY "sa5pht/lclk" from F0 on comp "sa5pht/SLICE_3829" on site "R59C68A", CLK/CE/SR load = 1
+  PRIMARY "ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/reset_rvl_n" from F0 on comp "ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/SLICE_4919" on site "R35C67A", CLK/CE/SR load = 399
+  PRIMARY "jtaghub16_jrstn" from JRSTN on comp "sa5phub/genblk8.jtagg_u" on site "JTAG", CLK/CE/SR load = 214
+
+  PRIMARY  : 5 out of 16 (31%)
+
+Quadrant BR Clocks:
+  PRIMARY "u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkop" from CLKOP on comp "u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0" on PLL site "PLL_BR0", CLK/CE/SR load = 1
+  PRIMARY "fpga_int_clk" from OSC on comp "oscg_inst" on site "OSC", CLK/CE/SR load = 10
+  PRIMARY "jtaghub16_jtck" from JTCK on comp "sa5phub/genblk8.jtagg_u" on site "JTAG", CLK/CE/SR load = 286
+  PRIMARY "sclk" from comp "u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_CLKDIVF" on CLKDIV site "CLKDIV_R0", CLK/CE/SR load = 2092
+  PRIMARY "u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos" from CLKOS on comp "u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0" on PLL site "PLL_BR0", CLK/CE/SR load = 12
+  PRIMARY "sa5pht/rdcnt[9]" from Q0 on comp "sa5pht/SLICE_1652" on site "R59C67A", CLK/CE/SR load = 23
+  PRIMARY "sa5pht/lclk" from F0 on comp "sa5pht/SLICE_3829" on site "R59C68A", CLK/CE/SR load = 7
+  PRIMARY "ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/reset_rvl_n" from F0 on comp "ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/SLICE_4919" on site "R35C67A", CLK/CE/SR load = 345
+  PRIMARY "jtaghub16_jrstn" from JRSTN on comp "sa5phub/genblk8.jtagg_u" on site "JTAG", CLK/CE/SR load = 247
+  PRIMARY "u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clk_in_c" from comp "clk_in" on CLK_PIN site "A18 (PT71A)", CLK/CE/SR load = 1
+
+  PRIMARY  : 10 out of 16 (62%)
+
+Edge Clocks:
+
+  ECLK "u_ddr3_sdram_mem_top/inst1_inst/eclk": BANK3_ECLK0
+    - From GPLL_CLKOP "PLL_BR0".CLKOP, driver "u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0".
+
+--------------- End of Clock Report ---------------
+
+
++
+DQSDLL Usage Summary:
+   Number of DQSDLL used: 1.
+   DQSDLL used: Bottom.
+
+I/O Usage Summary (final):
+   73 out of 365 (20.0%) PIO sites used.
+   73 out of 365 (20.0%) bonded PIO sites used.
+   Number of PIO comps: 67; differential: 5.
+   Number of Vref pins used: 1.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-------------+------------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref1  | Bank Vref2 |
++----------+----------------+------------+-------------+------------+
+| 0        | 0 / 56 (  0%)  | -          | -           | -          |
+| 1        | 1 / 48 (  2%)  | 1.5V       | -           | -          |
+| 2        | 0 / 48 (  0%)  | -          | -           | -          |
+| 3        | 51 / 64 ( 79%) | 1.5V       | 0.75V@VREF1 | -          |
+| 4        | 21 / 24 ( 87%) | 1.5V       | -           | -          |
+| 6        | 0 / 64 (  0%)  | -          | -           | -          |
+| 7        | 0 / 48 (  0%)  | -          | -           | -          |
+| 8        | 0 / 13 (  0%)  | -          | -           | -          |
++----------+----------------+------------+-------------+------------+
+
+Total placer CPU time: 34 secs 
+
+Dumping design to file cu_ddr3_test_impl1.dir/5_1.ncd.
+
+2 potential circuit loops found in timing analysis.
+0 connections routed; 33540 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 46 secs 
+
+Start NBR router at 14:26:37 07/14/17
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+2 potential circuit loops found in timing analysis.
+Start NBR special constraint process at 14:26:38 07/14/17
+
+Start NBR section for initial routing at 14:26:39 07/14/17
+Level 1, iteration 1
+0(0.00%) conflict; 25566(76.23%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.415ns/0.000ns; real time: 49 secs 
+Level 2, iteration 1
+0(0.00%) conflict; 25529(76.12%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.415ns/0.000ns; real time: 50 secs 
+Level 3, iteration 1
+27(0.00%) conflicts; 25262(75.32%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.415ns/0.000ns; real time: 50 secs 
+Level 4, iteration 1
+1926(0.05%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.415ns/0.000ns; real time: 55 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 14:26:45 07/14/17
+Level 1, iteration 1
+12(0.00%) conflicts; 2903(8.66%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.415ns/0.000ns; real time: 55 secs 
+Level 2, iteration 1
+4(0.00%) conflicts; 2952(8.80%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.415ns/0.000ns; real time: 56 secs 
+Level 3, iteration 1
+7(0.00%) conflicts; 2945(8.78%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.415ns/0.000ns; real time: 56 secs 
+Level 4, iteration 1
+1175(0.03%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.415ns/0.000ns; real time: 58 secs 
+Level 4, iteration 2
+562(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.415ns/0.000ns; real time: 59 secs 
+Level 4, iteration 3
+297(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.415ns/0.000ns; real time: 1 mins 
+Level 4, iteration 4
+167(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.415ns/0.000ns; real time: 1 mins 
+Level 4, iteration 5
+79(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.415ns/0.000ns; real time: 1 mins 1 secs 
+Level 4, iteration 6
+37(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.415ns/0.000ns; real time: 1 mins 1 secs 
+Level 4, iteration 7
+27(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.415ns/0.000ns; real time: 1 mins 1 secs 
+Level 4, iteration 8
+9(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.415ns/0.000ns; real time: 1 mins 2 secs 
+Level 4, iteration 9
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.415ns/0.000ns; real time: 1 mins 2 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 14:26:52 07/14/17
+2 potential circuit loops found in timing analysis.
+2 potential circuit loops found in timing analysis.
+
+Start NBR section for re-routing at 14:26:55 07/14/17
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.415ns/0.000ns; real time: 1 mins 5 secs 
+
+Start NBR section for post-routing at 14:26:55 07/14/17
+2 potential circuit loops found in timing analysis.
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 0.415ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+2 potential circuit loops found in timing analysis.
+2 potential circuit loops found in timing analysis.
+2 potential circuit loops found in timing analysis.
+Total CPU time 1 mins 10 secs 
+Total REAL time: 1 mins 12 secs 
+Completely routed.
+End of route.  33540 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file cu_ddr3_test_impl1.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 1.057
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.174
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 1 mins 13 secs 
+Total REAL time to completion: 1 mins 15 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+trce -f "cu_ddr3_test_impl1.pt" -o "cu_ddr3_test_impl1.twr" "cu_ddr3_test_impl1.ncd" "cu_ddr3_test_impl1.prf"
+trce:  version Diamond (64-bit) 3.9.1.119
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Loading design for application trce from file cu_ddr3_test_impl1.ncd.
+Design name: ddr3_test_top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-85F
+Package:     CABGA756
+Performance: 8
+Loading device for application trce from file 'sa5p85.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.40.
+Performance Hardware Data Status:   Final          Version 50.1.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.9.1.119
+Fri Jul 14 14:27:08 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 8 -sphld m -o cu_ddr3_test_impl1.twr -gui -msgset C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/promote.xml cu_ddr3_test_impl1.ncd cu_ddr3_test_impl1.prf 
+Design file:     cu_ddr3_test_impl1.ncd
+Preference file: cu_ddr3_test_impl1.prf
+Device,speed:    LFE5U-85F,8
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+2 potential circuit loops found in timing analysis.
+Based on the preference: FREQUENCY PORT "clk_in" 125.000000 MHz ;
+A new generated preference: FREQUENCY NET "sclk" 62.500000 MHz ;
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK JTAG PATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+VCCIO Voltage:
+                   1.500 V (Bank 3, defined by PAR)
+                   1.500 V (Bank 4, defined by PAR)
+
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 32315 paths, 238 nets, and 32655 connections (97.36% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.9.1.119
+Fri Jul 14 14:27:09 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 8 -sphld m -o cu_ddr3_test_impl1.twr -gui -msgset C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/promote.xml cu_ddr3_test_impl1.ncd cu_ddr3_test_impl1.prf 
+Design file:     cu_ddr3_test_impl1.ncd
+Preference file: cu_ddr3_test_impl1.prf
+Device,speed:    LFE5U-85F,m
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+2 potential circuit loops found in timing analysis.
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK JTAG PATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+VCCIO Voltage:
+                   1.500 V (Bank 3, defined by PAR)
+                   1.500 V (Bank 4, defined by PAR)
+
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 32315 paths, 17 nets, and 32651 connections (97.35% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Total time: 6 secs 
+
+iotiming  "cu_ddr3_test_impl1.ncd" "cu_ddr3_test_impl1.prf"
+I/O Timing Report:
+:  version Diamond (64-bit) 3.9.1.119
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Loading design for application iotiming from file cu_ddr3_test_impl1.ncd.
+Design name: ddr3_test_top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-85F
+Package:     CABGA756
+Performance: 8
+Loading device for application iotiming from file 'sa5p85.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.40.
+Performance Hardware Data Status:   Final          Version 50.1.
+2 potential circuit loops found in timing analysis.
+Based on the preference: FREQUENCY PORT "clk_in" 125.000000 MHz ;
+A new generated preference: FREQUENCY NET "sclk" 62.500000 MHz ;
+Running Performance Grade: 8
+Computing Setup Time ...
+Computing Max Clock to Output Delay ...
+Computing Hold Time ...
+2 potential circuit loops found in timing analysis.
+Computing Min Clock to Output Delay ...
+
+Loading design for application iotiming from file cu_ddr3_test_impl1.ncd.
+Design name: ddr3_test_top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-85F
+Package:     CABGA756
+Performance: 9
+Package Status:                     Final          Version 1.40.
+Performance Hardware Data Status:   Final          Version 50.1.
+2 potential circuit loops found in timing analysis.
+Running Performance Grade: 9
+Computing Setup Time ...
+Computing Max Clock to Output Delay ...
+Computing Hold Time ...
+2 potential circuit loops found in timing analysis.
+Computing Min Clock to Output Delay ...
+
+Loading design for application iotiming from file cu_ddr3_test_impl1.ncd.
+Design name: ddr3_test_top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-85F
+Package:     CABGA756
+Performance: M
+Package Status:                     Final          Version 1.40.
+Performance Hardware Data Status:   Final          Version 50.1.
+2 potential circuit loops found in timing analysis.
+Running Performance Grade: M
+Computing Setup Time ...
+Computing Max Clock to Output Delay ...
+Computing Hold Time ...
+2 potential circuit loops found in timing analysis.
+Computing Min Clock to Output Delay ...
+Done.
+
+bitgen -w "cu_ddr3_test_impl1.ncd" -f "cu_ddr3_test_impl1.t2b" -e -s "C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/cu_ddr3_test.sec" -k "C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/cu_ddr3_test.bek" "cu_ddr3_test_impl1.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.9.1.119
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file cu_ddr3_test_impl1.ncd.
+Design name: ddr3_test_top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-85F
+Package:     CABGA756
+Performance: 8
+Loading device for application Bitgen from file 'sa5p85.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.40.
+Performance Hardware Data Status:   Final          Version 50.1.
+    <postMsg mid="1081318" type="Warning" dynamic="0" navigation="0"  />
+
+Running DRC.
+    <postMsg mid="71001132" type="Warning" dynamic="1" navigation="0" arg0="u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkop"  />
+DRC detected 0 errors and 1 warnings.
+Reading Preference File from cu_ddr3_test_impl1.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                        CfgMode  |                      Disable**  |
++---------------------------------+---------------------------------+
+|                        DONE_EX  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                        DONE_OD  |                           ON**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                          2.4**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                    CONFIG_MODE  |                         JTAG**  |
++---------------------------------+---------------------------------+
+|                        WAKE_UP  |                           21**  |
++---------------------------------+---------------------------------+
+|                             ES  |                           No**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                     DisableUES  |                        FALSE**  |
++---------------------------------+---------------------------------+
+|            SLAVE_PARALLEL_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                      DONE_PULL  |                           ON**  |
++---------------------------------+---------------------------------+
+|               CONFIG_IOVOLTAGE  |                          2.5**  |
++---------------------------------+---------------------------------+
+|                        TRANSFR  |                          OFF**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 10.23.
+ 
+Saving bit stream in "cu_ddr3_test_impl1.bit".

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\synlog\cu_ddr3_test_impl1_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>ddr3_sdram_mem_top_inst1_uniq_1|sclk</data>
+<data>215.2 MHz</data>
+<data>182.9 MHz</data>
+<data>-0.820</data>
+</row>
+<row>
+<data>ddr3_test_top|fpga_int_clk_inferred_clock</data>
+<data>2.4 MHz</data>
+<data>355.6 MHz</data>
+<data>410.091</data>
+</row>
+<row>
+<data>reveal_coretop|jtck_inferred_clock[0]</data>
+<data>207.9 MHz</data>
+<data>176.7 MHz</data>
+<data>-0.849</data>
+</row>
+<row>
+<data>System</data>
+<data>404.3 MHz</data>
+<data>343.6 MHz</data>
+<data>-0.437</data>
+</row>
+</report_table>

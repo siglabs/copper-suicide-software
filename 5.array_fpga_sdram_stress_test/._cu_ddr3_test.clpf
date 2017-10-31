@@ -1,0 +1,3 @@
+U ddr3_ulogic 0 0 255
+U u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_core/ddr3_core 255 0 0
+U u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_wr_path/wr_path 0 255 0

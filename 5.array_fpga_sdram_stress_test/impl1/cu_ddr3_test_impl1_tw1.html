@@ -1,0 +1,1342 @@
+<HTML>
+<HEAD><TITLE>Lattice Map TRACE Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Map_Twr"></A><B><U><big>Map TRACE Report</big></U></B>
+
+Loading design for application trce from file cu_ddr3_test_impl1_map.ncd.
+Design name: ddr3_test_top
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-85F
+Package:     CABGA756
+Performance: 8
+Loading device for application trce from file 'sa5p85.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.40.
+Performance Hardware Data Status:   Final          Version 50.1.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+<A name="Map_Twr_setup"></A><B><U><big>Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.9.1.119</big></U></B>
+Fri Jul 14 14:24:27 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_set_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o cu_ddr3_test_impl1.tw1 -gui -msgset C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/promote.xml cu_ddr3_test_impl1_map.ncd cu_ddr3_test_impl1.prf 
+Design file:     cu_ddr3_test_impl1_map.ncd
+Preference file: cu_ddr3_test_impl1.prf
+Device,speed:    LFE5U-85F,8
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+<A name="mtw1_set_ps"></A><B><U><big>Preference Summary</big></U></B>
+
+<LI><A href='#map_twr_pref_0_0' Target='right'>FREQUENCY NET "fpga_int_clk" 2.400000 MHz (0 errors)</A></LI>            296 items scored, 0 timing errors detected.
+Report:  440.917MHz is the maximum frequency for this preference.
+
+<LI><A href='#map_twr_pref_0_1' Target='right'>FREQUENCY NET "u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clk_in_c" 125.000000 MHz (0 errors)</A></LI>            203 items scored, 0 timing errors detected.
+Report:  400.000MHz is the maximum frequency for this preference.
+
+<LI><A href='#map_twr_pref_0_2' Target='right'>FREQUENCY PORT "clk_in" 125.000000 MHz (0 errors)</A></LI>            0 items scored, 0 timing errors detected.
+Report:  200.000MHz is the maximum frequency for this preference.
+
+<LI><A href='#map_twr_pref_0_3' Target='right'>FREQUENCY NET "sclk*" 200.000000 MHz PAR_ADJ 40.000000 (0 errors)</A></LI>            0 items scored, 0 timing errors detected.
+Report:  271.444MHz is the maximum frequency for this preference.
+
+<LI><A href='#map_twr_pref_0_4' Target='right'>FREQUENCY NET "*clkop*" 400.000000 MHz PAR_ADJ 80.000000 (0 errors)</A></LI>            0 items scored, 0 timing errors detected.
+Report:  400.000MHz is the maximum frequency for this preference.
+
+<LI><A href='#map_twr_pref_0_5' Target='right'>BLOCK PATH FROM CLKNET "*/clkos*" TO CLKNET "*eclk" (0 errors)</A></LI>            2 items scored.
+
+<LI><A href='#map_twr_pref_0_6' Target='right'>BLOCK PATH FROM CLKNET "*/clkos*" TO CLKNET "sclk*" (0 errors)</A></LI>            2 items scored.
+
+<LI><A href='#map_twr_pref_0_7' Target='right'>MAXDELAY NET "*/U1_ddr3_sdram_phy/ddr3_read_data_out[*]" 4.500000 ns (0 errors)</A></LI>            128 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_0_8' Target='right'>MAXDELAY NET "*/U1_ddr3_sdram_phy/datavalid_o[*]" 4.400000 ns (0 errors)</A></LI>            4 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_0_9' Target='right'>MAXDELAY FROM CELL "*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_wr_data_val_in[*]" 4.500000 ns (0 errors)</A></LI>            64 items scored, 0 timing errors detected.
+Report:  1019.368MHz is the maximum frequency for this preference.
+
+<LI><A href='#map_twr_pref_0_10' Target='right'>MAXDELAY FROM CELL "*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_dqsout_in[*]" 4.500000 ns (0 errors)</A></LI>            8 items scored, 0 timing errors detected.
+Report:  664.452MHz is the maximum frequency for this preference.
+
+<LI><A href='#map_twr_pref_0_11' Target='right'>MAXDELAY NET "*/U1_ddr3_sdram_phy/burstdet[*]" 4.500000 ns (0 errors)</A></LI>            4 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_0_12' Target='right'>MAXDELAY NET "*/U1_ddr3_sdram_phy/rt_rdclksel[*]" 4.500000 ns (0 errors)</A></LI>            12 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_0_13' Target='right'>MAXDELAY NET "*/U1_ddr3_sdram_phy/rt_dqs_read[*]" 4.500000 ns (0 errors)</A></LI>            8 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_0_14' Target='right'>MAXDELAY NET "*/U1_ddr3_sdram_phy/dqsbufd_pause" 4.500000 ns (0 errors)</A></LI>            1 item scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_0_15' Target='right'>MAXDELAY NET "*/U1_ddr3_sdram_phy/ddrin[*]" 2.500000 ns (0 errors)</A></LI>            32 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_0_16' Target='right'>MAXDELAY NET "*/U1_ddr3_sdram_phy/wl_dyndelay[*]" 4.500000 ns (0 errors)</A></LI>            32 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_0_17' Target='right'>Timing Rule Check(0 errors)</A></LI>            40 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_0_18' Target='right'>FREQUENCY NET "sclk" 62.500000 MHz (0 errors)</A></LI>            4096 items scored, 0 timing errors detected.
+Report:  218.436MHz is the maximum frequency for this preference.
+
+2 potential circuit loops found in timing analysis.
+Based on the preference: FREQUENCY PORT "clk_in" 125.000000 MHz ;
+A new generated preference: FREQUENCY NET "sclk" 62.500000 MHz ;
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK JTAG PATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+VCCIO Voltage:
+                   1.500 V (Bank 3, defined by PAR)
+                   1.500 V (Bank 4, defined by PAR)
+
+
+
+================================================================================
+<A name="map_twr_pref_0_0"></A>Preference: FREQUENCY NET "fpga_int_clk" 2.400000 MHz ;
+            296 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 414.399ns
+         The internal maximum frequency of the following component is 440.917 MHz
+
+ Logical Details:  Cell type  Pin name       Component name
+
+   Destination:    SLICE      CLK            SLICE_0
+
+   Delay:               2.268ns -- based on Minimum Pulse Width
+
+
+Passed: The following path meets requirements by 414.764ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              rst_n_cntr[1]  (from fpga_int_clk +)
+   Destination:    FF         Data in        rst_n_cntr[15]  (to fpga_int_clk +)
+
+   Delay:               2.012ns  (37.5% logic, 62.5% route), 3 logic levels.
+
+ Constraint Details:
+
+      2.012ns physical path delay SLICE_389 to SLICE_0 meets
+    416.667ns delay constraint less
+     -0.109ns CE_SET requirement (totaling 416.776ns) by 414.764ns
+
+ Physical Path Details:
+
+      Data path SLICE_389 to SLICE_0:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.395  SLICE_389.CLK to   SLICE_389.Q0 SLICE_389 (from fpga_int_clk)
+ROUTE         2   e 0.419   SLICE_389.Q0 to  SLICE_1638.B1 rst_n_cntr[1]
+CTOF_DEL    ---     0.180  SLICE_1638.B1 to  SLICE_1638.F1 SLICE_1638
+ROUTE         2   e 0.419  SLICE_1638.F1 to  SLICE_3269.D0 rst_n_2_8
+CTOF_DEL    ---     0.180  SLICE_3269.D0 to  SLICE_3269.F0 SLICE_3269
+ROUTE         9   e 0.419  SLICE_3269.F0 to     SLICE_0.CE rst_n_2_i (to fpga_int_clk)
+                  --------
+                    2.012   (37.5% logic, 62.5% route), 3 logic levels.
+
+Report:  440.917MHz is the maximum frequency for this preference.
+
+
+================================================================================
+<A name="map_twr_pref_0_1"></A>Preference: FREQUENCY NET "u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clk_in_c" 125.000000 MHz ;
+            203 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 5.500ns
+         The internal maximum frequency of the following component is 400.000 MHz
+
+ Logical Details:  Cell type  Pin name       Component name
+
+   Destination:    IOLOGIC    ECLK           em_ddr_clk[0]_MGIOL
+
+   Delay:               2.500ns -- based on Minimum Pulse Width
+
+
+Passed: The following path meets requirements by 5.891ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/cs_memsync[3]  (from u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos +)
+   Destination:    FF         Data in        u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/flag[1]  (to u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos +)
+
+   Delay:               2.319ns  (45.8% logic, 54.2% route), 4 logic levels.
+
+ Constraint Details:
+
+      2.319ns physical path delay u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/SLICE_1681 to u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/SLICE_1683 meets
+      8.000ns delay constraint less
+     -0.210ns DIN_SET requirement (totaling 8.210ns) by 5.891ns
+
+ Physical Path Details:
+
+      Data path u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/SLICE_1681 to u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/SLICE_1683:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.395 *LICE_1681.CLK to *SLICE_1681.Q0 u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/SLICE_1681 (from u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos)
+ROUTE         7   e 0.419 *SLICE_1681.Q0 to *SLICE_4383.A0 u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/cs_memsync[3]
+CTOF_DEL    ---     0.180 *SLICE_4383.A0 to *SLICE_4383.F0 u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/SLICE_4383
+ROUTE         2   e 0.419 *SLICE_4383.F0 to *SLICE_3256.B0 u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/N_30
+CTOF_DEL    ---     0.180 *SLICE_3256.B0 to *SLICE_3256.F0 u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/SLICE_3256
+ROUTE         3   e 0.419 *SLICE_3256.F0 to *SLICE_1683.A1 u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/N_21
+CTOOFX_DEL  ---     0.306 *SLICE_1683.A1 to *ICE_1683.OFX0 u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/SLICE_1683
+ROUTE         1   e 0.001 *ICE_1683.OFX0 to *LICE_1683.DI0 u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/N_289_i (to u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos)
+                  --------
+                    2.319   (45.8% logic, 54.2% route), 4 logic levels.
+
+Report:  400.000MHz is the maximum frequency for this preference.
+
+
+================================================================================
+<A name="map_twr_pref_0_2"></A>Preference: FREQUENCY PORT "clk_in" 125.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 3.000ns
+         The internal maximum frequency of the following component is 200.000 MHz
+
+ Logical Details:  Cell type  Pin name       Component name
+
+   Destination:    PIO        PAD            clk_in
+
+   Delay:               5.000ns -- based on Minimum Pulse Width
+
+Report:  200.000MHz is the maximum frequency for this preference.
+
+
+================================================================================
+<A name="map_twr_pref_0_3"></A>Preference: FREQUENCY NET "sclk*" 200.000000 MHz PAR_ADJ 40.000000 ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 1.316ns
+         The internal maximum frequency of the following component is 271.444 MHz
+
+ Logical Details:  Cell type  Pin name       Component name
+
+   Destination:    DP16KD     CLKA           ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/tm_u/genblk4.tr_mem/pmi_ram_dpEbnonesadr317124096317124096p13cd7317_1_34_1
+
+   Delay:               3.684ns -- based on Minimum Pulse Width
+
+Report:  271.444MHz is the maximum frequency for this preference.
+
+
+================================================================================
+<A name="map_twr_pref_0_4"></A>Preference: FREQUENCY NET "*clkop*" 400.000000 MHz PAR_ADJ 80.000000 ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 0.000ns
+         The internal maximum frequency of the following component is 400.000 MHz
+
+ Logical Details:  Cell type  Pin name       Component name
+
+   Destination:    IOLOGIC    ECLK           em_ddr_clk[0]_MGIOL
+
+   Delay:               2.500ns -- based on Minimum Pulse Width
+
+Report:  400.000MHz is the maximum frequency for this preference.
+
+
+================================================================================
+<A name="map_twr_pref_0_5"></A>Preference: BLOCK PATH FROM CLKNET "*/clkos*" TO CLKNET "*eclk" ;
+            2 items scored.
+--------------------------------------------------------------------------------
+
+
+Blocked: 
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/cs_memsync[3]  (from u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos +)
+   Destination:    CLKDIVF    Port           u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_CLKDIVF(ASIC)  (to u_ddr3_sdram_mem_top/inst1_inst/eclk +)
+
+   Delay:               1.413ns  (40.7% logic, 59.3% route), 2 logic levels.
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.395 *LICE_1681.CLK to *SLICE_1681.Q0 u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/SLICE_1681 (from u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos)
+ROUTE         7   e 0.419 *SLICE_1681.Q0 to *SLICE_4385.A0 u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/cs_memsync[3]
+CTOF_DEL    ---     0.180 *SLICE_4385.A0 to *SLICE_4385.F0 u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/SLICE_4385
+ROUTE        70   e 0.419 *SLICE_4385.F0 to *1_CLKDIVF.RST u_ddr3_sdram_mem_top/inst1_inst/ddr_rst (to u_ddr3_sdram_mem_top/inst1_inst/eclk)
+                  --------
+                    1.413   (40.7% logic, 59.3% route), 2 logic levels.
+
+
+================================================================================
+<A name="map_twr_pref_0_6"></A>Preference: BLOCK PATH FROM CLKNET "*/clkos*" TO CLKNET "sclk*" ;
+            2 items scored.
+--------------------------------------------------------------------------------
+
+
+Blocked: 
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/cs_memsync[2]  (from u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos +)
+   Destination:    FF         Data in        u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/dqsbufd_pause  (to sclk +)
+
+   Delay:               0.995ns  (57.8% logic, 42.2% route), 2 logic levels.
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.395 *LICE_1688.CLK to *SLICE_1688.Q0 u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/SLICE_1688 (from u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos)
+ROUTE        12   e 0.419 *SLICE_1688.Q0 to *SLICE_2559.B0 u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/mem_sync_pause
+CTOF_DEL    ---     0.180 *SLICE_2559.B0 to *SLICE_2559.F0 u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/SLICE_2559
+ROUTE         1   e 0.001 *SLICE_2559.F0 to *LICE_2559.DI0 u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/dqsbufd_pause_2 (to sclk)
+                  --------
+                    0.995   (57.8% logic, 42.2% route), 2 logic levels.
+
+
+================================================================================
+<A name="map_twr_pref_0_7"></A>Preference: MAXDELAY NET "*/U1_ddr3_sdram_phy/ddr3_read_data_out[*]" 4.500000 ns ;
+            128 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:    0.419ns delay on u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/ddr3_read_data_out[95] meets
+           4.500ns delay constraint by 4.081ns
+
+           Delays             Connection(s)
+         e 0.419ns em_ddr_data[23]_MGIOL.RXDATA3 to u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/SLICE_2373.M1
+
+Report:    0.419ns is the maximum delay for this preference.
+
+
+================================================================================
+<A name="map_twr_pref_0_8"></A>Preference: MAXDELAY NET "*/U1_ddr3_sdram_phy/datavalid_o[*]" 4.400000 ns ;
+            4 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:    0.419ns delay on u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/datavalid_o[0] meets
+           4.400ns delay constraint by 3.981ns
+
+           Delays             Connection(s)
+         e 0.419ns u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf.DATAVALID to u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/SLICE_2298.M0
+
+Report:    0.419ns is the maximum delay for this preference.
+
+
+================================================================================
+<A name="map_twr_pref_0_9"></A>Preference: MAXDELAY FROM CELL "*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_wr_data_val_in[*]" 4.500000 ns ;
+            64 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 3.519ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_wr_path/ddr3_wr_data_val_in[0]  (from sclk +)
+   Destination:    FF         Data in        u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/U1_TSHX2DQA  (to sclk +)
+
+   Delay:               0.814ns  (48.5% logic, 51.5% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.814ns physical path delay u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_wr_path/SLICE_2519 to em_ddr_data[0]_MGIOL meets
+      4.500ns delay constraint less
+      0.167ns DO_SET requirement (totaling 4.333ns) by 3.519ns
+
+ Physical Path Details:
+
+      Data path u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_wr_path/SLICE_2519 to em_ddr_data[0]_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.395 *LICE_2519.CLK to *SLICE_2519.Q0 u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_wr_path/SLICE_2519 (from sclk)
+ROUTE        16   e 0.419 *SLICE_2519.Q0 to *MGIOL.TSDATA0 u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/ddr3_wr_data_val_in[0] (to sclk)
+                  --------
+                    0.814   (48.5% logic, 51.5% route), 1 logic levels.
+
+Report:  1019.368MHz is the maximum frequency for this preference.
+
+
+================================================================================
+<A name="map_twr_pref_0_10"></A>Preference: MAXDELAY FROM CELL "*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_dqsout_in[*]" 4.500000 ns ;
+            8 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 2.995ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_wr_path/ddr3_dqsout_in[0]  (from sclk +)
+   Destination:    FF         Data in        u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/U1_ODDRX2DQSB  (to sclk +)
+
+   Delay:               1.413ns  (40.7% logic, 59.3% route), 2 logic levels.
+
+ Constraint Details:
+
+      1.413ns physical path delay u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_wr_path/SLICE_2320 to em_ddr_dqs[0]_MGIOL meets
+      4.500ns delay constraint less
+      0.092ns DO_SET requirement (totaling 4.408ns) by 2.995ns
+
+ Physical Path Details:
+
+      Data path u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_wr_path/SLICE_2320 to em_ddr_dqs[0]_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.395 *LICE_2320.CLK to *SLICE_2320.Q0 u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_wr_path/SLICE_2320 (from sclk)
+ROUTE         2   e 0.419 *SLICE_2320.Q0 to *SLICE_4301.C0 u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/ddr3_dqsout_in[0]
+CTOF_DEL    ---     0.180 *SLICE_4301.C0 to *SLICE_4301.F0 u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/SLICE_4301
+ROUTE         1   e 0.419 *SLICE_4301.F0 to *MGIOL.TXDATA1 u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/ddr3_dqsout_db0a_int (to sclk)
+                  --------
+                    1.413   (40.7% logic, 59.3% route), 2 logic levels.
+
+Report:  664.452MHz is the maximum frequency for this preference.
+
+
+================================================================================
+<A name="map_twr_pref_0_11"></A>Preference: MAXDELAY NET "*/U1_ddr3_sdram_phy/burstdet[*]" 4.500000 ns ;
+            4 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:    0.419ns delay on u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/burstdet[0] meets
+           4.500ns delay constraint by 4.081ns
+
+           Delays             Connection(s)
+         e 0.419ns u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf.BURSTDET to u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/read_training_0/SLICE_2658.M0
+
+Report:    0.419ns is the maximum delay for this preference.
+
+
+================================================================================
+<A name="map_twr_pref_0_12"></A>Preference: MAXDELAY NET "*/U1_ddr3_sdram_phy/rt_rdclksel[*]" 4.500000 ns ;
+            12 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:    0.419ns delay on u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/rt_rdclksel[0] meets
+           4.500ns delay constraint by 4.081ns
+
+           Delays             Connection(s)
+         e 0.419ns u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/read_training_0/genblk1.u1[0].store_rdclksel/SLICE_2722.Q0 to u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf.READCLKSEL0
+
+Report:    0.419ns is the maximum delay for this preference.
+
+
+================================================================================
+<A name="map_twr_pref_0_13"></A>Preference: MAXDELAY NET "*/U1_ddr3_sdram_phy/rt_dqs_read[*]" 4.500000 ns ;
+            8 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:    0.419ns delay on u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/rt_dqs_read[0] meets
+           4.500ns delay constraint by 4.081ns
+
+           Delays             Connection(s)
+         e 0.419ns u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/read_training_0/genblk1.u1[0].store_rdclksel/SLICE_2711.Q0 to u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf.READ0
+
+Report:    0.419ns is the maximum delay for this preference.
+
+
+================================================================================
+<A name="map_twr_pref_0_14"></A>Preference: MAXDELAY NET "*/U1_ddr3_sdram_phy/dqsbufd_pause" 4.500000 ns ;
+            1 item scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:    0.419ns delay on u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/dqsbufd_pause meets
+           4.500ns delay constraint by 4.081ns
+
+           Delays             Connection(s)
+         e 0.419ns u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/SLICE_2559.Q0 to u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf.PAUSE
+         e 0.419ns u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/SLICE_2559.Q0 to u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[2].bidi_dqs/inst_dqsbuf.PAUSE
+         e 0.419ns u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/SLICE_2559.Q0 to u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[3].bidi_dqs/inst_dqsbuf.PAUSE
+         e 0.419ns u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/SLICE_2559.Q0 to u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[1].bidi_dqs/inst_dqsbuf.PAUSE
+
+Report:    0.419ns is the maximum delay for this preference.
+
+
+================================================================================
+<A name="map_twr_pref_0_15"></A>Preference: MAXDELAY NET "*/U1_ddr3_sdram_phy/ddrin[*]" 2.500000 ns ;
+            32 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:    0.419ns delay on u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/ddrin[23] meets
+           2.500ns delay constraint by 2.081ns
+
+           Delays             Connection(s)
+         e 0.419ns em_ddr_data[23]_MGIOL.INFF to u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/SLICE_2829.M1
+
+Report:    0.419ns is the maximum delay for this preference.
+
+
+================================================================================
+<A name="map_twr_pref_0_16"></A>Preference: MAXDELAY NET "*/U1_ddr3_sdram_phy/wl_dyndelay[*]" 4.500000 ns ;
+            32 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+Report:    0.419ns delay on u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/wl_dyndelay[0] meets
+           4.500ns delay constraint by 4.081ns
+
+           Delays             Connection(s)
+         e 0.419ns u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/wr_level_0/SLICE_2834.Q0 to u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf.DYNDELAY0
+
+Report:    0.419ns is the maximum delay for this preference.
+
+
+================================================================================
+<A name="map_twr_pref_0_17"></A>Internal Preference: Timing Rule Check
+            40 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+This section of the Trace report will identify any inherent timing rule violations
+in the design. These rules may be affected by other preferences.
+
+
+Passed: em_ddr_dqs[0]_MGIOL meets ECLK to DQSW skew range from -16.117ns to -0.171ns
+
+   Max skew of -0.419ns meets timing requirement of -0.171ns by 0.248ns
+
+   Max ECLK:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.464        A18.PAD to      A18.PADDI clk_in
+ROUTE         1   e 0.419      A18.PADDI to *LLInst_0.CLKI u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clk_in_c
+CLKI2OP_DE  ---     0.000 *LLInst_0.CLKI to *LInst_0.CLKOP u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0
+ROUTE         2   e 0.419 *LInst_0.CLKOP to *LKSYNCB.ECLKI u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkop
+C2OUT_DEL   ---     0.000 *LKSYNCB.ECLKI to *LKSYNCB.ECLKO u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_ECLKSYNCB
+ROUTE        48   e 0.419 *LKSYNCB.ECLKO to *0]_MGIOL.ECLK u_ddr3_sdram_mem_top/inst1_inst/eclk (to u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/dqsw)
+                  --------
+                    2.721   (53.8% logic, 46.2% route), 3 logic levels.
+
+   Feedback path:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+CLKFB2OP_D  ---     0.000 *LInst_0.CLKFB to *LInst_0.CLKOP u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0
+ROUTE         2   e 0.156 *LInst_0.CLKOP to *LInst_0.CLKFB u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkop
+                  --------
+                    0.156   (0.0% logic, 100.0% route), 1 logic levels.
+
+   Min DQSW:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.464        A18.PAD to      A18.PADDI clk_in
+ROUTE         1   e 0.419      A18.PADDI to *LLInst_0.CLKI u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clk_in_c
+CLKI2OP_DE  ---     0.000 *LLInst_0.CLKI to *LInst_0.CLKOP u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0
+ROUTE         2   e 0.419 *LInst_0.CLKOP to *LKSYNCB.ECLKI u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkop
+C2OUT_DEL   ---     0.000 *LKSYNCB.ECLKI to *LKSYNCB.ECLKO u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_ECLKSYNCB
+ROUTE        48   e 0.419 *LKSYNCB.ECLKO to *t_dqsbuf.ECLK u_ddr3_sdram_mem_top/inst1_inst/eclk
+S2DQSW_DEL  ---     0.000 *t_dqsbuf.ECLK to *t_dqsbuf.DQSW u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf
+ROUTE         1   e 0.419 *t_dqsbuf.DQSW to *0]_MGIOL.DQSW u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/dqsw
+                  --------
+                    3.140   (46.6% logic, 53.4% route), 4 logic levels.
+
+   Feedback path:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+CLKFB2OP_D  ---     0.000 *LInst_0.CLKFB to *LInst_0.CLKOP u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0
+ROUTE         2   e 0.156 *LInst_0.CLKOP to *LInst_0.CLKFB u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkop
+                  --------
+                    0.156   (0.0% logic, 100.0% route), 1 logic levels.
+
+   Min skew of -0.419ns meets timing requirement of -16.117ns by 15.698ns
+
+   Min ECLK:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.484        A18.PAD to      A18.PADDI clk_in
+ROUTE         1   e 0.419      A18.PADDI to *LLInst_0.CLKI u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clk_in_c
+CLKI2OP_DE  ---     0.000 *LLInst_0.CLKI to *LInst_0.CLKOP u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0
+ROUTE         2   e 0.419 *LInst_0.CLKOP to *LKSYNCB.ECLKI u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkop
+C2OUT_DEL   ---     0.000 *LKSYNCB.ECLKI to *LKSYNCB.ECLKO u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_ECLKSYNCB
+ROUTE        48   e 0.419 *LKSYNCB.ECLKO to *0]_MGIOL.ECLK u_ddr3_sdram_mem_top/inst1_inst/eclk (to u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/dqsw)
+                  --------
+                    2.741   (54.1% logic, 45.9% route), 3 logic levels.
+
+   Feedback path:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+CLKFB2OP_D  ---     0.000 *LInst_0.CLKFB to *LInst_0.CLKOP u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0
+ROUTE         2   e 0.156 *LInst_0.CLKOP to *LInst_0.CLKFB u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkop
+                  --------
+                    0.156   (0.0% logic, 100.0% route), 1 logic levels.
+
+   Max DQSW:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     1.484        A18.PAD to      A18.PADDI clk_in
+ROUTE         1   e 0.419      A18.PADDI to *LLInst_0.CLKI u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clk_in_c
+CLKI2OP_DE  ---     0.000 *LLInst_0.CLKI to *LInst_0.CLKOP u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0
+ROUTE         2   e 0.419 *LInst_0.CLKOP to *LKSYNCB.ECLKI u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkop
+C2OUT_DEL   ---     0.000 *LKSYNCB.ECLKI to *LKSYNCB.ECLKO u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_ECLKSYNCB
+ROUTE        48   e 0.419 *LKSYNCB.ECLKO to *t_dqsbuf.ECLK u_ddr3_sdram_mem_top/inst1_inst/eclk
+S2DQSW_DEL  ---     0.000 *t_dqsbuf.ECLK to *t_dqsbuf.DQSW u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf
+ROUTE         1   e 0.419 *t_dqsbuf.DQSW to *0]_MGIOL.DQSW u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/dqsw
+                  --------
+                    3.160   (47.0% logic, 53.0% route), 4 logic levels.
+
+   Feedback path:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+CLKFB2OP_D  ---     0.000 *LInst_0.CLKFB to *LInst_0.CLKOP u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0
+ROUTE         2   e 0.156 *LInst_0.CLKOP to *LInst_0.CLKFB u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkop
+                  --------
+                    0.156   (0.0% logic, 100.0% route), 1 logic levels.
+
+
+================================================================================
+<A name="map_twr_pref_0_18"></A>Internal Preference: FREQUENCY NET "sclk" 62.500000 MHz ;
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 11.422ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/input_a_d2[32]  (from sclk +)
+   Destination:    FF         Data in        ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/tu_out  (to sclk +)
+
+   Delay:               4.788ns  (41.0% logic, 59.0% route), 9 logic levels.
+
+ Constraint Details:
+
+      4.788ns physical path delay ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/SLICE_1370 to ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/SLICE_1548 meets
+     16.000ns delay constraint less
+     -0.210ns DIN_SET requirement (totaling 16.210ns) by 11.422ns
+
+ Physical Path Details:
+
+      Data path ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/SLICE_1370 to ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/SLICE_1548:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.395 *LICE_1370.CLK to *SLICE_1370.Q0 ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/SLICE_1370 (from sclk)
+ROUTE         2   e 0.419 *SLICE_1370.Q0 to *SLICE_3640.B1 ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/input_a_d2[32]
+CTOF_DEL    ---     0.180 *SLICE_3640.B1 to *SLICE_3640.F1 ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/SLICE_3640
+ROUTE         1   e 0.156 *SLICE_3640.F1 to *SLICE_3640.A0 ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/N_3109
+CTOF_DEL    ---     0.180 *SLICE_3640.A0 to *SLICE_3640.F0 ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/SLICE_3640
+ROUTE         1   e 0.419 *SLICE_3640.F0 to *SLICE_3597.A0 ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/falling_edge_20
+CTOF_DEL    ---     0.180 *SLICE_3597.A0 to *SLICE_3597.F0 ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/SLICE_3597
+ROUTE         1   e 0.419 *SLICE_3597.F0 to *SLICE_3586.D0 ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/falling_edge_101
+CTOF_DEL    ---     0.180 *SLICE_3586.D0 to *SLICE_3586.F0 ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/SLICE_3586
+ROUTE         1   e 0.419 *SLICE_3586.F0 to *SLICE_3585.C1 ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/falling_edge_114
+CTOF_DEL    ---     0.180 *SLICE_3585.C1 to *SLICE_3585.F1 ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/SLICE_3585
+ROUTE         1   e 0.419 *SLICE_3585.F1 to *SLICE_3193.C1 ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/c_7_i_m2_N_6L10
+CTOOFX_DEL  ---     0.306 *SLICE_3193.C1 to *ICE_3193.OFX0 ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/tu_out_RNO_2/SLICE_3193
+ROUTE         1   e 0.419 *ICE_3193.OFX0 to *SLICE_1548.A1 ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/tu_out_RNO_2
+CTOF_DEL    ---     0.180 *SLICE_1548.A1 to *SLICE_1548.F1 ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/SLICE_1548
+ROUTE         1   e 0.156 *SLICE_1548.F1 to *SLICE_1548.C0 ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/tu_out_RNO_1
+CTOF_DEL    ---     0.180 *SLICE_1548.C0 to *SLICE_1548.F0 ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/SLICE_1548
+ROUTE         1   e 0.001 *SLICE_1548.F0 to *LICE_1548.DI0 ddr3_test_top_reveal_coretop_instance/ddr3_test_top_la0_inst_0/trig_u/tu_6/N_3267_i (to sclk)
+                  --------
+                    4.788   (41.0% logic, 59.0% route), 9 logic levels.
+
+Report:  218.436MHz is the maximum frequency for this preference.
+
+<A name="mtw1_set_rs"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference                              |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "fpga_int_clk" 2.400000   |             |             |
+MHz ;                                   |    2.400 MHz|  440.917 MHz|   0  
+                                        |             |             |
+FREQUENCY NET                           |             |             |
+"u_ddr3_sdram_mem_top/inst1_inst/U1_cloc|             |             |
+king/clk_in_c" 125.000000 MHz ;         |  125.000 MHz|  400.000 MHz|   0  
+                                        |             |             |
+FREQUENCY PORT "clk_in" 125.000000 MHz  |             |             |
+;                                       |  125.000 MHz|  200.000 MHz|   0  
+                                        |             |             |
+FREQUENCY NET "sclk*" 200.000000 MHz    |             |             |
+PAR_ADJ 40.000000 ;                     |  200.000 MHz|  271.444 MHz|   0  
+                                        |             |             |
+FREQUENCY NET "*clkop*" 400.000000 MHz  |             |             |
+PAR_ADJ 80.000000 ;                     |  400.000 MHz|  400.000 MHz|   0  
+                                        |             |             |
+MAXDELAY NET                            |             |             |
+"*/U1_ddr3_sdram_phy/ddr3_read_data_out[|             |             |
+*]" 4.500000 ns ;                       |     4.500 ns|     0.419 ns|   0  
+                                        |             |             |
+MAXDELAY NET                            |             |             |
+"*/U1_ddr3_sdram_phy/datavalid_o[*]"    |             |             |
+4.400000 ns ;                           |     4.400 ns|     0.419 ns|   0  
+                                        |             |             |
+MAXDELAY FROM CELL                      |             |             |
+"*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_wr_|             |             |
+data_val_in[*]" 4.500000 ns ;           |  222.222 MHz| 1019.368 MHz|   1  
+                                        |             |             |
+MAXDELAY FROM CELL                      |             |             |
+"*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_dqs|             |             |
+out_in[*]" 4.500000 ns ;                |  222.222 MHz|  664.452 MHz|   2  
+                                        |             |             |
+MAXDELAY NET                            |             |             |
+"*/U1_ddr3_sdram_phy/burstdet[*]"       |             |             |
+4.500000 ns ;                           |     4.500 ns|     0.419 ns|   0  
+                                        |             |             |
+MAXDELAY NET                            |             |             |
+"*/U1_ddr3_sdram_phy/rt_rdclksel[*]"    |             |             |
+4.500000 ns ;                           |     4.500 ns|     0.419 ns|   0  
+                                        |             |             |
+MAXDELAY NET                            |             |             |
+"*/U1_ddr3_sdram_phy/rt_dqs_read[*]"    |             |             |
+4.500000 ns ;                           |     4.500 ns|     0.419 ns|   0  
+                                        |             |             |
+MAXDELAY NET                            |             |             |
+"*/U1_ddr3_sdram_phy/dqsbufd_pause"     |             |             |
+4.500000 ns ;                           |     4.500 ns|     0.419 ns|   0  
+                                        |             |             |
+MAXDELAY NET                            |             |             |
+"*/U1_ddr3_sdram_phy/ddrin[*]" 2.500000 |             |             |
+ns ;                                    |     2.500 ns|     0.419 ns|   0  
+                                        |             |             |
+MAXDELAY NET                            |             |             |
+"*/U1_ddr3_sdram_phy/wl_dyndelay[*]"    |             |             |
+4.500000 ns ;                           |     4.500 ns|     0.419 ns|   0  
+                                        |             |             |
+Timing Rule Check                       |            -|            -|   0  
+                                        |             |             |
+FREQUENCY NET "sclk" 62.500000 MHz ;    |   62.500 MHz|  218.436 MHz|   9  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="mtw1_set_clkda"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 7 clocks:
+
+Clock Domain: jtaghub16_jtck   Source: sa5phub/genblk8.jtagg_u.JTCK   Loads: 536
+   No transfer within this clock domain is found
+
+   Data transfers from:
+   Clock Domain: sclk   Source: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_CLKDIVF.CDIVX
+
+Clock Domain: sclk   Source: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_CLKDIVF.CDIVX   Loads: 2479
+   Covered under: MAXDELAY FROM CELL "*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_wr_data_val_in[*]" 4.500000 ns ;
+   Covered under: FREQUENCY NET "sclk" 62.500000 MHz ;
+   Covered under: MAXDELAY FROM CELL "*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_dqsout_in[*]" 4.500000 ns ;
+
+   Data transfers from:
+   Clock Domain: jtaghub16_jtck   Source: sa5phub/genblk8.jtagg_u.JTCK
+
+   Clock Domain: fpga_int_clk   Source: oscg_inst.OSC
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos   Source: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0.CLKOS
+      Blocked under: BLOCK PATH FROM CLKNET "*/clkos*" TO CLKNET "sclk*" ;
+
+Clock Domain: fpga_int_clk   Source: oscg_inst.OSC   Loads: 10
+   Covered under: FREQUENCY NET "fpga_int_clk" 2.400000 MHz ;
+
+   Data transfers from:
+   Clock Domain: jtaghub16_jtck   Source: sa5phub/genblk8.jtagg_u.JTCK
+
+Clock Domain: sa5pht/rdcnt[9]   Source: sa5pht/SLICE_1652.Q0   Loads: 24
+   No transfer within this clock domain is found
+
+Clock Domain: u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/dqsw270[1]   Source: u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[1].bidi_dqs/inst_dqsbuf.DQSW270   Loads: 9
+   No transfer within this clock domain is found
+
+Clock Domain: u_ddr3_sdram_mem_top/inst1_inst/eclk   Source: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_ECLKSYNCB.ECLKO   Loads: 48
+   No transfer within this clock domain is found
+
+   Data transfers from:
+   Clock Domain: jtaghub16_jtck   Source: sa5phub/genblk8.jtagg_u.JTCK
+
+Clock Domain: u_ddr3_sdram_mem_top/inst1_inst/eclk   Source: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_ECLKSYNCB.ECLKO   Loads: 48
+   No transfer within this clock domain is found
+
+   Data transfers from:
+   Clock Domain: jtaghub16_jtck   Source: sa5phub/genblk8.jtagg_u.JTCK
+
+   Clock Domain: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos   Source: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0.CLKOS
+      Covered under: FREQUENCY NET "u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clk_in_c" 125.000000 MHz ;   Transfers: 1
+
+   Clock Domain: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos   Source: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0.CLKOS
+      Covered under: Timing Rule Check   Transfers: 40
+      Covered under: FREQUENCY NET "u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clk_in_c" 125.000000 MHz ;   Transfers: 12
+      Blocked under: BLOCK PATH FROM CLKNET "*/clkos*" TO CLKNET "*eclk" ;
+
+
+<A name="mtw1_set_ts"></A><B><U><big>Timing summary (Setup):</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 32315 paths, 238 nets, and 30772 connections (91.75% coverage)
+
+--------------------------------------------------------------------------------
+<A name="Map_Twr_hold"></A><B><U><big>Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.9.1.119</big></U></B>
+Fri Jul 14 14:24:28 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_hold_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o cu_ddr3_test_impl1.tw1 -gui -msgset C:/FPGA/cs-verification/fpga/fpgas/manual/DDR3_SDRAM_CS_TEST/promote.xml cu_ddr3_test_impl1_map.ncd cu_ddr3_test_impl1.prf 
+Design file:     cu_ddr3_test_impl1_map.ncd
+Preference file: cu_ddr3_test_impl1.prf
+Device,speed:    LFE5U-85F,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+<A name="mtw1_hold_ps"></A><B><U><big>Preference Summary</big></U></B>
+
+<LI><A href='#map_twr_pref_1_0' Target='right'>FREQUENCY NET "fpga_int_clk" 2.400000 MHz (0 errors)</A></LI>            296 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_1_1' Target='right'>FREQUENCY NET "u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clk_in_c" 125.000000 MHz (0 errors)</A></LI>            203 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_1_2' Target='right'>FREQUENCY PORT "clk_in" 125.000000 MHz (0 errors)</A></LI>            0 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_1_3' Target='right'>FREQUENCY NET "sclk*" 200.000000 MHz PAR_ADJ 40.000000 (0 errors)</A></LI>            0 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_1_4' Target='right'>FREQUENCY NET "*clkop*" 400.000000 MHz PAR_ADJ 80.000000 (0 errors)</A></LI>            0 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_1_5' Target='right'>BLOCK PATH FROM CLKNET "*/clkos*" TO CLKNET "*eclk" (0 errors)</A></LI>            2 items scored.
+
+<LI><A href='#map_twr_pref_1_6' Target='right'>BLOCK PATH FROM CLKNET "*/clkos*" TO CLKNET "sclk*" (0 errors)</A></LI>            2 items scored.
+
+<LI><A href='#map_twr_pref_1_7' Target='right'>MAXDELAY FROM CELL "*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_wr_data_val_in[*]" 4.500000 ns (0 errors)</A></LI>            64 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_1_8' Target='right'>MAXDELAY FROM CELL "*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_dqsout_in[*]" 4.500000 ns (0 errors)</A></LI>            8 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_1_9' Target='right'>FREQUENCY NET "sclk" 62.500000 MHz (0 errors)</A></LI>            4096 items scored, 0 timing errors detected.
+
+<LI><A href='#map_twr_pref_1_10' Target='right'>Timing Rule Check(0 errors)</A></LI>            40 items scored, 0 timing errors detected.
+
+2 potential circuit loops found in timing analysis.
+BLOCK ASYNCPATHS
+BLOCK RESETPATHS
+BLOCK JTAG PATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+VCCIO Voltage:
+                   1.500 V (Bank 3, defined by PAR)
+                   1.500 V (Bank 4, defined by PAR)
+
+
+
+================================================================================
+<A name="map_twr_pref_1_0"></A>Preference: FREQUENCY NET "fpga_int_clk" 2.400000 MHz ;
+            296 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.179ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              rst_n_cntr[0]  (from fpga_int_clk +)
+   Destination:    FF         Data in        rst_n_cntr[0]  (to fpga_int_clk +)
+
+   Delay:               0.298ns  (80.2% logic, 19.8% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.298ns physical path delay SLICE_388 to SLICE_388 meets
+      0.119ns DIN_HLD and
+      0.000ns delay constraint requirement (totaling 0.119ns) by 0.179ns
+
+ Physical Path Details:
+
+      Data path SLICE_388 to SLICE_388:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.163  SLICE_388.CLK to   SLICE_388.Q1 SLICE_388 (from fpga_int_clk)
+ROUTE         2   e 0.058   SLICE_388.Q1 to   SLICE_388.A1 rst_n_cntr[0]
+CTOF_DEL    ---     0.076   SLICE_388.A1 to   SLICE_388.F1 SLICE_388
+ROUTE         1   e 0.001   SLICE_388.F1 to  SLICE_388.DI1 rst_n_cntr_s[0] (to fpga_int_clk)
+                  --------
+                    0.298   (80.2% logic, 19.8% route), 2 logic levels.
+
+
+================================================================================
+<A name="map_twr_pref_1_1"></A>Preference: FREQUENCY NET "u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clk_in_c" 125.000000 MHz ;
+            203 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.104ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/lock_d1  (from u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos +)
+   Destination:    FF         Data in        u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/lock_d2  (to u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos +)
+
+   Delay:               0.222ns  (73.9% logic, 26.1% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.222ns physical path delay u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/SLICE_1684 to u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/SLICE_1684 meets
+      0.118ns M_HLD and
+      0.000ns delay constraint requirement (totaling 0.118ns) by 0.104ns
+
+ Physical Path Details:
+
+      Data path u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/SLICE_1684 to u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/SLICE_1684:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.164 *LICE_1684.CLK to *SLICE_1684.Q0 u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/SLICE_1684 (from u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos)
+ROUTE         1   e 0.058 *SLICE_1684.Q0 to *SLICE_1684.M1 u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/lock_d1 (to u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos)
+                  --------
+                    0.222   (73.9% logic, 26.1% route), 1 logic levels.
+
+
+================================================================================
+<A name="map_twr_pref_1_2"></A>Preference: FREQUENCY PORT "clk_in" 125.000000 MHz ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+<A name="map_twr_pref_1_3"></A>Preference: FREQUENCY NET "sclk*" 200.000000 MHz PAR_ADJ 40.000000 ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+<A name="map_twr_pref_1_4"></A>Preference: FREQUENCY NET "*clkop*" 400.000000 MHz PAR_ADJ 80.000000 ;
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+<A name="map_twr_pref_1_5"></A>Preference: BLOCK PATH FROM CLKNET "*/clkos*" TO CLKNET "*eclk" ;
+            2 items scored.
+--------------------------------------------------------------------------------
+
+
+Blocked: 
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/cs_memsync[3]  (from u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos +)
+   Destination:    CLKDIVF    Port           u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_CLKDIVF(ASIC)  (to u_ddr3_sdram_mem_top/inst1_inst/eclk +)
+
+   Delay:               0.638ns  (37.6% logic, 62.4% route), 2 logic levels.
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.194 *LICE_1681.CLK to *SLICE_1681.Q0 u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/SLICE_1681 (from u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos)
+ROUTE         7   e 0.199 *SLICE_1681.Q0 to *SLICE_4385.A0 u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/cs_memsync[3]
+CTOF_DEL    ---     0.089 *SLICE_4385.A0 to *SLICE_4385.F0 u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/SLICE_4385
+ROUTE        70   e 0.199 *SLICE_4385.F0 to *1_CLKDIVF.RST u_ddr3_sdram_mem_top/inst1_inst/ddr_rst (to u_ddr3_sdram_mem_top/inst1_inst/eclk)
+                  --------
+                    0.681   (41.6% logic, 58.4% route), 2 logic levels.
+
+
+================================================================================
+<A name="map_twr_pref_1_6"></A>Preference: BLOCK PATH FROM CLKNET "*/clkos*" TO CLKNET "sclk*" ;
+            2 items scored.
+--------------------------------------------------------------------------------
+
+
+Blocked: 
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/cs_memsync[2]  (from u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos +)
+   Destination:    FF         Data in        u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/dqsbufd_pause  (to sclk +)
+
+   Delay:               0.440ns  (54.5% logic, 45.5% route), 2 logic levels.
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.194 *LICE_1688.CLK to *SLICE_1688.Q0 u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_mem_sync/SLICE_1688 (from u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos)
+ROUTE        12   e 0.199 *SLICE_1688.Q0 to *SLICE_2559.B0 u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/mem_sync_pause
+CTOF_DEL    ---     0.089 *SLICE_2559.B0 to *SLICE_2559.F0 u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/SLICE_2559
+ROUTE         1   e 0.001 *SLICE_2559.F0 to *LICE_2559.DI0 u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/dqsbufd_pause_2 (to sclk)
+                  --------
+                    0.483   (58.6% logic, 41.4% route), 2 logic levels.
+
+
+================================================================================
+<A name="map_twr_pref_1_7"></A>Preference: MAXDELAY FROM CELL "*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_wr_data_val_in[*]" 4.500000 ns ;
+            64 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.428ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_wr_path/ddr3_wr_data_val_in[1]  (from sclk +)
+   Destination:    FF         Data in        u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[1].bidi_dqs/U1_TSHX2DQA$r5  (to sclk +)
+
+   Delay:               0.362ns  (45.0% logic, 55.0% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.362ns physical path delay u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_wr_path/SLICE_2519 to em_ddr_data[10]_MGIOL meets
+     -0.066ns DO_HLD and
+      0.000ns delay constraint requirement (totaling -0.066ns) by 0.428ns
+
+ Physical Path Details:
+
+      Data path u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_wr_path/SLICE_2519 to em_ddr_data[10]_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.163 *LICE_2519.CLK to *SLICE_2519.Q1 u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_wr_path/SLICE_2519 (from sclk)
+ROUTE        16   e 0.199 *SLICE_2519.Q1 to *MGIOL.TSDATA1 u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/ddr3_wr_data_val_in[1] (to sclk)
+                  --------
+                    0.362   (45.0% logic, 55.0% route), 1 logic levels.
+
+Report:    0.362ns is the minimum delay for this preference.
+
+
+================================================================================
+<A name="map_twr_pref_1_8"></A>Preference: MAXDELAY FROM CELL "*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_dqsout_in[*]" 4.500000 ns ;
+            8 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.655ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_wr_path/ddr3_dqsout_in[1]  (from sclk +)
+   Destination:    FF         Data in        u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[1].bidi_dqs/U1_ODDRX2DQSB  (to sclk +)
+
+   Delay:               0.637ns  (37.5% logic, 62.5% route), 2 logic levels.
+
+ Constraint Details:
+
+      0.637ns physical path delay u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_wr_path/SLICE_2320 to em_ddr_dqs[1]_MGIOL meets
+     -0.018ns DO_HLD and
+      0.000ns delay constraint requirement (totaling -0.018ns) by 0.655ns
+
+ Physical Path Details:
+
+      Data path u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_wr_path/SLICE_2320 to em_ddr_dqs[1]_MGIOL:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.163 *LICE_2320.CLK to *SLICE_2320.Q1 u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_wr_path/SLICE_2320 (from sclk)
+ROUTE         2   e 0.199 *SLICE_2320.Q1 to *SLICE_4289.C0 u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/ddr3_dqsout_in[1]
+CTOF_DEL    ---     0.076 *SLICE_4289.C0 to *SLICE_4289.F0 u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[1].bidi_dqs/SLICE_4289
+ROUTE         1   e 0.199 *SLICE_4289.F0 to *MGIOL.TXDATA1 u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[1].bidi_dqs/ddr3_dqsout_db0a_int (to sclk)
+                  --------
+                    0.637   (37.5% logic, 62.5% route), 2 logic levels.
+
+Report:    0.637ns is the minimum delay for this preference.
+
+
+================================================================================
+<A name="map_twr_pref_1_9"></A>Preference: FREQUENCY NET "sclk" 62.500000 MHz ;
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: The following path meets requirements by 0.103ns
+
+ Logical Details:  Cell type  Pin type       Cell/ASIC name  (clock net +/-)
+
+   Source:         FF         Q              u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/cal_bc4_r3[0]  (from sclk +)
+   Destination:    FF         Data in        u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/cal_bc4_r4[0]  (to sclk +)
+
+   Delay:               0.221ns  (73.8% logic, 26.2% route), 1 logic levels.
+
+ Constraint Details:
+
+      0.221ns physical path delay u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/SLICE_2293 to u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/SLICE_2293 meets
+      0.118ns M_HLD and
+      0.000ns delay constraint requirement (totaling 0.118ns) by 0.103ns
+
+ Physical Path Details:
+
+      Data path u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/SLICE_2293 to u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/SLICE_2293:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+REG_DEL     ---     0.163 *LICE_2293.CLK to *SLICE_2293.Q1 u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/SLICE_2293 (from sclk)
+ROUTE         1   e 0.058 *SLICE_2293.Q1 to *SLICE_2293.M0 u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/cal_bc4_r3_Q[0] (to sclk)
+                  --------
+                    0.221   (73.8% logic, 26.2% route), 1 logic levels.
+
+
+================================================================================
+<A name="map_twr_pref_1_10"></A>Internal Preference: Timing Rule Check
+            40 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed: em_ddr_dqs[0]_MGIOL meets ECLK to DQSW skew range from -16.053ns to -0.079ns
+
+   Max skew of -0.199ns meets timing requirement of -0.079ns by 0.120ns
+
+   Max ECLK:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.780        A18.PAD to      A18.PADDI clk_in
+ROUTE         1   e 0.199      A18.PADDI to *LLInst_0.CLKI u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clk_in_c
+CLKI2OP_DE  ---     0.000 *LLInst_0.CLKI to *LInst_0.CLKOP u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0
+ROUTE         2   e 0.199 *LInst_0.CLKOP to *LKSYNCB.ECLKI u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkop
+C2OUT_DEL   ---     0.000 *LKSYNCB.ECLKI to *LKSYNCB.ECLKO u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_ECLKSYNCB
+ROUTE        48   e 0.199 *LKSYNCB.ECLKO to *0]_MGIOL.ECLK u_ddr3_sdram_mem_top/inst1_inst/eclk (to u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/dqsw)
+                  --------
+                    1.377   (56.6% logic, 43.4% route), 3 logic levels.
+
+   Feedback path:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+CLKFB2OP_D  ---     0.000 *LInst_0.CLKFB to *LInst_0.CLKOP u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0
+ROUTE         2   e 0.058 *LInst_0.CLKOP to *LInst_0.CLKFB u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkop
+                  --------
+                    0.058   (0.0% logic, 100.0% route), 1 logic levels.
+
+   Min DQSW:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.780        A18.PAD to      A18.PADDI clk_in
+ROUTE         1   e 0.199      A18.PADDI to *LLInst_0.CLKI u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clk_in_c
+CLKI2OP_DE  ---     0.000 *LLInst_0.CLKI to *LInst_0.CLKOP u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0
+ROUTE         2   e 0.199 *LInst_0.CLKOP to *LKSYNCB.ECLKI u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkop
+C2OUT_DEL   ---     0.000 *LKSYNCB.ECLKI to *LKSYNCB.ECLKO u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_ECLKSYNCB
+ROUTE        48   e 0.199 *LKSYNCB.ECLKO to *t_dqsbuf.ECLK u_ddr3_sdram_mem_top/inst1_inst/eclk
+S2DQSW_DEL  ---     0.000 *t_dqsbuf.ECLK to *t_dqsbuf.DQSW u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf
+ROUTE         1   e 0.199 *t_dqsbuf.DQSW to *0]_MGIOL.DQSW u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/dqsw
+                  --------
+                    1.576   (49.5% logic, 50.5% route), 4 logic levels.
+
+   Feedback path:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+CLKFB2OP_D  ---     0.000 *LInst_0.CLKFB to *LInst_0.CLKOP u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0
+ROUTE         2   e 0.058 *LInst_0.CLKOP to *LInst_0.CLKFB u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkop
+                  --------
+                    0.058   (0.0% logic, 100.0% route), 1 logic levels.
+
+   Min skew of -0.199ns meets timing requirement of -16.053ns by 15.854ns
+
+   Min ECLK:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.837        A18.PAD to      A18.PADDI clk_in
+ROUTE         1   e 0.199      A18.PADDI to *LLInst_0.CLKI u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clk_in_c
+CLKI2OP_DE  ---     0.000 *LLInst_0.CLKI to *LInst_0.CLKOP u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0
+ROUTE         2   e 0.199 *LInst_0.CLKOP to *LKSYNCB.ECLKI u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkop
+C2OUT_DEL   ---     0.000 *LKSYNCB.ECLKI to *LKSYNCB.ECLKO u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_ECLKSYNCB
+ROUTE        48   e 0.199 *LKSYNCB.ECLKO to *0]_MGIOL.ECLK u_ddr3_sdram_mem_top/inst1_inst/eclk (to u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/dqsw)
+                  --------
+                    1.434   (58.4% logic, 41.6% route), 3 logic levels.
+
+   Feedback path:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+CLKFB2OP_D  ---     0.000 *LInst_0.CLKFB to *LInst_0.CLKOP u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0
+ROUTE         2   e 0.058 *LInst_0.CLKOP to *LInst_0.CLKFB u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkop
+                  --------
+                    0.058   (0.0% logic, 100.0% route), 1 logic levels.
+
+   Max DQSW:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+PADI_DEL    ---     0.837        A18.PAD to      A18.PADDI clk_in
+ROUTE         1   e 0.199      A18.PADDI to *LLInst_0.CLKI u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clk_in_c
+CLKI2OP_DE  ---     0.000 *LLInst_0.CLKI to *LInst_0.CLKOP u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0
+ROUTE         2   e 0.199 *LInst_0.CLKOP to *LKSYNCB.ECLKI u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkop
+C2OUT_DEL   ---     0.000 *LKSYNCB.ECLKI to *LKSYNCB.ECLKO u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_ECLKSYNCB
+ROUTE        48   e 0.199 *LKSYNCB.ECLKO to *t_dqsbuf.ECLK u_ddr3_sdram_mem_top/inst1_inst/eclk
+S2DQSW_DEL  ---     0.000 *t_dqsbuf.ECLK to *t_dqsbuf.DQSW u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/inst_dqsbuf
+ROUTE         1   e 0.199 *t_dqsbuf.DQSW to *0]_MGIOL.DQSW u_ddr3_sdram_mem_top/inst1_inst/U1_inst1/U1_ddr3_sdram_phy/U1_ddr3_dqs_io/u[0].bidi_dqs/dqsw
+                  --------
+                    1.633   (51.3% logic, 48.7% route), 4 logic levels.
+
+   Feedback path:
+
+   Name    Fanout   Delay (ns)          Site               Resource
+CLKFB2OP_D  ---     0.000 *LInst_0.CLKFB to *LInst_0.CLKOP u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0
+ROUTE         2   e 0.058 *LInst_0.CLKOP to *LInst_0.CLKFB u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkop
+                  --------
+                    0.058   (0.0% logic, 100.0% route), 1 logic levels.
+
+<A name="mtw1_hold_rs"></A><B><U><big>Report Summary</big></U></B>
+--------------
+----------------------------------------------------------------------------
+Preference(MIN Delays)                  |   Constraint|       Actual|Levels
+----------------------------------------------------------------------------
+                                        |             |             |
+FREQUENCY NET "fpga_int_clk" 2.400000   |             |             |
+MHz ;                                   |     0.000 ns|     0.179 ns|   2  
+                                        |             |             |
+FREQUENCY NET                           |             |             |
+"u_ddr3_sdram_mem_top/inst1_inst/U1_cloc|             |             |
+king/clk_in_c" 125.000000 MHz ;         |     0.000 ns|     0.104 ns|   1  
+                                        |             |             |
+FREQUENCY PORT "clk_in" 125.000000 MHz  |             |             |
+;                                       |            -|            -|   0  
+                                        |             |             |
+FREQUENCY NET "sclk*" 200.000000 MHz    |             |             |
+PAR_ADJ 40.000000 ;                     |            -|            -|   0  
+                                        |             |             |
+FREQUENCY NET "*clkop*" 400.000000 MHz  |             |             |
+PAR_ADJ 80.000000 ;                     |            -|            -|   0  
+                                        |             |             |
+MAXDELAY FROM CELL                      |             |             |
+"*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_wr_|             |             |
+data_val_in[*]" 4.500000 ns ;           |     0.000 ns|     0.362 ns|   1  
+                                        |             |             |
+MAXDELAY FROM CELL                      |             |             |
+"*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_dqs|             |             |
+out_in[*]" 4.500000 ns ;                |     0.000 ns|     0.637 ns|   2  
+                                        |             |             |
+FREQUENCY NET "sclk" 62.500000 MHz ;    |     0.000 ns|     0.103 ns|   1  
+                                        |             |             |
+Timing Rule Check                       |            -|            -|   0  
+                                        |             |             |
+----------------------------------------------------------------------------
+
+
+All preferences were met.
+
+
+<A name="mtw1_hold_clkda"></A><B><U><big>Clock Domains Analysis</big></U></B>
+------------------------
+
+Found 6 clocks:
+
+Clock Domain: jtaghub16_jtck   Source: sa5phub/genblk8.jtagg_u.JTCK   Loads: 536
+   No transfer within this clock domain is found
+
+   Data transfers from:
+   Clock Domain: sclk   Source: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_CLKDIVF.CDIVX
+
+Clock Domain: sclk   Source: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_CLKDIVF.CDIVX   Loads: 2479
+   Covered under: MAXDELAY FROM CELL "*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_dqsout_in[*]" 4.500000 ns ;
+   Covered under: MAXDELAY FROM CELL "*/U1_ddr3_sdram_phy/U1_wr_path/ddr3_wr_data_val_in[*]" 4.500000 ns ;
+   Covered under: FREQUENCY NET "sclk" 62.500000 MHz ;
+
+   Data transfers from:
+   Clock Domain: jtaghub16_jtck   Source: sa5phub/genblk8.jtagg_u.JTCK
+
+   Clock Domain: fpga_int_clk   Source: oscg_inst.OSC
+      Not reported because source and destination domains are unrelated.
+
+   Clock Domain: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos   Source: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0.CLKOS
+      Blocked under: BLOCK PATH FROM CLKNET "*/clkos*" TO CLKNET "sclk*" ;
+
+Clock Domain: fpga_int_clk   Source: oscg_inst.OSC   Loads: 10
+   Covered under: FREQUENCY NET "fpga_int_clk" 2.400000 MHz ;
+
+   Data transfers from:
+   Clock Domain: jtaghub16_jtck   Source: sa5phub/genblk8.jtagg_u.JTCK
+
+Clock Domain: u_ddr3_sdram_mem_top/inst1_inst/eclk   Source: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_ECLKSYNCB.ECLKO   Loads: 48
+   No transfer within this clock domain is found
+
+   Data transfers from:
+   Clock Domain: jtaghub16_jtck   Source: sa5phub/genblk8.jtagg_u.JTCK
+
+Clock Domain: u_ddr3_sdram_mem_top/inst1_inst/eclk   Source: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_ECLKSYNCB.ECLKO   Loads: 48
+   No transfer within this clock domain is found
+
+   Data transfers from:
+   Clock Domain: jtaghub16_jtck   Source: sa5phub/genblk8.jtagg_u.JTCK
+
+Clock Domain: u_ddr3_sdram_mem_top/inst1_inst/eclk   Source: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/U1_ECLKSYNCB.ECLKO   Loads: 48
+   No transfer within this clock domain is found
+
+   Data transfers from:
+   Clock Domain: jtaghub16_jtck   Source: sa5phub/genblk8.jtagg_u.JTCK
+
+   Clock Domain: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos   Source: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0.CLKOS
+      Covered under: FREQUENCY NET "u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clk_in_c" 125.000000 MHz ;   Transfers: 2
+
+   Clock Domain: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos   Source: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0.CLKOS
+      Covered under: FREQUENCY NET "u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clk_in_c" 125.000000 MHz ;   Transfers: 2
+
+   Clock Domain: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clkos   Source: u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/pmi_pll/PLLInst_0.CLKOS
+      Covered under: Timing Rule Check   Transfers: 40
+      Covered under: FREQUENCY NET "u_ddr3_sdram_mem_top/inst1_inst/U1_clocking/clk_in_c" 125.000000 MHz ;   Transfers: 9
+      Blocked under: BLOCK PATH FROM CLKNET "*/clkos*" TO CLKNET "*eclk" ;
+
+
+<A name="mtw1_hold_ts"></A><B><U><big>Timing summary (Hold):</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 32315 paths, 17 nets, and 32015 connections (95.45% coverage)
+
+
+
+<A name="mtw1_ts"></A><B><U><big>Timing summary (Setup and Hold):</big></U></B>
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

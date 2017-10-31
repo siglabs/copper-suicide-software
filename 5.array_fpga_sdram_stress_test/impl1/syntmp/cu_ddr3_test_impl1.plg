@@ -1,0 +1,44 @@
+@P:  Worst Slack : -0.849
+@P:  ddr3_sdram_mem_top_inst1_uniq_1|sclk - Estimated Frequency : 182.9 MHz
+@P:  ddr3_sdram_mem_top_inst1_uniq_1|sclk - Requested Frequency : 215.2 MHz
+@P:  ddr3_sdram_mem_top_inst1_uniq_1|sclk - Estimated Period : 5.466
+@P:  ddr3_sdram_mem_top_inst1_uniq_1|sclk - Requested Period : 4.646
+@P:  ddr3_sdram_mem_top_inst1_uniq_1|sclk - Slack : -0.820
+@P:  ddr3_test_top|fpga_int_clk_inferred_clock - Estimated Frequency : 355.6 MHz
+@P:  ddr3_test_top|fpga_int_clk_inferred_clock - Requested Frequency : 2.4 MHz
+@P:  ddr3_test_top|fpga_int_clk_inferred_clock - Estimated Period : 2.813
+@P:  ddr3_test_top|fpga_int_clk_inferred_clock - Requested Period : 412.903
+@P:  ddr3_test_top|fpga_int_clk_inferred_clock - Slack : 410.091
+@P:  reveal_coretop|jtck_inferred_clock[0] - Estimated Frequency : 176.7 MHz
+@P:  reveal_coretop|jtck_inferred_clock[0] - Requested Frequency : 207.9 MHz
+@P:  reveal_coretop|jtck_inferred_clock[0] - Estimated Period : 5.659
+@P:  reveal_coretop|jtck_inferred_clock[0] - Requested Period : 4.810
+@P:  reveal_coretop|jtck_inferred_clock[0] - Slack : -0.849
+@P:  System - Estimated Frequency : 343.6 MHz
+@P:  System - Requested Frequency : 404.3 MHz
+@P:  System - Estimated Period : 2.910
+@P:  System - Requested Period : 2.474
+@P:  System - Slack : -0.437
+@P:  Total Area : 2207.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:15s

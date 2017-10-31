@@ -1,0 +1,29 @@
+#
+# Logical Preferences generated for Lattice by Synplify maplat, Build 1682R.
+#
+
+# Period Constraints 
+#FREQUENCY NET "u_ddr3_sdram_mem_top/inst1_inst/sclk_1" 215.2 MHz;
+#FREQUENCY NET "ddr3_test_top_reveal_coretop_instance/jtck[0]" 207.9 MHz;
+#FREQUENCY NET "fpga_int_clk" 2.4 MHz;
+
+
+# Output Constraints 
+
+# Input Constraints 
+
+# Point-to-point Delay Constraints 
+
+
+
+# Block Path Constraints 
+#BLOCK PATH FROM CLKNET "ddr3_test_top_reveal_coretop_instance/jtck[0]" TO CLKNET "fpga_int_clk";
+#BLOCK PATH FROM CLKNET "ddr3_test_top_reveal_coretop_instance/jtck[0]" TO CLKNET "u_ddr3_sdram_mem_top/inst1_inst/sclk_1";
+#BLOCK PATH FROM CLKNET "fpga_int_clk" TO CLKNET "ddr3_test_top_reveal_coretop_instance/jtck[0]";
+#BLOCK PATH FROM CLKNET "fpga_int_clk" TO CLKNET "u_ddr3_sdram_mem_top/inst1_inst/sclk_1";
+#BLOCK PATH FROM CLKNET "u_ddr3_sdram_mem_top/inst1_inst/sclk_1" TO CLKNET "ddr3_test_top_reveal_coretop_instance/jtck[0]";
+#BLOCK PATH FROM CLKNET "u_ddr3_sdram_mem_top/inst1_inst/sclk_1" TO CLKNET "fpga_int_clk";
+
+BLOCK ASYNCPATHS;
+
+# End of generated Logical Preferences.

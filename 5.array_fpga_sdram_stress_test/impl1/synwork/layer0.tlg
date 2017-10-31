@@ -1,0 +1,82 @@
+Selecting top level module ddr3_test_top
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\ecp5u.v":1746:7:1746:10|Synthesizing module OSCG in library work.
+
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":3244:7:3244:11|Synthesizing module inst1 in library work.
+
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":3306:7:3306:20|Synthesizing module ddr_clks_inst1 in library work.
+
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":637:7:637:37|Synthesizing module ddr3_sdram_mem_top_inst1_uniq_1 in library work.
+
+@W: CG360 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":687:9:687:14|Removing wire sclk2x, as there is no assignment to it.
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":749:7:749:20|Synthesizing module ddr3_ip_uniq_1 in library work.
+
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2915:7:2915:20|Synthesizing module lfsr128_uniq_1 in library work.
+
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":3077:7:3077:20|Synthesizing module lfsr128_uniq_2 in library work.
+
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2697:7:2697:25|Synthesizing module data_gen_chk_uniq_1 in library work.
+
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2193:7:2193:23|Synthesizing module ddr_ulogic_uniq_1 in library work.
+
+@W: CG360 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2256:15:2256:21|Removing wire RankSel, as there is no assignment to it.
+@W: CG360 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2257:15:2257:17|Removing wire Odt, as there is no assignment to it.
+@W: CL265 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2420:4:2420:9|Removing unused bit 1 of Bl_Mode[1:0]. Either assign all bits or reduce the width of the signal.
+@W: CL190 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2420:4:2420:9|Optimizing register bit cmd[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2420:4:2420:9|Pruning register bit 3 of cmd[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\ecp5u.v":757:7:757:9|Synthesizing module VHI in library work.
+
+
+
+
+
+
+
+
+
+
+
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_la0_trig_gen.v":11:7:11:28|Synthesizing module ddr3_test_top_la0_trig in library work.
+
+
+
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_la0_gen.v":12:7:12:23|Synthesizing module ddr3_test_top_la0 in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\cae_library\synthesis\verilog\pmi_def.v":1162:7:1162:16|Synthesizing module jtagconn16 in library work.
+
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2:7:2:20|Synthesizing module reveal_coretop in library work.
+
+@W: CG360 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":15:29:15:39|Removing wire trigger_out, as there is no assignment to it.
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":1639:7:1639:19|Synthesizing module ddr3_test_top in library work.
+
+@W: CG360 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":1677:9:1677:18|Removing wire err_notify, as there is no assignment to it.
+@W: CG360 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":1692:16:1692:18|Removing wire seg, as there is no assignment to it.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":1738:4:1738:9|Pruning unused register hb_cnt[25:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":1738:4:1738:9|Pruning unused register read_num[25:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":1738:4:1738:9|Pruning unused register write_num[25:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":1738:4:1738:9|Pruning unused register data_0_cnt[22:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":1738:4:1738:9|Pruning unused register data_1_cnt[22:0]. Make sure that there are no unused intermediate registers.
+@N: CL159 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_la0_gen.v":65:7:65:13|Input reset_n is unused.
+@N: CL159 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_la0_gen.v":83:7:83:16|Input trigger_en is unused.
+Extracted state machine for register next_then_shift
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@N: CL201 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2420:4:2420:9|Trying to extract state machine for register cmdgen.
+Extracted state machine for register cmdgen
+State machine has 7 reachable states with original encodings of:
+   0000
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+@W: CL260 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2376:4:2376:9|Pruning register bit 4 of addr_interval[8:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2376:4:2376:9|Pruning register bit 1 of addr_interval[8:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2420:4:2420:9|Pruning register bit 4 of cmd_burst_cnt[4:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2420:4:2420:9|Pruning register bit 2 of cmd_burst_cnt[4:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2376:4:2376:9|Optimizing register bit addr_interval[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2420:4:2420:9|Optimizing register bit cmd_burst_cnt[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2420:4:2420:9|Pruning register bit 1 of cmd_burst_cnt[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\DDR3_SDRAM_CS_TEST\impl1\reveal_workspace\tmpreveal\ddr3_test_top_rvl.v":2376:4:2376:9|Pruning unused register addr_interval[0]. Make sure that there are no unused intermediate registers.

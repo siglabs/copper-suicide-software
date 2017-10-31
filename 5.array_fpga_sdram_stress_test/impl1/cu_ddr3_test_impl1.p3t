@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "cu_ddr3_test_impl1.log"
+-o "cu_ddr3_test_impl1.csv"
+-pr "cu_ddr3_test_impl1.prf"

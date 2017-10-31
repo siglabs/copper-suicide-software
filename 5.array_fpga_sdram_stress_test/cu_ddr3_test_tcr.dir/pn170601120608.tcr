@@ -1,0 +1,5 @@
+#Start recording tcl command: 6/1/2017 11:08:44
+#Project Location: C:/latest_cu_ddr3_test; Project name: cu_ddr3_test
+prj_project open "C:/latest_cu_ddr3_test/cu_ddr3_test.ldf"
+prj_run PAR -impl impl1 -task IOTiming
+#Stop recording: 6/1/2017 12:06:08

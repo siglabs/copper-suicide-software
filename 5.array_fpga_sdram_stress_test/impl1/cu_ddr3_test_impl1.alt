@@ -1,0 +1,77 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Jul 14 14:27:36 2017 *
+NOTE DESIGN NAME: ddr3_test_top *
+NOTE DEVICE NAME: LFE5U-85F-8CABGA756 *
+NOTE VREF_1_3 V29 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS em_ddr_reset_n : AJ32 : out *
+NOTE PINS em_ddr_odt[0] : Y30 : out *
+NOTE PINS em_ddr_dqs[1] : R29 : inout *
+NOTE PINS em_ddr_dqs[3] : AB28 : inout *
+NOTE PINS em_ddr_dqs[2] : AC30 : inout *
+NOTE PINS em_ddr_dqs[0] : R32 : inout *
+NOTE PINS em_ddr_dm[0] : T30 : out *
+NOTE PINS em_ddr_dm[1] : P29 : out *
+NOTE PINS em_ddr_dm[2] : AB29 : out *
+NOTE PINS em_ddr_dm[3] : Y29 : out *
+NOTE PINS em_ddr_data[5] : P32 : inout *
+NOTE PINS em_ddr_data[28] : AB26 : inout *
+NOTE PINS em_ddr_data[22] : AC31 : inout *
+NOTE PINS em_ddr_data[11] : R27 : inout *
+NOTE PINS em_ddr_data[27] : Y26 : inout *
+NOTE PINS em_ddr_data[10] : U27 : inout *
+NOTE PINS em_ddr_data[21] : AD30 : inout *
+NOTE PINS em_ddr_data[4] : U31 : inout *
+NOTE PINS em_ddr_data[6] : U30 : inout *
+NOTE PINS em_ddr_data[29] : W28 : inout *
+NOTE PINS em_ddr_data[12] : T27 : inout *
+NOTE PINS em_ddr_data[14] : U26 : inout *
+NOTE PINS em_ddr_data[18] : AE30 : inout *
+NOTE PINS em_ddr_data[1] : P31 : inout *
+NOTE PINS em_ddr_data[24] : Y27 : inout *
+NOTE PINS em_ddr_data[7] : P30 : inout *
+NOTE PINS em_ddr_data[30] : AC26 : inout *
+NOTE PINS em_ddr_data[19] : AC28 : inout *
+NOTE PINS em_ddr_data[2] : N32 : inout *
+NOTE PINS em_ddr_data[13] : T26 : inout *
+NOTE PINS em_ddr_data[15] : R26 : inout *
+NOTE PINS em_ddr_data[25] : W29 : inout *
+NOTE PINS em_ddr_data[8] : T29 : inout *
+NOTE PINS em_ddr_data[31] : Y28 : inout *
+NOTE PINS em_ddr_data[26] : AC27 : inout *
+NOTE PINS em_ddr_data[16] : Y32 : inout *
+NOTE PINS em_ddr_data[20] : W31 : inout *
+NOTE PINS em_ddr_data[3] : R30 : inout *
+NOTE PINS em_ddr_data[17] : AB30 : inout *
+NOTE PINS em_ddr_data[9] : P28 : inout *
+NOTE PINS em_ddr_data[0] : W30 : inout *
+NOTE PINS em_ddr_data[23] : AD29 : inout *
+NOTE PINS em_ddr_clk[0] : AD32 : out *
+NOTE PINS em_ddr_cas_n : AM28 : out *
+NOTE PINS em_ddr_ras_n : AD26 : out *
+NOTE PINS em_ddr_we_n : AJ28 : out *
+NOTE PINS em_ddr_ba[0] : AM29 : out *
+NOTE PINS em_ddr_ba[1] : AL28 : out *
+NOTE PINS em_ddr_ba[2] : AK29 : out *
+NOTE PINS em_ddr_addr[0] : AH30 : out *
+NOTE PINS em_ddr_addr[1] : AM31 : out *
+NOTE PINS em_ddr_addr[2] : AK28 : out *
+NOTE PINS em_ddr_addr[3] : AG28 : out *
+NOTE PINS em_ddr_addr[4] : AK30 : out *
+NOTE PINS em_ddr_addr[5] : AL30 : out *
+NOTE PINS em_ddr_addr[6] : AK31 : out *
+NOTE PINS em_ddr_addr[7] : AG30 : out *
+NOTE PINS em_ddr_addr[8] : AK32 : out *
+NOTE PINS em_ddr_addr[9] : AL32 : out *
+NOTE PINS em_ddr_addr[10] : AM30 : out *
+NOTE PINS em_ddr_addr[11] : AH28 : out *
+NOTE PINS em_ddr_addr[12] : AG29 : out *
+NOTE PINS em_ddr_addr[13] : AH32 : out *
+NOTE PINS em_ddr_addr[14] : AJ31 : out *
+NOTE PINS em_ddr_cs_n[0] : AE31 : out *
+NOTE PINS em_ddr_cke[0] : U28 : out *
+NOTE PINS clk_in : A18 : in *
+NOTE PINS BANK_3_VREF : V29 : in *
+NOTE CONFIGURATION MODE: JTAG *
+NOTE COMPRESSION: off *
