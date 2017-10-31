@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="cfg_fpga_array_prog" device="LFE5U-85F-8BG756C" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="tmp" description="impl1" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="cfg_fpga_array_prog" top="cfg_fpga_array_prog"/>
+        <Source name="cfg_fpga_array_prog.edf" type="EDIF" type_short="EDIF">
+            <Options/>
+        </Source>
+        <Source name="constraints/cfg_fpga_array_prog.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="tmp/impl1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="cfg_fpga_array_prog1.sty"/>
+</BaliProject>

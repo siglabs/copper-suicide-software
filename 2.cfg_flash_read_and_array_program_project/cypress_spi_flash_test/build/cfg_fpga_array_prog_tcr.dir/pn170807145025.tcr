@@ -1,0 +1,5 @@
+#Start recording tcl command: 8/7/2017 14:13:52
+#Project Location: C:/FPGA/cs-verification/fpga/fpgas/manual/cypress_spi_flash_test/build; Project name: cfg_fpga_array_prog
+prj_project open "C:/FPGA/cs-verification/fpga/fpgas/manual/cypress_spi_flash_test/build/cfg_fpga_array_prog.ldf"
+prj_run Export -impl impl1 -task Bitgen
+#Stop recording: 8/7/2017 14:50:25

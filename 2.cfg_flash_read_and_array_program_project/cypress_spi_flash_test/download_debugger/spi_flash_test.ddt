@@ -1,0 +1,18 @@
+[Deployment Project]
+version=Lattice Diamond 3.9.1.119
+EncryptionVer=1.0
+functionIdx=1
+typeIdx=5
+isRequiredXCFFile=1
+xcfFileName=C:/FPGA/cs-verification/fpga/fpgas/manual/cypress_spi_flash_test/download_debugger/spi_test_image.xcf
+optionList=Operation;Write Header and Comments;Rev D Standard SVF;RUNTEST from Rev C;For Erase, Program, and Verify Operations, Skip Verify;Include RESET at the End of the SVF File;Set Maximum Data Size per Row;Maximum Data Size per Row (Kbits)
+valueList=;On;Off;Off;On;Off;Off;64
+
+[Input File Info]
+inputFileList=
+familyList=
+deviceList=
+outputFileList=C:/FPGA/cs-verification/fpga/fpgas/manual/cypress_spi_flash_test/download_debugger/spi_test_image.svf
+
+[Command Line]
+Command="C:/lscc/diamond/3.9_x64/bin/nt64/ddtcmd" -oft -svfchain -if "C:/FPGA/cs-verification/fpga/fpgas/manual/cypress_spi_flash_test/download_debugger/spi_test_image.xcf" -skipverify -of "C:/FPGA/cs-verification/fpga/fpgas/manual/cypress_spi_flash_test/download_debugger/spi_test_image.svf"

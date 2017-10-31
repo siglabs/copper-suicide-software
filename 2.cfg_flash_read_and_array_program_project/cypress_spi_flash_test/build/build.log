@@ -1,0 +1,986 @@
+--- Lattice Diamond  Version 3.9.1.119
+--- Copyright (C) 1992-2017 Lattice Semiconductor Corporation.
+--- All Rights Reserved.
+--- Lattice Diamond install path: C:/lscc/diamond/3.9_x64
+--- Start Time: Mon Aug 7 14:50:16 2017
+ERROR - No reveal project is opened.
+WARNING - Create a new implementation in an existing sub-directory 'tmp'.
+
+synpwrap -msg -prj "cfg_fpga_array_prog_impl1_synplify.tcl" -log "cfg_fpga_array_prog_impl1.srf"
+Copyright (C) 1992-2017 Lattice Semiconductor Corporation. All rights reserved.
+Lattice Diamond Version 3.9.1.119
+    <postMsg mid="2011000" type="Info"    dynamic="0" navigation="0"  />
+
+==contents of cfg_fpga_array_prog_impl1.srf
+#Build: Synplify Pro L-2016.09L-1, Build 147R, Mar  7 2017
+#install: C:\lscc\diamond\3.9_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-1B4IDNG
+
+# Mon Aug 07 22:50:17 2017
+
+#Implementation: tmp
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 284R, built Mar 10 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 284R, built Mar 10 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\ecp5u.v" (library work)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv" (library work)
+@I::"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv" (library work)
+@I::"C:\FPGA\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv" (library work)
+Verilog syntax check successful!
+File C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv changed - recompiling
+Selecting top level module cfg_fpga_array_prog
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\ecp5u.v":1746:7:1746:10|Synthesizing module OSCG in library work.
+
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":10:7:10:13|Synthesizing module USRMCLK in library work.
+
+@W: CG146 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":10:7:10:13|Creating black box for empty module USRMCLK
+
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":29:7:29:23|Synthesizing module s25fl_qspi_reader in library work.
+
+	P_256MBIT_OR_LARGER=32'b00000000000000000000000000000001
+	SPI_ADDR_BITS=32'b00000000000000000000000000100000
+	SPI_CMD_BITS=32'b00000000000000000000000000001000
+	SPI_CMD_DATA_BITS=32'b00000000000000000000000000001000
+	SPI_DOUT_MAX_BITS=32'b00000000000000000000000000110000
+	SPI_DOUT_CNTR_BITS=32'b00000000000000000000000000000110
+	SPI_CLK_CYCLE_CNTR_BITS=32'b00000000000000000000000000000100
+	MODE_BIT_RESET_CMD=8'b11111111
+	SOFTWARE_RESET_CMD=8'b11110000
+	WRITE_ENABLE_CMD=8'b00000110
+	WRITE_CONFIG_REGISTER_CMD=8'b00000001
+	WRITE_BANK_ADDR_REG=8'b00010111
+	QUAD_OUTPUT_FAST_READ_CMD=8'b01101011
+	QUAD_OUTPUT_FAST_4BYTE_READ_CMD=8'b01101100
+	CONFIG_REGISTER_VAL=8'b11000010
+	STATUS_REG1_VAL=8'b00000000
+	BANK_REG_ADDR_VAL=8'b10000000
+   Generated name = s25fl_qspi_reader_Z1
+
+@W: CG532 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":59:4:59:10|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@N: CG364 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":14:7:14:25|Synthesizing module cfg_fpga_array_prog in library work.
+
+@N: CG364 :"C:\FPGA\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":14:7:14:34|Synthesizing module ecp5_slave_serial_programmer in library work.
+
+	P_CONFIG_BYTES=32'b00000000001000101111111111110110
+	TIMING_CNTR_CLKS=32'b00000000000000000000010000000000
+	BYTE_CNTR_BITS=32'b00000000000000000000000000010110
+	TIMING_CNTR_BITS=32'b00000000000000000000000000001010
+   Generated name = ecp5_slave_serial_programmer_2293750s_1024s_22s_10s
+
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL254 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":261:4:261:12|A possible syn_keep on a reg that results in sequential logic - assuming that a tristate can be transmitted through : signal name could change
+@W: CL254 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":261:4:261:12|A possible syn_keep on a reg that results in sequential logic - assuming that a tristate can be transmitted through : signal name could change
+@W: CL254 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|A possible syn_keep on a reg that results in sequential logic - assuming that a tristate can be transmitted through : signal name could change
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@N: CL201 :"C:\FPGA\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":111:4:111:12|Trying to extract state machine for register ecp5_ss_fsm_state.
+Extracted state machine for register ecp5_ss_fsm_state
+State machine has 7 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+   00000000000000000000000000000110
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":174:4:174:12|Pruning unused register usrmclk_ts_cntr[3:0]. Make sure that there are no unused intermediate registers.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[0] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[1] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[2] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[3] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[4] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[5] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[6] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[7] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[8] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[9] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[10] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[11] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[12] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[13] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[14] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[15] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[16] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[17] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[18] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[19] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[20] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[21] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[22] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[23] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[24] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[26] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[27] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[28] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[29] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[32] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[33] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[34] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[35] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[36] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[37] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[38] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[40] is always 1.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[43] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[45] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[46] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_next_reg[47] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[1] is always 1.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[2] is always 1.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[3] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[4] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[5] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[6] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[7] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[8] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[9] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[10] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[11] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[12] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[13] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[14] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[15] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[16] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[17] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[18] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[19] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[20] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[21] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[22] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[23] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[24] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[25] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[26] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[27] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[28] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[29] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[30] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_next_state[31] is always 0.
+@W: CL279 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Pruning register bits 31 to 1 of flash_rd_fsm_next_next_state[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Pruning register bits 47 to 45 of flash_dout_next_next_reg[47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Pruning register bit 43 of flash_dout_next_next_reg[47:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Pruning register bit 40 of flash_dout_next_next_reg[47:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Pruning register bits 38 to 32 of flash_dout_next_next_reg[47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Pruning register bits 29 to 26 of flash_dout_next_next_reg[47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Pruning register bits 24 to 0 of flash_dout_next_next_reg[47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_reg[0] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_reg[1] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_reg[2] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_reg[3] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_reg[4] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_reg[5] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_reg[6] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_next_reg[7] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[4] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[5] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[6] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[7] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[8] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[9] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[10] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[11] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[12] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[13] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[14] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[15] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[16] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[17] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[18] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[19] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[20] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[21] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[22] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[23] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[24] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[25] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[26] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[27] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[28] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[29] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[30] is always 0.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_fsm_next_state[31] is always 0.
+@W: CL279 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Pruning register bits 31 to 4 of flash_rd_fsm_next_state[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Pruning register bits 7 to 0 of flash_dout_next_reg[47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_reg[0] is always 0.
+@W: CL260 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Pruning register bit 0 of flash_dout_reg[47:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Trying to extract state machine for register flash_rd_fsm_state.
+Extracted state machine for register flash_rd_fsm_state
+State machine has 16 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+   00000000000000000000000000000110
+   00000000000000000000000000000111
+   00000000000000000000000000001000
+   00000000000000000000000000001001
+   00000000000000000000000000001010
+   00000000000000000000000000001011
+   00000000000000000000000000001100
+   00000000000000000000000000001101
+   00000000000000000000000000001110
+   00000000000000000000000000001111
+@N: CL189 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_dout_reg[1] is always 0.
+@W: CL260 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Pruning register bit 46 of flash_dout_next_reg[47:8]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Pruning register bit 1 of flash_dout_reg[47:1]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Pruning register bit 31 of flash_dout_next_next_reg[31:30]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Pruning register bit 42 of flash_dout_next_next_reg[42:41]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL257 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit 0 always 0, optimizing ...
+@W: CL260 :"C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Pruning register bit 2 of flash_dout_reg[47:2]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 83MB peak: 173MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Aug 07 22:50:19 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 279R, built Mar  8 2017
+@N|Running in 64-bit mode
+File C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\build\tmp\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Aug 07 22:50:19 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Aug 07 22:50:19 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 279R, built Mar  8 2017
+@N|Running in 64-bit mode
+File C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\build\tmp\synwork\cfg_fpga_array_prog_impl1_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Aug 07 22:50:20 2017
+
+###########################################################]
+# Mon Aug 07 22:50:20 2017
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1682R, Built Mar 10 2017 10:47:08
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\build\tmp\cfg_fpga_array_prog_impl1_scck.rpt 
+Printing clock  summary report in "C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\build\tmp\cfg_fpga_array_prog_impl1_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 104MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 104MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 114MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 116MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: BN132 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Removing sequential instance flash_rd_inst.flash_dout_next_next_reg[44] because it is equivalent to instance flash_rd_inst.flash_dout_next_next_reg[39]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Removing sequential instance flash_rd_inst.flash_rd_fsm_next_next_state[0] because it is equivalent to instance flash_rd_inst.flash_dout_next_next_reg[39]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=208  set on top level netlist cfg_fpga_array_prog
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 147MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                               Requested     Requested     Clock        Clock                     Clock
+Clock                                               Frequency     Period        Type         Group                     Load 
+----------------------------------------------------------------------------------------------------------------------------
+System                                              1.0 MHz       1000.000      system       system_clkgroup           0    
+cfg_fpga_array_prog|fpga_int_osc_inferred_clock     2.4 MHz       412.903       inferred     Autoconstr_clkgroup_0     1863 
+============================================================================================================================
+
+@W: MT529 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":111:4:111:12|Found inferred clock cfg_fpga_array_prog|fpga_int_osc_inferred_clock which controls 1863 sequential elements including genblk1\[2\]\.ss_programmer.o_byte_ack. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 147MB)
+
+Encoding state machine ecp5_ss_fsm_state[6:0] (in view: work.ecp5_slave_serial_programmer_2293750s_1024s_22s_10s_15(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine ecp5_ss_fsm_state[6:0] (in view: work.ecp5_slave_serial_programmer_2293750s_1024s_22s_10s_14(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine ecp5_ss_fsm_state[6:0] (in view: work.ecp5_slave_serial_programmer_2293750s_1024s_22s_10s_13(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine ecp5_ss_fsm_state[6:0] (in view: work.ecp5_slave_serial_programmer_2293750s_1024s_22s_10s_12(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine ecp5_ss_fsm_state[6:0] (in view: work.ecp5_slave_serial_programmer_2293750s_1024s_22s_10s_11(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine ecp5_ss_fsm_state[6:0] (in view: work.ecp5_slave_serial_programmer_2293750s_1024s_22s_10s_10(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine ecp5_ss_fsm_state[6:0] (in view: work.ecp5_slave_serial_programmer_2293750s_1024s_22s_10s_9(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine ecp5_ss_fsm_state[6:0] (in view: work.ecp5_slave_serial_programmer_2293750s_1024s_22s_10s_8(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine ecp5_ss_fsm_state[6:0] (in view: work.ecp5_slave_serial_programmer_2293750s_1024s_22s_10s_7(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine ecp5_ss_fsm_state[6:0] (in view: work.ecp5_slave_serial_programmer_2293750s_1024s_22s_10s_6(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine ecp5_ss_fsm_state[6:0] (in view: work.ecp5_slave_serial_programmer_2293750s_1024s_22s_10s_5(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine ecp5_ss_fsm_state[6:0] (in view: work.ecp5_slave_serial_programmer_2293750s_1024s_22s_10s_4(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine ecp5_ss_fsm_state[6:0] (in view: work.ecp5_slave_serial_programmer_2293750s_1024s_22s_10s_3(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine ecp5_ss_fsm_state[6:0] (in view: work.ecp5_slave_serial_programmer_2293750s_1024s_22s_10s_2(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine ecp5_ss_fsm_state[6:0] (in view: work.ecp5_slave_serial_programmer_2293750s_1024s_22s_10s_1(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine ecp5_ss_fsm_state[6:0] (in view: work.ecp5_slave_serial_programmer_2293750s_1024s_22s_10s_0(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine flash_rd_fsm_state[15:0] (in view: work.s25fl_qspi_reader_Z1(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000
+   00000000000000000000000000000001 -> 0001
+   00000000000000000000000000000010 -> 0010
+   00000000000000000000000000000011 -> 0011
+   00000000000000000000000000000100 -> 0100
+   00000000000000000000000000000101 -> 0101
+   00000000000000000000000000000110 -> 0110
+   00000000000000000000000000000111 -> 0111
+   00000000000000000000000000001000 -> 1000
+   00000000000000000000000000001001 -> 1001
+   00000000000000000000000000001010 -> 1010
+   00000000000000000000000000001011 -> 1011
+   00000000000000000000000000001100 -> 1100
+   00000000000000000000000000001101 -> 1101
+   00000000000000000000000000001110 -> 1110
+   00000000000000000000000000001111 -> 1111
+@N: MO225 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|There are no possible illegal states for state machine flash_rd_fsm_state[15:0] (in view: work.s25fl_qspi_reader_Z1(verilog)); safe FSM implementation is not required.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 148MB peak: 150MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 64MB peak: 150MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Aug 07 22:50:21 2017
+
+###########################################################]
+# Mon Aug 07 22:50:21 2017
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1682R, Built Mar 10 2017 10:47:08
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+@W: BN132 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Removing sequential instance flash_rd_inst.rd_num_bytes_reg[25] because it is equivalent to instance flash_rd_inst.rd_num_bytes_reg[21]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+@N: FX493 |Applying initial value "0000000000000000" on instance ss_dout_high_z_reg[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance ss_dout_reg[15:0].
+@N: FX493 |Applying initial value "0000000000000000" on instance ss_mclk_reg[15:0].
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 145MB)
+
+@N: MO231 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":116:4:116:12|Found counter in view:work.cfg_fpga_array_prog(verilog) instance fpga_int_osc_srst_cntr[7:0] 
+@N: MO231 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":131:4:131:12|Found counter in view:work.cfg_fpga_array_prog(verilog) instance fpga_leda_cntr[23:0] 
+Encoding state machine ecp5_ss_fsm_state[6:0] (in view: work.ecp5_slave_serial_programmer_2293750s_1024s_22s_10s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[14].ss_programmer.done_regs[0] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[12].ss_programmer.done_regs[0] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[15].ss_programmer.done_regs[0] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[4].ss_programmer.done_regs[0] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[0].ss_programmer.done_regs[0] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[13].ss_programmer.done_regs[0] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[9].ss_programmer.done_regs[0] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[5].ss_programmer.done_regs[0] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[1].ss_programmer.done_regs[0] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[10].ss_programmer.done_regs[0] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[8].ss_programmer.done_regs[0] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[3].ss_programmer.done_regs[0] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[6].ss_programmer.done_regs[0] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[7].ss_programmer.done_regs[0] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[11].ss_programmer.done_regs[0] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[2].ss_programmer.done_regs[0] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[14].ss_programmer.done_regs[1] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[12].ss_programmer.done_regs[1] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[15].ss_programmer.done_regs[1] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[4].ss_programmer.done_regs[1] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[0].ss_programmer.done_regs[1] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[13].ss_programmer.done_regs[1] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[9].ss_programmer.done_regs[1] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[5].ss_programmer.done_regs[1] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[1].ss_programmer.done_regs[1] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[10].ss_programmer.done_regs[1] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[8].ss_programmer.done_regs[1] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[3].ss_programmer.done_regs[1] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[6].ss_programmer.done_regs[1] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[7].ss_programmer.done_regs[1] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[11].ss_programmer.done_regs[1] is reduced to a combinational gate by constant propagation. 
+@W: MO171 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":92:4:92:12|Sequential instance genblk1[2].ss_programmer.done_regs[1] is reduced to a combinational gate by constant propagation. 
+Encoding state machine flash_rd_fsm_state[15:0] (in view: work.s25fl_qspi_reader_Z1(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000
+   00000000000000000000000000000001 -> 0001
+   00000000000000000000000000000010 -> 0010
+   00000000000000000000000000000011 -> 0011
+   00000000000000000000000000000100 -> 0100
+   00000000000000000000000000000101 -> 0101
+   00000000000000000000000000000110 -> 0110
+   00000000000000000000000000000111 -> 0111
+   00000000000000000000000000001000 -> 1000
+   00000000000000000000000000001001 -> 1001
+   00000000000000000000000000001010 -> 1010
+   00000000000000000000000000001011 -> 1011
+   00000000000000000000000000001100 -> 1100
+   00000000000000000000000000001101 -> 1101
+   00000000000000000000000000001110 -> 1110
+   00000000000000000000000000001111 -> 1111
+@N: MO225 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|There are no possible illegal states for state machine flash_rd_fsm_state[15:0] (in view: work.s25fl_qspi_reader_Z1(verilog)); safe FSM implementation is not required.
+@N: MO231 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Found counter in view:work.s25fl_qspi_reader_Z1(verilog) instance rd_byte_addr_reg[31:0] 
+@W: BN132 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Removing instance flash_rd_inst.rd_num_bytes_reg[6] because it is equivalent to instance flash_rd_inst.rd_num_bytes_reg[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Removing instance flash_rd_inst.rd_num_bytes_reg[19] because it is equivalent to instance flash_rd_inst.rd_num_bytes_reg[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Removing instance flash_rd_inst.rd_num_bytes_reg[18] because it is equivalent to instance flash_rd_inst.rd_num_bytes_reg[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Removing instance flash_rd_inst.rd_num_bytes_reg[17] because it is equivalent to instance flash_rd_inst.rd_num_bytes_reg[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Removing instance flash_rd_inst.rd_num_bytes_reg[16] because it is equivalent to instance flash_rd_inst.rd_num_bytes_reg[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Removing instance flash_rd_inst.rd_num_bytes_reg[15] because it is equivalent to instance flash_rd_inst.rd_num_bytes_reg[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Removing instance flash_rd_inst.rd_num_bytes_reg[14] because it is equivalent to instance flash_rd_inst.rd_num_bytes_reg[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Removing instance flash_rd_inst.rd_num_bytes_reg[13] because it is equivalent to instance flash_rd_inst.rd_num_bytes_reg[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Removing instance flash_rd_inst.rd_num_bytes_reg[12] because it is equivalent to instance flash_rd_inst.rd_num_bytes_reg[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MF179 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":455:32:455:67|Found 32 by 32 bit equality operator ('==') FLASH_RD_FSM\.o_qspi_sel_n64 (in view: work.s25fl_qspi_reader_Z1(verilog))
+@N: BN362 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Removing sequential instance flash_dout_reg[3] (in view: work.s25fl_qspi_reader_Z1(verilog)) because it does not drive other instances.
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 146MB peak: 147MB)
+
+@N: BN362 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Removing sequential instance flash_rd_inst.flash_dout_reg[4] (in view: work.cfg_fpga_array_prog(verilog)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 150MB peak: 150MB)
+
+@N: BN362 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Removing sequential instance flash_rd_inst.flash_dout_reg[7] (in view: work.cfg_fpga_array_prog(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Removing sequential instance flash_rd_inst.flash_dout_reg[6] (in view: work.cfg_fpga_array_prog(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Removing sequential instance flash_rd_inst.flash_dout_reg[5] (in view: work.cfg_fpga_array_prog(verilog)) because it does not drive other instances.
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 151MB peak: 153MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 159MB peak: 162MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 168MB peak: 170MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 168MB peak: 170MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 167MB peak: 170MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 161MB peak: 170MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 174MB peak: 178MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:03s		   408.14ns		1731 /      1797
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 174MB peak: 178MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@W: MO161 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Register bit flash_rd_inst.rd_num_bytes_reg[5] (in view view:work.cfg_fpga_array_prog(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@A: BN291 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\s25fl_qspi_reader.sv":171:4:171:12|Boundary register flash_rd_inst.o_qspi_sel_n.fb (in view: work.cfg_fpga_array_prog(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":111:4:111:12|Boundary register genblk1\[14\]\.ss_programmer.o_prog_n.fb (in view: work.cfg_fpga_array_prog(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":111:4:111:12|Boundary register genblk1\[12\]\.ss_programmer.o_prog_n.fb (in view: work.cfg_fpga_array_prog(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":111:4:111:12|Boundary register genblk1\[15\]\.ss_programmer.o_prog_n.fb (in view: work.cfg_fpga_array_prog(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":111:4:111:12|Boundary register genblk1\[4\]\.ss_programmer.o_prog_n.fb (in view: work.cfg_fpga_array_prog(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":111:4:111:12|Boundary register genblk1\[0\]\.ss_programmer.o_prog_n.fb (in view: work.cfg_fpga_array_prog(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":111:4:111:12|Boundary register genblk1\[13\]\.ss_programmer.o_prog_n.fb (in view: work.cfg_fpga_array_prog(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":111:4:111:12|Boundary register genblk1\[9\]\.ss_programmer.o_prog_n.fb (in view: work.cfg_fpga_array_prog(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":111:4:111:12|Boundary register genblk1\[5\]\.ss_programmer.o_prog_n.fb (in view: work.cfg_fpga_array_prog(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":111:4:111:12|Boundary register genblk1\[1\]\.ss_programmer.o_prog_n.fb (in view: work.cfg_fpga_array_prog(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":111:4:111:12|Boundary register genblk1\[10\]\.ss_programmer.o_prog_n.fb (in view: work.cfg_fpga_array_prog(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":111:4:111:12|Boundary register genblk1\[8\]\.ss_programmer.o_prog_n.fb (in view: work.cfg_fpga_array_prog(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":111:4:111:12|Boundary register genblk1\[3\]\.ss_programmer.o_prog_n.fb (in view: work.cfg_fpga_array_prog(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":111:4:111:12|Boundary register genblk1\[6\]\.ss_programmer.o_prog_n.fb (in view: work.cfg_fpga_array_prog(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":111:4:111:12|Boundary register genblk1\[7\]\.ss_programmer.o_prog_n.fb (in view: work.cfg_fpga_array_prog(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":111:4:111:12|Boundary register genblk1\[11\]\.ss_programmer.o_prog_n.fb (in view: work.cfg_fpga_array_prog(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\fpga\ip-library\ecp5_slave_serial_programmer\hdl\ecp5_slave_serial_programmer.sv":111:4:111:12|Boundary register genblk1\[2\]\.ss_programmer.o_prog_n.fb (in view: work.cfg_fpga_array_prog(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 175MB peak: 178MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 1796 clock pin(s) of sequential element(s)
+0 instances converted, 1796 sequential instances remain driven by gated/generated clocks
+
+================================================================================================= Gated/Generated Clocks =================================================================================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       oscg_inst           OSCG                   1796       CFG_INITN[0]        Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+==========================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 134MB peak: 178MB)
+
+Writing Analyst data base C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\build\tmp\synwork\cfg_fpga_array_prog_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 172MB peak: 178MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\FPGA\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\build\tmp\cfg_fpga_array_prog_impl1.edi
+L-2016.09L-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 177MB peak: 180MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 176MB peak: 180MB)
+
+@W: MT246 :"c:\fpga\cs-verification\fpga\fpgas\manual\cypress_spi_flash_test\hdl\cfg_fpga_array_prog.sv":170:12:170:13|Blackbox USRMCLK is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock cfg_fpga_array_prog|fpga_int_osc_inferred_clock with period 412.90ns. Please declare a user-defined clock on object "n:fpga_int_osc"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Aug 07 22:50:28 2017
+#
+
+
+Top view:               cfg_fpga_array_prog
+Requested Frequency:    2.4 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 407.674
+
+                                                    Requested     Estimated     Requested     Estimated                 Clock        Clock                
+Starting Clock                                      Frequency     Frequency     Period        Period        Slack       Type         Group                
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+cfg_fpga_array_prog|fpga_int_osc_inferred_clock     2.4 MHz       191.2 MHz     412.903       5.229         407.674     inferred     Autoconstr_clkgroup_0
+System                                              1.0 MHz       NA            1000.000      NA            NA          system       system_clkgroup      
+==========================================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                            |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                         Ending                                           |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+cfg_fpga_array_prog|fpga_int_osc_inferred_clock  System                                           |  412.903     411.950  |  No paths    -      |  No paths    -      |  No paths    -    
+cfg_fpga_array_prog|fpga_int_osc_inferred_clock  cfg_fpga_array_prog|fpga_int_osc_inferred_clock  |  412.903     407.674  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: cfg_fpga_array_prog|fpga_int_osc_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                          Starting                                                                                          Arrival            
+Instance                  Reference                                           Type        Pin     Net                       Time        Slack  
+                          Clock                                                                                                                
+-----------------------------------------------------------------------------------------------------------------------------------------------
+fpga_int_osc_srst         cfg_fpga_array_prog|fpga_int_osc_inferred_clock     FD1S3AX     Q       fpga_int_osc_srst         1.761       407.674
+cfg_initn_cntr_0_[0]      cfg_fpga_array_prog|fpga_int_osc_inferred_clock     FD1S3JX     Q       cfg_initn_cntr_0_[0]      0.798       408.016
+cfg_initn_cntr_0_[1]      cfg_fpga_array_prog|fpga_int_osc_inferred_clock     FD1S3JX     Q       cfg_initn_cntr_0_[1]      0.798       408.016
+cfg_initn_cntr_0_[2]      cfg_fpga_array_prog|fpga_int_osc_inferred_clock     FD1S3JX     Q       cfg_initn_cntr_0_[2]      0.798       408.016
+cfg_initn_cntr_0_[3]      cfg_fpga_array_prog|fpga_int_osc_inferred_clock     FD1S3JX     Q       cfg_initn_cntr_0_[3]      0.798       408.016
+cfg_initn_cntr_0_[12]     cfg_fpga_array_prog|fpga_int_osc_inferred_clock     FD1S3JX     Q       cfg_initn_cntr_0_[12]     0.798       408.016
+cfg_initn_cntr_0_[13]     cfg_fpga_array_prog|fpga_int_osc_inferred_clock     FD1S3JX     Q       cfg_initn_cntr_0_[13]     0.798       408.016
+cfg_initn_cntr_0_[14]     cfg_fpga_array_prog|fpga_int_osc_inferred_clock     FD1S3JX     Q       cfg_initn_cntr_0_[14]     0.798       408.016
+cfg_initn_cntr_0_[15]     cfg_fpga_array_prog|fpga_int_osc_inferred_clock     FD1S3JX     Q       cfg_initn_cntr_0_[15]     0.798       408.016
+cfg_initn_cntr_0_[16]     cfg_fpga_array_prog|fpga_int_osc_inferred_clock     FD1S3JX     Q       cfg_initn_cntr_0_[16]     0.798       408.016
+===============================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                     Starting                                                                                            Required            
+Instance                             Reference                                           Type        Pin     Net                         Time         Slack  
+                                     Clock                                                                                                                   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+flash_rd_inst.flash_dout_cntr[5]     cfg_fpga_array_prog|fpga_int_osc_inferred_clock     FD1S3IX     D       un1_flash_dout_cntr[5]      412.692      407.674
+flash_rd_inst.flash_dout_cntr[3]     cfg_fpga_array_prog|fpga_int_osc_inferred_clock     FD1S3IX     D       un1_flash_dout_cntr[3]      412.692      407.733
+flash_rd_inst.flash_dout_cntr[4]     cfg_fpga_array_prog|fpga_int_osc_inferred_clock     FD1S3IX     D       un1_flash_dout_cntr[4]      412.692      407.733
+flash_rd_inst.flash_dout_cntr[1]     cfg_fpga_array_prog|fpga_int_osc_inferred_clock     FD1S3IX     D       un1_flash_dout_cntr[1]      412.692      407.792
+flash_rd_inst.flash_dout_cntr[2]     cfg_fpga_array_prog|fpga_int_osc_inferred_clock     FD1S3IX     D       un1_flash_dout_cntr[2]      412.692      407.792
+cfg_initn_cntr_0_[19]                cfg_fpga_array_prog|fpga_int_osc_inferred_clock     FD1S3JX     D       cfg_initn_cntr_0__4[19]     412.692      408.016
+cfg_initn_cntr_1_[19]                cfg_fpga_array_prog|fpga_int_osc_inferred_clock     FD1S3JX     D       cfg_initn_cntr_1__4[19]     412.692      408.016
+cfg_initn_cntr_2_[19]                cfg_fpga_array_prog|fpga_int_osc_inferred_clock     FD1S3JX     D       cfg_initn_cntr_2__4[19]     412.692      408.016
+cfg_initn_cntr_3_[19]                cfg_fpga_array_prog|fpga_int_osc_inferred_clock     FD1S3JX     D       cfg_initn_cntr_3__4[19]     412.692      408.016
+cfg_initn_cntr_4_[19]                cfg_fpga_array_prog|fpga_int_osc_inferred_clock     FD1S3JX     D       cfg_initn_cntr_4__4[19]     412.692      408.016
+=============================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      412.903
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         412.692
+
+    - Propagation time:                      5.018
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     407.674
+
+    Number of logic level(s):                7
+    Starting point:                          fpga_int_osc_srst / Q
+    Ending point:                            flash_rd_inst.flash_dout_cntr[5] / D
+    The start point is clocked by            cfg_fpga_array_prog|fpga_int_osc_inferred_clock [rising] on pin CK
+    The end   point is clocked by            cfg_fpga_array_prog|fpga_int_osc_inferred_clock [rising] on pin CK
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                          Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+fpga_int_osc_srst                             FD1S3AX      Q        Out     1.761     1.761       -         
+fpga_int_osc_srst                             Net          -        -       -         -           819       
+flash_rd_inst.un1_i_srst_9_0_0_0_a2dup        ORCALUT4     A        In      0.000     1.761       -         
+flash_rd_inst.un1_i_srst_9_0_0_0_a2dup        ORCALUT4     Z        Out     0.658     2.418       -         
+un1_i_srst_9_0_0_0_a2dup                      Net          -        -       -         -           6         
+flash_rd_inst.un1_i_srst_5_0_0_0_1_0          ORCALUT4     A        In      0.000     2.418       -         
+flash_rd_inst.un1_i_srst_5_0_0_0_1_0          ORCALUT4     Z        Out     0.523     2.942       -         
+un1_i_srst_5_0_0_0_1_0                        Net          -        -       -         -           1         
+flash_rd_inst.un1_i_srst_5_0_0_0_1            ORCALUT4     D        In      0.000     2.942       -         
+flash_rd_inst.un1_i_srst_5_0_0_0_1            ORCALUT4     Z        Out     0.568     3.510       -         
+un1_i_srst_5_0_0_0_1                          Net          -        -       -         -           2         
+flash_rd_inst.un1_flash_dout_cntr_cry_0_0     CCU2C        B0       In      0.000     3.510       -         
+flash_rd_inst.un1_flash_dout_cntr_cry_0_0     CCU2C        COUT     Out     0.784     4.293       -         
+un1_flash_dout_cntr_cry_0                     Net          -        -       -         -           1         
+flash_rd_inst.un1_flash_dout_cntr_cry_1_0     CCU2C        CIN      In      0.000     4.293       -         
+flash_rd_inst.un1_flash_dout_cntr_cry_1_0     CCU2C        COUT     Out     0.059     4.353       -         
+un1_flash_dout_cntr_cry_2                     Net          -        -       -         -           1         
+flash_rd_inst.un1_flash_dout_cntr_cry_3_0     CCU2C        CIN      In      0.000     4.353       -         
+flash_rd_inst.un1_flash_dout_cntr_cry_3_0     CCU2C        COUT     Out     0.059     4.412       -         
+un1_flash_dout_cntr_cry_4                     Net          -        -       -         -           1         
+flash_rd_inst.un1_flash_dout_cntr_s_5_0       CCU2C        CIN      In      0.000     4.412       -         
+flash_rd_inst.un1_flash_dout_cntr_s_5_0       CCU2C        S0       Out     0.607     5.018       -         
+un1_flash_dout_cntr[5]                        Net          -        -       -         -           1         
+flash_rd_inst.flash_dout_cntr[5]              FD1S3IX      D        In      0.000     5.018       -         
+============================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 176MB peak: 180MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 176MB peak: 180MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfe5u_85f-8
+
+Register bits: 1796 of 83640 (2%)
+PIC Latch:       0
+I/O cells:       54
+
+
+Details:
+BB:             1
+CCU2C:          534
+FD1P3AX:        365
+FD1P3IX:        30
+FD1P3JX:        48
+FD1S3AX:        243
+FD1S3AY:        1
+FD1S3IX:        751
+FD1S3JX:        352
+GSR:            1
+IB:             3
+IFS1P3DX:       4
+INV:            2
+OB:             34
+OBZ:            16
+OFS1P3DX:       1
+OFS1P3JX:       1
+ORCALUT4:       1709
+OSCG:           1
+PUR:            1
+VHI:            18
+VLO:            1
+false:          17
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 40MB peak: 180MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:06s cputime
+# Mon Aug 07 22:50:28 2017
+
+###########################################################]
+
+
+Synthesis exit by 0.
+can't read "insert_debug": no such variable
+    while executing
+"if {$insert_debug} {
+    prj_src add $debug_dir/$debug_file
+    rvl_project open $debug_dir/$debug_file
+    rvl_project run; # inserts debug core into..."
+    (file "build.tcl" line 117)
