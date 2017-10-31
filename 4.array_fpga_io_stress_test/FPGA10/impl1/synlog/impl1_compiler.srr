@@ -1,0 +1,79 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 284R, built Mar 10 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 284R, built Mar 10 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N:: Running Verilog Compiler in System Verilog mode
+@N:: Running Verilog Compiler in Multiple File Compilation Unit mode
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\ecp5u.v" (library work)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Final_Array_Test\FPGA10\sys_pll\sys_pll.v" (library work)
+@I::"C:\Final_Array_Test\FPGA10\FPGA10.v" (library work)
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module FPGA10
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\ecp5u.v":757:7:757:9|Synthesizing module VHI in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\ecp5u.v":761:7:761:9|Synthesizing module VLO in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\ecp5u.v":1696:7:1696:13|Synthesizing module EHXPLLL in library work.
+
+@N: CG364 :"C:\Final_Array_Test\FPGA10\sys_pll\sys_pll.v":8:7:8:13|Synthesizing module sys_pll in library work.
+
+@W: CL168 :"C:\Final_Array_Test\FPGA10\sys_pll\sys_pll.v":19:8:19:21|Removing instance scuba_vhi_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"C:\Final_Array_Test\FPGA10\FPGA10.v":1:7:1:12|Synthesizing module FPGA10 in library work.
+
+@W: CG879 :"C:\Final_Array_Test\FPGA10\FPGA10.v":21:4:21:10|Treating non-constant declarative assignment to variable IL07_50 as a regular assign based on type - value could be overwritten in later writes. To ignore the dynamic initial value, please use the macro SYN_COMPATIBLE
+@W: CG879 :"C:\Final_Array_Test\FPGA10\FPGA10.v":22:4:22:11|Treating non-constant declarative assignment to variable IL07_125 as a regular assign based on type - value could be overwritten in later writes. To ignore the dynamic initial value, please use the macro SYN_COMPATIBLE
+@W: CG133 :"C:\Final_Array_Test\FPGA10\FPGA10.v":6:19:6:30|Object clk_out_IL12 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Final_Array_Test\FPGA10\FPGA10.v":7:18:7:29|Object clk_out_IL34 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL168 :"C:\Final_Array_Test\FPGA10\FPGA10.v":13:8:13:9|Removing instance __ because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL169 :"C:\Final_Array_Test\FPGA10\FPGA10.v":33:0:33:5|Pruning unused register IL07_50. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Final_Array_Test\FPGA10\FPGA10.v":33:0:33:5|Pruning unused register IL07_125. Make sure that there are no unused intermediate registers.
+@A: CL153 :"C:\Final_Array_Test\FPGA10\FPGA10.v":6:19:6:30|*Unassigned bits of clk_out_IL12 are referenced and tied to 0 -- simulation mismatch possible.
+@A: CL153 :"C:\Final_Array_Test\FPGA10\FPGA10.v":7:18:7:29|*Unassigned bits of clk_out_IL34 are referenced and tied to 0 -- simulation mismatch possible.
+@N: CL159 :"C:\Final_Array_Test\FPGA10\FPGA10.v":2:16:2:18|Input CLK is unused.
+@N: CL159 :"C:\Final_Array_Test\FPGA10\FPGA10.v":3:19:3:22|Input IL07 is unused.
+@N: CL159 :"C:\Final_Array_Test\FPGA10\FPGA10.v":8:18:8:28|Input clk_in_IL07 is unused.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jun 15 11:52:51 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 279R, built Mar  8 2017
+@N|Running in 64-bit mode
+
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jun 15 11:52:51 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jun 15 11:52:51 2017
+
+###########################################################]

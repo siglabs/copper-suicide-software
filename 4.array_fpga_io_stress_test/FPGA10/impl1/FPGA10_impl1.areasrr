@@ -1,0 +1,34 @@
+----------------------------------------------------------------------
+Report for cell FPGA10.verilog
+
+Register bits: 137 of 83640 (0%)
+PIC Latch:       0
+I/O cells:       294
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            EHXPLLL        1       100.0
+                            FD1P3AX       16       100.0
+                            FD1P3AY        3       100.0
+                            FD1S3AX       45       100.0
+                                GSR        1       100.0
+                                 IB       72       100.0
+                           IFS1P3DX       71       100.0
+                                 OB      222       100.0
+                           OFS1P3DX        2       100.0
+                           ORCALUT4      191       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        2       100.0
+SUB MODULES 
+                            sys_pll        1       100.0
+                            
+                         TOTAL           629           
+----------------------------------------------------------------------
+Report for cell sys_pll.netlist
+     Instance path:  __
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            EHXPLLL        1       100.0
+                                VLO        1        50.0
+                            
+                         TOTAL             2           

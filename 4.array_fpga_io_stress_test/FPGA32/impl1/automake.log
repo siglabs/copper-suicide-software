@@ -1,0 +1,905 @@
+
+map -a "ECP5U" -p LFE5U-85F -t CABGA756 -s 8 -oc Commercial   "FPGA30_impl1.ngd" -o "FPGA30_impl1_map.ncd" -pr "FPGA30_impl1.prf" -mp "FPGA30_impl1.mrp" -lpf "C:/Cu_Suicide_Heat_Test/FPGA32/impl1/FPGA30_impl1_synplify.lpf" -lpf "C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf"             
+map:  version Diamond (64-bit) 3.9.1.119
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: FPGA30_impl1.ngd
+   Picdevice="LFE5U-85F"
+
+   Pictype="CABGA756"
+
+   Picspeed=8
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LFE5U-85FCABGA756, Performance used: 8.
+
+Loading device for application baspr from file 'sa5p85.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+    <postMsg mid="1100641" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(80): Semantic error in &quot;IOBUF GROUP &quot;IL68_GRP&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="Group &quot;IL68_GRP&quot;, has not been defined." arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="80"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(364): Semantic error in &quot;IOBUF PORT &quot;IL34[25]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[25]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="364"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(365): Semantic error in &quot;IOBUF PORT &quot;IL34[26]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[26]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="365"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(366): Semantic error in &quot;IOBUF PORT &quot;IL34[27]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[27]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="366"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(367): Semantic error in &quot;IOBUF PORT &quot;IL34[28]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[28]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="367"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(368): Semantic error in &quot;IOBUF PORT &quot;IL34[29]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[29]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="368"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(369): Semantic error in &quot;IOBUF PORT &quot;IL34[30]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[30]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="369"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(370): Semantic error in &quot;IOBUF PORT &quot;IL34[31]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[31]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="370"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(371): Semantic error in &quot;IOBUF PORT &quot;IL34[32]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[32]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="371"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(372): Semantic error in &quot;IOBUF PORT &quot;IL34[33]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[33]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="372"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(373): Semantic error in &quot;IOBUF PORT &quot;IL34[34]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[34]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="373"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(374): Semantic error in &quot;IOBUF PORT &quot;IL34[35]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[35]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="374"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(375): Semantic error in &quot;IOBUF PORT &quot;IL34[36]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[36]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="375"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(376): Semantic error in &quot;IOBUF PORT &quot;IL34[37]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[37]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="376"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(377): Semantic error in &quot;IOBUF PORT &quot;IL34[38]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[38]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="377"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(378): Semantic error in &quot;IOBUF PORT &quot;IL34[39]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[39]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="378"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(379): Semantic error in &quot;IOBUF PORT &quot;IL34[40]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[40]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="379"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(380): Semantic error in &quot;IOBUF PORT &quot;IL34[41]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[41]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="380"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(381): Semantic error in &quot;IOBUF PORT &quot;IL34[42]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[42]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="381"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(382): Semantic error in &quot;IOBUF PORT &quot;IL34[43]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[43]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="382"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(383): Semantic error in &quot;IOBUF PORT &quot;IL34[44]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[44]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="383"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(384): Semantic error in &quot;IOBUF PORT &quot;IL34[45]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[45]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="384"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(385): Semantic error in &quot;IOBUF PORT &quot;IL34[46]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[46]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="385"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(386): Semantic error in &quot;IOBUF PORT &quot;IL34[47]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[47]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="386"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(387): Semantic error in &quot;IOBUF PORT &quot;IL34[48]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[48]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="387"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(388): Semantic error in &quot;IOBUF PORT &quot;IL34[49]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[49]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="388"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(389): Semantic error in &quot;IOBUF PORT &quot;IL34[50]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[50]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="389"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(390): Semantic error in &quot;IOBUF PORT &quot;IL34[51]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[51]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="390"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(391): Semantic error in &quot;IOBUF PORT &quot;IL34[52]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[52]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="391"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(392): Semantic error in &quot;IOBUF PORT &quot;IL34[53]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[53]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="392"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(393): Semantic error in &quot;IOBUF PORT &quot;IL34[54]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[54]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="393"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(394): Semantic error in &quot;IOBUF PORT &quot;IL34[55]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[55]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="394"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(395): Semantic error in &quot;IOBUF PORT &quot;IL34[56]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[56]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="395"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(396): Semantic error in &quot;IOBUF PORT &quot;IL34[57]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[57]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="396"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(397): Semantic error in &quot;IOBUF PORT &quot;IL34[58]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[58]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="397"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(398): Semantic error in &quot;IOBUF PORT &quot;IL34[59]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[59]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="398"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(399): Semantic error in &quot;IOBUF PORT &quot;IL34[60]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[60]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="399"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(400): Semantic error in &quot;IOBUF PORT &quot;IL34[61]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[61]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="400"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(401): Semantic error in &quot;IOBUF PORT &quot;IL34[62]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[62]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="401"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(402): Semantic error in &quot;IOBUF PORT &quot;IL34[63]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[63]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="402"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(403): Semantic error in &quot;IOBUF PORT &quot;IL34[64]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[64]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="403"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(404): Semantic error in &quot;IOBUF PORT &quot;IL34[65]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[65]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="404"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(405): Semantic error in &quot;IOBUF PORT &quot;IL34[66]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[66]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="405"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(406): Semantic error in &quot;IOBUF PORT &quot;IL34[67]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[67]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="406"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(407): Semantic error in &quot;IOBUF PORT &quot;IL34[68]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[68]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="407"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(408): Semantic error in &quot;IOBUF PORT &quot;IL34[69]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[69]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="408"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(409): Semantic error in &quot;IOBUF PORT &quot;IL34[70]&quot; IO_TYPE=SSTL15_I ;&quot;: " arg1="IL34[70]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="409"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(485): Semantic error in &quot;IOBUF PORT &quot;IL34[0]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[0]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="485"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(486): Semantic error in &quot;IOBUF PORT &quot;IL34[1]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[1]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="486"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(487): Semantic error in &quot;IOBUF PORT &quot;IL34[2]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[2]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="487"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(488): Semantic error in &quot;IOBUF PORT &quot;IL34[3]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[3]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="488"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(489): Semantic error in &quot;IOBUF PORT &quot;IL34[4]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[4]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="489"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(490): Semantic error in &quot;IOBUF PORT &quot;IL34[5]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[5]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="490"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(491): Semantic error in &quot;IOBUF PORT &quot;IL34[6]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[6]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="491"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(492): Semantic error in &quot;IOBUF PORT &quot;IL34[7]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[7]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="492"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(493): Semantic error in &quot;IOBUF PORT &quot;IL34[8]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[8]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="493"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(494): Semantic error in &quot;IOBUF PORT &quot;IL34[9]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[9]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="494"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(495): Semantic error in &quot;IOBUF PORT &quot;IL34[10]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[10]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="495"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(496): Semantic error in &quot;IOBUF PORT &quot;IL34[11]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[11]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="496"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(497): Semantic error in &quot;IOBUF PORT &quot;IL34[12]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[12]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="497"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(498): Semantic error in &quot;IOBUF PORT &quot;IL34[13]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[13]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="498"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(499): Semantic error in &quot;IOBUF PORT &quot;IL34[14]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[14]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="499"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(500): Semantic error in &quot;IOBUF PORT &quot;IL34[15]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[15]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="500"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(501): Semantic error in &quot;IOBUF PORT &quot;IL34[16]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[16]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="501"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(502): Semantic error in &quot;IOBUF PORT &quot;IL34[17]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[17]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="502"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(503): Semantic error in &quot;IOBUF PORT &quot;IL34[18]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[18]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="503"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(504): Semantic error in &quot;IOBUF PORT &quot;IL34[19]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[19]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="504"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(505): Semantic error in &quot;IOBUF PORT &quot;IL34[20]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[20]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="505"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(506): Semantic error in &quot;IOBUF PORT &quot;IL34[21]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[21]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="506"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(507): Semantic error in &quot;IOBUF PORT &quot;IL34[22]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[22]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="507"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(508): Semantic error in &quot;IOBUF PORT &quot;IL34[23]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[23]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="508"  />
+    <postMsg mid="1100644" type="Warning" dynamic="2" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(509): Semantic error in &quot;IOBUF PORT &quot;IL34[24]&quot; IO_TYPE=LVCMOS15 ;&quot;: " arg1="IL34[24]" arg2="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg3="509"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(510): In &quot;LOCATE COMP &quot;IL68[0]&quot; SITE &quot;AD1&quot; ;&quot;: " arg1="LOC" arg2="AD1" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="510"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(511): In &quot;LOCATE COMP &quot;IL68[1]&quot; SITE &quot;AE1&quot; ;&quot;: " arg1="LOC" arg2="AE1" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="511"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(512): In &quot;LOCATE COMP &quot;IL68[2]&quot; SITE &quot;V1&quot; ;&quot;: " arg1="LOC" arg2="V1" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="512"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(513): In &quot;LOCATE COMP &quot;IL68[3]&quot; SITE &quot;W1&quot; ;&quot;: " arg1="LOC" arg2="W1" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="513"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(515): In &quot;LOCATE COMP &quot;IL68[5]&quot; SITE &quot;AB1&quot; ;&quot;: " arg1="LOC" arg2="AB1" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="515"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(516): In &quot;LOCATE COMP &quot;IL68[6]&quot; SITE &quot;U1&quot; ;&quot;: " arg1="LOC" arg2="U1" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="516"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(517): In &quot;LOCATE COMP &quot;IL68[7]&quot; SITE &quot;T1&quot; ;&quot;: " arg1="LOC" arg2="T1" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="517"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(518): In &quot;LOCATE COMP &quot;IL68[8]&quot; SITE &quot;AE5&quot; ;&quot;: " arg1="LOC" arg2="AE5" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="518"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(519): In &quot;LOCATE COMP &quot;IL68[9]&quot; SITE &quot;AE4&quot; ;&quot;: " arg1="LOC" arg2="AE4" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="519"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(520): In &quot;LOCATE COMP &quot;IL68[10]&quot; SITE &quot;AE6&quot; ;&quot;: " arg1="LOC" arg2="AE6" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="520"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(521): In &quot;LOCATE COMP &quot;IL68[11]&quot; SITE &quot;AD6&quot; ;&quot;: " arg1="LOC" arg2="AD6" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="521"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(522): In &quot;LOCATE COMP &quot;IL68[12]&quot; SITE &quot;AM2&quot; ;&quot;: " arg1="LOC" arg2="AM2" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="522"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(523): In &quot;LOCATE COMP &quot;IL68[13]&quot; SITE &quot;AL1&quot; ;&quot;: " arg1="LOC" arg2="AL1" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="523"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(524): In &quot;LOCATE COMP &quot;IL68[14]&quot; SITE &quot;AK1&quot; ;&quot;: " arg1="LOC" arg2="AK1" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="524"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(525): In &quot;LOCATE COMP &quot;IL68[15]&quot; SITE &quot;AJ1&quot; ;&quot;: " arg1="LOC" arg2="AJ1" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="525"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(526): In &quot;LOCATE COMP &quot;IL68[16]&quot; SITE &quot;AH1&quot; ;&quot;: " arg1="LOC" arg2="AH1" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="526"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(527): In &quot;LOCATE COMP &quot;IL68[17]&quot; SITE &quot;AG1&quot; ;&quot;: " arg1="LOC" arg2="AG1" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="527"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(528): In &quot;LOCATE COMP &quot;IL68[18]&quot; SITE &quot;V6&quot; ;&quot;: " arg1="LOC" arg2="V6" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="528"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(529): In &quot;LOCATE COMP &quot;IL68[19]&quot; SITE &quot;V7&quot; ;&quot;: " arg1="LOC" arg2="V7" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="529"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(530): In &quot;LOCATE COMP &quot;IL68[20]&quot; SITE &quot;AG3&quot; ;&quot;: " arg1="LOC" arg2="AG3" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="530"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(531): In &quot;LOCATE COMP &quot;IL68[21]&quot; SITE &quot;AH3&quot; ;&quot;: " arg1="LOC" arg2="AH3" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="531"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(532): In &quot;LOCATE COMP &quot;IL68[22]&quot; SITE &quot;U4&quot; ;&quot;: " arg1="LOC" arg2="U4" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="532"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(533): In &quot;LOCATE COMP &quot;IL68[23]&quot; SITE &quot;P4&quot; ;&quot;: " arg1="LOC" arg2="P4" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="533"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(534): In &quot;LOCATE COMP &quot;IL68[24]&quot; SITE &quot;P5&quot; ;&quot;: " arg1="LOC" arg2="P5" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="534"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(535): In &quot;LOCATE COMP &quot;IL68[25]&quot; SITE &quot;R7&quot; ;&quot;: " arg1="LOC" arg2="R7" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="535"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(536): In &quot;LOCATE COMP &quot;IL68[26]&quot; SITE &quot;T7&quot; ;&quot;: " arg1="LOC" arg2="T7" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="536"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(537): In &quot;LOCATE COMP &quot;IL68[27]&quot; SITE &quot;R4&quot; ;&quot;: " arg1="LOC" arg2="R4" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="537"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(538): In &quot;LOCATE COMP &quot;IL68[28]&quot; SITE &quot;T5&quot; ;&quot;: " arg1="LOC" arg2="T5" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="538"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(539): In &quot;LOCATE COMP &quot;IL68[29]&quot; SITE &quot;U3&quot; ;&quot;: " arg1="LOC" arg2="U3" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="539"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(540): In &quot;LOCATE COMP &quot;IL68[30]&quot; SITE &quot;U2&quot; ;&quot;: " arg1="LOC" arg2="U2" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="540"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(541): In &quot;LOCATE COMP &quot;IL68[31]&quot; SITE &quot;R3&quot; ;&quot;: " arg1="LOC" arg2="R3" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="541"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(542): In &quot;LOCATE COMP &quot;IL68[32]&quot; SITE &quot;T3&quot; ;&quot;: " arg1="LOC" arg2="T3" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="542"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(543): In &quot;LOCATE COMP &quot;IL68[33]&quot; SITE &quot;N1&quot; ;&quot;: " arg1="LOC" arg2="N1" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="543"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(544): In &quot;LOCATE COMP &quot;IL68[34]&quot; SITE &quot;P1&quot; ;&quot;: " arg1="LOC" arg2="P1" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="544"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(545): In &quot;LOCATE COMP &quot;IL68[35]&quot; SITE &quot;Y3&quot; ;&quot;: " arg1="LOC" arg2="Y3" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="545"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(546): In &quot;LOCATE COMP &quot;IL68[36]&quot; SITE &quot;W3&quot; ;&quot;: " arg1="LOC" arg2="W3" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="546"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(547): In &quot;LOCATE COMP &quot;IL68[37]&quot; SITE &quot;P2&quot; ;&quot;: " arg1="LOC" arg2="P2" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="547"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(548): In &quot;LOCATE COMP &quot;IL68[38]&quot; SITE &quot;P3&quot; ;&quot;: " arg1="LOC" arg2="P3" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="548"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(549): In &quot;LOCATE COMP &quot;IL68[39]&quot; SITE &quot;R1&quot; ;&quot;: " arg1="LOC" arg2="R1" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="549"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(550): In &quot;LOCATE COMP &quot;IL68[40]&quot; SITE &quot;T2&quot; ;&quot;: " arg1="LOC" arg2="T2" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="550"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(551): In &quot;LOCATE COMP &quot;IL68[41]&quot; SITE &quot;Y7&quot; ;&quot;: " arg1="LOC" arg2="Y7" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="551"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(552): In &quot;LOCATE COMP &quot;IL68[42]&quot; SITE &quot;Y6&quot; ;&quot;: " arg1="LOC" arg2="Y6" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="552"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(553): In &quot;LOCATE COMP &quot;IL68[43]&quot; SITE &quot;AC7&quot; ;&quot;: " arg1="LOC" arg2="AC7" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="553"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(554): In &quot;LOCATE COMP &quot;IL68[44]&quot; SITE &quot;AD7&quot; ;&quot;: " arg1="LOC" arg2="AD7" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="554"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(555): In &quot;LOCATE COMP &quot;IL68[45]&quot; SITE &quot;AB7&quot; ;&quot;: " arg1="LOC" arg2="AB7" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="555"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(556): In &quot;LOCATE COMP &quot;IL68[46]&quot; SITE &quot;AC6&quot; ;&quot;: " arg1="LOC" arg2="AC6" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="556"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(557): In &quot;LOCATE COMP &quot;IL68[47]&quot; SITE &quot;Y4&quot; ;&quot;: " arg1="LOC" arg2="Y4" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="557"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(558): In &quot;LOCATE COMP &quot;IL68[48]&quot; SITE &quot;W4&quot; ;&quot;: " arg1="LOC" arg2="W4" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="558"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(559): In &quot;LOCATE COMP &quot;IL68[49]&quot; SITE &quot;W5&quot; ;&quot;: " arg1="LOC" arg2="W5" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="559"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(560): In &quot;LOCATE COMP &quot;IL68[50]&quot; SITE &quot;Y5&quot; ;&quot;: " arg1="LOC" arg2="Y5" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="560"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(561): In &quot;LOCATE COMP &quot;IL68[51]&quot; SITE &quot;AB5&quot; ;&quot;: " arg1="LOC" arg2="AB5" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="561"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(562): In &quot;LOCATE COMP &quot;IL68[52]&quot; SITE &quot;AB6&quot; ;&quot;: " arg1="LOC" arg2="AB6" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="562"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(563): In &quot;LOCATE COMP &quot;IL68[53]&quot; SITE &quot;AC5&quot; ;&quot;: " arg1="LOC" arg2="AC5" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="563"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(564): In &quot;LOCATE COMP &quot;IL68[54]&quot; SITE &quot;AD4&quot; ;&quot;: " arg1="LOC" arg2="AD4" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="564"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(565): In &quot;LOCATE COMP &quot;IL68[55]&quot; SITE &quot;AE2&quot; ;&quot;: " arg1="LOC" arg2="AE2" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="565"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(566): In &quot;LOCATE COMP &quot;IL68[56]&quot; SITE &quot;AC2&quot; ;&quot;: " arg1="LOC" arg2="AC2" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="566"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(567): In &quot;LOCATE COMP &quot;IL68[57]&quot; SITE &quot;W2&quot; ;&quot;: " arg1="LOC" arg2="W2" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="567"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(568): In &quot;LOCATE COMP &quot;IL68[58]&quot; SITE &quot;Y1&quot; ;&quot;: " arg1="LOC" arg2="Y1" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="568"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(569): In &quot;LOCATE COMP &quot;IL68[59]&quot; SITE &quot;AB4&quot; ;&quot;: " arg1="LOC" arg2="AB4" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="569"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(570): In &quot;LOCATE COMP &quot;IL68[60]&quot; SITE &quot;AB3&quot; ;&quot;: " arg1="LOC" arg2="AB3" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="570"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(571): In &quot;LOCATE COMP &quot;IL68[61]&quot; SITE &quot;AE3&quot; ;&quot;: " arg1="LOC" arg2="AE3" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="571"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(572): In &quot;LOCATE COMP &quot;IL68[62]&quot; SITE &quot;AD3&quot; ;&quot;: " arg1="LOC" arg2="AD3" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="572"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(573): In &quot;LOCATE COMP &quot;IL68[63]&quot; SITE &quot;U7&quot; ;&quot;: " arg1="LOC" arg2="U7" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="573"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(574): In &quot;LOCATE COMP &quot;IL68[64]&quot; SITE &quot;U6&quot; ;&quot;: " arg1="LOC" arg2="U6" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="574"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(575): In &quot;LOCATE COMP &quot;IL68[65]&quot; SITE &quot;T4&quot; ;&quot;: " arg1="LOC" arg2="T4" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="575"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(576): In &quot;LOCATE COMP &quot;IL68[66]&quot; SITE &quot;U5&quot; ;&quot;: " arg1="LOC" arg2="U5" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="576"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(577): In &quot;LOCATE COMP &quot;IL68[67]&quot; SITE &quot;R6&quot; ;&quot;: " arg1="LOC" arg2="R6" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="577"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(578): In &quot;LOCATE COMP &quot;IL68[68]&quot; SITE &quot;T6&quot; ;&quot;: " arg1="LOC" arg2="T6" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="578"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(579): In &quot;LOCATE COMP &quot;IL68[69]&quot; SITE &quot;AC3&quot; ;&quot;: " arg1="LOC" arg2="AC3" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="579"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf(580): In &quot;LOCATE COMP &quot;IL68[70]&quot; SITE &quot;AB2&quot; ;&quot;: " arg1="LOC" arg2="AB2" arg3="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf" arg4="580"  />
+    <postMsg mid="1104062" type="Warning" dynamic="2" navigation="0" arg0="" arg1="70 semantic errors"  />
+Package Status:                     Final          Version 1.40.
+
+Running general design DRC...
+
+Removing unused logic...
+
+Optimizing...
+
+
+
+
+Design Summary:
+   Number of registers:    213 out of 84735 (0%)
+      PFU registers:           67 out of 83640 (0%)
+      PIO registers:          146 out of  1095 (13%)
+   Number of SLICEs:       190 out of 41820 (0%)
+      SLICEs as Logic/ROM:    190 out of 41820 (0%)
+      SLICEs as RAM:            0 out of 31365 (0%)
+      SLICEs as Carry:          0 out of 41820 (0%)
+   Number of LUT4s:        323 out of 83640 (0%)
+      Number used as logic LUTs:        323
+      Number used as distributed RAM:     0
+      Number used as ripple logic:        0
+      Number used as shift registers:     0
+   Number of PIO sites used: 223 out of 365 (61%)
+   Number of block RAMs:  0 out of 208 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   DTR used :   No
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 4 (0%)
+   Number of Dynamic Bank Controller (BCLVDSOB):  0 out of 4 (0%)
+   Number of DCC:  0 out of 60 (0%)
+   Number of DCS:  0 out of 2 (0%)
+   Number of PLLs:  1 out of 4 (25%)
+   Number of DDRDLLs:  0 out of 4 (0%)
+   Number of CLKDIV:  0 out of 4 (0%)
+   Number of ECLKSYNC:  0 out of 10 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+
+   Number Of Mapped DSP Components:
+   --------------------------------
+   MULT18X18D          0
+   MULT9X9D            0
+   ALU54B              0
+   ALU24B              0
+   PRADD18A            0
+   PRADD9A             0
+   --------------------------------
+   Number of Used DSP MULT Sites:  0 out of 312 (0 %)
+   Number of Used DSP ALU Sites:  0 out of 156 (0 %)
+   Number of Used DSP PRADD Sites:  0 out of 312 (0 %)
+   Number of clocks:  3
+     Net CLK_c: 1 loads, 1 rising, 0 falling (Driver: PIO CLK )
+     Net clk_50: 75 loads, 75 rising, 0 falling (Driver: __/PLLInst_0 )
+     Net clk125: 112 loads, 112 rising, 0 falling (Driver: __/PLLInst_0 )
+   Number of Clock Enables:  10
+     Net data_rx_flag_IL07[1]: 1 loads, 0 LSLICEs
+     Net un1_counter_IL07_12520_i: 2 loads, 2 LSLICEs
+     Net un1_counter_12516_1_i: 3 loads, 3 LSLICEs
+     Net data_rx_flag_IL68[0]: 1 loads, 0 LSLICEs
+     Net data_rx_flag_IL68[1]: 1 loads, 0 LSLICEs
+     Net data_rx_flag_IL07[0]: 1 loads, 0 LSLICEs
+     Net un1_counter_IL68_5020_i: 3 loads, 3 LSLICEs
+     Net un1_counter_IL68_12523_i: 3 loads, 3 LSLICEs
+     Net un1_counter_IL07_5020_i: 2 loads, 2 LSLICEs
+     Net un1_counter_5016_1_i: 3 loads, 3 LSLICEs
+   Number of LSRs:  0
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net counter_IL68_50[2]: 12 loads
+     Net IL12_c[26]: 12 loads
+     Net counter_IL07_125[1]: 11 loads
+     Net counter_IL07_125[2]: 11 loads
+     Net counter_IL68_125[0]: 11 loads
+     Net counter_IL68_125[1]: 11 loads
+     Net IL12_c[30]: 11 loads
+     Net counter_IL07_125[0]: 10 loads
+     Net counter_IL07_50[0]: 10 loads
+     Net counter_IL07_50[2]: 10 loads
+    <postMsg mid="51001230" type="Warning" dynamic="1" navigation="0" arg0="C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.lpf"  />
+ 
+
+   Number of warnings:  144
+   Number of errors:    0
+
+
+
+Total CPU Time: 2 secs  
+Total REAL Time: 3 secs  
+Peak Memory Usage: 249 MB
+
+Dumping design to file FPGA30_impl1_map.ncd.
+
+trce -f "FPGA30_impl1.mt" -o "FPGA30_impl1.tw1" "FPGA30_impl1_map.ncd" "FPGA30_impl1.prf"
+trce:  version Diamond (64-bit) 3.9.1.119
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Loading design for application trce from file fpga30_impl1_map.ncd.
+Design name: FPGA10
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-85F
+Package:     CABGA756
+Performance: 8
+Loading device for application trce from file 'sa5p85.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.40.
+Performance Hardware Data Status:   Final          Version 50.1.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.9.1.119
+Tue Jun 27 14:27:41 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o FPGA30_impl1.tw1 -gui -msgset C:/Cu_Suicide_Heat_Test/FPGA32/promote.xml FPGA30_impl1_map.ncd FPGA30_impl1.prf 
+Design file:     fpga30_impl1_map.ncd
+Preference file: fpga30_impl1.prf
+Device,speed:    LFE5U-85F,8
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+VCCIO Voltage:
+                   1.500 V (Bank 1, defined by PAR)
+                   1.500 V (Bank 2, defined by PAR)
+                   1.500 V (Bank 3)
+                   1.500 V (Bank 4)
+
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 1299 paths, 4 nets, and 1407 connections (85.07% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.9.1.119
+Tue Jun 27 14:27:42 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 1 -gt -mapchkpnt 0 -sethld -o FPGA30_impl1.tw1 -gui -msgset C:/Cu_Suicide_Heat_Test/FPGA32/promote.xml FPGA30_impl1_map.ncd FPGA30_impl1.prf 
+Design file:     fpga30_impl1_map.ncd
+Preference file: fpga30_impl1.prf
+Device,speed:    LFE5U-85F,M
+Report level:    verbose report, limited to 1 item per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+VCCIO Voltage:
+                   1.500 V (Bank 1, defined by PAR)
+                   1.500 V (Bank 2, defined by PAR)
+                   1.500 V (Bank 3)
+                   1.500 V (Bank 4)
+
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 1299 paths, 4 nets, and 1407 connections (85.07% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Total time: 3 secs 
+
+mpartrce -p "FPGA30_impl1.p2t" -f "FPGA30_impl1.p3t" -tf "FPGA30_impl1.pt" "FPGA30_impl1_map.ncd" "FPGA30_impl1.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "FPGA30_impl1_map.ncd"
+Tue Jun 27 14:27:42 2017
+
+PAR: Place And Route Diamond (64-bit) 3.9.1.119.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset C:/Cu_Suicide_Heat_Test/FPGA32/promote.xml -exp parUseNBR=1:parCDP=auto:parCDR=1:parPathBased=OFF FPGA30_impl1_map.ncd FPGA30_impl1.dir/5_1.ncd FPGA30_impl1.prf
+Preference file: FPGA30_impl1.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file FPGA30_impl1_map.ncd.
+Design name: FPGA10
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-85F
+Package:     CABGA756
+Performance: 8
+Loading device for application par from file 'sa5p85.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.40.
+Performance Hardware Data Status:   Final          Version 50.1.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)     223/365          61% used
+                    223/365          61% bonded
+   IOLOGIC          146/365          40% used
+
+   SLICE            190/41820        <1% used
+
+   PLL                1/4            25% used
+
+
+Number of Signals: 683
+Number of Connections: 1654
+
+Pin Constraint Summary:
+   215 out of 223 pins locked (96% locked).
+
+The following 2 signals are selected to use the primary clock routing resources:
+    clk125 (driver: __/PLLInst_0, clk/ce/sr load #: 112/0/0)
+    clk_50 (driver: __/PLLInst_0, clk/ce/sr load #: 75/0/0)
+
+
+No signal is selected as Global Set/Reset.
+.
+Starting Placer Phase 0.
+..............
+Finished Placer Phase 0.  REAL time: 4 secs 
+
+Starting Placer Phase 1.
+....................
+Placer score = 207741.
+Finished Placer Phase 1.  REAL time: 9 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  207282
+Finished Placer Phase 2.  REAL time: 9 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 12 (0%)
+  GR_PCLK    : 0 out of 12 (0%)
+  PLL        : 1 out of 4 (25%)
+  DCS        : 0 out of 2 (0%)
+  DCC        : 0 out of 60 (0%)
+  CLKDIV     : 0 out of 4 (0%)
+
+Quadrant TL Clocks:
+  PRIMARY "clk125" from CLKOS on comp "__/PLLInst_0" on PLL site "PLL_TR0", CLK/CE/SR load = 50
+  PRIMARY "clk_50" from CLKOP on comp "__/PLLInst_0" on PLL site "PLL_TR0", CLK/CE/SR load = 32
+
+  PRIMARY  : 2 out of 16 (12%)
+
+Quadrant TR Clocks:
+  PRIMARY "clk125" from CLKOS on comp "__/PLLInst_0" on PLL site "PLL_TR0", CLK/CE/SR load = 5
+  PRIMARY "clk_50" from CLKOP on comp "__/PLLInst_0" on PLL site "PLL_TR0", CLK/CE/SR load = 5
+
+  PRIMARY  : 2 out of 16 (12%)
+
+Quadrant BL Clocks:
+  PRIMARY "clk125" from CLKOS on comp "__/PLLInst_0" on PLL site "PLL_TR0", CLK/CE/SR load = 57
+  PRIMARY "clk_50" from CLKOP on comp "__/PLLInst_0" on PLL site "PLL_TR0", CLK/CE/SR load = 38
+
+  PRIMARY  : 2 out of 16 (12%)
+
+Quadrant BR Clocks:
+
+  PRIMARY  : 0 out of 16 (0%)
+
+Edge Clocks:
+
+  No edge clock selected.
+
+
+--------------- End of Clock Report ---------------
+
+
++
+I/O Usage Summary (final):
+   225 out of 365 (61.6%) PIO sites used.
+   225 out of 365 (61.6%) bonded PIO sites used.
+   Number of PIO comps: 223; differential: 0.
+   Number of Vref pins used: 2.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-------------+------------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref1  | Bank Vref2 |
++----------+----------------+------------+-------------+------------+
+| 0        | 27 / 56 ( 48%) | 1.5V       | -           | -          |
+| 1        | 26 / 48 ( 54%) | 1.5V       | -           | -          |
+| 2        | 46 / 48 ( 95%) | 1.5V       | -           | -          |
+| 3        | 4 / 64 (  6%)  | 1.5V       | -           | -          |
+| 4        | 0 / 24 (  0%)  | 1.5V       | -           | -          |
+| 6        | 64 / 64 (100%) | 1.5V       | 0.75V@VREF1 | -          |
+| 7        | 48 / 48 (100%) | 1.5V       | 0.75V@VREF1 | -          |
+| 8        | 10 / 13 ( 76%) | 1.5V       | -           | -          |
++----------+----------------+------------+-------------+------------+
+
+Total placer CPU time: 9 secs 
+
+Dumping design to file FPGA30_impl1.dir/5_1.ncd.
+
+0 connections routed; 1654 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 18 secs 
+
+Start NBR router at 14:28:00 06/27/17
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 14:28:01 06/27/17
+
+Start NBR section for initial routing at 14:28:01 06/27/17
+Level 1, iteration 1
+13(0.00%) conflicts; 1254(75.82%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.359ns/0.000ns; real time: 19 secs 
+Level 2, iteration 1
+33(0.00%) conflicts; 1167(70.56%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.211ns/0.000ns; real time: 19 secs 
+Level 3, iteration 1
+133(0.00%) conflicts; 669(40.45%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.207ns/0.000ns; real time: 20 secs 
+Level 4, iteration 1
+89(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.317ns/0.000ns; real time: 20 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 14:28:02 06/27/17
+Level 1, iteration 1
+56(0.00%) conflicts; 50(3.02%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.033ns/0.000ns; real time: 20 secs 
+Level 2, iteration 1
+52(0.00%) conflicts; 55(3.33%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.182ns/0.000ns; real time: 20 secs 
+Level 3, iteration 1
+50(0.00%) conflicts; 45(2.72%) untouched conns; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.023ns/0.000ns; real time: 20 secs 
+Level 4, iteration 1
+45(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.333ns/0.000ns; real time: 20 secs 
+Level 4, iteration 2
+25(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.387ns/0.000ns; real time: 20 secs 
+Level 4, iteration 3
+19(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.385ns/0.000ns; real time: 21 secs 
+Level 4, iteration 4
+8(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.385ns/0.000ns; real time: 21 secs 
+Level 4, iteration 5
+4(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.385ns/0.000ns; real time: 21 secs 
+Level 4, iteration 6
+3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.385ns/0.000ns; real time: 21 secs 
+Level 4, iteration 7
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.385ns/0.000ns; real time: 21 secs 
+Level 4, iteration 8
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.385ns/0.000ns; real time: 21 secs 
+Level 4, iteration 9
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.385ns/0.000ns; real time: 21 secs 
+Level 4, iteration 10
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.385ns/0.000ns; real time: 21 secs 
+Level 4, iteration 11
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.385ns/0.000ns; real time: 21 secs 
+Level 4, iteration 12
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.385ns/0.000ns; real time: 21 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 14:28:03 06/27/17
+
+Start NBR section for re-routing at 14:28:04 06/27/17
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.327ns/0.000ns; real time: 22 secs 
+
+Start NBR section for post-routing at 14:28:04 06/27/17
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 1.327ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 22 secs 
+Total REAL time: 23 secs 
+Completely routed.
+End of route.  1654 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file FPGA30_impl1.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = completed
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 1.327
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.178
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 23 secs 
+Total REAL time to completion: 23 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+trce -f "FPGA30_impl1.pt" -o "FPGA30_impl1.twr" "FPGA30_impl1.ncd" "FPGA30_impl1.prf"
+trce:  version Diamond (64-bit) 3.9.1.119
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Loading design for application trce from file fpga30_impl1.ncd.
+Design name: FPGA10
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-85F
+Package:     CABGA756
+Performance: 8
+Loading device for application trce from file 'sa5p85.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.40.
+Performance Hardware Data Status:   Final          Version 50.1.
+Setup and Hold Report
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.9.1.119
+Tue Jun 27 14:28:08 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 8 -sphld m -o FPGA30_impl1.twr -gui -msgset C:/Cu_Suicide_Heat_Test/FPGA32/promote.xml FPGA30_impl1.ncd FPGA30_impl1.prf 
+Design file:     fpga30_impl1.ncd
+Preference file: fpga30_impl1.prf
+Device,speed:    LFE5U-85F,8
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+VCCIO Voltage:
+                   1.500 V (Bank 1, defined by PAR)
+                   1.500 V (Bank 2, defined by PAR)
+                   1.500 V (Bank 3, defined by PAR)
+                   1.500 V (Bank 4)
+
+
+
+Timing summary (Setup):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 1299 paths, 4 nets, and 1407 connections (85.07% coverage)
+
+--------------------------------------------------------------------------------
+Lattice TRACE Report - Hold, Version Diamond (64-bit) 3.9.1.119
+Tue Jun 27 14:28:08 2017
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Command line:    trce -v 10 -gt -sethld -sp 8 -sphld m -o FPGA30_impl1.twr -gui -msgset C:/Cu_Suicide_Heat_Test/FPGA32/promote.xml FPGA30_impl1.ncd FPGA30_impl1.prf 
+Design file:     fpga30_impl1.ncd
+Preference file: fpga30_impl1.prf
+Device,speed:    LFE5U-85F,m
+Report level:    verbose report, limited to 10 items per preference
+--------------------------------------------------------------------------------
+
+BLOCK ASYNCPATHS
+--------------------------------------------------------------------------------
+
+
+Derating parameters
+-------------------
+VCCIO Voltage:
+                   1.500 V (Bank 1, defined by PAR)
+                   1.500 V (Bank 2, defined by PAR)
+                   1.500 V (Bank 3, defined by PAR)
+                   1.500 V (Bank 4)
+
+
+
+Timing summary (Hold):
+---------------
+
+Timing errors: 0  Score: 0
+Cumulative negative slack: 0
+
+Constraints cover 1299 paths, 4 nets, and 1407 connections (85.07% coverage)
+
+
+
+Timing summary (Setup and Hold):
+---------------
+
+Timing errors: 0 (setup), 0 (hold)
+Score: 0 (setup), 0 (hold)
+Cumulative negative slack: 0 (0+0)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+Total time: 2 secs 
+
+iotiming  "FPGA30_impl1.ncd" "FPGA30_impl1.prf"
+I/O Timing Report:
+:  version Diamond (64-bit) 3.9.1.119
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+Loading design for application iotiming from file fpga30_impl1.ncd.
+Design name: FPGA10
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-85F
+Package:     CABGA756
+Performance: 8
+Loading device for application iotiming from file 'sa5p85.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.40.
+Performance Hardware Data Status:   Final          Version 50.1.
+Running Performance Grade: 8
+Computing Setup Time ...
+Computing Max Clock to Output Delay ...
+Computing Hold Time ...
+Computing Min Clock to Output Delay ...
+
+Loading design for application iotiming from file fpga30_impl1.ncd.
+Design name: FPGA10
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-85F
+Package:     CABGA756
+Performance: 9
+Package Status:                     Final          Version 1.40.
+Performance Hardware Data Status:   Final          Version 50.1.
+Running Performance Grade: 9
+Computing Setup Time ...
+Computing Max Clock to Output Delay ...
+Computing Hold Time ...
+Computing Min Clock to Output Delay ...
+
+Loading design for application iotiming from file fpga30_impl1.ncd.
+Design name: FPGA10
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-85F
+Package:     CABGA756
+Performance: M
+Package Status:                     Final          Version 1.40.
+Performance Hardware Data Status:   Final          Version 50.1.
+Running Performance Grade: M
+Computing Setup Time ...
+Computing Max Clock to Output Delay ...
+Computing Hold Time ...
+Computing Min Clock to Output Delay ...
+Done.
+
+bitgen -w "FPGA30_impl1.ncd" -f "FPGA30_impl1.t2b" -e -s "C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.sec" -k "C:/Cu_Suicide_Heat_Test/FPGA32/FPGA30.bek" "FPGA30_impl1.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.9.1.119
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file FPGA30_impl1.ncd.
+Design name: FPGA10
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-85F
+Package:     CABGA756
+Performance: 8
+Loading device for application Bitgen from file 'sa5p85.nph' in environment: C:/lscc/diamond/3.9_x64/ispfpga.
+Package Status:                     Final          Version 1.40.
+Performance Hardware Data Status:   Final          Version 50.1.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from FPGA30_impl1.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                        CfgMode  |                      Disable**  |
++---------------------------------+---------------------------------+
+|                        DONE_EX  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                        DONE_OD  |                           ON**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                          2.4**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                    CONFIG_MODE  |                         JTAG**  |
++---------------------------------+---------------------------------+
+|                        WAKE_UP  |                           21**  |
++---------------------------------+---------------------------------+
+|                             ES  |                           No**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                     DisableUES  |                        FALSE**  |
++---------------------------------+---------------------------------+
+|            SLAVE_PARALLEL_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                      DONE_PULL  |                           ON**  |
++---------------------------------+---------------------------------+
+|               CONFIG_IOVOLTAGE  |                            1.5  |
++---------------------------------+---------------------------------+
+|                        TRANSFR  |                          OFF**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 10.23.
+ 
+Saving bit stream in "FPGA30_impl1.bit".

@@ -1,0 +1,81 @@
+#Build: Synplify Pro L-2016.09L-1, Build 147R, Mar  7 2017
+#install: C:\lscc\diamond\3.9_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-1B4IDNG
+
+# Tue Jun 27 13:59:59 2017
+
+#Implementation: impl1
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 284R, built Mar 10 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 284R, built Mar 10 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\ecp5u.v" (library work)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Cu_Suicide_Heat_Test\FPGA13\sys_pll\sys_pll.v" (library work)
+@I::"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v" (library work)
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":52:15:52:36|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":62:18:62:39|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":69:18:69:39|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":76:18:76:39|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":83:18:83:39|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":97:18:97:39|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":104:18:104:39|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":121:16:121:37|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":131:19:131:40|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":138:19:138:40|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":145:19:145:40|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":152:19:152:40|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":166:19:166:40|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":173:19:173:40|Specified digits overflow the number's size
+@E: CG342 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":189:2:189:8|Expecting target variable, found IL68_50 -- possible misspelling
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":190:16:190:37|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":200:18:200:39|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":207:18:207:39|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":214:18:214:39|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":221:18:221:39|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":235:18:235:39|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":242:18:242:39|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":259:16:259:37|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":269:19:269:40|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":276:19:276:40|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":283:19:283:40|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":290:19:290:40|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":306:19:306:40|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":313:19:313:40|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":331:21:331:42|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":332:21:332:42|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":349:21:349:42|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":350:21:350:42|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":360:21:360:42|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":361:21:361:42|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":366:21:366:42|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":367:21:367:42|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":382:22:382:43|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":383:22:383:43|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":400:22:400:43|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":401:22:401:43|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":411:22:411:43|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":412:22:412:43|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":417:22:417:43|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":418:22:418:43|Specified digits overflow the number's size
+@E: CS187 :"C:\Cu_Suicide_Heat_Test\FPGA13\FPGA13.v":427:0:427:8|Expecting endmodule
+2 syntax errors
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Jun 27 13:59:59 2017
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Jun 27 13:59:59 2017
+
+###########################################################]

@@ -1,0 +1,15 @@
+#Start recording tcl command: 6/27/2017 13:07:23
+#Project Location: C:/Cu_Suicide_Heat_Test/FPGA11; Project name: FPGA11
+prj_project new -name "FPGA11" -impl "impl1" -dev LFE5U-85F-8BG756C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Cu_Suicide_Heat_Test/FPGA11/FPGA11.v"
+prj_run Translate -impl impl1
+prj_src add "C:/Cu_Suicide_Heat_Test/FPGA11/sys_pll/sys_pll.sbx"
+sbp_design open -dsgn "C:/Cu_Suicide_Heat_Test/FPGA11/sys_pll/sys_pll.sbx"
+prj_run Map -impl impl1
+prj_run Map -impl impl1 -task MapTrace
+prj_run Map -impl impl1 -task MapTrace
+prj_run Map -impl impl1 -task MapTrace
+prj_run Map -impl impl1 -task MapTrace
+prj_run Export -impl impl1 -task Bitgen
+#Stop recording: 6/27/2017 13:26:13

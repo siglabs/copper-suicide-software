@@ -1,0 +1,1004 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>
+            Lattice Mapping Report File for Design Module 'FPGA10'
+
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a ECP5U -p LFE5U-85F -t CABGA756 -s 8 -oc Commercial
+     FPGA30_impl1.ngd -o FPGA30_impl1_map.ncd -pr FPGA30_impl1.prf -mp
+     FPGA30_impl1.mrp -lpf
+     C:/Cu_Suicide_Heat_Test/FPGA30/impl1/FPGA30_impl1_synplify.lpf -lpf
+     C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf -gui 
+Target Vendor:  LATTICE
+Target Device:  LFE5U-85FCABGA756
+Target Performance:   8
+Mapper:  sa5p00,  version:  Diamond (64-bit) 3.9.1.119
+Mapped on:  06/27/17  14:22:06
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:    213 out of 84735 (0%)
+      PFU registers:           67 out of 83640 (0%)
+      PIO registers:          146 out of  1095 (13%)
+   Number of SLICEs:       190 out of 41820 (0%)
+      SLICEs as Logic/ROM:    190 out of 41820 (0%)
+      SLICEs as RAM:            0 out of 31365 (0%)
+      SLICEs as Carry:          0 out of 41820 (0%)
+   Number of LUT4s:        323 out of 83640 (0%)
+      Number used as logic LUTs:        323
+      Number used as distributed RAM:     0
+      Number used as ripple logic:        0
+      Number used as shift registers:     0
+   Number of PIO sites used: 223 out of 365 (61%)
+   Number of block RAMs:  0 out of 208 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   DTR used :   No
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 4 (0%)
+   Number of Dynamic Bank Controller (BCLVDSOB):  0 out of 4 (0%)
+   Number of DCC:  0 out of 60 (0%)
+   Number of DCS:  0 out of 2 (0%)
+   Number of PLLs:  1 out of 4 (25%)
+   Number of DDRDLLs:  0 out of 4 (0%)
+   Number of CLKDIV:  0 out of 4 (0%)
+   Number of ECLKSYNC:  0 out of 10 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+        Number Of Mapped DSP Components:
+   --------------------------------
+   MULT18X18D          0
+   MULT9X9D            0
+   ALU54B              0
+   ALU24B              0
+
+   PRADD18A            0
+   PRADD9A             0
+   --------------------------------
+   Number of Used DSP MULT Sites:  0 out of 312 (0 %)
+   Number of Used DSP ALU Sites:  0 out of 156 (0 %)
+   Number of Used DSP PRADD Sites:  0 out of 312 (0 %)
+   Number of clocks:  3
+     Net CLK_c: 1 loads, 1 rising, 0 falling (Driver: PIO CLK )
+     Net clk_50: 75 loads, 75 rising, 0 falling (Driver: __/PLLInst_0 )
+     Net clk125: 112 loads, 112 rising, 0 falling (Driver: __/PLLInst_0 )
+   Number of Clock Enables:  10
+     Net data_rx_flag_IL07[1]: 1 loads, 0 LSLICEs
+     Net un1_counter_IL07_12520_i: 2 loads, 2 LSLICEs
+     Net un1_counter_12516_1_i: 3 loads, 3 LSLICEs
+     Net data_rx_flag_IL68[0]: 1 loads, 0 LSLICEs
+     Net data_rx_flag_IL68[1]: 1 loads, 0 LSLICEs
+     Net data_rx_flag_IL07[0]: 1 loads, 0 LSLICEs
+     Net un1_counter_IL68_5020_i: 3 loads, 3 LSLICEs
+     Net un1_counter_IL68_12523_i: 3 loads, 3 LSLICEs
+     Net un1_counter_IL07_5020_i: 2 loads, 2 LSLICEs
+     Net un1_counter_5016_1_i: 3 loads, 3 LSLICEs
+   Number of LSRs:  0
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net counter_IL68_50[2]: 12 loads
+     Net IL12_c[26]: 12 loads
+     Net counter_IL07_125[1]: 11 loads
+     Net counter_IL07_125[2]: 11 loads
+     Net counter_IL68_125[0]: 11 loads
+     Net counter_IL68_125[1]: 11 loads
+     Net IL12_c[30]: 11 loads
+     Net counter_IL07_125[0]: 10 loads
+     Net counter_IL07_50[0]: 10 loads
+     Net counter_IL07_50[2]: 10 loads
+
+
+
+
+   Number of warnings:  71
+   Number of errors:    0
+     
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(292): Semantic error in
+     "IOBUF PORT "IL34[25]" IO_TYPE=SSTL15_I ;": Port "IL34[25]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(293): Semantic error in
+     "IOBUF PORT "IL34[26]" IO_TYPE=SSTL15_I ;": Port "IL34[26]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(294): Semantic error in
+     "IOBUF PORT "IL34[27]" IO_TYPE=SSTL15_I ;": Port "IL34[27]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(295): Semantic error in
+     "IOBUF PORT "IL34[28]" IO_TYPE=SSTL15_I ;": Port "IL34[28]" does not exist
+
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(296): Semantic error in
+     "IOBUF PORT "IL34[29]" IO_TYPE=SSTL15_I ;": Port "IL34[29]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(297): Semantic error in
+     "IOBUF PORT "IL34[30]" IO_TYPE=SSTL15_I ;": Port "IL34[30]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(298): Semantic error in
+     "IOBUF PORT "IL34[31]" IO_TYPE=SSTL15_I ;": Port "IL34[31]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(299): Semantic error in
+     "IOBUF PORT "IL34[32]" IO_TYPE=SSTL15_I ;": Port "IL34[32]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(300): Semantic error in
+     "IOBUF PORT "IL34[33]" IO_TYPE=SSTL15_I ;": Port "IL34[33]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(301): Semantic error in
+     "IOBUF PORT "IL34[34]" IO_TYPE=SSTL15_I ;": Port "IL34[34]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(302): Semantic error in
+     "IOBUF PORT "IL34[35]" IO_TYPE=SSTL15_I ;": Port "IL34[35]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(303): Semantic error in
+     "IOBUF PORT "IL34[36]" IO_TYPE=SSTL15_I ;": Port "IL34[36]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(304): Semantic error in
+     "IOBUF PORT "IL34[37]" IO_TYPE=SSTL15_I ;": Port "IL34[37]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(305): Semantic error in
+     "IOBUF PORT "IL34[38]" IO_TYPE=SSTL15_I ;": Port "IL34[38]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(306): Semantic error in
+     "IOBUF PORT "IL34[39]" IO_TYPE=SSTL15_I ;": Port "IL34[39]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(307): Semantic error in
+     "IOBUF PORT "IL34[40]" IO_TYPE=SSTL15_I ;": Port "IL34[40]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(308): Semantic error in
+     "IOBUF PORT "IL34[41]" IO_TYPE=SSTL15_I ;": Port "IL34[41]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(309): Semantic error in
+     "IOBUF PORT "IL34[42]" IO_TYPE=SSTL15_I ;": Port "IL34[42]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(310): Semantic error in
+     "IOBUF PORT "IL34[43]" IO_TYPE=SSTL15_I ;": Port "IL34[43]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(311): Semantic error in
+     "IOBUF PORT "IL34[44]" IO_TYPE=SSTL15_I ;": Port "IL34[44]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(312): Semantic error in
+     "IOBUF PORT "IL34[45]" IO_TYPE=SSTL15_I ;": Port "IL34[45]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(313): Semantic error in
+     "IOBUF PORT "IL34[46]" IO_TYPE=SSTL15_I ;": Port "IL34[46]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(314): Semantic error in
+
+     "IOBUF PORT "IL34[47]" IO_TYPE=SSTL15_I ;": Port "IL34[47]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(315): Semantic error in
+     "IOBUF PORT "IL34[48]" IO_TYPE=SSTL15_I ;": Port "IL34[48]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(316): Semantic error in
+     "IOBUF PORT "IL34[49]" IO_TYPE=SSTL15_I ;": Port "IL34[49]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(317): Semantic error in
+     "IOBUF PORT "IL34[50]" IO_TYPE=SSTL15_I ;": Port "IL34[50]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(318): Semantic error in
+     "IOBUF PORT "IL34[51]" IO_TYPE=SSTL15_I ;": Port "IL34[51]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(319): Semantic error in
+     "IOBUF PORT "IL34[52]" IO_TYPE=SSTL15_I ;": Port "IL34[52]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(320): Semantic error in
+     "IOBUF PORT "IL34[53]" IO_TYPE=SSTL15_I ;": Port "IL34[53]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(321): Semantic error in
+     "IOBUF PORT "IL34[54]" IO_TYPE=SSTL15_I ;": Port "IL34[54]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(322): Semantic error in
+     "IOBUF PORT "IL34[55]" IO_TYPE=SSTL15_I ;": Port "IL34[55]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(323): Semantic error in
+     "IOBUF PORT "IL34[56]" IO_TYPE=SSTL15_I ;": Port "IL34[56]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(324): Semantic error in
+     "IOBUF PORT "IL34[57]" IO_TYPE=SSTL15_I ;": Port "IL34[57]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(325): Semantic error in
+     "IOBUF PORT "IL34[58]" IO_TYPE=SSTL15_I ;": Port "IL34[58]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(326): Semantic error in
+     "IOBUF PORT "IL34[59]" IO_TYPE=SSTL15_I ;": Port "IL34[59]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(327): Semantic error in
+     "IOBUF PORT "IL34[60]" IO_TYPE=SSTL15_I ;": Port "IL34[60]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(328): Semantic error in
+     "IOBUF PORT "IL34[61]" IO_TYPE=SSTL15_I ;": Port "IL34[61]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(329): Semantic error in
+     "IOBUF PORT "IL34[62]" IO_TYPE=SSTL15_I ;": Port "IL34[62]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(330): Semantic error in
+     "IOBUF PORT "IL34[63]" IO_TYPE=SSTL15_I ;": Port "IL34[63]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(331): Semantic error in
+     "IOBUF PORT "IL34[64]" IO_TYPE=SSTL15_I ;": Port "IL34[64]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(332): Semantic error in
+     "IOBUF PORT "IL34[65]" IO_TYPE=SSTL15_I ;": Port "IL34[65]" does not exist
+     in the design. This preference has been disabled.
+
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(333): Semantic error in
+     "IOBUF PORT "IL34[66]" IO_TYPE=SSTL15_I ;": Port "IL34[66]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(334): Semantic error in
+     "IOBUF PORT "IL34[67]" IO_TYPE=SSTL15_I ;": Port "IL34[67]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(335): Semantic error in
+     "IOBUF PORT "IL34[68]" IO_TYPE=SSTL15_I ;": Port "IL34[68]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(336): Semantic error in
+     "IOBUF PORT "IL34[69]" IO_TYPE=SSTL15_I ;": Port "IL34[69]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(337): Semantic error in
+     "IOBUF PORT "IL34[70]" IO_TYPE=SSTL15_I ;": Port "IL34[70]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(413): Semantic error in
+     "IOBUF PORT "IL34[0]" IO_TYPE=LVCMOS15 ;": Port "IL34[0]" does not exist in
+     the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(414): Semantic error in
+     "IOBUF PORT "IL34[1]" IO_TYPE=LVCMOS15 ;": Port "IL34[1]" does not exist in
+     the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(415): Semantic error in
+     "IOBUF PORT "IL34[2]" IO_TYPE=LVCMOS15 ;": Port "IL34[2]" does not exist in
+     the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(416): Semantic error in
+     "IOBUF PORT "IL34[3]" IO_TYPE=LVCMOS15 ;": Port "IL34[3]" does not exist in
+     the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(417): Semantic error in
+     "IOBUF PORT "IL34[4]" IO_TYPE=LVCMOS15 ;": Port "IL34[4]" does not exist in
+     the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(418): Semantic error in
+     "IOBUF PORT "IL34[5]" IO_TYPE=LVCMOS15 ;": Port "IL34[5]" does not exist in
+     the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(419): Semantic error in
+     "IOBUF PORT "IL34[6]" IO_TYPE=LVCMOS15 ;": Port "IL34[6]" does not exist in
+     the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(420): Semantic error in
+     "IOBUF PORT "IL34[7]" IO_TYPE=LVCMOS15 ;": Port "IL34[7]" does not exist in
+     the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(421): Semantic error in
+     "IOBUF PORT "IL34[8]" IO_TYPE=LVCMOS15 ;": Port "IL34[8]" does not exist in
+     the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(422): Semantic error in
+     "IOBUF PORT "IL34[9]" IO_TYPE=LVCMOS15 ;": Port "IL34[9]" does not exist in
+     the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(423): Semantic error in
+     "IOBUF PORT "IL34[10]" IO_TYPE=LVCMOS15 ;": Port "IL34[10]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(424): Semantic error in
+     "IOBUF PORT "IL34[11]" IO_TYPE=LVCMOS15 ;": Port "IL34[11]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(425): Semantic error in
+     "IOBUF PORT "IL34[12]" IO_TYPE=LVCMOS15 ;": Port "IL34[12]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(426): Semantic error in
+     "IOBUF PORT "IL34[13]" IO_TYPE=LVCMOS15 ;": Port "IL34[13]" does not exist
+
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(427): Semantic error in
+     "IOBUF PORT "IL34[14]" IO_TYPE=LVCMOS15 ;": Port "IL34[14]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(428): Semantic error in
+     "IOBUF PORT "IL34[15]" IO_TYPE=LVCMOS15 ;": Port "IL34[15]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(429): Semantic error in
+     "IOBUF PORT "IL34[16]" IO_TYPE=LVCMOS15 ;": Port "IL34[16]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(430): Semantic error in
+     "IOBUF PORT "IL34[17]" IO_TYPE=LVCMOS15 ;": Port "IL34[17]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(431): Semantic error in
+     "IOBUF PORT "IL34[18]" IO_TYPE=LVCMOS15 ;": Port "IL34[18]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(432): Semantic error in
+     "IOBUF PORT "IL34[19]" IO_TYPE=LVCMOS15 ;": Port "IL34[19]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(433): Semantic error in
+     "IOBUF PORT "IL34[20]" IO_TYPE=LVCMOS15 ;": Port "IL34[20]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(434): Semantic error in
+     "IOBUF PORT "IL34[21]" IO_TYPE=LVCMOS15 ;": Port "IL34[21]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(435): Semantic error in
+     "IOBUF PORT "IL34[22]" IO_TYPE=LVCMOS15 ;": Port "IL34[22]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(436): Semantic error in
+     "IOBUF PORT "IL34[23]" IO_TYPE=LVCMOS15 ;": Port "IL34[23]" does not exist
+     in the design. This preference has been disabled.
+WARNING - map: C:/Cu_Suicide_Heat_Test/FPGA30/FPGA30.lpf(437): Semantic error in
+     "IOBUF PORT "IL34[24]" IO_TYPE=LVCMOS15 ;": Port "IL34[24]" does not exist
+     in the design. This preference has been disabled.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| IL12[0]             | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| CLK                 | INPUT     | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| led                 | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| error_dect_125[3]   | OUTPUT    | LVCMOS15  | OUT        |
++---------------------+-----------+-----------+------------+
+| error_dect_125[2]   | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| error_dect_125[1]   | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| error_dect_125[0]   | OUTPUT    | LVCMOS15  | OUT        |
++---------------------+-----------+-----------+------------+
+
+| error_dect_50[3]    | OUTPUT    | LVCMOS15  | OUT        |
++---------------------+-----------+-----------+------------+
+| error_dect_50[2]    | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| error_dect_50[1]    | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| error_dect_50[0]    | OUTPUT    | LVCMOS15  | OUT        |
++---------------------+-----------+-----------+------------+
+| IL12[70]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[69]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[68]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[67]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[66]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[65]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[64]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[63]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[62]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[61]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[60]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[59]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[58]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[57]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[56]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[55]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[54]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[53]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[52]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[51]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[50]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[49]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[48]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[47]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+
+| IL12[46]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[45]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[44]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[43]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[42]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[41]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[40]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[39]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[38]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[37]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[36]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[35]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[34]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[33]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[32]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[31]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[30]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[29]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[28]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[27]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[26]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[25]            | OUTPUT    | SSTL15_I  |            |
++---------------------+-----------+-----------+------------+
+| IL12[24]            | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL12[23]            | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL12[22]            | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL12[21]            | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL12[20]            | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL12[19]            | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+
+| IL12[18]            | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL12[17]            | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL12[16]            | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL12[15]            | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL12[14]            | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL12[13]            | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL12[12]            | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL12[11]            | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL12[10]            | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL12[9]             | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL12[8]             | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL12[7]             | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL12[6]             | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL12[5]             | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL12[4]             | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL12[3]             | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL12[2]             | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL12[1]             | OUTPUT    | LVCMOS15  |            |
++---------------------+-----------+-----------+------------+
+| IL68[70]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[69]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[68]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[67]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[66]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[65]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[64]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[63]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[62]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[61]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+
+| IL68[60]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[59]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[58]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[57]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[56]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[55]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[54]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[53]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[52]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[51]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[50]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[49]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[48]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[47]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[46]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[45]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[44]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[43]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[42]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[41]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[40]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[39]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[38]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[37]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[36]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[35]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[34]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[33]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+
+| IL68[32]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[31]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[30]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[29]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[28]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[27]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[26]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[25]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[24]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[23]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[22]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[21]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[20]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[19]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[18]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[17]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[16]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[15]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[14]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[13]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[12]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[11]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[10]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[9]             | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[8]             | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[7]             | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[6]             | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[5]             | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+
+| IL68[4]             | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[3]             | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[2]             | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[1]             | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL68[0]             | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[70]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[69]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[68]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[67]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[66]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[65]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[64]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[63]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[62]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[61]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[60]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[59]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[58]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[57]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[56]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[55]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[54]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[53]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[52]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[51]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[50]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[49]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[48]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+
+| IL07[47]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[46]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[45]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[44]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[43]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[42]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[41]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[40]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[39]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[38]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[37]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[36]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[35]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[34]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[33]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[32]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[31]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[30]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[29]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[28]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[27]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[26]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[25]            | INPUT     | SSTL15_I  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[24]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[23]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[22]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[21]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[20]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+
+| IL07[19]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[18]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[17]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[16]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[15]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[14]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[13]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[12]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[11]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[10]            | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[9]             | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[8]             | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[7]             | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[6]             | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[5]             | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[4]             | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[3]             | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[2]             | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[1]             | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+| IL07[0]             | INPUT     | LVCMOS15  | IN         |
++---------------------+-----------+-----------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block VCC undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Signal GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal __/REFCLK undriven or does not drive anything - clipped.
+Signal __/INTLOCK undriven or does not drive anything - clipped.
+Signal __/CLKOS3 undriven or does not drive anything - clipped.
+Signal __/CLKOS2 undriven or does not drive anything - clipped.
+Block GND was optimized away.
+
+
+
+
+
+
+<A name="mrp_mem"></A><B><U><big>Memory Usage</big></U></B>
+
+
+     
+
+
+
+<A name="mrp_pll"></A><B><U><big>PLL/DLL Summary</big></U></B>
+---------------
+
+PLL 1:                                     Pin/Node Value
+  PLL Instance Name:                                __/PLLInst_0
+  PLL Type:                                         EHXPLLL
+  Input Clock:                             PIN      CLK_c
+  Input Clock2:                                     NONE
+  Input Clock select:                               NONE
+  Output Clock(P):                         NODE     clk_50
+  Output Clock(S):                         NODE     clk125
+  Output Clock(S2):                                 NONE
+  Output Clock(S3):                                 NONE
+  Feedback Signal:                         NODE     __/CLKFB_t
+  Reset Signal:                                     NONE
+  Standby Signal:                          NODE     __/GND
+  PLL LOCK signal:                         PIN      led_c
+  PLL Internal LOCK Signal:                         NONE
+  Input Clock Frequency (MHz):                      100.0000
+  Output Clock(P) Frequency (MHz):                  50.0000
+  Output Clock(S) Frequency (MHz):                  125.0000
+  Output Clock(S2) Frequency (MHz):                 NA
+  Output Clock(S3) Frequency (MHz):                 NA
+  CLKOP Post Divider A Input:                       DIVA
+  CLKOS Post Divider B Input:                       DIVB
+  CLKOS2 Post Divider C Input:                      DIVC
+  CLKOS3 Post Divider D Input:                      DIVD
+  Pre Divider A Input:                              NONE
+  Pre Divider B Input:                              NONE
+  Pre Divider C Input:                              NONE
+  Pre Divider D Input:                              NONE
+  FB_MODE:                                          INT_OP
+  CLKI Divider:                                     2
+  CLKFB Divider:                                    1
+  CLKOP Divider:                                    10
+  CLKOS Divider:                                    4
+  CLKOS2 Divider:                                   1
+  CLKOS3 Divider:                                   1
+  Fractional N Divider:                             NONE
+  CLKOP Desired Phase Shift(degree):                0
+  CLKOP Trim Option Rising/Falling:                 FALLING
+  CLKOP Trim Option Delay:                          0
+  CLKOS Desired Phase Shift(degree):                0
+  CLKOS Trim Option Rising/Falling:                 FALLING
+  CLKOS Trim Option Delay:                          0
+  CLKOS2 Desired Phase Shift(degree):               0
+  CLKOS2 Trim Option Rising/Falling:                NONE
+  CLKOS2 Trim Option Delay:                         NONE
+  CLKOS3 Desired Phase Shift(degree):               0
+  CLKOS3 Trim Option Rising/Falling:                NONE
+  CLKOS3 Trim Option Delay:                         NONE
+
+
+
+
+<A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
+---------------
+
+Instance Name: __/PLLInst_0
+         Type: EHXPLLL
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 2 secs  
+   Total REAL Time: 2 secs  
+   Peak Memory Usage: 249 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

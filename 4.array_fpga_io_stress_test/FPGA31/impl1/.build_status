@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Strategy1">
+        <Milestone name="Export" build_result="0" build_time="0">
+            <Task name="IBIS" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
+            <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
+            <Task name="Bitgen" build_result="2" update_result="0" update_time="1498598738"/>
+            <Task name="Promgen" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Map" build_result="2" build_time="1498598693">
+            <Task name="Map" build_result="2" update_result="0" update_time="1498598693"/>
+            <Task name="MapTrace" build_result="2" update_result="0" update_time="1498598695"/>
+            <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
+            <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="2" build_time="1498598719">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1498598719"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1498598722"/>
+            <Task name="IOTiming" build_result="2" update_result="0" update_time="1498598728"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="2" build_time="1498598191">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1498598191"/>
+        </Milestone>
+        <Milestone name="TOOL_Report" build_result="0" build_time="0">
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1498598172"/>
+            <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
+            <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
+            <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
+            <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
+        </Milestone>
+        <Milestone name="Translate" build_result="2" build_time="1498598371">
+            <Task name="Translate" build_result="2" update_result="0" update_time="1498598371"/>
+        </Milestone>
+        <Report name="FPGA30_impl1.bgn" last_build_time="1498598737" last_build_size="4179"/>
+        <Report name="FPGA30_impl1.bit" last_build_time="1498598737" last_build_size="1928029"/>
+        <Report name="FPGA30_impl1.edi" last_build_time="1498598189" last_build_size="406765"/>
+        <Report name="FPGA30_impl1.ior" last_build_time="1498598728" last_build_size="14367"/>
+        <Report name="FPGA30_impl1.ncd" last_build_time="1498598719" last_build_size="594399"/>
+        <Report name="FPGA30_impl1.ngd" last_build_time="1498598371" last_build_size="408847"/>
+        <Report name="FPGA30_impl1.tw1" last_build_time="1498598695" last_build_size="15629"/>
+        <Report name="FPGA30_impl1.twr" last_build_time="1498598722" last_build_size="95035"/>
+        <Report name="FPGA30_impl1_map.ncd" last_build_time="1498598692" last_build_size="451587"/>
+    </Strategy>
+</BuildStatus>

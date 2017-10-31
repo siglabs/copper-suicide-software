@@ -1,0 +1,395 @@
+<HTML>
+<HEAD><TITLE>I/O Timing Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Top"></A><B><U><big>I/O Timing Report</big></U></B>
+Loading design for application iotiming from file fpga11_impl1.ncd.
+Design name: FPGA10
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-85F
+Package:     CABGA756
+Performance: 9
+Package Status:                     Final          Version 1.40.
+Performance Hardware Data Status:   Final          Version 50.1.
+Loading design for application iotiming from file fpga11_impl1.ncd.
+Design name: FPGA10
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LFE5U-85F
+Package:     CABGA756
+Performance: M
+Package Status:                     Final          Version 1.40.
+Performance Hardware Data Status:   Final          Version 50.1.
+// Design: FPGA10
+// Package: CABGA756
+// ncd File: fpga11_impl1.ncd
+// Version: Diamond (64-bit) 3.9.1.119
+// Written on Tue Jun 27 14:36:49 2017
+// M: Minimum Performance Grade
+// iotiming FPGA11_impl1.ncd FPGA11_impl1.prf -gui -msgset C:/Cu_Suicide_Heat_Test/FPGA11/promote.xml
+
+I/O Timing Report (All units are in ns)
+
+Worst Case Results across Performance Grades (M, 9, 8):
+
+// Input Setup and Hold Times
+
+Port     Clock Edge  Setup Performance_Grade  Hold Performance_Grade
+----------------------------------------------------------------------
+IL07[0]  CLK   R    -0.678      M       3.008     8
+IL07[10] CLK   R    -0.678      M       3.008     8
+IL07[11] CLK   R    -0.678      M       3.008     8
+IL07[12] CLK   R    -0.678      M       3.008     8
+IL07[13] CLK   R    -0.678      M       3.008     8
+IL07[14] CLK   R    -0.678      M       3.008     8
+IL07[15] CLK   R    -0.678      M       3.008     8
+IL07[16] CLK   R    -0.678      M       3.008     8
+IL07[17] CLK   R    -0.678      M       3.008     8
+IL07[18] CLK   R    -0.678      M       3.008     8
+IL07[19] CLK   R    -0.678      M       3.008     8
+IL07[1]  CLK   R    -0.613      M       3.008     8
+IL07[20] CLK   R    -0.678      M       3.008     8
+IL07[21] CLK   R    -0.678      M       3.008     8
+IL07[22] CLK   R    -0.678      M       3.008     8
+IL07[23] CLK   R    -0.678      M       3.008     8
+IL07[24] CLK   R     0.280      M       3.008     8
+IL07[25] CLK   R    -1.220      M       4.069     8
+IL07[26] CLK   R    -1.220      M       4.069     8
+IL07[27] CLK   R    -1.220      M       4.069     8
+IL07[28] CLK   R    -1.220      M       4.069     8
+IL07[29] CLK   R    -1.220      M       4.069     8
+IL07[2]  CLK   R    -0.678      M       3.008     8
+IL07[30] CLK   R    -1.220      M       4.069     8
+IL07[31] CLK   R    -1.220      M       4.069     8
+IL07[32] CLK   R    -1.220      M       4.069     8
+IL07[33] CLK   R    -1.220      M       4.069     8
+IL07[34] CLK   R    -1.220      M       4.069     8
+IL07[35] CLK   R    -1.220      M       4.069     8
+IL07[36] CLK   R    -1.220      M       4.069     8
+IL07[37] CLK   R    -1.220      M       4.069     8
+IL07[38] CLK   R    -1.220      M       4.069     8
+IL07[39] CLK   R    -1.220      M       4.069     8
+IL07[3]  CLK   R    -0.678      M       3.008     8
+IL07[40] CLK   R    -1.220      M       4.069     8
+IL07[41] CLK   R    -1.220      M       4.069     8
+IL07[42] CLK   R    -1.220      M       4.069     8
+IL07[43] CLK   R    -1.220      M       4.069     8
+IL07[44] CLK   R    -1.220      M       4.069     8
+IL07[45] CLK   R    -1.220      M       4.069     8
+IL07[46] CLK   R    -1.220      M       4.069     8
+IL07[47] CLK   R    -1.220      M       4.069     8
+IL07[48] CLK   R    -1.220      M       4.069     8
+IL07[49] CLK   R    -1.220      M       4.069     8
+IL07[4]  CLK   R    -0.678      M       3.008     8
+IL07[50] CLK   R    -1.220      M       4.069     8
+IL07[51] CLK   R    -1.220      M       4.069     8
+IL07[52] CLK   R    -1.220      M       4.069     8
+IL07[53] CLK   R    -1.220      M       4.069     8
+IL07[54] CLK   R    -1.220      M       4.069     8
+IL07[55] CLK   R    -1.220      M       4.069     8
+IL07[56] CLK   R    -1.220      M       4.069     8
+IL07[57] CLK   R    -1.220      M       4.069     8
+IL07[58] CLK   R    -1.220      M       4.069     8
+IL07[59] CLK   R    -1.220      M       4.069     8
+IL07[5]  CLK   R    -0.678      M       3.008     8
+IL07[60] CLK   R    -1.220      M       4.069     8
+IL07[61] CLK   R    -1.220      M       4.069     8
+IL07[62] CLK   R    -1.220      M       4.069     8
+IL07[63] CLK   R    -1.220      M       4.069     8
+IL07[64] CLK   R    -1.220      M       4.069     8
+IL07[65] CLK   R    -1.220      M       4.069     8
+IL07[66] CLK   R    -1.220      M       4.069     8
+IL07[67] CLK   R    -1.220      M       4.069     8
+IL07[68] CLK   R    -1.220      M       4.069     8
+IL07[69] CLK   R    -1.220      M       4.069     8
+IL07[6]  CLK   R    -0.678      M       3.008     8
+IL07[70] CLK   R    -1.220      M       4.069     8
+IL07[7]  CLK   R    -0.678      M       3.008     8
+IL07[8]  CLK   R    -0.587      M       3.008     8
+IL07[9]  CLK   R    -0.678      M       3.008     8
+IL68[0]  CLK   R     0.220      M       3.008     8
+IL68[10] CLK   R    -0.678      M       3.008     8
+IL68[11] CLK   R    -0.383      M       3.008     8
+IL68[12] CLK   R    -0.678      M       3.008     8
+IL68[13] CLK   R    -0.678      M       3.008     8
+IL68[14] CLK   R    -0.678      M       3.008     8
+IL68[15] CLK   R    -0.643      M       2.949     8
+IL68[16] CLK   R    -0.327      M       2.949     8
+IL68[17] CLK   R    -0.643      M       2.949     8
+IL68[18] CLK   R    -0.510      M       2.949     8
+IL68[19] CLK   R    -0.643      M       2.949     8
+IL68[1]  CLK   R    -0.198      M       3.008     8
+IL68[20] CLK   R    -0.272      M       2.949     8
+IL68[21] CLK   R    -0.643      M       2.949     8
+IL68[22] CLK   R    -0.578      M       2.949     8
+IL68[23] CLK   R    -0.492      M       3.008     8
+IL68[24] CLK   R    -0.587      M       3.008     8
+IL68[25] CLK   R    -1.220      M       4.069     8
+IL68[26] CLK   R    -1.220      M       4.069     8
+IL68[27] CLK   R    -1.220      M       4.069     8
+IL68[28] CLK   R    -1.220      M       4.069     8
+IL68[29] CLK   R    -1.220      M       4.069     8
+IL68[2]  CLK   R    -0.198      M       3.008     8
+IL68[30] CLK   R    -1.220      M       4.069     8
+IL68[31] CLK   R    -0.509      M       4.069     8
+IL68[32] CLK   R    -0.642      M       4.069     8
+IL68[33] CLK   R    -1.220      M       4.069     8
+IL68[34] CLK   R    -1.220      M       4.069     8
+IL68[35] CLK   R    -1.220      M       4.069     8
+IL68[36] CLK   R    -1.220      M       4.069     8
+IL68[37] CLK   R    -1.220      M       4.069     8
+IL68[38] CLK   R    -1.220      M       4.069     8
+IL68[39] CLK   R    -1.220      M       4.069     8
+IL68[3]  CLK   R    -0.678      M       3.008     8
+IL68[40] CLK   R    -1.220      M       4.069     8
+IL68[41] CLK   R    -0.921      M       4.069     8
+IL68[42] CLK   R    -1.220      M       4.069     8
+IL68[43] CLK   R    -1.220      M       4.069     8
+IL68[44] CLK   R    -1.220      M       4.069     8
+IL68[45] CLK   R    -1.220      M       4.069     8
+IL68[46] CLK   R    -1.112      M       4.069     8
+IL68[47] CLK   R    -1.220      M       4.069     8
+IL68[48] CLK   R    -1.129      M       4.069     8
+IL68[49] CLK   R    -1.220      M       4.069     8
+IL68[4]  CLK   R    -0.492      M       3.008     8
+IL68[50] CLK   R    -1.220      M       4.069     8
+IL68[51] CLK   R    -1.220      M       4.069     8
+IL68[52] CLK   R    -1.220      M       4.069     8
+IL68[53] CLK   R    -1.220      M       4.069     8
+IL68[54] CLK   R    -1.220      M       4.069     8
+IL68[55] CLK   R    -1.220      M       4.069     8
+IL68[56] CLK   R    -1.220      M       4.069     8
+IL68[57] CLK   R    -1.220      M       4.069     8
+IL68[58] CLK   R    -1.220      M       4.069     8
+IL68[59] CLK   R    -1.220      M       4.069     8
+IL68[5]  CLK   R    -0.678      M       3.008     8
+IL68[60] CLK   R    -1.220      M       4.069     8
+IL68[61] CLK   R    -1.220      M       4.069     8
+IL68[62] CLK   R    -0.986      M       4.069     8
+IL68[63] CLK   R    -1.220      M       4.069     8
+IL68[64] CLK   R    -0.908      M       4.069     8
+IL68[65] CLK   R    -1.220      M       4.069     8
+IL68[66] CLK   R    -1.220      M       4.069     8
+IL68[67] CLK   R    -1.220      M       4.069     8
+IL68[68] CLK   R    -1.220      M       4.069     8
+IL68[69] CLK   R    -0.786      M       4.069     8
+IL68[6]  CLK   R    -0.613      M       3.008     8
+IL68[70] CLK   R    -0.647      M       4.069     8
+IL68[7]  CLK   R    -0.506      M       3.008     8
+IL68[8]  CLK   R    -0.678      M       3.008     8
+IL68[9]  CLK   R    -0.678      M       3.008     8
+
+
+// Clock to Output Delay
+
+Port              Clock Edge  Max_Delay Performance_Grade  Min_Delay Performance_Grade
+------------------------------------------------------------------------
+IL12[0]           CLK   R    10.436         8        4.884          M
+IL12[10]          CLK   R    12.614         8        5.999          M
+IL12[11]          CLK   R    12.451         8        5.866          M
+IL12[12]          CLK   R    11.601         8        5.488          M
+IL12[13]          CLK   R    12.825         8        6.079          M
+IL12[14]          CLK   R    11.207         8        5.287          M
+IL12[15]          CLK   R    12.005         8        5.669          M
+IL12[16]          CLK   R    10.606         8        4.966          M
+IL12[17]          CLK   R    12.233         8        5.760          M
+IL12[18]          CLK   R    10.632         8        4.984          M
+IL12[19]          CLK   R    12.025         8        5.656          M
+IL12[1]           CLK   R    12.659         8        5.969          M
+IL12[20]          CLK   R    11.478         8        5.399          M
+IL12[21]          CLK   R    12.223         8        5.774          M
+IL12[22]          CLK   R    10.971         8        5.144          M
+IL12[23]          CLK   R    11.009         8        5.163          M
+IL12[24]          CLK   R    11.224         8        5.292          M
+IL12[25]          CLK   R     9.564         8        4.598          M
+IL12[26]          CLK   R    10.492         8        5.030          M
+IL12[27]          CLK   R     9.564         8        4.598          M
+IL12[28]          CLK   R    10.278         8        4.924          M
+IL12[29]          CLK   R     9.409         8        4.543          M
+IL12[2]           CLK   R    11.026         8        5.185          M
+IL12[30]          CLK   R     9.635         8        4.614          M
+IL12[31]          CLK   R     9.689         8        4.681          M
+IL12[32]          CLK   R    10.168         8        4.857          M
+IL12[33]          CLK   R    10.381         8        4.997          M
+IL12[34]          CLK   R    10.617         8        5.079          M
+IL12[35]          CLK   R     9.406         8        4.528          M
+IL12[36]          CLK   R     9.634         8        4.609          M
+IL12[37]          CLK   R     9.076         8        4.389          M
+IL12[38]          CLK   R     9.360         8        4.483          M
+IL12[39]          CLK   R     8.868         8        4.286          M
+IL12[3]           CLK   R    12.659         8        5.969          M
+IL12[40]          CLK   R     9.292         8        4.451          M
+IL12[41]          CLK   R     9.221         8        4.434          M
+IL12[42]          CLK   R     9.622         8        4.606          M
+IL12[43]          CLK   R     9.289         8        4.466          M
+IL12[44]          CLK   R     9.634         8        4.609          M
+IL12[45]          CLK   R     8.937         8        4.311          M
+IL12[46]          CLK   R     9.292         8        4.451          M
+IL12[47]          CLK   R     9.409         8        4.543          M
+IL12[48]          CLK   R     9.635         8        4.614          M
+IL12[49]          CLK   R     9.868         8        4.758          M
+IL12[4]           CLK   R    11.559         8        5.426          M
+IL12[50]          CLK   R    10.096         8        4.839          M
+IL12[51]          CLK   R    10.076         8        4.861          M
+IL12[52]          CLK   R    10.302         8        4.941          M
+IL12[53]          CLK   R     9.983         8        4.826          M
+IL12[54]          CLK   R     9.853         8        4.720          M
+IL12[55]          CLK   R     9.678         8        4.691          M
+IL12[56]          CLK   R     9.853         8        4.720          M
+IL12[57]          CLK   R    10.066         8        4.834          M
+IL12[58]          CLK   R    10.374         8        4.975          M
+IL12[59]          CLK   R    10.263         8        4.934          M
+IL12[5]           CLK   R    12.431         8        5.878          M
+IL12[60]          CLK   R    10.617         8        5.079          M
+IL12[61]          CLK   R     9.922         8        4.782          M
+IL12[62]          CLK   R    10.168         8        4.857          M
+IL12[63]          CLK   R     9.922         8        4.782          M
+IL12[64]          CLK   R    10.376         8        4.961          M
+IL12[65]          CLK   R    10.589         8        5.100          M
+IL12[66]          CLK   R    10.825         8        5.182          M
+IL12[67]          CLK   R    10.595         8        5.110          M
+IL12[68]          CLK   R    10.857         8        5.207          M
+IL12[69]          CLK   R    10.294         8        4.981          M
+IL12[6]           CLK   R    11.180         8        5.248          M
+IL12[70]          CLK   R    10.376         8        4.961          M
+IL12[7]           CLK   R    12.223         8        5.774          M
+IL12[8]           CLK   R    12.417         8        5.899          M
+IL12[9]           CLK   R    12.451         8        5.866          M
+IL34[0]           CLK   R     8.137         8        3.738          M
+IL34[10]          CLK   R     7.569         8        3.511          M
+IL34[11]          CLK   R     7.991         8        3.698          M
+IL34[12]          CLK   R     7.900         8        3.681          M
+IL34[13]          CLK   R     7.891         8        3.656          M
+IL34[14]          CLK   R     7.833         8        3.647          M
+IL34[15]          CLK   R     8.326         8        3.873          M
+IL34[16]          CLK   R     7.967         8        3.655          M
+IL34[17]          CLK   R     7.499         8        3.478          M
+IL34[18]          CLK   R     7.955         8        3.652          M
+IL34[19]          CLK   R     7.511         8        3.481          M
+IL34[1]           CLK   R     7.911         8        3.664          M
+IL34[20]          CLK   R     7.528         8        3.478          M
+IL34[21]          CLK   R     7.693         8        3.566          M
+IL34[22]          CLK   R     7.358         8        3.396          M
+IL34[23]          CLK   R     7.512         8        3.478          M
+IL34[24]          CLK   R     7.502         8        3.476          M
+IL34[25]          CLK   R     7.352         8        3.576          M
+IL34[26]          CLK   R     7.817         8        3.808          M
+IL34[27]          CLK   R     7.228         8        3.509          M
+IL34[28]          CLK   R     7.352         8        3.577          M
+IL34[29]          CLK   R     7.289         8        3.551          M
+IL34[2]           CLK   R     8.152         8        3.753          M
+IL34[30]          CLK   R     7.147         8        3.478          M
+IL34[31]          CLK   R     7.352         8        3.576          M
+IL34[32]          CLK   R     7.350         8        3.575          M
+IL34[33]          CLK   R     7.428         8        3.628          M
+IL34[34]          CLK   R     7.438         8        3.630          M
+IL34[35]          CLK   R     7.902         8        3.837          M
+IL34[36]          CLK   R     7.742         8        3.757          M
+IL34[37]          CLK   R     7.728         8        3.753          M
+IL34[38]          CLK   R     7.608         8        3.679          M
+IL34[39]          CLK   R     7.728         8        3.753          M
+IL34[3]           CLK   R     7.911         8        3.664          M
+IL34[40]          CLK   R     7.608         8        3.679          M
+IL34[41]          CLK   R     7.669         8        3.710          M
+IL34[42]          CLK   R     7.765         8        3.762          M
+IL34[43]          CLK   R     7.669         8        3.710          M
+IL34[44]          CLK   R     7.935         8        3.845          M
+IL34[45]          CLK   R     7.657         8        3.707          M
+IL34[46]          CLK   R     7.676         8        3.711          M
+IL34[47]          CLK   R     7.962         8        3.842          M
+IL34[48]          CLK   R     7.981         8        3.847          M
+IL34[49]          CLK   R     8.275         8        4.005          M
+IL34[4]           CLK   R     7.667         8        3.550          M
+IL34[50]          CLK   R     8.459         8        4.074          M
+IL34[51]          CLK   R     8.067         8        3.901          M
+IL34[52]          CLK   R     8.251         8        3.971          M
+IL34[53]          CLK   R     8.090         8        3.917          M
+IL34[54]          CLK   R     8.199         8        3.952          M
+IL34[55]          CLK   R     8.355         8        4.047          M
+IL34[56]          CLK   R     8.199         8        3.952          M
+IL34[57]          CLK   R     8.165         8        3.952          M
+IL34[58]          CLK   R     8.724         8        4.204          M
+IL34[59]          CLK   R     8.425         8        4.072          M
+IL34[5]           CLK   R     7.932         8        3.672          M
+IL34[60]          CLK   R     8.932         8        4.307          M
+IL34[61]          CLK   R     8.424         8        4.072          M
+IL34[62]          CLK   R     8.474         8        4.084          M
+IL34[63]          CLK   R     8.632         8        4.176          M
+IL34[64]          CLK   R     8.671         8        4.184          M
+IL34[65]          CLK   R     8.920         8        4.320          M
+IL34[66]          CLK   R     9.126         8        4.396          M
+IL34[67]          CLK   R     8.738         8        4.234          M
+IL34[68]          CLK   R     8.944         8        4.310          M
+IL34[69]          CLK   R     8.563         8        4.150          M
+IL34[6]           CLK   R     7.357         8        3.396          M
+IL34[70]          CLK   R     8.486         8        4.087          M
+IL34[7]           CLK   R     7.762         8        3.590          M
+IL34[8]           CLK   R     7.512         8        3.482          M
+IL34[9]           CLK   R     8.161         8        3.780          M
+error_dect_125[0] CLK   R     7.063         8        2.818          M
+error_dect_125[3] CLK   R     6.996         8        2.783          M
+error_dect_50[0]  CLK   R     7.063         8        2.818          M
+error_dect_50[3]  CLK   R     6.996         8        2.783          M
+WARNING: you must also run trce with hold speed: 8
+WARNING: you must also run trce with setup speed: M
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

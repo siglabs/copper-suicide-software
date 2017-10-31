@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:52:15:52:36|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>52</Navigation>
+            <Navigation>36</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:62:18:62:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>62</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>62</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:69:18:69:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>69</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>69</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:76:18:76:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>76</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>76</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:83:18:83:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>83</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>83</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:97:18:97:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>97</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>97</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:104:18:104:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>104</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>104</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:121:16:121:37|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>121</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>121</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:131:19:131:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>131</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>131</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:138:19:138:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>138</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>138</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:145:19:145:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>145</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>145</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:152:19:152:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>152</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>152</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:166:19:166:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>166</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>166</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:173:19:173:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>173</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>173</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:190:16:190:37|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>190</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>190</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:200:18:200:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>200</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:207:18:207:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>207</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>207</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:214:18:214:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>214</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>214</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:221:18:221:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>221</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>221</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:235:18:235:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>235</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>235</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:242:18:242:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>242</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>242</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:259:16:259:37|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>259</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>259</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:269:19:269:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>269</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>269</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:276:19:276:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>276</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>276</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:283:19:283:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>283</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>283</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:290:19:290:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>290</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>290</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:306:19:306:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>306</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>306</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:313:19:313:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>313</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>313</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:331:21:331:42|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>331</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>331</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:332:21:332:42|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>332</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>332</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:349:21:349:42|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>349</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>349</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:350:21:350:42|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>350</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>350</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:360:21:360:42|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>360</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>360</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:361:21:361:42|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>361</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>361</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:366:21:366:42|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>366</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>366</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:367:21:367:42|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>367</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>367</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:382:22:382:43|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>382</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>382</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:383:22:383:43|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:400:22:400:43|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>400</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>400</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:401:22:401:43|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>401</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>401</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:411:22:411:43|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>411</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>411</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:412:22:412:43|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>412</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>412</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:417:22:417:43|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>417</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>417</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:418:22:418:43|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>418</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>418</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\sys_pll\sys_pll.v&quot;:21:8:21:21|Removing instance scuba_vhi_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\sys_pll\sys_pll.v</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>Removing instance scuba_vhi_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:327:0:327:5|Pruning register bits 24 to 13 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 24 to 13 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:327:0:327:5|Pruning register bits 11 to 9 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 11 to 9 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:327:0:327:5|Pruning register bits 7 to 6 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 7 to 6 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:327:0:327:5|Pruning register bits 3 to 2 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 3 to 2 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:327:0:327:5|Pruning register bits 24 to 13 of IL34_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 24 to 13 of IL34_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:327:0:327:5|Pruning register bits 11 to 9 of IL34_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 11 to 9 of IL34_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:327:0:327:5|Pruning register bits 7 to 6 of IL34_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 7 to 6 of IL34_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:327:0:327:5|Pruning register bits 3 to 2 of IL34_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 3 to 2 of IL34_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:378:0:378:5|Pruning register bits 45 to 13 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 45 to 13 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:378:0:378:5|Pruning register bits 11 to 9 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 11 to 9 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:378:0:378:5|Pruning register bits 7 to 6 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 7 to 6 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:378:0:378:5|Pruning register bits 3 to 2 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 3 to 2 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:378:0:378:5|Pruning register bits 45 to 13 of IL34_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 45 to 13 of IL34_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:378:0:378:5|Pruning register bits 11 to 9 of IL34_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 11 to 9 of IL34_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:378:0:378:5|Pruning register bits 7 to 6 of IL34_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 7 to 6 of IL34_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:378:0:378:5|Pruning register bits 3 to 2 of IL34_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 3 to 2 of IL34_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:327:0:327:5|Sharing sequential element IL34_50. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Sharing sequential element IL34_50. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:378:0:378:5|Sharing sequential element IL34_125. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Sharing sequential element IL34_125. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:327:0:327:5|Sharing sequential element IL34_50. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Sharing sequential element IL34_50. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:327:0:327:5|Sharing sequential element IL34_50. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Sharing sequential element IL34_50. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:327:0:327:5|Sharing sequential element IL34_50. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Sharing sequential element IL34_50. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:378:0:378:5|Sharing sequential element IL34_125. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Sharing sequential element IL34_125. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:378:0:378:5|Sharing sequential element IL34_125. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Sharing sequential element IL34_125. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL177 :&quot;C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v&quot;:378:0:378:5|Sharing sequential element IL34_125. Add a syn_preserve attribute to the element to prevent sharing.</Dynamic>
+            <Navigation>CL177</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA11\FPGA11.v</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Sharing sequential element IL34_125. Add a syn_preserve attribute to the element to prevent sharing.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\cu_suicide_heat_test\fpga11\fpga11.v&quot;:378:0:378:5|Found inferred clock sys_pll|CLKOS_inferred_clock which controls 111 sequential elements including IL12_125[12]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\cu_suicide_heat_test\fpga11\fpga11.v</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>378</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Found inferred clock sys_pll|CLKOS_inferred_clock which controls 111 sequential elements including IL12_125[12]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\cu_suicide_heat_test\fpga11\fpga11.v&quot;:327:0:327:5|Found inferred clock sys_pll|CLKOP_inferred_clock which controls 69 sequential elements including IL12_50[12]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\cu_suicide_heat_test\fpga11\fpga11.v</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Found inferred clock sys_pll|CLKOP_inferred_clock which controls 69 sequential elements including IL12_50[12]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;c:\cu_suicide_heat_test\fpga11\sys_pll\sys_pll.v&quot;:57:12:57:20|Blackbox EHXPLLL is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>c:\cu_suicide_heat_test\fpga11\sys_pll\sys_pll.v</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Blackbox EHXPLLL is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock sys_pll|CLKOP_inferred_clock with period 3.05ns. Please declare a user-defined clock on object &quot;n:__.CLKOP&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock sys_pll|CLKOP_inferred_clock with period 3.05ns. Please declare a user-defined clock on object &quot;n:__.CLKOP&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock sys_pll|CLKOS_inferred_clock with period 3.45ns. Please declare a user-defined clock on object &quot;n:__.CLKOS&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock sys_pll|CLKOS_inferred_clock with period 3.45ns. Please declare a user-defined clock on object &quot;n:__.CLKOS&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

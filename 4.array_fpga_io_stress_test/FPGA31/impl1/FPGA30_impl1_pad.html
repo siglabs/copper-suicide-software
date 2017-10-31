@@ -1,0 +1,978 @@
+<HTML>
+<HEAD><TITLE>PAD Specification File</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Pad"></A>PAD Specification File
+***************************
+
+PART TYPE:        LFE5U-85F
+Performance Grade:      8
+PACKAGE:          CABGA756
+Package Status:                     Final          Version 1.40
+
+Tue Jun 27 14:25:05 2017
+
+Pinout by Port Name:
++-------------------+----------+--------------+--------+-----------+------------------------------------+
+| Port Name         | Pin/Bank | Buffer Type  | Site   | BC Enable | Properties                         |
++-------------------+----------+--------------+--------+-----------+------------------------------------+
+| CLK               | A18/1    | LVCMOS15_IN  | PT71A  |           | PULL:DOWN CLAMP:ON                 |
+| IL07[0]           | B8/0     | LVCMOS15_IN  | PT20A  |           | PULL:DOWN CLAMP:ON                 |
+| IL07[10]          | A5/0     | LVCMOS15_IN  | PT9B   |           | PULL:DOWN CLAMP:ON                 |
+| IL07[11]          | A2/0     | LVCMOS15_IN  | PT6A   |           | PULL:DOWN CLAMP:ON                 |
+| IL07[12]          | A3/0     | LVCMOS15_IN  | PT6B   |           | PULL:DOWN CLAMP:ON                 |
+| IL07[13]          | B3/0     | LVCMOS15_IN  | PT4A   |           | PULL:DOWN CLAMP:ON                 |
+| IL07[14]          | B4/0     | LVCMOS15_IN  | PT4B   |           | PULL:DOWN CLAMP:ON                 |
+| IL07[15]          | D10/0    | LVCMOS15_IN  | PT29A  |           | PULL:DOWN CLAMP:ON                 |
+| IL07[16]          | C10/0    | LVCMOS15_IN  | PT29B  |           | PULL:DOWN CLAMP:ON                 |
+| IL07[17]          | D11/0    | LVCMOS15_IN  | PT36A  |           | PULL:DOWN CLAMP:ON                 |
+| IL07[18]          | C11/0    | LVCMOS15_IN  | PT36B  |           | PULL:DOWN CLAMP:ON                 |
+| IL07[19]          | C9/0     | LVCMOS15_IN  | PT24A  |           | PULL:DOWN CLAMP:ON                 |
+| IL07[1]           | D8/0     | LVCMOS15_IN  | PT18A  |           | PULL:DOWN CLAMP:ON                 |
+| IL07[20]          | A9/0     | LVCMOS15_IN  | PT24B  |           | PULL:DOWN CLAMP:ON                 |
+| IL07[21]          | F9/0     | LVCMOS15_IN  | PT22A  |           | PULL:DOWN CLAMP:ON                 |
+| IL07[22]          | D9/0     | LVCMOS15_IN  | PT22B  |           | PULL:DOWN CLAMP:ON                 |
+| IL07[23]          | C17/0    | LVCMOS15_IN  | PT65A  |           | PULL:DOWN CLAMP:ON                 |
+| IL07[24]          | D17/0    | LVCMOS15_IN  | PT65B  |           | PULL:DOWN CLAMP:ON                 |
+| IL07[25]          | H6/7     | SSTL15_I_IN  | PL35A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[26]          | H5/7     | SSTL15_I_IN  | PL35B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[27]          | J4/7     | SSTL15_I_IN  | PL32C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[28]          | K4/7     | SSTL15_I_IN  | PL32D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[29]          | L2/7     | SSTL15_I_IN  | PL32A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[2]           | C8/0     | LVCMOS15_IN  | PT18B  |           | PULL:DOWN CLAMP:ON                 |
+| IL07[30]          | L3/7     | SSTL15_I_IN  | PL32B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[31]          | C1/7     | SSTL15_I_IN  | PL20C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[32]          | D1/7     | SSTL15_I_IN  | PL20D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[33]          | F3/7     | SSTL15_I_IN  | PL20A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[34]          | E3/7     | SSTL15_I_IN  | PL20B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[35]          | N3/7     | SSTL15_I_IN  | PL41A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[36]          | N4/7     | SSTL15_I_IN  | PL41B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[37]          | L7/7     | SSTL15_I_IN  | PL41C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[38]          | L6/7     | SSTL15_I_IN  | PL41D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[39]          | P6/7     | SSTL15_I_IN  | PL44C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[3]           | F8/0     | LVCMOS15_IN  | PT15A  |           | PULL:DOWN CLAMP:ON                 |
+| IL07[40]          | P7/7     | SSTL15_I_IN  | PL44D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[41]          | N6/7     | SSTL15_I_IN  | PL44A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[42]          | N7/7     | SSTL15_I_IN  | PL44B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[43]          | K5/7     | SSTL15_I_IN  | PL38C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[44]          | L4/7     | SSTL15_I_IN  | PL38D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[45]          | K6/7     | SSTL15_I_IN  | PL38A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[46]          | K7/7     | SSTL15_I_IN  | PL38B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[47]          | K2/7     | SSTL15_I_IN  | PL29A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[48]          | J1/7     | SSTL15_I_IN  | PL29B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[49]          | K1/7     | SSTL15_I_IN  | PL29C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[4]           | E8/0     | LVCMOS15_IN  | PT15B  |           | PULL:DOWN CLAMP:ON                 |
+| IL07[50]          | L1/7     | SSTL15_I_IN  | PL29D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[51]          | J3/7     | SSTL15_I_IN  | PL26C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[52]          | K3/7     | SSTL15_I_IN  | PL26D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[53]          | H2/7     | SSTL15_I_IN  | PL26A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[54]          | H3/7     | SSTL15_I_IN  | PL26B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[55]          | F1/7     | SSTL15_I_IN  | PL23C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[56]          | H1/7     | SSTL15_I_IN  | PL23D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[57]          | F2/7     | SSTL15_I_IN  | PL23A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[58]          | E1/7     | SSTL15_I_IN  | PL23B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[59]          | B1/7     | SSTL15_I_IN  | PL17A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[5]           | B7/0     | LVCMOS15_IN  | PT13A  |           | PULL:DOWN CLAMP:ON                 |
+| IL07[60]          | C2/7     | SSTL15_I_IN  | PL17B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[61]          | D3/7     | SSTL15_I_IN  | PL17C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[62]          | D2/7     | SSTL15_I_IN  | PL17D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[63]          | F4/7     | SSTL15_I_IN  | PL14C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[64]          | F5/7     | SSTL15_I_IN  | PL14D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[65]          | D4/7     | SSTL15_I_IN  | PL14A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[66]          | E4/7     | SSTL15_I_IN  | PL14B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[67]          | C4/7     | SSTL15_I_IN  | PL11C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[68]          | C3/7     | SSTL15_I_IN  | PL11D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[69]          | C5/7     | SSTL15_I_IN  | PL11A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[6]           | A7/0     | LVCMOS15_IN  | PT13B  |           | PULL:DOWN CLAMP:ON                 |
+| IL07[70]          | D5/7     | SSTL15_I_IN  | PL11B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL07[7]           | D7/0     | LVCMOS15_IN  | PT11A  |           | PULL:DOWN CLAMP:ON                 |
+| IL07[8]           | C7/0     | LVCMOS15_IN  | PT11B  |           | PULL:DOWN CLAMP:ON                 |
+| IL07[9]           | A4/0     | LVCMOS15_IN  | PT9A   |           | PULL:DOWN CLAMP:ON                 |
+| IL12[0]           | C23/1    | LVCMOS15_OUT | PT96A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[10]          | D19/1    | LVCMOS15_OUT | PT78B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[11]          | A20/1    | LVCMOS15_OUT | PT83A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[12]          | C20/1    | LVCMOS15_OUT | PT83B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[13]          | E17/1    | LVCMOS15_OUT | PT69A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[14]          | F17/1    | LVCMOS15_OUT | PT69B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[15]          | A23/1    | LVCMOS15_OUT | PT94A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[16]          | B23/1    | LVCMOS15_OUT | PT94B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[17]          | C22/1    | LVCMOS15_OUT | PT89A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[18]          | D22/1    | LVCMOS15_OUT | PT89B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[19]          | E22/1    | LVCMOS15_OUT | PT92A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[1]           | A19/1    | LVCMOS15_OUT | PT76A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[20]          | F22/1    | LVCMOS15_OUT | PT92B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[21]          | A22/1    | LVCMOS15_OUT | PT87A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[22]          | B22/1    | LVCMOS15_OUT | PT87B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[23]          | B29/1    | LVCMOS15_OUT | PT121A |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[24]          | B30/1    | LVCMOS15_OUT | PT121B |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[25]          | H27/2    | SSTL15_I_OUT | PR35A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[26]          | H28/2    | SSTL15_I_OUT | PR35B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[27]          | J29/2    | SSTL15_I_OUT | PR32C  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[28]          | K29/2    | SSTL15_I_OUT | PR32D  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[29]          | L31/2    | SSTL15_I_OUT | PR32A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[2]           | B19/1    | LVCMOS15_OUT | PT76B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[30]          | L30/2    | SSTL15_I_OUT | PR32B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[31]          | C32/2    | SSTL15_I_OUT | PR20C  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[32]          | D32/2    | SSTL15_I_OUT | PR20D  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[33]          | F30/2    | SSTL15_I_OUT | PR20A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[34]          | E30/2    | SSTL15_I_OUT | PR20B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[35]          | N30/2    | SSTL15_I_OUT | PR41A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[36]          | N29/2    | SSTL15_I_OUT | PR41B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[37]          | K27/2    | SSTL15_I_OUT | PR38A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[38]          | K26/2    | SSTL15_I_OUT | PR38B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[39]          | P27/2    | SSTL15_I_OUT | PR44C  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[3]           | D18/1    | LVCMOS15_OUT | PT74A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[40]          | P26/2    | SSTL15_I_OUT | PR44D  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[41]          | L26/2    | SSTL15_I_OUT | PR41C  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[42]          | L27/2    | SSTL15_I_OUT | PR41D  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[43]          | K28/2    | SSTL15_I_OUT | PR38C  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[44]          | L29/2    | SSTL15_I_OUT | PR38D  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[45]          | N27/2    | SSTL15_I_OUT | PR44A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[46]          | N26/2    | SSTL15_I_OUT | PR44B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[47]          | K31/2    | SSTL15_I_OUT | PR29A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[48]          | J32/2    | SSTL15_I_OUT | PR29B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[49]          | K32/2    | SSTL15_I_OUT | PR29C  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[4]           | F18/1    | LVCMOS15_OUT | PT74B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[50]          | L32/2    | SSTL15_I_OUT | PR29D  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[51]          | H31/2    | SSTL15_I_OUT | PR26A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[52]          | H30/2    | SSTL15_I_OUT | PR26B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[53]          | F32/2    | SSTL15_I_OUT | PR23C  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[54]          | H32/2    | SSTL15_I_OUT | PR23D  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[55]          | J30/2    | SSTL15_I_OUT | PR26C  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[56]          | K30/2    | SSTL15_I_OUT | PR26D  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[57]          | F31/2    | SSTL15_I_OUT | PR23A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[58]          | E32/2    | SSTL15_I_OUT | PR23B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[59]          | B32/2    | SSTL15_I_OUT | PR17A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[5]           | E19/1    | LVCMOS15_OUT | PT80A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[60]          | C31/2    | SSTL15_I_OUT | PR17B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[61]          | D30/2    | SSTL15_I_OUT | PR17C  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[62]          | D31/2    | SSTL15_I_OUT | PR17D  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[63]          | F29/2    | SSTL15_I_OUT | PR14C  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[64]          | F28/2    | SSTL15_I_OUT | PR14D  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[65]          | D29/2    | SSTL15_I_OUT | PR14A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[66]          | E29/2    | SSTL15_I_OUT | PR14B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[67]          | C28/2    | SSTL15_I_OUT | PR11A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[68]          | D28/2    | SSTL15_I_OUT | PR11B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[69]          | C29/2    | SSTL15_I_OUT | PR11C  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[6]           | F19/1    | LVCMOS15_OUT | PT80B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[70]          | C30/2    | SSTL15_I_OUT | PR11D  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[7]           | D20/1    | LVCMOS15_OUT | PT85A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[8]           | F20/1    | LVCMOS15_OUT | PT85B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL12[9]           | C19/1    | LVCMOS15_OUT | PT78A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| IL68[0]           | AD1/6    | LVCMOS15_IN  | PL92C  |           | PULL:DOWN CLAMP:ON                 |
+| IL68[10]          | AE6/6    | LVCMOS15_IN  | PL80B  |           | PULL:DOWN CLAMP:ON                 |
+| IL68[11]          | AD6/6    | LVCMOS15_IN  | PL80A  |           | PULL:DOWN CLAMP:ON                 |
+| IL68[12]          | AM2/8    | LVCMOS15_IN  | PB9B   |           | PULL:DOWN CLAMP:ON                 |
+| IL68[13]          | AL1/8    | LVCMOS15_IN  | PB9A   |           | PULL:DOWN CLAMP:ON                 |
+| IL68[14]          | AK1/8    | LVCMOS15_IN  | PB6B   |           | PULL:DOWN CLAMP:ON                 |
+| IL68[15]          | AJ1/8    | LVCMOS15_IN  | PB6A   |           | PULL:DOWN CLAMP:ON                 |
+| IL68[16]          | AH1/8    | LVCMOS15_IN  | PB4B   |           | PULL:DOWN CLAMP:ON                 |
+| IL68[17]          | AG1/8    | LVCMOS15_IN  | PB4A   |           | PULL:DOWN CLAMP:ON                 |
+| IL68[18]          | V6/6     | LVCMOS15_IN  | PL56C  |           | PULL:DOWN CLAMP:ON                 |
+| IL68[19]          | V7/6     | LVCMOS15_IN  | PL56D  |           | PULL:DOWN CLAMP:ON                 |
+| IL68[1]           | AE1/6    | LVCMOS15_IN  | PL92D  |           | PULL:DOWN CLAMP:ON                 |
+| IL68[20]          | AG3/8    | LVCMOS15_IN  | PB13A  |           | PULL:DOWN CLAMP:ON                 |
+| IL68[21]          | AH3/8    | LVCMOS15_IN  | PB13B  |           | PULL:DOWN CLAMP:ON                 |
+| IL68[22]          | U4/6     | LVCMOS15_IN  | PL56A  |           | PULL:DOWN CLAMP:ON                 |
+| IL68[23]          | P4/6     | LVCMOS15_IN  | PL47B  |           | PULL:DOWN CLAMP:ON                 |
+| IL68[24]          | P5/6     | LVCMOS15_IN  | PL47A  |           | PULL:DOWN CLAMP:ON                 |
+| IL68[25]          | R7/6     | SSTL15_I_IN  | PL47C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[26]          | T7/6     | SSTL15_I_IN  | PL47D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[27]          | R4/6     | SSTL15_I_IN  | PL53A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[28]          | T5/6     | SSTL15_I_IN  | PL53B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[29]          | U3/6     | SSTL15_I_IN  | PL62D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[2]           | V1/6     | LVCMOS15_IN  | PL68C  |           | PULL:DOWN CLAMP:ON                 |
+| IL68[30]          | U2/6     | SSTL15_I_IN  | PL62C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[31]          | R3/6     | SSTL15_I_IN  | PL59C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[32]          | T3/6     | SSTL15_I_IN  | PL59D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[33]          | N1/6     | SSTL15_I_IN  | PL62A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[34]          | P1/6     | SSTL15_I_IN  | PL62B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[35]          | Y3/6     | SSTL15_I_IN  | PL65D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[36]          | W3/6     | SSTL15_I_IN  | PL65C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[37]          | P2/6     | SSTL15_I_IN  | PL59A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[38]          | P3/6     | SSTL15_I_IN  | PL59B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[39]          | R1/6     | SSTL15_I_IN  | PL65A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[3]           | W1/6     | LVCMOS15_IN  | PL68D  |           | PULL:DOWN CLAMP:ON                 |
+| IL68[40]          | T2/6     | SSTL15_I_IN  | PL65B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[41]          | Y7/6     | SSTL15_I_IN  | PL71A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[42]          | Y6/6     | SSTL15_I_IN  | PL71B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[43]          | AC7/6    | SSTL15_I_IN  | PL77C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[44]          | AD7/6    | SSTL15_I_IN  | PL77D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[45]          | AB7/6    | SSTL15_I_IN  | PL74C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[46]          | AC6/6    | SSTL15_I_IN  | PL74D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[47]          | Y4/6     | SSTL15_I_IN  | PL74A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[48]          | W4/6     | SSTL15_I_IN  | PL74B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[49]          | W5/6     | SSTL15_I_IN  | PL71D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[4]           | AC1/6    | LVCMOS15_IN  | PL92B  |           | PULL:DOWN CLAMP:ON                 |
+| IL68[50]          | Y5/6     | SSTL15_I_IN  | PL71C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[51]          | AB5/6    | SSTL15_I_IN  | PL77A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[52]          | AB6/6    | SSTL15_I_IN  | PL77B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[53]          | AC5/6    | SSTL15_I_IN  | PL83C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[54]          | AD4/6    | SSTL15_I_IN  | PL83D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[55]          | AE2/6    | SSTL15_I_IN  | PL89D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[56]          | AC2/6    | SSTL15_I_IN  | PL89C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[57]          | W2/6     | SSTL15_I_IN  | PL86A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[58]          | Y1/6     | SSTL15_I_IN  | PL86B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[59]          | AB4/6    | SSTL15_I_IN  | PL83B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[5]           | AB1/6    | LVCMOS15_IN  | PL92A  |           | PULL:DOWN CLAMP:ON                 |
+| IL68[60]          | AB3/6    | SSTL15_I_IN  | PL83A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[61]          | AE3/6    | SSTL15_I_IN  | PL86D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[62]          | AD3/6    | SSTL15_I_IN  | PL86C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[63]          | U7/6     | SSTL15_I_IN  | PL50D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[64]          | U6/6     | SSTL15_I_IN  | PL50C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[65]          | T4/6     | SSTL15_I_IN  | PL53C  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[66]          | U5/6     | SSTL15_I_IN  | PL53D  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[67]          | R6/6     | SSTL15_I_IN  | PL50A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[68]          | T6/6     | SSTL15_I_IN  | PL50B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[69]          | AC3/6    | SSTL15_I_IN  | PL89A  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[6]           | U1/6     | LVCMOS15_IN  | PL68B  |           | PULL:DOWN CLAMP:ON                 |
+| IL68[70]          | AB2/6    | SSTL15_I_IN  | PL89B  |           | CLAMP:ON TERMINATION:50 VREF1_LOAD |
+| IL68[7]           | T1/6     | LVCMOS15_IN  | PL68A  |           | PULL:DOWN CLAMP:ON                 |
+| IL68[8]           | AE5/6    | LVCMOS15_IN  | PL80C  |           | PULL:DOWN CLAMP:ON                 |
+| IL68[9]           | AE4/6    | LVCMOS15_IN  | PL80D  |           | PULL:DOWN CLAMP:ON                 |
+| VREF1_BANK_6      | V4/6     |              | PL56B  |           | VREF1_DRIVER                       |
+| VREF1_BANK_7      | J7/7     |              | PL35C  |           | VREF1_DRIVER                       |
+| error_dect_125[0] | AK2/8    | LVCMOS15_OUT | PB11B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| error_dect_125[1] | V27/3    | LVCMOS15_OUT | PR56C  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| error_dect_125[2] | T30/3    | LVCMOS15_OUT | PR59D  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| error_dect_125[3] | J6/7     | LVCMOS15_OUT | PL35D  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| error_dect_50[0]  | AJ2/8    | LVCMOS15_OUT | PB11A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| error_dect_50[1]  | R29/3    | LVCMOS15_OUT | PR53A  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| error_dect_50[2]  | T26/3    | LVCMOS15_OUT | PR47D  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| error_dect_50[3]  | E10/0    | LVCMOS15_OUT | PT27B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
+| led               | A8/0     | LVCMOS15_OUT | PT20B  |           | DRIVE:8mA CLAMP:ON SLEW:SLOW       |
++-------------------+----------+--------------+--------+-----------+------------------------------------+
+
+Vccio by Bank:
++------+-------+
+| Bank | Vccio |
++------+-------+
+| 0    | 1.5V  |
+| 1    | 1.5V  |
+| 2    | 1.5V  |
+| 3    | 1.5V  |
+| 4    | 1.5V  |
+| 6    | 1.5V  |
+| 7    | 1.5V  |
+| 8    | 1.5V  |
++------+-------+
+
+
+<A name="pad_vref"></A><B><U><big>Vref by Bank:</big></U></B>
++--------------+-----+-------------------+--------------------------------+
+| Vref         | Pin | Bank # / Vref #   | Load(s)                        |
++--------------+-----+-------------------+--------------------------------+
+| VREF1_BANK_6 | V4  | 6 / VREF1 (0.75V) | AE2       AC2       AB2        |
+|              |     |                   | AC3       AE3       AD3        |
+|              |     |                   | Y1        W2        AD4        |
+|              |     |                   | AC5       AB4       AB3        |
+|              |     |                   | AD7       AC7       AB6        |
+|              |     |                   | AB5       AC6       AB7        |
+|              |     |                   | W4        Y4        W5         |
+|              |     |                   | Y5        Y6        Y7         |
+|              |     |                   | Y3        W3        T2         |
+|              |     |                   | R1        U3        U2         |
+|              |     |                   | P1        N1        T3         |
+|              |     |                   | R3        P3        P2         |
+|              |     |                   | U5        T4        T5         |
+|              |     |                   | R4        U7        U6         |
+|              |     |                   | T6        R6        T7         |
+|              |     |                   | R7                             |
+| VREF1_BANK_7 | J7  | 7 / VREF1 (0.75V) | P7        P6        N7         |
+|              |     |                   | N6        L6        L7         |
+|              |     |                   | N4        N3        L4         |
+|              |     |                   | K5        K7        K6         |
+|              |     |                   | H5        H6        K4         |
+|              |     |                   | J4        L3        L2         |
+|              |     |                   | L1        K1        J1         |
+|              |     |                   | K2        K3        J3         |
+|              |     |                   | H3        H2        H1         |
+|              |     |                   | F1        E1        F2         |
+|              |     |                   | D1        C1        E3         |
+|              |     |                   | F3        D2        D3         |
+|              |     |                   | C2        B1        F5         |
+|              |     |                   | F4        E4        D4         |
+|              |     |                   | C3        C4        D5         |
+|              |     |                   | C5                             |
++--------------+-----+-------------------+--------------------------------+
+
+<A name="pad_pin"></A><B><U><big>Pinout by Pin Number:</big></U></B>
++----------+-----------------------+------------+--------------+--------+--------------------------+-----------+
+| Pin/Bank | Pin Info              | Preference | Buffer Type  | Site   | Dual Function            | BC Enable |
++----------+-----------------------+------------+--------------+--------+--------------------------+-----------+
+| A2/0     | IL07[11]              | LOCATED    | LVCMOS15_IN  | PT6A   |                          |           |
+| A3/0     | IL07[12]              | LOCATED    | LVCMOS15_IN  | PT6B   |                          |           |
+| A4/0     | IL07[9]               | LOCATED    | LVCMOS15_IN  | PT9A   |                          |           |
+| A5/0     | IL07[10]              | LOCATED    | LVCMOS15_IN  | PT9B   |                          |           |
+| A7/0     | IL07[6]               | LOCATED    | LVCMOS15_IN  | PT13B  |                          |           |
+| A8/0     | led                   | LOCATED    | LVCMOS15_OUT | PT20B  |                          |           |
+| A9/0     | IL07[20]              | LOCATED    | LVCMOS15_IN  | PT24B  |                          |           |
+| A10/0    |     unused, PULL:DOWN |            |              | PT31B  |                          |           |
+| A11/0    |     unused, PULL:DOWN |            |              | PT38B  |                          |           |
+| A13/0    |     unused, PULL:DOWN |            |              | PT42B  |                          |           |
+| A14/0    |     unused, PULL:DOWN |            |              | PT49B  |                          |           |
+| A15/0    |     unused, PULL:DOWN |            |              | PT54B  |                          |           |
+| A16/0    |     unused, PULL:DOWN |            |              | PT60B  | GR_PCLK0_0               |           |
+| A17/0    |     unused, PULL:DOWN |            |              | PT63A  | PCLKT0_1                 |           |
+| A18/1    | CLK                   | LOCATED    | LVCMOS15_IN  | PT71A  | PCLKT1_0                 |           |
+| A19/1    | IL12[1]               | LOCATED    | LVCMOS15_OUT | PT76A  |                          |           |
+| A20/1    | IL12[11]              | LOCATED    | LVCMOS15_OUT | PT83A  |                          |           |
+| A22/1    | IL12[21]              | LOCATED    | LVCMOS15_OUT | PT87A  |                          |           |
+| A23/1    | IL12[15]              | LOCATED    | LVCMOS15_OUT | PT94A  |                          |           |
+| A24/1    |     unused, PULL:DOWN |            |              | PT101A |                          |           |
+| A25/1    |     unused, PULL:DOWN |            |              | PT105A |                          |           |
+| A26/1    |     unused, PULL:DOWN |            |              | PT112A |                          |           |
+| A28/1    |     unused, PULL:DOWN |            |              | PT116A |                          |           |
+| A29/1    |     unused, PULL:DOWN |            |              | PT116B |                          |           |
+| A30/1    |     unused, PULL:DOWN |            |              | PT119A |                          |           |
+| A31/1    |     unused, PULL:DOWN |            |              | PT119B |                          |           |
+| AB1/6    | IL68[5]               | LOCATED    | LVCMOS15_IN  | PL92A  | LDQ89                    |           |
+| AB2/6    | IL68[70]              | LOCATED    | SSTL15_I_IN  | PL89B  | LDQSN89                  |           |
+| AB3/6    | IL68[60]              | LOCATED    | SSTL15_I_IN  | PL83A  | LDQ89                    |           |
+| AB4/6    | IL68[59]              | LOCATED    | SSTL15_I_IN  | PL83B  | LDQ89                    |           |
+| AB5/6    | IL68[51]              | LOCATED    | SSTL15_I_IN  | PL77A  | LDQS77                   |           |
+| AB6/6    | IL68[52]              | LOCATED    | SSTL15_I_IN  | PL77B  | LDQSN77                  |           |
+| AB7/6    | IL68[45]              | LOCATED    | SSTL15_I_IN  | PL74C  | LDQ77                    |           |
+| AB26/3   |     unused, PULL:DOWN |            |              | PR74C  | RDQ77                    |           |
+| AB27/3   |     unused, PULL:DOWN |            |              | PR77B  | RDQSN77                  |           |
+| AB28/3   |     unused, PULL:DOWN |            |              | PR77A  | RDQS77                   |           |
+| AB29/3   |     unused, PULL:DOWN |            |              | PR83B  | RDQ89                    |           |
+| AB30/3   |     unused, PULL:DOWN |            |              | PR83A  | RDQ89                    |           |
+| AB31/3   |     unused, PULL:DOWN |            |              | PR89B  | RDQSN89                  |           |
+| AB32/3   |     unused, PULL:DOWN |            |              | PR92A  | RDQ89                    |           |
+| AC1/6    | IL68[4]               | LOCATED    | LVCMOS15_IN  | PL92B  | LDQ89                    |           |
+| AC2/6    | IL68[56]              | LOCATED    | SSTL15_I_IN  | PL89C  | LDQ89                    |           |
+| AC3/6    | IL68[69]              | LOCATED    | SSTL15_I_IN  | PL89A  | LDQS89                   |           |
+| AC5/6    | IL68[53]              | LOCATED    | SSTL15_I_IN  | PL83C  | LDQ89                    |           |
+| AC6/6    | IL68[46]              | LOCATED    | SSTL15_I_IN  | PL74D  | LDQ77                    |           |
+| AC7/6    | IL68[43]              | LOCATED    | SSTL15_I_IN  | PL77C  | LDQ77                    |           |
+| AC26/3   |     unused, PULL:DOWN |            |              | PR77C  | RDQ77                    |           |
+| AC27/3   |     unused, PULL:DOWN |            |              | PR74D  | RDQ77                    |           |
+| AC28/3   |     unused, PULL:DOWN |            |              | PR83C  | RDQ89                    |           |
+| AC30/3   |     unused, PULL:DOWN |            |              | PR89A  | RDQS89                   |           |
+| AC31/3   |     unused, PULL:DOWN |            |              | PR89C  | RDQ89                    |           |
+| AC32/3   |     unused, PULL:DOWN |            |              | PR92B  | RDQ89                    |           |
+| AD1/6    | IL68[0]               | LOCATED    | LVCMOS15_IN  | PL92C  | LLC_GPLL0T_IN/LDQ89      |           |
+| AD3/6    | IL68[62]              | LOCATED    | SSTL15_I_IN  | PL86C  | LDQ89                    |           |
+| AD4/6    | IL68[54]              | LOCATED    | SSTL15_I_IN  | PL83D  | LDQ89                    |           |
+| AD6/6    | IL68[11]              | LOCATED    | LVCMOS15_IN  | PL80A  | LDQ77                    |           |
+| AD7/6    | IL68[44]              | LOCATED    | SSTL15_I_IN  | PL77D  | LDQ77                    |           |
+| AD26/3   |     unused, PULL:DOWN |            |              | PR77D  | RDQ77                    |           |
+| AD27/3   |     unused, PULL:DOWN |            |              | PR80A  | RDQ77                    |           |
+| AD29/3   |     unused, PULL:DOWN |            |              | PR83D  | RDQ89                    |           |
+| AD30/3   |     unused, PULL:DOWN |            |              | PR86C  | RDQ89                    |           |
+| AD32/3   |     unused, PULL:DOWN |            |              | PR92C  | LRC_GPLL0T_IN/RDQ89      |           |
+| AE1/6    | IL68[1]               | LOCATED    | LVCMOS15_IN  | PL92D  | LLC_GPLL0C_IN/LDQ89      |           |
+| AE2/6    | IL68[55]              | LOCATED    | SSTL15_I_IN  | PL89D  | LDQ89                    |           |
+| AE3/6    | IL68[61]              | LOCATED    | SSTL15_I_IN  | PL86D  | LDQ89                    |           |
+| AE4/6    | IL68[9]               | LOCATED    | LVCMOS15_IN  | PL80D  | LDQ77                    |           |
+| AE5/6    | IL68[8]               | LOCATED    | LVCMOS15_IN  | PL80C  | LDQ77                    |           |
+| AE6/6    | IL68[10]              | LOCATED    | LVCMOS15_IN  | PL80B  | LDQ77                    |           |
+| AE27/3   |     unused, PULL:DOWN |            |              | PR80B  | RDQ77                    |           |
+| AE28/3   |     unused, PULL:DOWN |            |              | PR80C  | RDQ77                    |           |
+| AE29/3   |     unused, PULL:DOWN |            |              | PR80D  | RDQ77                    |           |
+| AE30/3   |     unused, PULL:DOWN |            |              | PR86D  | RDQ89                    |           |
+| AE31/3   |     unused, PULL:DOWN |            |              | PR89D  | RDQ89                    |           |
+| AE32/3   |     unused, PULL:DOWN |            |              | PR92D  | LRC_GPLL0C_IN/RDQ89      |           |
+| AG1/8    | IL68[17]              | LOCATED    | LVCMOS15_IN  | PB4A   | D7/IO7                   |           |
+| AG3/8    | IL68[20]              | LOCATED    | LVCMOS15_IN  | PB13A  | SN/CSN                   |           |
+| AG28/4   |     unused, PULL:DOWN |            |              | PB110A |                          |           |
+| AG29/4   |     unused, PULL:DOWN |            |              | PB110B |                          |           |
+| AG30/4   |     unused, PULL:DOWN |            |              | PB114B |                          |           |
+| AG32/4   |     unused, PULL:DOWN |            |              | PB119B |                          |           |
+| AH1/8    | IL68[16]              | LOCATED    | LVCMOS15_IN  | PB4B   | D6/IO6                   |           |
+| AH3/8    | IL68[21]              | LOCATED    | LVCMOS15_IN  | PB13B  | CS1N                     |           |
+| AH28/4   |     unused, PULL:DOWN |            |              | PB112B |                          |           |
+| AH30/4   |     unused, PULL:DOWN |            |              | PB114A |                          |           |
+| AH32/4   |     unused, PULL:DOWN |            |              | PB119A |                          |           |
+| AJ1/8    | IL68[15]              | LOCATED    | LVCMOS15_IN  | PB6A   | D5/MISO2/IO5             |           |
+| AJ2/8    | error_dect_50[0]      |            | LVCMOS15_OUT | PB11A  | D1/MISO/IO1              |           |
+| AJ3/8    |     unused, PULL:DOWN |            |              | PB15A  | HOLDN/DI/BUSY/CSSPIN/CEN |           |
+| AJ28/4   |     unused, PULL:DOWN |            |              | PB112A |                          |           |
+| AJ29/4   |     unused, PULL:DOWN |            |              | PB121A |                          |           |
+| AJ30/4   |     unused, PULL:DOWN |            |              | PB121B |                          |           |
+| AJ31/4   |     unused, PULL:DOWN |            |              | PB105B |                          |           |
+| AJ32/4   |     unused, PULL:DOWN |            |              | PB101B |                          |           |
+| AK1/8    | IL68[14]              | LOCATED    | LVCMOS15_IN  | PB6B   | D4/MOSI2/IO4             |           |
+| AK2/8    | error_dect_125[0]     |            | LVCMOS15_OUT | PB11B  | D0/MOSI/IO0              |           |
+| AK3/8    |     unused, PULL:DOWN |            |              | PB15B  | DOUT/CSON                |           |
+| AK28/4   |     unused, PULL:DOWN |            |              | PB98B  |                          |           |
+| AK29/4   |     unused, PULL:DOWN |            |              | PB116A |                          |           |
+| AK30/4   |     unused, PULL:DOWN |            |              | PB116B |                          |           |
+| AK31/4   |     unused, PULL:DOWN |            |              | PB105A |                          |           |
+| AK32/4   |     unused, PULL:DOWN |            |              | PB101A |                          |           |
+| AL1/8    | IL68[13]              | LOCATED    | LVCMOS15_IN  | PB9A   | D3/IO3                   |           |
+| AL3/8    |     unused, PULL:DOWN |            |              | PB18A  | WRITEN                   |           |
+| AL28/4   |     unused, PULL:DOWN |            |              | PB98A  |                          |           |
+| AL30/4   |     unused, PULL:DOWN |            |              | PB103B |                          |           |
+| AL32/4   |     unused, PULL:DOWN |            |              | PB107B |                          |           |
+| AM2/8    | IL68[12]              | LOCATED    | LVCMOS15_IN  | PB9B   | D2/IO2                   |           |
+| AM28/4   |     unused, PULL:DOWN |            |              | PB96A  |                          |           |
+| AM29/4   |     unused, PULL:DOWN |            |              | PB96B  |                          |           |
+| AM30/4   |     unused, PULL:DOWN |            |              | PB103A |                          |           |
+| AM31/4   |     unused, PULL:DOWN |            |              | PB107A |                          |           |
+| B1/7     | IL07[59]              | LOCATED    | SSTL15_I_IN  | PL17A  | LDQS17                   |           |
+| B3/0     | IL07[13]              | LOCATED    | LVCMOS15_IN  | PT4A   | ULC_GPLL1T_IN            |           |
+| B4/0     | IL07[14]              | LOCATED    | LVCMOS15_IN  | PT4B   | ULC_GPLL1C_IN            |           |
+| B7/0     | IL07[5]               | LOCATED    | LVCMOS15_IN  | PT13A  |                          |           |
+| B8/0     | IL07[0]               | LOCATED    | LVCMOS15_IN  | PT20A  |                          |           |
+| B10/0    |     unused, PULL:DOWN |            |              | PT31A  |                          |           |
+| B11/0    |     unused, PULL:DOWN |            |              | PT38A  |                          |           |
+| B14/0    |     unused, PULL:DOWN |            |              | PT49A  |                          |           |
+| B16/0    |     unused, PULL:DOWN |            |              | PT60A  | GR_PCLK0_1               |           |
+| B17/0    |     unused, PULL:DOWN |            |              | PT63B  |                          |           |
+| B19/1    | IL12[2]               | LOCATED    | LVCMOS15_OUT | PT76B  |                          |           |
+| B22/1    | IL12[22]              | LOCATED    | LVCMOS15_OUT | PT87B  |                          |           |
+| B23/1    | IL12[16]              | LOCATED    | LVCMOS15_OUT | PT94B  |                          |           |
+| B25/1    |     unused, PULL:DOWN |            |              | PT105B |                          |           |
+| B26/1    |     unused, PULL:DOWN |            |              | PT112B |                          |           |
+| B29/1    | IL12[23]              | LOCATED    | LVCMOS15_OUT | PT121A | URC_GPLL1T_IN            |           |
+| B30/1    | IL12[24]              | LOCATED    | LVCMOS15_OUT | PT121B | URC_GPLL1C_IN            |           |
+| B32/2    | IL12[59]              | LOCATED    | SSTL15_I_OUT | PR17A  | RDQS17                   |           |
+| C1/7     | IL07[31]              | LOCATED    | SSTL15_I_IN  | PL20C  | LDQ17                    |           |
+| C2/7     | IL07[60]              | LOCATED    | SSTL15_I_IN  | PL17B  | LDQSN17                  |           |
+| C3/7     | IL07[68]              | LOCATED    | SSTL15_I_IN  | PL11D  | LDQ17                    |           |
+| C4/7     | IL07[67]              | LOCATED    | SSTL15_I_IN  | PL11C  | LDQ17                    |           |
+| C5/7     | IL07[69]              | LOCATED    | SSTL15_I_IN  | PL11A  | ULC_GPLL0T_IN/LDQ17      |           |
+| C7/0     | IL07[8]               | LOCATED    | LVCMOS15_IN  | PT11B  |                          |           |
+| C8/0     | IL07[2]               | LOCATED    | LVCMOS15_IN  | PT18B  |                          |           |
+| C9/0     | IL07[19]              | LOCATED    | LVCMOS15_IN  | PT24A  |                          |           |
+| C10/0    | IL07[16]              | LOCATED    | LVCMOS15_IN  | PT29B  |                          |           |
+| C11/0    | IL07[18]              | LOCATED    | LVCMOS15_IN  | PT36B  |                          |           |
+| C13/0    |     unused, PULL:DOWN |            |              | PT42A  |                          |           |
+| C14/0    |     unused, PULL:DOWN |            |              | PT47B  |                          |           |
+| C15/0    |     unused, PULL:DOWN |            |              | PT54A  |                          |           |
+| C16/0    |     unused, PULL:DOWN |            |              | PT58B  |                          |           |
+| C17/0    | IL07[23]              | LOCATED    | LVCMOS15_IN  | PT65A  | PCLKT0_0                 |           |
+| C18/1    |     unused, PULL:DOWN |            |              | PT71B  |                          |           |
+| C19/1    | IL12[9]               | LOCATED    | LVCMOS15_OUT | PT78A  |                          |           |
+| C20/1    | IL12[12]              | LOCATED    | LVCMOS15_OUT | PT83B  |                          |           |
+| C22/1    | IL12[17]              | LOCATED    | LVCMOS15_OUT | PT89A  |                          |           |
+| C23/1    | IL12[0]               | LOCATED    | LVCMOS15_OUT | PT96A  |                          |           |
+| C24/1    |     unused, PULL:DOWN |            |              | PT101B |                          |           |
+| C25/1    |     unused, PULL:DOWN |            |              | PT107A |                          |           |
+| C26/1    |     unused, PULL:DOWN |            |              | PT114A |                          |           |
+| C28/2    | IL12[67]              | LOCATED    | SSTL15_I_OUT | PR11A  | URC_GPLL0T_IN/RDQ17      |           |
+| C29/2    | IL12[69]              | LOCATED    | SSTL15_I_OUT | PR11C  | RDQ17                    |           |
+| C30/2    | IL12[70]              | LOCATED    | SSTL15_I_OUT | PR11D  | RDQ17                    |           |
+| C31/2    | IL12[60]              | LOCATED    | SSTL15_I_OUT | PR17B  | RDQSN17                  |           |
+| C32/2    | IL12[31]              | LOCATED    | SSTL15_I_OUT | PR20C  | RDQ17                    |           |
+| CCLK/8   |                       |            |              | CCLK   | MCLK/SCK                 |           |
+| D1/7     | IL07[32]              | LOCATED    | SSTL15_I_IN  | PL20D  | LDQ17                    |           |
+| D2/7     | IL07[62]              | LOCATED    | SSTL15_I_IN  | PL17D  | LDQ17                    |           |
+| D3/7     | IL07[61]              | LOCATED    | SSTL15_I_IN  | PL17C  | LDQ17                    |           |
+| D4/7     | IL07[65]              | LOCATED    | SSTL15_I_IN  | PL14A  | LDQ17                    |           |
+| D5/7     | IL07[70]              | LOCATED    | SSTL15_I_IN  | PL11B  | ULC_GPLL0C_IN/LDQ17      |           |
+| D7/0     | IL07[7]               | LOCATED    | LVCMOS15_IN  | PT11A  |                          |           |
+| D8/0     | IL07[1]               | LOCATED    | LVCMOS15_IN  | PT18A  |                          |           |
+| D9/0     | IL07[22]              | LOCATED    | LVCMOS15_IN  | PT22B  |                          |           |
+| D10/0    | IL07[15]              | LOCATED    | LVCMOS15_IN  | PT29A  |                          |           |
+| D11/0    | IL07[17]              | LOCATED    | LVCMOS15_IN  | PT36A  |                          |           |
+| D13/0    |     unused, PULL:DOWN |            |              | PT40B  |                          |           |
+| D14/0    |     unused, PULL:DOWN |            |              | PT47A  |                          |           |
+| D15/0    |     unused, PULL:DOWN |            |              | PT51B  |                          |           |
+| D16/0    |     unused, PULL:DOWN |            |              | PT58A  |                          |           |
+| D17/0    | IL07[24]              | LOCATED    | LVCMOS15_IN  | PT65B  |                          |           |
+| D18/1    | IL12[3]               | LOCATED    | LVCMOS15_OUT | PT74A  | GR_PCLK1_0               |           |
+| D19/1    | IL12[10]              | LOCATED    | LVCMOS15_OUT | PT78B  |                          |           |
+| D20/1    | IL12[7]               | LOCATED    | LVCMOS15_OUT | PT85A  |                          |           |
+| D22/1    | IL12[18]              | LOCATED    | LVCMOS15_OUT | PT89B  |                          |           |
+| D23/1    |     unused, PULL:DOWN |            |              | PT96B  |                          |           |
+| D24/1    |     unused, PULL:DOWN |            |              | PT103A |                          |           |
+| D25/1    |     unused, PULL:DOWN |            |              | PT107B |                          |           |
+| D26/1    |     unused, PULL:DOWN |            |              | PT114B |                          |           |
+| D28/2    | IL12[68]              | LOCATED    | SSTL15_I_OUT | PR11B  | URC_GPLL0C_IN/RDQ17      |           |
+| D29/2    | IL12[65]              | LOCATED    | SSTL15_I_OUT | PR14A  | RDQ17                    |           |
+| D30/2    | IL12[61]              | LOCATED    | SSTL15_I_OUT | PR17C  | RDQ17                    |           |
+| D31/2    | IL12[62]              | LOCATED    | SSTL15_I_OUT | PR17D  | RDQ17                    |           |
+| D32/2    | IL12[32]              | LOCATED    | SSTL15_I_OUT | PR20D  | RDQ17                    |           |
+| E1/7     | IL07[58]              | LOCATED    | SSTL15_I_IN  | PL23B  | LDQ29                    |           |
+| E3/7     | IL07[34]              | LOCATED    | SSTL15_I_IN  | PL20B  | LDQ17                    |           |
+| E4/7     | IL07[66]              | LOCATED    | SSTL15_I_IN  | PL14B  | LDQ17                    |           |
+| E8/0     | IL07[4]               | LOCATED    | LVCMOS15_IN  | PT15B  |                          |           |
+| E10/0    | error_dect_50[3]      |            | LVCMOS15_OUT | PT27B  |                          |           |
+| E11/0    |     unused, PULL:DOWN |            |              | PT33B  |                          |           |
+| E14/0    |     unused, PULL:DOWN |            |              | PT45B  |                          |           |
+| E16/0    |     unused, PULL:DOWN |            |              | PT56B  |                          |           |
+| E17/1    | IL12[13]              | LOCATED    | LVCMOS15_OUT | PT69A  | PCLKT1_1                 |           |
+| E19/1    | IL12[5]               | LOCATED    | LVCMOS15_OUT | PT80A  |                          |           |
+| E22/1    | IL12[19]              | LOCATED    | LVCMOS15_OUT | PT92A  |                          |           |
+| E23/1    |     unused, PULL:DOWN |            |              | PT98A  |                          |           |
+| E25/1    |     unused, PULL:DOWN |            |              | PT110A |                          |           |
+| E29/2    | IL12[66]              | LOCATED    | SSTL15_I_OUT | PR14B  | RDQ17                    |           |
+| E30/2    | IL12[34]              | LOCATED    | SSTL15_I_OUT | PR20B  | RDQ17                    |           |
+| E32/2    | IL12[58]              | LOCATED    | SSTL15_I_OUT | PR23B  | RDQ29                    |           |
+| F1/7     | IL07[55]              | LOCATED    | SSTL15_I_IN  | PL23C  | LDQ29                    |           |
+| F2/7     | IL07[57]              | LOCATED    | SSTL15_I_IN  | PL23A  | LDQ29                    |           |
+| F3/7     | IL07[33]              | LOCATED    | SSTL15_I_IN  | PL20A  | LDQ17                    |           |
+| F4/7     | IL07[63]              | LOCATED    | SSTL15_I_IN  | PL14C  | LDQ17                    |           |
+| F5/7     | IL07[64]              | LOCATED    | SSTL15_I_IN  | PL14D  | LDQ17                    |           |
+| F8/0     | IL07[3]               | LOCATED    | LVCMOS15_IN  | PT15A  |                          |           |
+| F9/0     | IL07[21]              | LOCATED    | LVCMOS15_IN  | PT22A  |                          |           |
+| F10/0    |     unused, PULL:DOWN |            |              | PT27A  |                          |           |
+| F11/0    |     unused, PULL:DOWN |            |              | PT33A  |                          |           |
+| F13/0    |     unused, PULL:DOWN |            |              | PT40A  |                          |           |
+| F14/0    |     unused, PULL:DOWN |            |              | PT45A  |                          |           |
+| F15/0    |     unused, PULL:DOWN |            |              | PT51A  |                          |           |
+| F16/0    |     unused, PULL:DOWN |            |              | PT56A  |                          |           |
+| F17/1    | IL12[14]              | LOCATED    | LVCMOS15_OUT | PT69B  |                          |           |
+| F18/1    | IL12[4]               | LOCATED    | LVCMOS15_OUT | PT74B  | GR_PCLK1_1               |           |
+| F19/1    | IL12[6]               | LOCATED    | LVCMOS15_OUT | PT80B  |                          |           |
+| F20/1    | IL12[8]               | LOCATED    | LVCMOS15_OUT | PT85B  |                          |           |
+| F22/1    | IL12[20]              | LOCATED    | LVCMOS15_OUT | PT92B  |                          |           |
+| F23/1    |     unused, PULL:DOWN |            |              | PT98B  |                          |           |
+| F24/1    |     unused, PULL:DOWN |            |              | PT103B |                          |           |
+| F25/1    |     unused, PULL:DOWN |            |              | PT110B |                          |           |
+| F28/2    | IL12[64]              | LOCATED    | SSTL15_I_OUT | PR14D  | RDQ17                    |           |
+| F29/2    | IL12[63]              | LOCATED    | SSTL15_I_OUT | PR14C  | RDQ17                    |           |
+| F30/2    | IL12[33]              | LOCATED    | SSTL15_I_OUT | PR20A  | RDQ17                    |           |
+| F31/2    | IL12[57]              | LOCATED    | SSTL15_I_OUT | PR23A  | RDQ29                    |           |
+| F32/2    | IL12[53]              | LOCATED    | SSTL15_I_OUT | PR23C  | RDQ29                    |           |
+| H1/7     | IL07[56]              | LOCATED    | SSTL15_I_IN  | PL23D  | LDQ29                    |           |
+| H2/7     | IL07[53]              | LOCATED    | SSTL15_I_IN  | PL26A  | LDQ29                    |           |
+| H3/7     | IL07[54]              | LOCATED    | SSTL15_I_IN  | PL26B  | LDQ29                    |           |
+| H5/7     | IL07[26]              | LOCATED    | SSTL15_I_IN  | PL35B  | LDQ41                    |           |
+| H6/7     | IL07[25]              | LOCATED    | SSTL15_I_IN  | PL35A  | LDQ41                    |           |
+| H27/2    | IL12[25]              | LOCATED    | SSTL15_I_OUT | PR35A  | RDQ41                    |           |
+| H28/2    | IL12[26]              | LOCATED    | SSTL15_I_OUT | PR35B  | RDQ41                    |           |
+| H30/2    | IL12[52]              | LOCATED    | SSTL15_I_OUT | PR26B  | RDQ29                    |           |
+| H31/2    | IL12[51]              | LOCATED    | SSTL15_I_OUT | PR26A  | RDQ29                    |           |
+| H32/2    | IL12[54]              | LOCATED    | SSTL15_I_OUT | PR23D  | RDQ29                    |           |
+| J1/7     | IL07[48]              | LOCATED    | SSTL15_I_IN  | PL29B  | LDQSN29                  |           |
+| J3/7     | IL07[51]              | LOCATED    | SSTL15_I_IN  | PL26C  | LDQ29                    |           |
+| J4/7     | IL07[27]              | LOCATED    | SSTL15_I_IN  | PL32C  | LDQ29                    |           |
+| J6/7     | error_dect_125[3]     |            | LVCMOS15_OUT | PL35D  | LDQ41                    |           |
+| J7/7     | VREF1_BANK_7          |            |              | PL35C  | VREF1_7/LDQ41            |           |
+| J26/2    |     unused, PULL:DOWN |            |              | PR35C  | VREF1_2/RDQ41            |           |
+| J27/2    |     unused, PULL:DOWN |            |              | PR35D  | RDQ41                    |           |
+| J29/2    | IL12[27]              | LOCATED    | SSTL15_I_OUT | PR32C  | RDQ29                    |           |
+| J30/2    | IL12[55]              | LOCATED    | SSTL15_I_OUT | PR26C  | RDQ29                    |           |
+| J32/2    | IL12[48]              | LOCATED    | SSTL15_I_OUT | PR29B  | RDQSN29                  |           |
+| K1/7     | IL07[49]              | LOCATED    | SSTL15_I_IN  | PL29C  | LDQ29                    |           |
+| K2/7     | IL07[47]              | LOCATED    | SSTL15_I_IN  | PL29A  | LDQS29                   |           |
+| K3/7     | IL07[52]              | LOCATED    | SSTL15_I_IN  | PL26D  | LDQ29                    |           |
+| K4/7     | IL07[28]              | LOCATED    | SSTL15_I_IN  | PL32D  | LDQ29                    |           |
+| K5/7     | IL07[43]              | LOCATED    | SSTL15_I_IN  | PL38C  | LDQ41                    |           |
+| K6/7     | IL07[45]              | LOCATED    | SSTL15_I_IN  | PL38A  | LDQ41                    |           |
+| K7/7     | IL07[46]              | LOCATED    | SSTL15_I_IN  | PL38B  | LDQ41                    |           |
+| K26/2    | IL12[38]              | LOCATED    | SSTL15_I_OUT | PR38B  | RDQ41                    |           |
+| K27/2    | IL12[37]              | LOCATED    | SSTL15_I_OUT | PR38A  | RDQ41                    |           |
+| K28/2    | IL12[43]              | LOCATED    | SSTL15_I_OUT | PR38C  | RDQ41                    |           |
+| K29/2    | IL12[28]              | LOCATED    | SSTL15_I_OUT | PR32D  | RDQ29                    |           |
+| K30/2    | IL12[56]              | LOCATED    | SSTL15_I_OUT | PR26D  | RDQ29                    |           |
+| K31/2    | IL12[47]              | LOCATED    | SSTL15_I_OUT | PR29A  | RDQS29                   |           |
+| K32/2    | IL12[49]              | LOCATED    | SSTL15_I_OUT | PR29C  | RDQ29                    |           |
+| L1/7     | IL07[50]              | LOCATED    | SSTL15_I_IN  | PL29D  | LDQ29                    |           |
+| L2/7     | IL07[29]              | LOCATED    | SSTL15_I_IN  | PL32A  | LDQ29                    |           |
+| L3/7     | IL07[30]              | LOCATED    | SSTL15_I_IN  | PL32B  | LDQ29                    |           |
+| L4/7     | IL07[44]              | LOCATED    | SSTL15_I_IN  | PL38D  | LDQ41                    |           |
+| L6/7     | IL07[38]              | LOCATED    | SSTL15_I_IN  | PL41D  | LDQ41                    |           |
+| L7/7     | IL07[37]              | LOCATED    | SSTL15_I_IN  | PL41C  | GR_PCLK7_0/LDQ41         |           |
+| L26/2    | IL12[41]              | LOCATED    | SSTL15_I_OUT | PR41C  | GR_PCLK2_0/RDQ41         |           |
+| L27/2    | IL12[42]              | LOCATED    | SSTL15_I_OUT | PR41D  | RDQ41                    |           |
+| L29/2    | IL12[44]              | LOCATED    | SSTL15_I_OUT | PR38D  | RDQ41                    |           |
+| L30/2    | IL12[30]              | LOCATED    | SSTL15_I_OUT | PR32B  | RDQ29                    |           |
+| L31/2    | IL12[29]              | LOCATED    | SSTL15_I_OUT | PR32A  | RDQ29                    |           |
+| L32/2    | IL12[50]              | LOCATED    | SSTL15_I_OUT | PR29D  | RDQ29                    |           |
+| N1/6     | IL68[33]              | LOCATED    | SSTL15_I_IN  | PL62A  | LDQ65                    |           |
+| N3/7     | IL07[35]              | LOCATED    | SSTL15_I_IN  | PL41A  | GR_PCLK7_1/LDQS41        |           |
+| N4/7     | IL07[36]              | LOCATED    | SSTL15_I_IN  | PL41B  | LDQSN41                  |           |
+| N6/7     | IL07[41]              | LOCATED    | SSTL15_I_IN  | PL44A  | PCLKT7_1/LDQ41           |           |
+| N7/7     | IL07[42]              | LOCATED    | SSTL15_I_IN  | PL44B  | PCLKC7_1/LDQ41           |           |
+| N26/2    | IL12[46]              | LOCATED    | SSTL15_I_OUT | PR44B  | PCLKC2_1/RDQ41           |           |
+| N27/2    | IL12[45]              | LOCATED    | SSTL15_I_OUT | PR44A  | PCLKT2_1/RDQ41           |           |
+| N29/2    | IL12[36]              | LOCATED    | SSTL15_I_OUT | PR41B  | RDQSN41                  |           |
+| N30/2    | IL12[35]              | LOCATED    | SSTL15_I_OUT | PR41A  | GR_PCLK2_1/RDQS41        |           |
+| N32/3    |     unused, PULL:DOWN |            |              | PR62A  | RDQ65                    |           |
+| P1/6     | IL68[34]              | LOCATED    | SSTL15_I_IN  | PL62B  | LDQ65                    |           |
+| P2/6     | IL68[37]              | LOCATED    | SSTL15_I_IN  | PL59A  | LDQ65                    |           |
+| P3/6     | IL68[38]              | LOCATED    | SSTL15_I_IN  | PL59B  | LDQ65                    |           |
+| P4/6     | IL68[23]              | LOCATED    | LVCMOS15_IN  | PL47B  | PCLKC6_1/LDQ53           |           |
+| P5/6     | IL68[24]              | LOCATED    | LVCMOS15_IN  | PL47A  | PCLKT6_1/LDQ53           |           |
+| P6/7     | IL07[39]              | LOCATED    | SSTL15_I_IN  | PL44C  | PCLKT7_0/LDQ41           |           |
+| P7/7     | IL07[40]              | LOCATED    | SSTL15_I_IN  | PL44D  | PCLKC7_0/LDQ41           |           |
+| P26/2    | IL12[40]              | LOCATED    | SSTL15_I_OUT | PR44D  | PCLKC2_0/RDQ41           |           |
+| P27/2    | IL12[39]              | LOCATED    | SSTL15_I_OUT | PR44C  | PCLKT2_0/RDQ41           |           |
+| P28/3    |     unused, PULL:DOWN |            |              | PR47A  | PCLKT3_1/RDQ53           |           |
+| P29/3    |     unused, PULL:DOWN |            |              | PR47B  | PCLKC3_1/RDQ53           |           |
+| P30/3    |     unused, PULL:DOWN |            |              | PR59B  | RDQ65                    |           |
+| P31/3    |     unused, PULL:DOWN |            |              | PR59A  | RDQ65                    |           |
+| P32/3    |     unused, PULL:DOWN |            |              | PR62B  | RDQ65                    |           |
+| R1/6     | IL68[39]              | LOCATED    | SSTL15_I_IN  | PL65A  | LDQS65                   |           |
+| R3/6     | IL68[31]              | LOCATED    | SSTL15_I_IN  | PL59C  | LDQ65                    |           |
+| R4/6     | IL68[27]              | LOCATED    | SSTL15_I_IN  | PL53A  | LDQS53                   |           |
+| R6/6     | IL68[67]              | LOCATED    | SSTL15_I_IN  | PL50A  | GR_PCLK6_0/LDQ53         |           |
+| R7/6     | IL68[25]              | LOCATED    | SSTL15_I_IN  | PL47C  | PCLKT6_0/LDQ53           |           |
+| R26/3    |     unused, PULL:DOWN |            |              | PR47C  | PCLKT3_0/RDQ53           |           |
+| R27/3    |     unused, PULL:DOWN |            |              | PR50A  | GR_PCLK3_0/RDQ53         |           |
+| R29/3    | error_dect_50[1]      |            | LVCMOS15_OUT | PR53A  | RDQS53                   |           |
+| R30/3    |     unused, PULL:DOWN |            |              | PR59C  | RDQ65                    |           |
+| R32/3    |     unused, PULL:DOWN |            |              | PR65A  | RDQS65                   |           |
+| T1/6     | IL68[7]               | LOCATED    | LVCMOS15_IN  | PL68A  | LDQ65                    |           |
+| T2/6     | IL68[40]              | LOCATED    | SSTL15_I_IN  | PL65B  | LDQSN65                  |           |
+| T3/6     | IL68[32]              | LOCATED    | SSTL15_I_IN  | PL59D  | LDQ65                    |           |
+| T4/6     | IL68[65]              | LOCATED    | SSTL15_I_IN  | PL53C  | LDQ53                    |           |
+| T5/6     | IL68[28]              | LOCATED    | SSTL15_I_IN  | PL53B  | LDQSN53                  |           |
+| T6/6     | IL68[68]              | LOCATED    | SSTL15_I_IN  | PL50B  | LDQ53                    |           |
+| T7/6     | IL68[26]              | LOCATED    | SSTL15_I_IN  | PL47D  | PCLKC6_0/LDQ53           |           |
+| T26/3    | error_dect_50[2]      |            | LVCMOS15_OUT | PR47D  | PCLKC3_0/RDQ53           |           |
+| T27/3    |     unused, PULL:DOWN |            |              | PR50B  | RDQ53                    |           |
+| T28/3    |     unused, PULL:DOWN |            |              | PR53B  | RDQSN53                  |           |
+| T29/3    |     unused, PULL:DOWN |            |              | PR53C  | RDQ53                    |           |
+| T30/3    | error_dect_125[2]     |            | LVCMOS15_OUT | PR59D  | RDQ65                    |           |
+| T31/3    |     unused, PULL:DOWN |            |              | PR65B  | RDQSN65                  |           |
+| T32/3    |     unused, PULL:DOWN |            |              | PR68A  | RDQ65                    |           |
+| TCK/40   |                       |            |              | TCK    |                          |           |
+| TDI/40   |                       |            |              | TDI    |                          |           |
+| TDO/40   |                       |            |              | TDO    |                          |           |
+| TMS/40   |                       |            |              | TMS    |                          |           |
+| U1/6     | IL68[6]               | LOCATED    | LVCMOS15_IN  | PL68B  | LDQ65                    |           |
+| U2/6     | IL68[30]              | LOCATED    | SSTL15_I_IN  | PL62C  | LDQ65                    |           |
+| U3/6     | IL68[29]              | LOCATED    | SSTL15_I_IN  | PL62D  | LDQ65                    |           |
+| U4/6     | IL68[22]              | LOCATED    | LVCMOS15_IN  | PL56A  | LDQ53                    |           |
+| U5/6     | IL68[66]              | LOCATED    | SSTL15_I_IN  | PL53D  | LDQ53                    |           |
+| U6/6     | IL68[64]              | LOCATED    | SSTL15_I_IN  | PL50C  | GR_PCLK6_1/LDQ53         |           |
+| U7/6     | IL68[63]              | LOCATED    | SSTL15_I_IN  | PL50D  | LDQ53                    |           |
+| U26/3    |     unused, PULL:DOWN |            |              | PR50D  | RDQ53                    |           |
+| U27/3    |     unused, PULL:DOWN |            |              | PR50C  | GR_PCLK3_1/RDQ53         |           |
+| U28/3    |     unused, PULL:DOWN |            |              | PR53D  | RDQ53                    |           |
+| U29/3    |     unused, PULL:DOWN |            |              | PR56A  | RDQ53                    |           |
+| U30/3    |     unused, PULL:DOWN |            |              | PR62D  | RDQ65                    |           |
+| U31/3    |     unused, PULL:DOWN |            |              | PR62C  | RDQ65                    |           |
+| U32/3    |     unused, PULL:DOWN |            |              | PR68B  | RDQ65                    |           |
+| V1/6     | IL68[2]               | LOCATED    | LVCMOS15_IN  | PL68C  | LDQ65                    |           |
+| V4/6     | VREF1_BANK_6          |            |              | PL56B  | VREF1_6/LDQ53            |           |
+| V6/6     | IL68[18]              | LOCATED    | LVCMOS15_IN  | PL56C  | LDQ53                    |           |
+| V7/6     | IL68[19]              | LOCATED    | LVCMOS15_IN  | PL56D  | LDQ53                    |           |
+| V26/3    |     unused, PULL:DOWN |            |              | PR56D  | RDQ53                    |           |
+| V27/3    | error_dect_125[1]     |            | LVCMOS15_OUT | PR56C  | RDQ53                    |           |
+| V29/3    |     unused, PULL:DOWN |            |              | PR56B  | VREF1_3/RDQ53            |           |
+| V32/3    |     unused, PULL:DOWN |            |              | PR68C  | RDQ65                    |           |
+| W1/6     | IL68[3]               | LOCATED    | LVCMOS15_IN  | PL68D  | LDQ65                    |           |
+| W2/6     | IL68[57]              | LOCATED    | SSTL15_I_IN  | PL86A  | LDQ89                    |           |
+| W3/6     | IL68[36]              | LOCATED    | SSTL15_I_IN  | PL65C  | LDQ65                    |           |
+| W4/6     | IL68[48]              | LOCATED    | SSTL15_I_IN  | PL74B  | LDQ77                    |           |
+| W5/6     | IL68[49]              | LOCATED    | SSTL15_I_IN  | PL71D  | LDQ77                    |           |
+| W28/3    |     unused, PULL:DOWN |            |              | PR71D  | RDQ77                    |           |
+| W29/3    |     unused, PULL:DOWN |            |              | PR74B  | RDQ77                    |           |
+| W30/3    |     unused, PULL:DOWN |            |              | PR65C  | RDQ65                    |           |
+| W31/3    |     unused, PULL:DOWN |            |              | PR86A  | RDQ89                    |           |
+| W32/3    |     unused, PULL:DOWN |            |              | PR68D  | RDQ65                    |           |
+| Y1/6     | IL68[58]              | LOCATED    | SSTL15_I_IN  | PL86B  | LDQ89                    |           |
+| Y3/6     | IL68[35]              | LOCATED    | SSTL15_I_IN  | PL65D  | LDQ65                    |           |
+| Y4/6     | IL68[47]              | LOCATED    | SSTL15_I_IN  | PL74A  | LDQ77                    |           |
+| Y5/6     | IL68[50]              | LOCATED    | SSTL15_I_IN  | PL71C  | LDQ77                    |           |
+| Y6/6     | IL68[42]              | LOCATED    | SSTL15_I_IN  | PL71B  | LDQ77                    |           |
+| Y7/6     | IL68[41]              | LOCATED    | SSTL15_I_IN  | PL71A  | LDQ77                    |           |
+| Y26/3    |     unused, PULL:DOWN |            |              | PR71A  | RDQ77                    |           |
+| Y27/3    |     unused, PULL:DOWN |            |              | PR71B  | RDQ77                    |           |
+| Y28/3    |     unused, PULL:DOWN |            |              | PR71C  | RDQ77                    |           |
+| Y29/3    |     unused, PULL:DOWN |            |              | PR74A  | RDQ77                    |           |
+| Y30/3    |     unused, PULL:DOWN |            |              | PR65D  | RDQ65                    |           |
+| Y32/3    |     unused, PULL:DOWN |            |              | PR86B  | RDQ89                    |           |
++----------+-----------------------+------------+--------------+--------+--------------------------+-----------+
+
+
+List of All Pins' Locate Preferences Based on Final Placement After PAR 
+to Help Users Lock Down ALL the Pins Easily (by Simply Copy & Paste): 
+
+LOCATE  COMP  "CLK"  SITE  "A18";
+LOCATE  COMP  "IL07[0]"  SITE  "B8";
+LOCATE  COMP  "IL07[10]"  SITE  "A5";
+LOCATE  COMP  "IL07[11]"  SITE  "A2";
+LOCATE  COMP  "IL07[12]"  SITE  "A3";
+LOCATE  COMP  "IL07[13]"  SITE  "B3";
+LOCATE  COMP  "IL07[14]"  SITE  "B4";
+LOCATE  COMP  "IL07[15]"  SITE  "D10";
+LOCATE  COMP  "IL07[16]"  SITE  "C10";
+LOCATE  COMP  "IL07[17]"  SITE  "D11";
+LOCATE  COMP  "IL07[18]"  SITE  "C11";
+LOCATE  COMP  "IL07[19]"  SITE  "C9";
+LOCATE  COMP  "IL07[1]"  SITE  "D8";
+LOCATE  COMP  "IL07[20]"  SITE  "A9";
+LOCATE  COMP  "IL07[21]"  SITE  "F9";
+LOCATE  COMP  "IL07[22]"  SITE  "D9";
+LOCATE  COMP  "IL07[23]"  SITE  "C17";
+LOCATE  COMP  "IL07[24]"  SITE  "D17";
+LOCATE  COMP  "IL07[25]"  SITE  "H6";
+LOCATE  COMP  "IL07[26]"  SITE  "H5";
+LOCATE  COMP  "IL07[27]"  SITE  "J4";
+LOCATE  COMP  "IL07[28]"  SITE  "K4";
+LOCATE  COMP  "IL07[29]"  SITE  "L2";
+LOCATE  COMP  "IL07[2]"  SITE  "C8";
+LOCATE  COMP  "IL07[30]"  SITE  "L3";
+LOCATE  COMP  "IL07[31]"  SITE  "C1";
+LOCATE  COMP  "IL07[32]"  SITE  "D1";
+LOCATE  COMP  "IL07[33]"  SITE  "F3";
+LOCATE  COMP  "IL07[34]"  SITE  "E3";
+LOCATE  COMP  "IL07[35]"  SITE  "N3";
+LOCATE  COMP  "IL07[36]"  SITE  "N4";
+LOCATE  COMP  "IL07[37]"  SITE  "L7";
+LOCATE  COMP  "IL07[38]"  SITE  "L6";
+LOCATE  COMP  "IL07[39]"  SITE  "P6";
+LOCATE  COMP  "IL07[3]"  SITE  "F8";
+LOCATE  COMP  "IL07[40]"  SITE  "P7";
+LOCATE  COMP  "IL07[41]"  SITE  "N6";
+LOCATE  COMP  "IL07[42]"  SITE  "N7";
+LOCATE  COMP  "IL07[43]"  SITE  "K5";
+LOCATE  COMP  "IL07[44]"  SITE  "L4";
+LOCATE  COMP  "IL07[45]"  SITE  "K6";
+LOCATE  COMP  "IL07[46]"  SITE  "K7";
+LOCATE  COMP  "IL07[47]"  SITE  "K2";
+LOCATE  COMP  "IL07[48]"  SITE  "J1";
+LOCATE  COMP  "IL07[49]"  SITE  "K1";
+LOCATE  COMP  "IL07[4]"  SITE  "E8";
+LOCATE  COMP  "IL07[50]"  SITE  "L1";
+LOCATE  COMP  "IL07[51]"  SITE  "J3";
+LOCATE  COMP  "IL07[52]"  SITE  "K3";
+LOCATE  COMP  "IL07[53]"  SITE  "H2";
+LOCATE  COMP  "IL07[54]"  SITE  "H3";
+LOCATE  COMP  "IL07[55]"  SITE  "F1";
+LOCATE  COMP  "IL07[56]"  SITE  "H1";
+LOCATE  COMP  "IL07[57]"  SITE  "F2";
+LOCATE  COMP  "IL07[58]"  SITE  "E1";
+LOCATE  COMP  "IL07[59]"  SITE  "B1";
+LOCATE  COMP  "IL07[5]"  SITE  "B7";
+LOCATE  COMP  "IL07[60]"  SITE  "C2";
+LOCATE  COMP  "IL07[61]"  SITE  "D3";
+LOCATE  COMP  "IL07[62]"  SITE  "D2";
+LOCATE  COMP  "IL07[63]"  SITE  "F4";
+LOCATE  COMP  "IL07[64]"  SITE  "F5";
+LOCATE  COMP  "IL07[65]"  SITE  "D4";
+LOCATE  COMP  "IL07[66]"  SITE  "E4";
+LOCATE  COMP  "IL07[67]"  SITE  "C4";
+LOCATE  COMP  "IL07[68]"  SITE  "C3";
+LOCATE  COMP  "IL07[69]"  SITE  "C5";
+LOCATE  COMP  "IL07[6]"  SITE  "A7";
+LOCATE  COMP  "IL07[70]"  SITE  "D5";
+LOCATE  COMP  "IL07[7]"  SITE  "D7";
+LOCATE  COMP  "IL07[8]"  SITE  "C7";
+LOCATE  COMP  "IL07[9]"  SITE  "A4";
+LOCATE  COMP  "IL12[0]"  SITE  "C23";
+LOCATE  COMP  "IL12[10]"  SITE  "D19";
+LOCATE  COMP  "IL12[11]"  SITE  "A20";
+LOCATE  COMP  "IL12[12]"  SITE  "C20";
+LOCATE  COMP  "IL12[13]"  SITE  "E17";
+LOCATE  COMP  "IL12[14]"  SITE  "F17";
+LOCATE  COMP  "IL12[15]"  SITE  "A23";
+LOCATE  COMP  "IL12[16]"  SITE  "B23";
+LOCATE  COMP  "IL12[17]"  SITE  "C22";
+LOCATE  COMP  "IL12[18]"  SITE  "D22";
+LOCATE  COMP  "IL12[19]"  SITE  "E22";
+LOCATE  COMP  "IL12[1]"  SITE  "A19";
+LOCATE  COMP  "IL12[20]"  SITE  "F22";
+LOCATE  COMP  "IL12[21]"  SITE  "A22";
+LOCATE  COMP  "IL12[22]"  SITE  "B22";
+LOCATE  COMP  "IL12[23]"  SITE  "B29";
+LOCATE  COMP  "IL12[24]"  SITE  "B30";
+LOCATE  COMP  "IL12[25]"  SITE  "H27";
+LOCATE  COMP  "IL12[26]"  SITE  "H28";
+LOCATE  COMP  "IL12[27]"  SITE  "J29";
+LOCATE  COMP  "IL12[28]"  SITE  "K29";
+LOCATE  COMP  "IL12[29]"  SITE  "L31";
+LOCATE  COMP  "IL12[2]"  SITE  "B19";
+LOCATE  COMP  "IL12[30]"  SITE  "L30";
+LOCATE  COMP  "IL12[31]"  SITE  "C32";
+LOCATE  COMP  "IL12[32]"  SITE  "D32";
+LOCATE  COMP  "IL12[33]"  SITE  "F30";
+LOCATE  COMP  "IL12[34]"  SITE  "E30";
+LOCATE  COMP  "IL12[35]"  SITE  "N30";
+LOCATE  COMP  "IL12[36]"  SITE  "N29";
+LOCATE  COMP  "IL12[37]"  SITE  "K27";
+LOCATE  COMP  "IL12[38]"  SITE  "K26";
+LOCATE  COMP  "IL12[39]"  SITE  "P27";
+LOCATE  COMP  "IL12[3]"  SITE  "D18";
+LOCATE  COMP  "IL12[40]"  SITE  "P26";
+LOCATE  COMP  "IL12[41]"  SITE  "L26";
+LOCATE  COMP  "IL12[42]"  SITE  "L27";
+LOCATE  COMP  "IL12[43]"  SITE  "K28";
+LOCATE  COMP  "IL12[44]"  SITE  "L29";
+LOCATE  COMP  "IL12[45]"  SITE  "N27";
+LOCATE  COMP  "IL12[46]"  SITE  "N26";
+LOCATE  COMP  "IL12[47]"  SITE  "K31";
+LOCATE  COMP  "IL12[48]"  SITE  "J32";
+LOCATE  COMP  "IL12[49]"  SITE  "K32";
+LOCATE  COMP  "IL12[4]"  SITE  "F18";
+LOCATE  COMP  "IL12[50]"  SITE  "L32";
+LOCATE  COMP  "IL12[51]"  SITE  "H31";
+LOCATE  COMP  "IL12[52]"  SITE  "H30";
+LOCATE  COMP  "IL12[53]"  SITE  "F32";
+LOCATE  COMP  "IL12[54]"  SITE  "H32";
+LOCATE  COMP  "IL12[55]"  SITE  "J30";
+LOCATE  COMP  "IL12[56]"  SITE  "K30";
+LOCATE  COMP  "IL12[57]"  SITE  "F31";
+LOCATE  COMP  "IL12[58]"  SITE  "E32";
+LOCATE  COMP  "IL12[59]"  SITE  "B32";
+LOCATE  COMP  "IL12[5]"  SITE  "E19";
+LOCATE  COMP  "IL12[60]"  SITE  "C31";
+LOCATE  COMP  "IL12[61]"  SITE  "D30";
+LOCATE  COMP  "IL12[62]"  SITE  "D31";
+LOCATE  COMP  "IL12[63]"  SITE  "F29";
+LOCATE  COMP  "IL12[64]"  SITE  "F28";
+LOCATE  COMP  "IL12[65]"  SITE  "D29";
+LOCATE  COMP  "IL12[66]"  SITE  "E29";
+LOCATE  COMP  "IL12[67]"  SITE  "C28";
+LOCATE  COMP  "IL12[68]"  SITE  "D28";
+LOCATE  COMP  "IL12[69]"  SITE  "C29";
+LOCATE  COMP  "IL12[6]"  SITE  "F19";
+LOCATE  COMP  "IL12[70]"  SITE  "C30";
+LOCATE  COMP  "IL12[7]"  SITE  "D20";
+LOCATE  COMP  "IL12[8]"  SITE  "F20";
+LOCATE  COMP  "IL12[9]"  SITE  "C19";
+LOCATE  COMP  "IL68[0]"  SITE  "AD1";
+LOCATE  COMP  "IL68[10]"  SITE  "AE6";
+LOCATE  COMP  "IL68[11]"  SITE  "AD6";
+LOCATE  COMP  "IL68[12]"  SITE  "AM2";
+LOCATE  COMP  "IL68[13]"  SITE  "AL1";
+LOCATE  COMP  "IL68[14]"  SITE  "AK1";
+LOCATE  COMP  "IL68[15]"  SITE  "AJ1";
+LOCATE  COMP  "IL68[16]"  SITE  "AH1";
+LOCATE  COMP  "IL68[17]"  SITE  "AG1";
+LOCATE  COMP  "IL68[18]"  SITE  "V6";
+LOCATE  COMP  "IL68[19]"  SITE  "V7";
+LOCATE  COMP  "IL68[1]"  SITE  "AE1";
+LOCATE  COMP  "IL68[20]"  SITE  "AG3";
+LOCATE  COMP  "IL68[21]"  SITE  "AH3";
+LOCATE  COMP  "IL68[22]"  SITE  "U4";
+LOCATE  COMP  "IL68[23]"  SITE  "P4";
+LOCATE  COMP  "IL68[24]"  SITE  "P5";
+LOCATE  COMP  "IL68[25]"  SITE  "R7";
+LOCATE  COMP  "IL68[26]"  SITE  "T7";
+LOCATE  COMP  "IL68[27]"  SITE  "R4";
+LOCATE  COMP  "IL68[28]"  SITE  "T5";
+LOCATE  COMP  "IL68[29]"  SITE  "U3";
+LOCATE  COMP  "IL68[2]"  SITE  "V1";
+LOCATE  COMP  "IL68[30]"  SITE  "U2";
+LOCATE  COMP  "IL68[31]"  SITE  "R3";
+LOCATE  COMP  "IL68[32]"  SITE  "T3";
+LOCATE  COMP  "IL68[33]"  SITE  "N1";
+LOCATE  COMP  "IL68[34]"  SITE  "P1";
+LOCATE  COMP  "IL68[35]"  SITE  "Y3";
+LOCATE  COMP  "IL68[36]"  SITE  "W3";
+LOCATE  COMP  "IL68[37]"  SITE  "P2";
+LOCATE  COMP  "IL68[38]"  SITE  "P3";
+LOCATE  COMP  "IL68[39]"  SITE  "R1";
+LOCATE  COMP  "IL68[3]"  SITE  "W1";
+LOCATE  COMP  "IL68[40]"  SITE  "T2";
+LOCATE  COMP  "IL68[41]"  SITE  "Y7";
+LOCATE  COMP  "IL68[42]"  SITE  "Y6";
+LOCATE  COMP  "IL68[43]"  SITE  "AC7";
+LOCATE  COMP  "IL68[44]"  SITE  "AD7";
+LOCATE  COMP  "IL68[45]"  SITE  "AB7";
+LOCATE  COMP  "IL68[46]"  SITE  "AC6";
+LOCATE  COMP  "IL68[47]"  SITE  "Y4";
+LOCATE  COMP  "IL68[48]"  SITE  "W4";
+LOCATE  COMP  "IL68[49]"  SITE  "W5";
+LOCATE  COMP  "IL68[4]"  SITE  "AC1";
+LOCATE  COMP  "IL68[50]"  SITE  "Y5";
+LOCATE  COMP  "IL68[51]"  SITE  "AB5";
+LOCATE  COMP  "IL68[52]"  SITE  "AB6";
+LOCATE  COMP  "IL68[53]"  SITE  "AC5";
+LOCATE  COMP  "IL68[54]"  SITE  "AD4";
+LOCATE  COMP  "IL68[55]"  SITE  "AE2";
+LOCATE  COMP  "IL68[56]"  SITE  "AC2";
+LOCATE  COMP  "IL68[57]"  SITE  "W2";
+LOCATE  COMP  "IL68[58]"  SITE  "Y1";
+LOCATE  COMP  "IL68[59]"  SITE  "AB4";
+LOCATE  COMP  "IL68[5]"  SITE  "AB1";
+LOCATE  COMP  "IL68[60]"  SITE  "AB3";
+LOCATE  COMP  "IL68[61]"  SITE  "AE3";
+LOCATE  COMP  "IL68[62]"  SITE  "AD3";
+LOCATE  COMP  "IL68[63]"  SITE  "U7";
+LOCATE  COMP  "IL68[64]"  SITE  "U6";
+LOCATE  COMP  "IL68[65]"  SITE  "T4";
+LOCATE  COMP  "IL68[66]"  SITE  "U5";
+LOCATE  COMP  "IL68[67]"  SITE  "R6";
+LOCATE  COMP  "IL68[68]"  SITE  "T6";
+LOCATE  COMP  "IL68[69]"  SITE  "AC3";
+LOCATE  COMP  "IL68[6]"  SITE  "U1";
+LOCATE  COMP  "IL68[70]"  SITE  "AB2";
+LOCATE  COMP  "IL68[7]"  SITE  "T1";
+LOCATE  COMP  "IL68[8]"  SITE  "AE5";
+LOCATE  COMP  "IL68[9]"  SITE  "AE4";
+LOCATE  COMP  "error_dect_125[0]"  SITE  "AK2";
+LOCATE  COMP  "error_dect_125[1]"  SITE  "V27";
+LOCATE  COMP  "error_dect_125[2]"  SITE  "T30";
+LOCATE  COMP  "error_dect_125[3]"  SITE  "J6";
+LOCATE  COMP  "error_dect_50[0]"  SITE  "AJ2";
+LOCATE  COMP  "error_dect_50[1]"  SITE  "R29";
+LOCATE  COMP  "error_dect_50[2]"  SITE  "T26";
+LOCATE  COMP  "error_dect_50[3]"  SITE  "E10";
+LOCATE  COMP  "led"  SITE  "A8";
+
+#PLL
+LOCATE  COMP  "__/PLLInst_0"  SITE  "PLL_TR0" ;
+
+LOCATE  VREF  "VREF1_BANK_6"  SITE  "V4"  ;
+LOCATE  VREF  "VREF1_BANK_7"  SITE  "J7"  ;
+
+
+
+PAR: Place And Route Diamond (64-bit) 3.9.1.119.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Tue Jun 27 14:25:05 2017
+
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

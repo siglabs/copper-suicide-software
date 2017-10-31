@@ -1,0 +1,57 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MT206 |Auto Constrain mode is enabled
+@N: FX493 |Applying initial value "001" on instance counter_IL68_125[2:0].
+@N: FX493 |Applying initial value "000" on instance counter_125[2:0].
+@N: FX493 |Applying initial value "000" on instance counter_50[2:0].
+@N: FX493 |Applying initial value "00" on instance IL12_125[5:4].
+@N: FX493 |Applying initial value "00" on instance IL12_125[1:0].
+@N: FX493 |Applying initial value "00" on instance IL12_50[5:4].
+@N: FX493 |Applying initial value "00" on instance IL12_50[1:0].
+@N: FX493 |Applying initial value "001" on instance counter_IL68_50[2:0].
+@N: FX493 |Applying initial value "001" on instance counter_IL07_125[2:0].
+@N: FX493 |Applying initial value "001" on instance counter_IL07_50[2:0].
+@N: FX493 |Applying initial value "0000000000000000000000000000000000000000000000" on instance IL68_125[45:0].
+@N: FX493 |Applying initial value "0000000000000000000000000" on instance IL68_50[24:0].
+@N: FX493 |Applying initial value "0000000000000000000000000000000000000000000000" on instance IL07_125[45:0].
+@N: FX493 |Applying initial value "0000000000000000000000000" on instance IL07_50[24:0].
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":256:0:256:5|Replicating instance IL68_125[7] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":263:0:263:5|Replicating instance counter_IL68_125[1] (in view: work.FPGA10(verilog)) with 9 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":263:0:263:5|Replicating instance counter_IL68_125[2] (in view: work.FPGA10(verilog)) with 10 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":256:0:256:5|Replicating instance IL68_125[16] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":256:0:256:5|Replicating instance IL68_125[31] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":256:0:256:5|Replicating instance IL68_125[29] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":256:0:256:5|Replicating instance IL68_125[23] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":256:0:256:5|Replicating instance IL68_125[21] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":187:0:187:5|Replicating instance IL68_50[11] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":187:0:187:5|Replicating instance IL68_50[22] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":187:0:187:5|Replicating instance IL68_50[7] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":187:0:187:5|Replicating instance IL68_50[20] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":187:0:187:5|Replicating instance IL68_50[6] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":187:0:187:5|Replicating instance IL68_50[4] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":187:0:187:5|Replicating instance IL68_50[2] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":187:0:187:5|Replicating instance IL68_50[18] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":187:0:187:5|Replicating instance IL68_50[16] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":256:0:256:5|Replicating instance IL68_125[44] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":256:0:256:5|Replicating instance IL68_125[30] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":194:0:194:5|Replicating instance counter_IL68_50[0] (in view: work.FPGA10(verilog)) with 8 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":187:0:187:5|Replicating instance IL68_50[0] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":49:0:49:5|Replicating instance IL07_50[3] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":49:0:49:5|Replicating instance IL07_50[1] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":187:0:187:5|Replicating instance IL68_50[1] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":187:0:187:5|Replicating instance IL68_50[21] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":187:0:187:5|Replicating instance IL68_50[23] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":187:0:187:5|Replicating instance IL68_50[24] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":49:0:49:5|Replicating instance IL07_50[24] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":49:0:49:5|Replicating instance IL07_50[8] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":256:0:256:5|Replicating instance IL68_125[39] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":256:0:256:5|Replicating instance IL68_125[37] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":256:0:256:5|Replicating instance IL68_125[45] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga11\fpga11.v":256:0:256:5|Replicating instance IL68_125[6] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FX1056 |Writing EDF file: C:\Cu_Suicide_Heat_Test\FPGA11\impl1\FPGA11_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N: MT286 |System clock period 0.000 stretches to negative invalid value -- ignoring stretching.
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack

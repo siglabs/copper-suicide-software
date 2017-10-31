@@ -1,0 +1,36 @@
+#Start recording tcl command: 6/27/2017 11:50:51
+#Project Location: C:/Cu_Suicide_Heat_Test/FPGA10; Project name: FPGA10
+prj_project open "C:/Cu_Suicide_Heat_Test/FPGA10/FPGA10.ldf"
+prj_run Translate -impl impl1
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Synthesis -impl impl1 -task Synplify_Synthesis
+prj_run Translate -impl impl1
+prj_run Translate -impl impl1
+prj_run Map -impl impl1 -task MapTrace
+prj_run Map -impl impl1 -task MapTrace
+prj_run Map -impl impl1 -task MapTrace
+prj_run Map -impl impl1 -task MapTrace
+prj_run Map -impl impl1 -task MapTrace
+prj_run PAR -impl impl1 -task IOTiming
+prj_run PAR -impl impl1 -task IOTiming
+prj_run Map -impl impl1 -task MapTrace
+prj_run Map -impl impl1 -task MapTrace
+prj_run PAR -impl impl1 -task IOTiming
+prj_run Export -impl impl1 -task Bitgen
+sbp_design open -dsgn "C:/Cu_Suicide_Heat_Test/FPGA10/sys_pll/sys_pll.sbx"
+prj_run Translate -impl impl1
+prj_run Map -impl impl1 -task MapTrace
+sbp_design open -dsgn "C:/Cu_Suicide_Heat_Test/FPGA10/sys_pll/sys_pll.sbx"
+sbp_design open -dsgn "C:/Cu_Suicide_Heat_Test/FPGA10/sys_pll/sys_pll.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Cu_Suicide_Heat_Test/FPGA10/sys_pll"
+source "C:/Cu_Suicide_Heat_Test/FPGA10/sys_pll/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_design open -dsgn "C:/Cu_Suicide_Heat_Test/FPGA10/sys_pll/sys_pll.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Cu_Suicide_Heat_Test/FPGA10/sys_pll"
+source "C:/Cu_Suicide_Heat_Test/FPGA10/sys_pll/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+prj_run Map -impl impl1 -task MapTrace
+prj_run Export -impl impl1 -task Bitgen
+#Stop recording: 6/27/2017 13:06:43

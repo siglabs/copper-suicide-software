@@ -1,0 +1,80 @@
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":54:15:54:36|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":64:18:64:39|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":71:18:71:39|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":78:18:78:39|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":85:18:85:39|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":99:18:99:39|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":106:18:106:39|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":123:16:123:37|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":133:19:133:40|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":140:19:140:40|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":147:19:147:40|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":154:19:154:40|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":168:19:168:40|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":175:19:175:40|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":333:21:333:42|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":334:21:334:42|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":335:21:335:42|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":354:21:354:42|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":355:21:355:42|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":356:21:356:42|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":367:21:367:42|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":368:21:368:42|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":369:21:369:42|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":374:21:374:42|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":375:21:375:42|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":376:21:376:42|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":391:22:391:43|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":392:22:392:43|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":393:22:393:43|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":412:22:412:43|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":413:22:413:43|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":414:22:414:43|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":425:22:425:43|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":426:22:426:43|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":427:22:427:43|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":432:22:432:43|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":433:22:433:43|Specified digits overflow the number's size
+@W: CG289 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":434:22:434:43|Specified digits overflow the number's size
+@W: CL168 :"C:\Cu_Suicide_Heat_Test\FPGA10\sys_pll\sys_pll.v":21:8:21:21|Removing instance scuba_vhi_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":329:0:329:5|Pruning register bits 24 to 13 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":329:0:329:5|Pruning register bits 11 to 9 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":329:0:329:5|Pruning register bits 7 to 6 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":329:0:329:5|Pruning register bits 3 to 2 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":329:0:329:5|Pruning register bits 24 to 13 of IL34_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":329:0:329:5|Pruning register bits 11 to 9 of IL34_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":329:0:329:5|Pruning register bits 7 to 6 of IL34_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":329:0:329:5|Pruning register bits 3 to 2 of IL34_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":329:0:329:5|Pruning register bits 24 to 13 of IL68_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":329:0:329:5|Pruning register bits 11 to 9 of IL68_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":329:0:329:5|Pruning register bits 7 to 6 of IL68_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":329:0:329:5|Pruning register bits 3 to 2 of IL68_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":387:0:387:5|Pruning register bits 45 to 13 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":387:0:387:5|Pruning register bits 11 to 9 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":387:0:387:5|Pruning register bits 7 to 6 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":387:0:387:5|Pruning register bits 3 to 2 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":387:0:387:5|Pruning register bits 45 to 13 of IL34_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":387:0:387:5|Pruning register bits 11 to 9 of IL34_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":387:0:387:5|Pruning register bits 7 to 6 of IL34_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":387:0:387:5|Pruning register bits 3 to 2 of IL34_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":387:0:387:5|Pruning register bits 45 to 13 of IL68_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":387:0:387:5|Pruning register bits 11 to 9 of IL68_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":387:0:387:5|Pruning register bits 7 to 6 of IL68_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":387:0:387:5|Pruning register bits 3 to 2 of IL68_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL177 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":329:0:329:5|Sharing sequential element IL34_50. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":329:0:329:5|Sharing sequential element IL68_50. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":387:0:387:5|Sharing sequential element IL34_125. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":387:0:387:5|Sharing sequential element IL68_125. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":329:0:329:5|Sharing sequential element IL34_50. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":329:0:329:5|Sharing sequential element IL68_50. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":329:0:329:5|Sharing sequential element IL34_50. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":329:0:329:5|Sharing sequential element IL68_50. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":329:0:329:5|Sharing sequential element IL34_50. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":329:0:329:5|Sharing sequential element IL68_50. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":387:0:387:5|Sharing sequential element IL34_125. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":387:0:387:5|Sharing sequential element IL68_125. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":387:0:387:5|Sharing sequential element IL34_125. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":387:0:387:5|Sharing sequential element IL68_125. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":387:0:387:5|Sharing sequential element IL34_125. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Cu_Suicide_Heat_Test\FPGA10\FPGA10.v":387:0:387:5|Sharing sequential element IL68_125. Add a syn_preserve attribute to the element to prevent sharing.
+

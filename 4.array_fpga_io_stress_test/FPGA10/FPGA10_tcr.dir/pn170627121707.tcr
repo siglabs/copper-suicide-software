@@ -1,0 +1,10 @@
+#Start recording tcl command: 6/27/2017 11:31:27
+#Project Location: C:/Cu_Suicide_Heat_Test/FPGA10; Project name: FPGA10
+prj_project open "C:/Cu_Suicide_Heat_Test/FPGA10/FPGA10.ldf"
+sbp_design open -dsgn "C:/Cu_Suicide_Heat_Test/FPGA10/sys_pll/sys_pll.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Cu_Suicide_Heat_Test/FPGA10/sys_pll"
+source "C:/Cu_Suicide_Heat_Test/FPGA10/sys_pll/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_design open -dsgn "C:/Cu_Suicide_Heat_Test/FPGA10/sys_pll/sys_pll.sbx"
+#Stop recording: 6/27/2017 12:17:07

@@ -1,0 +1,4 @@
+#Start recording tcl command: 6/27/2017 13:26:45
+#Project Location: C:/Cu_Suicide_Heat_Test/FPGA10; Project name: FPGA10
+prj_project open "C:/Cu_Suicide_Heat_Test/FPGA10/FPGA10.ldf"
+#Stop recording: 6/27/2017 13:26:57

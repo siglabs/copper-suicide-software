@@ -1,0 +1,58 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MT206 |Auto Constrain mode is enabled
+@N: FX493 |Applying initial value "000" on instance counter_125[2:0].
+@N: FX493 |Applying initial value "000" on instance counter_50[2:0].
+@N: FX493 |Applying initial value "00" on instance IL12_125[5:4].
+@N: FX493 |Applying initial value "00" on instance IL12_125[1:0].
+@N: FX493 |Applying initial value "00" on instance IL12_50[5:4].
+@N: FX493 |Applying initial value "00" on instance IL12_50[1:0].
+@N: FX493 |Applying initial value "001" on instance counter_IL07_125[2:0].
+@N: FX493 |Applying initial value "001" on instance counter_IL07_50[2:0].
+@N: FX493 |Applying initial value "0000000000000000000000000000000000000000000000" on instance IL07_125[45:0].
+@N: FX493 |Applying initial value "0000000000000000000000000" on instance IL07_50[24:0].
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[17] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[3] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[33] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[35] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[41] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[25] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[34] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[32] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[0] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[9] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[11] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":127:0:127:5|Replicating instance counter_IL07_125[0] (in view: work.FPGA10(verilog)) with 11 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[30] (in view: work.FPGA10(verilog)) with 7 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[44] (in view: work.FPGA10(verilog)) with 7 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[28] (in view: work.FPGA10(verilog)) with 7 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[5] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[13] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[12] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[15] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[7] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[31] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[14] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[29] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[39] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[18] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[23] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[16] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[45] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":51:0:51:5|Replicating instance IL07_50[22] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":51:0:51:5|Replicating instance IL07_50[20] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":51:0:51:5|Replicating instance IL07_50[0] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":51:0:51:5|Replicating instance IL07_50[2] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":51:0:51:5|Replicating instance IL07_50[16] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":51:0:51:5|Replicating instance IL07_50[6] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":51:0:51:5|Replicating instance IL07_50[4] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":51:0:51:5|Replicating instance IL07_50[18] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[21] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[37] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FX1056 |Writing EDF file: C:\Cu_Suicide_Heat_Test\FPGA10\impl1\FPGA10_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N: MT286 |System clock period 0.000 stretches to negative invalid value -- ignoring stretching.
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack

@@ -1,0 +1,29 @@
+#Start recording tcl command: 6/15/2017 11:13:05
+#Project Location: C:/Final_Array_Test/FPGA10; Project name: FPGA10
+prj_project new -name "FPGA10" -impl "impl1" -dev LFE5U-85F-8BG756C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Final_Array_Test/FPGA10/sys_pll/sys_pll.sbx"
+sbp_design open -dsgn "C:/Final_Array_Test/FPGA10/sys_pll/sys_pll.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Final_Array_Test/FPGA10/sys_pll"
+source "C:/Final_Array_Test/FPGA10/sys_pll/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+prj_src add "C:/Final_Array_Test/FPGA10/FPGA10.v"
+launch_synplify_prj impl1
+prj_run Translate -impl impl1
+prj_run Translate -impl impl1
+sbp_design open -dsgn "C:/Final_Array_Test/FPGA10/sys_pll/sys_pll.sbx"
+sbp_design open -dsgn "C:/Final_Array_Test/FPGA10/sys_pll/sys_pll.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Final_Array_Test/FPGA10/sys_pll"
+source "C:/Final_Array_Test/FPGA10/sys_pll/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+sbp_design open -dsgn "C:/Final_Array_Test/FPGA10/sys_pll/sys_pll.sbx"
+set currentPath [pwd];set tmp_autopath $auto_path
+cd "C:/Final_Array_Test/FPGA10/sys_pll"
+source "C:/Final_Array_Test/FPGA10/sys_pll/generate_core.tcl"
+set auto_path $tmp_autopath;cd $currentPath
+prj_run Translate -impl impl1
+prj_run Translate -impl impl1
+prj_run Translate -impl impl1
+#Stop recording: 6/15/2017 14:20:37

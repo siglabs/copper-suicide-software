@@ -1,0 +1,26 @@
+Selecting top level module FPGA10
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\ecp5u.v":757:7:757:9|Synthesizing module VHI in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\ecp5u.v":761:7:761:9|Synthesizing module VLO in library work.
+
+@N: CG364 :"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\ecp5u.v":1696:7:1696:13|Synthesizing module EHXPLLL in library work.
+
+@N: CG364 :"C:\Cu_Suicide_Heat_Test\FPGA30\sys_pll\sys_pll.v":8:7:8:13|Synthesizing module sys_pll in library work.
+
+@W: CL168 :"C:\Cu_Suicide_Heat_Test\FPGA30\sys_pll\sys_pll.v":21:8:21:21|Removing instance scuba_vhi_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v":1:7:1:12|Synthesizing module FPGA10 in library work.
+
+@N: CL201 :"C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v":259:0:259:5|Trying to extract state machine for register counter_IL68_125.
+@N: CL201 :"C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v":190:0:190:5|Trying to extract state machine for register counter_IL68_50.
+@N: CL201 :"C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v":121:0:121:5|Trying to extract state machine for register counter_IL07_125.
+@N: CL201 :"C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v":52:0:52:5|Trying to extract state machine for register counter_IL07_50.
+@N: CL201 :"C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v":367:0:367:5|Trying to extract state machine for register counter_125.
+@N: CL201 :"C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v":323:0:323:5|Trying to extract state machine for register counter_50.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v":323:0:323:5|Pruning register bits 24 to 13 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v":323:0:323:5|Pruning register bits 11 to 9 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v":323:0:323:5|Pruning register bits 7 to 6 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v":323:0:323:5|Pruning register bits 3 to 2 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v":367:0:367:5|Pruning register bits 45 to 13 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v":367:0:367:5|Pruning register bits 11 to 9 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v":367:0:367:5|Pruning register bits 7 to 6 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v":367:0:367:5|Pruning register bits 3 to 2 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.

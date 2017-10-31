@@ -1,0 +1,5 @@
+#Start recording tcl command: 6/27/2017 14:35:58
+#Project Location: C:/Cu_Suicide_Heat_Test/FPGA11; Project name: FPGA11
+prj_project open "C:/Cu_Suicide_Heat_Test/FPGA11/FPGA11.ldf"
+prj_run Export -impl impl1 -task Bitgen
+#Stop recording: 6/27/2017 14:37:29

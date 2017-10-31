@@ -1,0 +1,1817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(370): Semantic error in &quot;IOBUF PORT &quot;IL34[25]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[25]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>370</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(371): Semantic error in &quot;IOBUF PORT &quot;IL34[26]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[26]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>371</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(372): Semantic error in &quot;IOBUF PORT &quot;IL34[27]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[27]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>372</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(373): Semantic error in &quot;IOBUF PORT &quot;IL34[28]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[28]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>373</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(374): Semantic error in &quot;IOBUF PORT &quot;IL34[29]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[29]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>374</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(375): Semantic error in &quot;IOBUF PORT &quot;IL34[30]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[30]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>375</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(376): Semantic error in &quot;IOBUF PORT &quot;IL34[31]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[31]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>376</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(377): Semantic error in &quot;IOBUF PORT &quot;IL34[32]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[32]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>377</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(378): Semantic error in &quot;IOBUF PORT &quot;IL34[33]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[33]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>378</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(379): Semantic error in &quot;IOBUF PORT &quot;IL34[34]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[34]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>379</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(380): Semantic error in &quot;IOBUF PORT &quot;IL34[35]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[35]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>380</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(381): Semantic error in &quot;IOBUF PORT &quot;IL34[36]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[36]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>381</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(382): Semantic error in &quot;IOBUF PORT &quot;IL34[37]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[37]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>382</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(383): Semantic error in &quot;IOBUF PORT &quot;IL34[38]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[38]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>383</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(384): Semantic error in &quot;IOBUF PORT &quot;IL34[39]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[39]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>384</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(385): Semantic error in &quot;IOBUF PORT &quot;IL34[40]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[40]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>385</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(386): Semantic error in &quot;IOBUF PORT &quot;IL34[41]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[41]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>386</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(387): Semantic error in &quot;IOBUF PORT &quot;IL34[42]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[42]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>387</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(388): Semantic error in &quot;IOBUF PORT &quot;IL34[43]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[43]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>388</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(389): Semantic error in &quot;IOBUF PORT &quot;IL34[44]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[44]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>389</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(390): Semantic error in &quot;IOBUF PORT &quot;IL34[45]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[45]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>390</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(391): Semantic error in &quot;IOBUF PORT &quot;IL34[46]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[46]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>391</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(392): Semantic error in &quot;IOBUF PORT &quot;IL34[47]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[47]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>392</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(393): Semantic error in &quot;IOBUF PORT &quot;IL34[48]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[48]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>393</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(394): Semantic error in &quot;IOBUF PORT &quot;IL34[49]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[49]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>394</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(395): Semantic error in &quot;IOBUF PORT &quot;IL34[50]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[50]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>395</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(396): Semantic error in &quot;IOBUF PORT &quot;IL34[51]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[51]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>396</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(397): Semantic error in &quot;IOBUF PORT &quot;IL34[52]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[52]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>397</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(398): Semantic error in &quot;IOBUF PORT &quot;IL34[53]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[53]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>398</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(399): Semantic error in &quot;IOBUF PORT &quot;IL34[54]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[54]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>399</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(400): Semantic error in &quot;IOBUF PORT &quot;IL34[55]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[55]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>400</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(401): Semantic error in &quot;IOBUF PORT &quot;IL34[56]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[56]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>401</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(402): Semantic error in &quot;IOBUF PORT &quot;IL34[57]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[57]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>402</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(403): Semantic error in &quot;IOBUF PORT &quot;IL34[58]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[58]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>403</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(404): Semantic error in &quot;IOBUF PORT &quot;IL34[59]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[59]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>404</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(405): Semantic error in &quot;IOBUF PORT &quot;IL34[60]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[60]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>405</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(406): Semantic error in &quot;IOBUF PORT &quot;IL34[61]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[61]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>406</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(407): Semantic error in &quot;IOBUF PORT &quot;IL34[62]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[62]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>407</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(408): Semantic error in &quot;IOBUF PORT &quot;IL34[63]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[63]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>408</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(409): Semantic error in &quot;IOBUF PORT &quot;IL34[64]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[64]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>409</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(410): Semantic error in &quot;IOBUF PORT &quot;IL34[65]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[65]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>410</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(411): Semantic error in &quot;IOBUF PORT &quot;IL34[66]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[66]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>411</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(412): Semantic error in &quot;IOBUF PORT &quot;IL34[67]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[67]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>412</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(413): Semantic error in &quot;IOBUF PORT &quot;IL34[68]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[68]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>413</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(414): Semantic error in &quot;IOBUF PORT &quot;IL34[69]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[69]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>414</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(415): Semantic error in &quot;IOBUF PORT &quot;IL34[70]&quot; IO_TYPE=SSTL15_I ;&quot;: </Dynamic>
+            <Dynamic>IL34[70]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>415</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(491): Semantic error in &quot;IOBUF PORT &quot;IL34[0]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[0]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>491</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(492): Semantic error in &quot;IOBUF PORT &quot;IL34[1]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[1]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>492</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(493): Semantic error in &quot;IOBUF PORT &quot;IL34[2]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[2]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>493</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(494): Semantic error in &quot;IOBUF PORT &quot;IL34[3]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[3]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>494</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(495): Semantic error in &quot;IOBUF PORT &quot;IL34[4]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[4]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>495</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(496): Semantic error in &quot;IOBUF PORT &quot;IL34[5]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[5]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>496</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(497): Semantic error in &quot;IOBUF PORT &quot;IL34[6]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[6]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>497</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(498): Semantic error in &quot;IOBUF PORT &quot;IL34[7]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[7]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>498</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(499): Semantic error in &quot;IOBUF PORT &quot;IL34[8]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[8]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>499</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(500): Semantic error in &quot;IOBUF PORT &quot;IL34[9]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[9]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>500</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(501): Semantic error in &quot;IOBUF PORT &quot;IL34[10]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[10]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>501</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(502): Semantic error in &quot;IOBUF PORT &quot;IL34[11]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[11]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>502</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(503): Semantic error in &quot;IOBUF PORT &quot;IL34[12]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[12]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>503</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(504): Semantic error in &quot;IOBUF PORT &quot;IL34[13]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[13]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>504</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(505): Semantic error in &quot;IOBUF PORT &quot;IL34[14]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[14]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>505</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(506): Semantic error in &quot;IOBUF PORT &quot;IL34[15]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[15]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>506</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(507): Semantic error in &quot;IOBUF PORT &quot;IL34[16]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[16]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>507</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(508): Semantic error in &quot;IOBUF PORT &quot;IL34[17]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[17]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>508</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(509): Semantic error in &quot;IOBUF PORT &quot;IL34[18]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[18]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>509</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(510): Semantic error in &quot;IOBUF PORT &quot;IL34[19]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[19]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>510</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(511): Semantic error in &quot;IOBUF PORT &quot;IL34[20]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[20]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>511</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(512): Semantic error in &quot;IOBUF PORT &quot;IL34[21]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[21]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>512</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(513): Semantic error in &quot;IOBUF PORT &quot;IL34[22]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[22]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>513</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(514): Semantic error in &quot;IOBUF PORT &quot;IL34[23]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[23]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>514</Navigation>
+        </Message>
+        <Message>
+            <ID>1100644</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(515): Semantic error in &quot;IOBUF PORT &quot;IL34[24]&quot; IO_TYPE=LVCMOS15 ;&quot;: </Dynamic>
+            <Dynamic>IL34[24]</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>515</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(516): In &quot;LOCATE COMP &quot;IL68[0]&quot; SITE &quot;AD1&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AD1</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>516</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(517): In &quot;LOCATE COMP &quot;IL68[1]&quot; SITE &quot;AE1&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AE1</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>517</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(518): In &quot;LOCATE COMP &quot;IL68[2]&quot; SITE &quot;V1&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>V1</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>518</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(519): In &quot;LOCATE COMP &quot;IL68[3]&quot; SITE &quot;W1&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>W1</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>519</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(521): In &quot;LOCATE COMP &quot;IL68[5]&quot; SITE &quot;AB1&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AB1</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>521</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(522): In &quot;LOCATE COMP &quot;IL68[6]&quot; SITE &quot;U1&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>U1</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>522</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(523): In &quot;LOCATE COMP &quot;IL68[7]&quot; SITE &quot;T1&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>T1</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>523</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(524): In &quot;LOCATE COMP &quot;IL68[8]&quot; SITE &quot;AE5&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AE5</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>524</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(525): In &quot;LOCATE COMP &quot;IL68[9]&quot; SITE &quot;AE4&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AE4</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>525</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(526): In &quot;LOCATE COMP &quot;IL68[10]&quot; SITE &quot;AE6&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AE6</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>526</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(527): In &quot;LOCATE COMP &quot;IL68[11]&quot; SITE &quot;AD6&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AD6</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>527</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(528): In &quot;LOCATE COMP &quot;IL68[12]&quot; SITE &quot;AM2&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AM2</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>528</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(529): In &quot;LOCATE COMP &quot;IL68[13]&quot; SITE &quot;AL1&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AL1</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>529</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(530): In &quot;LOCATE COMP &quot;IL68[14]&quot; SITE &quot;AK1&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AK1</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>530</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(531): In &quot;LOCATE COMP &quot;IL68[15]&quot; SITE &quot;AJ1&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AJ1</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>531</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(532): In &quot;LOCATE COMP &quot;IL68[16]&quot; SITE &quot;AH1&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AH1</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>532</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(533): In &quot;LOCATE COMP &quot;IL68[17]&quot; SITE &quot;AG1&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AG1</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>533</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(534): In &quot;LOCATE COMP &quot;IL68[18]&quot; SITE &quot;V6&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>V6</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>534</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(535): In &quot;LOCATE COMP &quot;IL68[19]&quot; SITE &quot;V7&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>V7</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>535</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(536): In &quot;LOCATE COMP &quot;IL68[20]&quot; SITE &quot;AG3&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AG3</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>536</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(537): In &quot;LOCATE COMP &quot;IL68[21]&quot; SITE &quot;AH3&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AH3</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>537</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(538): In &quot;LOCATE COMP &quot;IL68[22]&quot; SITE &quot;U4&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>U4</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>538</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(539): In &quot;LOCATE COMP &quot;IL68[23]&quot; SITE &quot;P4&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>P4</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>539</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(540): In &quot;LOCATE COMP &quot;IL68[24]&quot; SITE &quot;P5&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>P5</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>540</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(541): In &quot;LOCATE COMP &quot;IL68[25]&quot; SITE &quot;R7&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>R7</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>541</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(542): In &quot;LOCATE COMP &quot;IL68[26]&quot; SITE &quot;T7&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>T7</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>542</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(543): In &quot;LOCATE COMP &quot;IL68[27]&quot; SITE &quot;R4&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>R4</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>543</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(544): In &quot;LOCATE COMP &quot;IL68[28]&quot; SITE &quot;T5&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>T5</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>544</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(545): In &quot;LOCATE COMP &quot;IL68[29]&quot; SITE &quot;U3&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>U3</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>545</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(546): In &quot;LOCATE COMP &quot;IL68[30]&quot; SITE &quot;U2&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>U2</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>546</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(547): In &quot;LOCATE COMP &quot;IL68[31]&quot; SITE &quot;R3&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>R3</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>547</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(548): In &quot;LOCATE COMP &quot;IL68[32]&quot; SITE &quot;T3&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>T3</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>548</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(549): In &quot;LOCATE COMP &quot;IL68[33]&quot; SITE &quot;N1&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>N1</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>549</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(550): In &quot;LOCATE COMP &quot;IL68[34]&quot; SITE &quot;P1&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>P1</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>550</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(551): In &quot;LOCATE COMP &quot;IL68[35]&quot; SITE &quot;Y3&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>Y3</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>551</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(552): In &quot;LOCATE COMP &quot;IL68[36]&quot; SITE &quot;W3&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>W3</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>552</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(553): In &quot;LOCATE COMP &quot;IL68[37]&quot; SITE &quot;P2&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>P2</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>553</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(554): In &quot;LOCATE COMP &quot;IL68[38]&quot; SITE &quot;P3&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>P3</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>554</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(555): In &quot;LOCATE COMP &quot;IL68[39]&quot; SITE &quot;R1&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>R1</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>555</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(556): In &quot;LOCATE COMP &quot;IL68[40]&quot; SITE &quot;T2&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>T2</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>556</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(557): In &quot;LOCATE COMP &quot;IL68[41]&quot; SITE &quot;Y7&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>Y7</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>557</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(558): In &quot;LOCATE COMP &quot;IL68[42]&quot; SITE &quot;Y6&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>Y6</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>558</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(559): In &quot;LOCATE COMP &quot;IL68[43]&quot; SITE &quot;AC7&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AC7</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>559</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(560): In &quot;LOCATE COMP &quot;IL68[44]&quot; SITE &quot;AD7&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AD7</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>560</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(561): In &quot;LOCATE COMP &quot;IL68[45]&quot; SITE &quot;AB7&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AB7</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>561</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(562): In &quot;LOCATE COMP &quot;IL68[46]&quot; SITE &quot;AC6&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AC6</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>562</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(563): In &quot;LOCATE COMP &quot;IL68[47]&quot; SITE &quot;Y4&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>Y4</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>563</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(564): In &quot;LOCATE COMP &quot;IL68[48]&quot; SITE &quot;W4&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>W4</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>564</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(565): In &quot;LOCATE COMP &quot;IL68[49]&quot; SITE &quot;W5&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>W5</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>565</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(566): In &quot;LOCATE COMP &quot;IL68[50]&quot; SITE &quot;Y5&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>Y5</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>566</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(567): In &quot;LOCATE COMP &quot;IL68[51]&quot; SITE &quot;AB5&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AB5</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>567</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(568): In &quot;LOCATE COMP &quot;IL68[52]&quot; SITE &quot;AB6&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AB6</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>568</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(569): In &quot;LOCATE COMP &quot;IL68[53]&quot; SITE &quot;AC5&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AC5</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>569</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(570): In &quot;LOCATE COMP &quot;IL68[54]&quot; SITE &quot;AD4&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AD4</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>570</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(571): In &quot;LOCATE COMP &quot;IL68[55]&quot; SITE &quot;AE2&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AE2</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>571</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(572): In &quot;LOCATE COMP &quot;IL68[56]&quot; SITE &quot;AC2&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AC2</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>572</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(573): In &quot;LOCATE COMP &quot;IL68[57]&quot; SITE &quot;W2&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>W2</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>573</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(574): In &quot;LOCATE COMP &quot;IL68[58]&quot; SITE &quot;Y1&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>Y1</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>574</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(575): In &quot;LOCATE COMP &quot;IL68[59]&quot; SITE &quot;AB4&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AB4</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>575</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(576): In &quot;LOCATE COMP &quot;IL68[60]&quot; SITE &quot;AB3&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AB3</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>576</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(577): In &quot;LOCATE COMP &quot;IL68[61]&quot; SITE &quot;AE3&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AE3</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>577</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(578): In &quot;LOCATE COMP &quot;IL68[62]&quot; SITE &quot;AD3&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AD3</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>578</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(579): In &quot;LOCATE COMP &quot;IL68[63]&quot; SITE &quot;U7&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>U7</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>579</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(580): In &quot;LOCATE COMP &quot;IL68[64]&quot; SITE &quot;U6&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>U6</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>580</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(581): In &quot;LOCATE COMP &quot;IL68[65]&quot; SITE &quot;T4&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>T4</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>581</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(582): In &quot;LOCATE COMP &quot;IL68[66]&quot; SITE &quot;U5&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>U5</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>582</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(583): In &quot;LOCATE COMP &quot;IL68[67]&quot; SITE &quot;R6&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>R6</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>583</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(584): In &quot;LOCATE COMP &quot;IL68[68]&quot; SITE &quot;T6&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>T6</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>584</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(585): In &quot;LOCATE COMP &quot;IL68[69]&quot; SITE &quot;AC3&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AC3</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>585</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf(586): In &quot;LOCATE COMP &quot;IL68[70]&quot; SITE &quot;AB2&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>AB2</Dynamic>
+            <Navigation>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Navigation>
+            <Navigation>586</Navigation>
+        </Message>
+        <Message>
+            <ID>1104062</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>70 semantic errors</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001230</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>C:/Cu_Suicide_Heat_Test/FPGA31/FPGA30.lpf</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:48:15:48:36|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>36</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:58:18:58:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>58</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>58</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:65:18:65:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>65</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>65</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:72:18:72:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>72</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>72</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:79:18:79:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>79</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>79</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:93:18:93:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>93</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>93</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:100:18:100:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>100</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>100</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:117:16:117:37|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>117</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>117</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:127:19:127:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>127</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>127</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:134:19:134:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>134</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>134</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:141:19:141:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>141</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>141</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:148:19:148:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>148</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>148</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:162:19:162:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>162</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>162</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:169:19:169:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>169</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>169</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:186:16:186:37|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>186</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>186</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:196:18:196:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>196</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>196</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:203:18:203:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>203</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>203</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:210:18:210:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>210</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>210</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:217:18:217:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>217</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>217</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:231:18:231:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>231</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>231</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:238:18:238:39|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>238</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>238</Navigation>
+            <Navigation>39</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:255:16:255:37|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>255</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>255</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:265:19:265:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>265</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>265</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:272:19:272:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>272</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>272</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:279:19:279:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>279</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>279</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:286:19:286:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>286</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>286</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:302:19:302:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>302</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>302</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:309:19:309:40|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>309</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>309</Navigation>
+            <Navigation>40</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:327:21:327:42|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>327</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:342:21:342:42|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>342</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>342</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:351:21:351:42|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>351</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>351</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:356:21:356:42|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>356</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>356</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:371:22:371:43|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>371</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>371</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:386:22:386:43|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>386</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>386</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:395:22:395:43|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>395</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>395</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG289 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:400:22:400:43|Specified digits overflow the number's size</Dynamic>
+            <Navigation>CG289</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>400</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>400</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>Specified digits overflow the number's size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\sys_pll\sys_pll.v&quot;:21:8:21:21|Removing instance scuba_vhi_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\sys_pll\sys_pll.v</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>Removing instance scuba_vhi_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:323:0:323:5|Pruning register bits 24 to 13 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>323</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>323</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 24 to 13 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:323:0:323:5|Pruning register bits 11 to 9 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>323</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>323</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 11 to 9 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:323:0:323:5|Pruning register bits 7 to 6 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>323</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>323</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 7 to 6 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:323:0:323:5|Pruning register bits 3 to 2 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>323</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>323</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 3 to 2 of IL12_50[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:367:0:367:5|Pruning register bits 45 to 13 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>367</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>367</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 45 to 13 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:367:0:367:5|Pruning register bits 11 to 9 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>367</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>367</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 11 to 9 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:367:0:367:5|Pruning register bits 7 to 6 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>367</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>367</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 7 to 6 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v&quot;:367:0:367:5|Pruning register bits 3 to 2 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Cu_Suicide_Heat_Test\FPGA30\FPGA30.v</Navigation>
+            <Navigation>367</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>367</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 3 to 2 of IL12_125[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\cu_suicide_heat_test\fpga30\fpga30.v&quot;:367:0:367:5|Found inferred clock sys_pll|CLKOS_inferred_clock which controls 111 sequential elements including IL12_125[12]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\cu_suicide_heat_test\fpga30\fpga30.v</Navigation>
+            <Navigation>367</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>367</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Found inferred clock sys_pll|CLKOS_inferred_clock which controls 111 sequential elements including IL12_125[12]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\cu_suicide_heat_test\fpga30\fpga30.v&quot;:323:0:323:5|Found inferred clock sys_pll|CLKOP_inferred_clock which controls 69 sequential elements including IL12_50[12]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\cu_suicide_heat_test\fpga30\fpga30.v</Navigation>
+            <Navigation>323</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>323</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Found inferred clock sys_pll|CLKOP_inferred_clock which controls 69 sequential elements including IL12_50[12]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;c:\cu_suicide_heat_test\fpga30\sys_pll\sys_pll.v&quot;:57:12:57:20|Blackbox EHXPLLL is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>c:\cu_suicide_heat_test\fpga30\sys_pll\sys_pll.v</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Blackbox EHXPLLL is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock sys_pll|CLKOP_inferred_clock with period 3.05ns. Please declare a user-defined clock on object &quot;n:__.CLKOP&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock sys_pll|CLKOP_inferred_clock with period 3.05ns. Please declare a user-defined clock on object &quot;n:__.CLKOP&quot;</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock sys_pll|CLKOS_inferred_clock with period 3.45ns. Please declare a user-defined clock on object &quot;n:__.CLKOS&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock sys_pll|CLKOS_inferred_clock with period 3.45ns. Please declare a user-defined clock on object &quot;n:__.CLKOS&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

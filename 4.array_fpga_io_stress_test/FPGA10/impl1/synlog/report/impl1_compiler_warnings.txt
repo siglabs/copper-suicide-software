@@ -1,0 +1,9 @@
+@W: CL168 :"C:\Final_Array_Test\FPGA10\sys_pll\sys_pll.v":19:8:19:21|Removing instance scuba_vhi_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CG879 :"C:\Final_Array_Test\FPGA10\FPGA10.v":21:4:21:10|Treating non-constant declarative assignment to variable IL07_50 as a regular assign based on type - value could be overwritten in later writes. To ignore the dynamic initial value, please use the macro SYN_COMPATIBLE
+@W: CG879 :"C:\Final_Array_Test\FPGA10\FPGA10.v":22:4:22:11|Treating non-constant declarative assignment to variable IL07_125 as a regular assign based on type - value could be overwritten in later writes. To ignore the dynamic initial value, please use the macro SYN_COMPATIBLE
+@W: CG133 :"C:\Final_Array_Test\FPGA10\FPGA10.v":6:19:6:30|Object clk_out_IL12 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Final_Array_Test\FPGA10\FPGA10.v":7:18:7:29|Object clk_out_IL34 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL168 :"C:\Final_Array_Test\FPGA10\FPGA10.v":13:8:13:9|Removing instance __ because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL169 :"C:\Final_Array_Test\FPGA10\FPGA10.v":33:0:33:5|Pruning unused register IL07_50. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Final_Array_Test\FPGA10\FPGA10.v":33:0:33:5|Pruning unused register IL07_125. Make sure that there are no unused intermediate registers.
+

@@ -1,0 +1,867 @@
+# Tue Jun 27 13:04:22 2017
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1682R, Built Mar 10 2017 10:47:08
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 142MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+@N: FX493 |Applying initial value "000" on instance counter_125[2:0].
+@N: FX493 |Applying initial value "000" on instance counter_50[2:0].
+@N: FX493 |Applying initial value "00" on instance IL12_125[5:4].
+@N: FX493 |Applying initial value "00" on instance IL12_125[1:0].
+@N: FX493 |Applying initial value "00" on instance IL12_50[5:4].
+@N: FX493 |Applying initial value "00" on instance IL12_50[1:0].
+@N: FX493 |Applying initial value "001" on instance counter_IL07_125[2:0].
+@N: FX493 |Applying initial value "001" on instance counter_IL07_50[2:0].
+@N: FX493 |Applying initial value "0000000000000000000000000000000000000000000000" on instance IL07_125[45:0].
+@N: FX493 |Applying initial value "0000000000000000000000000" on instance IL07_50[24:0].
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 142MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 144MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 144MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 144MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 145MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 145MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 150MB peak: 152MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.32ns		 130 /        99
+   2		0h:00m:00s		    -1.32ns		 122 /        99
+   3		0h:00m:00s		    -1.28ns		 122 /        99
+   4		0h:00m:00s		    -1.20ns		 121 /        99
+   5		0h:00m:00s		    -1.02ns		 121 /        99
+   6		0h:00m:00s		    -1.20ns		 123 /        99
+   7		0h:00m:01s		    -1.20ns		 123 /        99
+   8		0h:00m:01s		    -1.20ns		 122 /        99
+   9		0h:00m:01s		    -1.20ns		 122 /        99
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[17] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[3] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[33] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[35] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[41] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[25] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[34] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[32] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[0] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[9] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[11] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":127:0:127:5|Replicating instance counter_IL07_125[0] (in view: work.FPGA10(verilog)) with 11 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[30] (in view: work.FPGA10(verilog)) with 7 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[44] (in view: work.FPGA10(verilog)) with 7 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[28] (in view: work.FPGA10(verilog)) with 7 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[5] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[13] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[12] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[15] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[7] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[31] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[14] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[29] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[39] (in view: work.FPGA10(verilog)) with 6 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[18] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[23] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[16] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[45] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":51:0:51:5|Replicating instance IL07_50[22] (in view: work.FPGA10(verilog)) with 5 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":51:0:51:5|Replicating instance IL07_50[20] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+Timing driven replication report
+Added 30 Registers via timing driven replication
+Added 1 LUTs via timing driven replication
+
+  10		0h:00m:01s		    -0.84ns		 183 /       129
+  11		0h:00m:01s		    -0.93ns		 190 /       129
+  12		0h:00m:01s		    -0.93ns		 189 /       129
+  13		0h:00m:01s		    -0.86ns		 190 /       129
+  14		0h:00m:01s		    -0.89ns		 190 /       129
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":51:0:51:5|Replicating instance IL07_50[0] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":51:0:51:5|Replicating instance IL07_50[2] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":51:0:51:5|Replicating instance IL07_50[16] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":51:0:51:5|Replicating instance IL07_50[6] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":51:0:51:5|Replicating instance IL07_50[4] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":51:0:51:5|Replicating instance IL07_50[18] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[21] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+@N: FX271 :"c:\cu_suicide_heat_test\fpga10\fpga10.v":120:0:120:5|Replicating instance IL07_125[37] (in view: work.FPGA10(verilog)) with 4 loads 1 time to improve timing.
+Added 8 Registers via timing driven replication
+Added 0 LUTs via timing driven replication
+
+
+  15		0h:00m:01s		    -0.67ns		 191 /       137
+  16		0h:00m:01s		    -0.90ns		 191 /       137
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 157MB peak: 158MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 157MB peak: 158MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 137 clock pin(s) of sequential element(s)
+0 instances converted, 137 sequential instances remain driven by gated/generated clocks
+
+================================================================================================= Gated/Generated Clocks =================================================================================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance     Explanation                                                                                                                   
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       __.PLLInst_0        EHXPLLL                90         IL07_125[3]         Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0002       __.PLLInst_0        EHXPLLL                47         IL07_50[0]          Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+==========================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 123MB peak: 158MB)
+
+Writing Analyst data base C:\Cu_Suicide_Heat_Test\FPGA10\impl1\synwork\FPGA10_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 154MB peak: 158MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Cu_Suicide_Heat_Test\FPGA10\impl1\FPGA10_impl1.edi
+L-2016.09L-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 159MB peak: 161MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 159MB peak: 161MB)
+
+@W: MT246 :"c:\cu_suicide_heat_test\fpga10\sys_pll\sys_pll.v":57:12:57:20|Blackbox EHXPLLL is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock sys_pll|CLKOP_inferred_clock with period 3.05ns. Please declare a user-defined clock on object "n:__.CLKOP"
+@W: MT420 |Found inferred clock sys_pll|CLKOS_inferred_clock with period 3.46ns. Please declare a user-defined clock on object "n:__.CLKOS"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Jun 27 13:04:24 2017
+#
+
+
+Top view:               FPGA10
+Requested Frequency:    289.3 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.610
+
+@N: MT286 |System clock period 0.000 stretches to negative invalid value -- ignoring stretching.
+                                 Requested     Estimated     Requested     Estimated                  Clock        Clock                
+Starting Clock                   Frequency     Frequency     Period        Period        Slack        Type         Group                
+----------------------------------------------------------------------------------------------------------------------------------------
+sys_pll|CLKOP_inferred_clock     327.3 MHz     278.2 MHz     3.055         3.594         -0.539       inferred     Autoconstr_clkgroup_1
+sys_pll|CLKOS_inferred_clock     289.3 MHz     245.9 MHz     3.457         4.067         -0.610       inferred     Autoconstr_clkgroup_0
+System                           1.0 MHz       NA            1000.000      0.000         1000.000     system       system_clkgroup      
+========================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                      |    rise  to  rise      |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                      Ending                        |  constraint  slack     |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+System                        System                        |  1000.000    1000.000  |  No paths    -      |  No paths    -      |  No paths    -    
+sys_pll|CLKOS_inferred_clock  sys_pll|CLKOS_inferred_clock  |  3.457       -0.610    |  No paths    -      |  No paths    -      |  No paths    -    
+sys_pll|CLKOP_inferred_clock  sys_pll|CLKOP_inferred_clock  |  3.055       -0.539    |  No paths    -      |  No paths    -      |  No paths    -    
+=====================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: sys_pll|CLKOP_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                                                     Arrival           
+Instance               Reference                        Type         Pin     Net                    Time        Slack 
+                       Clock                                                                                          
+----------------------------------------------------------------------------------------------------------------------
+IL07_50_0io[1]         sys_pll|CLKOP_inferred_clock     IFS1P3DX     Q       IL07_50[1]             0.863       -0.539
+IL07_50_0io[3]         sys_pll|CLKOP_inferred_clock     IFS1P3DX     Q       IL07_50[3]             0.863       -0.539
+IL07_50_0io[9]         sys_pll|CLKOP_inferred_clock     IFS1P3DX     Q       IL07_50[9]             0.863       -0.539
+IL07_50_0io[7]         sys_pll|CLKOP_inferred_clock     IFS1P3DX     Q       IL07_50[7]             0.838       -0.514
+IL07_50_0io[13]        sys_pll|CLKOP_inferred_clock     IFS1P3DX     Q       IL07_50[13]            0.838       -0.514
+IL07_50_0io[23]        sys_pll|CLKOP_inferred_clock     IFS1P3DX     Q       IL07_50[23]            0.838       -0.514
+counter_IL07_50[1]     sys_pll|CLKOP_inferred_clock     FD1P3AX      Q       counter_IL07_50[1]     0.918       -0.509
+counter_IL07_50[2]     sys_pll|CLKOP_inferred_clock     FD1P3AX      Q       counter_IL07_50[2]     0.918       -0.509
+counter_IL07_50[0]     sys_pll|CLKOP_inferred_clock     FD1P3AY      Q       counter_IL07_50[0]     0.913       -0.504
+IL07_50_0io[4]         sys_pll|CLKOP_inferred_clock     IFS1P3DX     Q       IL07_50[4]             0.863       -0.499
+======================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                           Starting                                                                          Required           
+Instance                   Reference                        Type         Pin     Net                         Time         Slack 
+                           Clock                                                                                                
+--------------------------------------------------------------------------------------------------------------------------------
+error_dect_IL07_0io[0]     sys_pll|CLKOP_inferred_clock     OFS1P3DX     D       N_587_i                     2.844        -0.539
+data_rx_flag_IL07[0]       sys_pll|CLKOP_inferred_clock     FD1S3AX      D       N_2155_0                    2.844        0.507 
+IL12_50[0]                 sys_pll|CLKOP_inferred_clock     FD1P3AX      SP      un1_counter_5016_1_i        2.872        1.301 
+IL12_50[1]                 sys_pll|CLKOP_inferred_clock     FD1P3AX      SP      un1_counter_5016_1_i        2.872        1.301 
+IL12_50[4]                 sys_pll|CLKOP_inferred_clock     FD1P3AX      SP      un1_counter_5016_1_i        2.872        1.301 
+IL12_50[5]                 sys_pll|CLKOP_inferred_clock     FD1P3AX      SP      un1_counter_5016_1_i        2.872        1.301 
+IL12_50[8]                 sys_pll|CLKOP_inferred_clock     FD1P3AX      SP      un1_counter_5016_1_i        2.872        1.301 
+IL12_50[12]                sys_pll|CLKOP_inferred_clock     FD1P3AX      SP      un1_counter_5016_1_i        2.872        1.301 
+counter_IL07_50[0]         sys_pll|CLKOP_inferred_clock     FD1P3AY      SP      un1_counter_IL07_5020_i     2.872        1.346 
+counter_IL07_50[1]         sys_pll|CLKOP_inferred_clock     FD1P3AX      SP      un1_counter_IL07_5020_i     2.872        1.346 
+================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      3.055
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.844
+
+    - Propagation time:                      3.383
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.539
+
+    Number of logic level(s):                5
+    Starting point:                          IL07_50_0io[1] / Q
+    Ending point:                            error_dect_IL07_0io[0] / D
+    The start point is clocked by            sys_pll|CLKOP_inferred_clock [rising] on pin SCLK
+    The end   point is clocked by            sys_pll|CLKOP_inferred_clock [rising] on pin SCLK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+IL07_50_0io[1]                            IFS1P3DX     Q        Out     0.863     0.863       -         
+IL07_50[1]                                Net          -        -       -         -           4         
+error_dect_IL07_32_0_.m13_i_a2_13_1_0     ORCALUT4     A        In      0.000     0.863       -         
+error_dect_IL07_32_0_.m13_i_a2_13_1_0     ORCALUT4     Z        Out     0.523     1.386       -         
+error_dect_IL07_32_0_.m13_i_a2_13_1_0     Net          -        -       -         -           1         
+error_dect_IL07_32_0_.m13_i_a2_13         ORCALUT4     D        In      0.000     1.386       -         
+error_dect_IL07_32_0_.m13_i_a2_13         ORCALUT4     Z        Out     0.608     1.994       -         
+m13_i_a2_13                               Net          -        -       -         -           3         
+error_dect_IL07_0io_RNO_9[0]              ORCALUT4     A        In      0.000     1.994       -         
+error_dect_IL07_0io_RNO_9[0]              ORCALUT4     Z        Out     0.523     2.517       -         
+error_dect_IL07_0io_RNO_9[0]              Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_2[0]              ORCALUT4     C        In      0.000     2.517       -         
+error_dect_IL07_0io_RNO_2[0]              ORCALUT4     Z        Out     0.523     3.040       -         
+error_dect_IL07_0io_RNO_2[0]              Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO[0]                ORCALUT4     D        In      0.000     3.040       -         
+error_dect_IL07_0io_RNO[0]                ORCALUT4     Z        Out     0.343     3.383       -         
+N_587_i                                   Net          -        -       -         -           1         
+error_dect_IL07_0io[0]                    OFS1P3DX     D        In      0.000     3.383       -         
+========================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      3.055
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.844
+
+    - Propagation time:                      3.383
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.539
+
+    Number of logic level(s):                5
+    Starting point:                          IL07_50_0io[3] / Q
+    Ending point:                            error_dect_IL07_0io[0] / D
+    The start point is clocked by            sys_pll|CLKOP_inferred_clock [rising] on pin SCLK
+    The end   point is clocked by            sys_pll|CLKOP_inferred_clock [rising] on pin SCLK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+IL07_50_0io[3]                            IFS1P3DX     Q        Out     0.863     0.863       -         
+IL07_50[3]                                Net          -        -       -         -           4         
+error_dect_IL07_32_0_.m13_i_a2_13_1_0     ORCALUT4     B        In      0.000     0.863       -         
+error_dect_IL07_32_0_.m13_i_a2_13_1_0     ORCALUT4     Z        Out     0.523     1.386       -         
+error_dect_IL07_32_0_.m13_i_a2_13_1_0     Net          -        -       -         -           1         
+error_dect_IL07_32_0_.m13_i_a2_13         ORCALUT4     D        In      0.000     1.386       -         
+error_dect_IL07_32_0_.m13_i_a2_13         ORCALUT4     Z        Out     0.608     1.994       -         
+m13_i_a2_13                               Net          -        -       -         -           3         
+error_dect_IL07_0io_RNO_9[0]              ORCALUT4     A        In      0.000     1.994       -         
+error_dect_IL07_0io_RNO_9[0]              ORCALUT4     Z        Out     0.523     2.517       -         
+error_dect_IL07_0io_RNO_9[0]              Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_2[0]              ORCALUT4     C        In      0.000     2.517       -         
+error_dect_IL07_0io_RNO_2[0]              ORCALUT4     Z        Out     0.523     3.040       -         
+error_dect_IL07_0io_RNO_2[0]              Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO[0]                ORCALUT4     D        In      0.000     3.040       -         
+error_dect_IL07_0io_RNO[0]                ORCALUT4     Z        Out     0.343     3.383       -         
+N_587_i                                   Net          -        -       -         -           1         
+error_dect_IL07_0io[0]                    OFS1P3DX     D        In      0.000     3.383       -         
+========================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      3.055
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.844
+
+    - Propagation time:                      3.383
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.539
+
+    Number of logic level(s):                5
+    Starting point:                          IL07_50_0io[9] / Q
+    Ending point:                            error_dect_IL07_0io[0] / D
+    The start point is clocked by            sys_pll|CLKOP_inferred_clock [rising] on pin SCLK
+    The end   point is clocked by            sys_pll|CLKOP_inferred_clock [rising] on pin SCLK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+IL07_50_0io[9]                            IFS1P3DX     Q        Out     0.863     0.863       -         
+IL07_50[9]                                Net          -        -       -         -           4         
+error_dect_IL07_32_0_.m13_i_a2_13_1_0     ORCALUT4     C        In      0.000     0.863       -         
+error_dect_IL07_32_0_.m13_i_a2_13_1_0     ORCALUT4     Z        Out     0.523     1.386       -         
+error_dect_IL07_32_0_.m13_i_a2_13_1_0     Net          -        -       -         -           1         
+error_dect_IL07_32_0_.m13_i_a2_13         ORCALUT4     D        In      0.000     1.386       -         
+error_dect_IL07_32_0_.m13_i_a2_13         ORCALUT4     Z        Out     0.608     1.994       -         
+m13_i_a2_13                               Net          -        -       -         -           3         
+error_dect_IL07_0io_RNO_9[0]              ORCALUT4     A        In      0.000     1.994       -         
+error_dect_IL07_0io_RNO_9[0]              ORCALUT4     Z        Out     0.523     2.517       -         
+error_dect_IL07_0io_RNO_9[0]              Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_2[0]              ORCALUT4     C        In      0.000     2.517       -         
+error_dect_IL07_0io_RNO_2[0]              ORCALUT4     Z        Out     0.523     3.040       -         
+error_dect_IL07_0io_RNO_2[0]              Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO[0]                ORCALUT4     D        In      0.000     3.040       -         
+error_dect_IL07_0io_RNO[0]                ORCALUT4     Z        Out     0.343     3.383       -         
+N_587_i                                   Net          -        -       -         -           1         
+error_dect_IL07_0io[0]                    OFS1P3DX     D        In      0.000     3.383       -         
+========================================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      3.055
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.844
+
+    - Propagation time:                      3.358
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.514
+
+    Number of logic level(s):                5
+    Starting point:                          IL07_50_0io[7] / Q
+    Ending point:                            error_dect_IL07_0io[0] / D
+    The start point is clocked by            sys_pll|CLKOP_inferred_clock [rising] on pin SCLK
+    The end   point is clocked by            sys_pll|CLKOP_inferred_clock [rising] on pin SCLK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+IL07_50_0io[7]                            IFS1P3DX     Q        Out     0.838     0.838       -         
+IL07_50[7]                                Net          -        -       -         -           3         
+error_dect_IL07_32_0_.m13_i_a2_21_1_0     ORCALUT4     A        In      0.000     0.838       -         
+error_dect_IL07_32_0_.m13_i_a2_21_1_0     ORCALUT4     Z        Out     0.523     1.361       -         
+error_dect_IL07_32_0_.m13_i_a2_21_1_0     Net          -        -       -         -           1         
+error_dect_IL07_32_0_.m13_i_a2_21         ORCALUT4     D        In      0.000     1.361       -         
+error_dect_IL07_32_0_.m13_i_a2_21         ORCALUT4     Z        Out     0.608     1.969       -         
+N_117                                     Net          -        -       -         -           3         
+error_dect_IL07_0io_RNO_5[0]              ORCALUT4     A        In      0.000     1.969       -         
+error_dect_IL07_0io_RNO_5[0]              ORCALUT4     Z        Out     0.523     2.492       -         
+error_dect_IL07_0io_RNO_5[0]              Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_1[0]              ORCALUT4     C        In      0.000     2.492       -         
+error_dect_IL07_0io_RNO_1[0]              ORCALUT4     Z        Out     0.523     3.015       -         
+g0_5_1                                    Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO[0]                ORCALUT4     C        In      0.000     3.015       -         
+error_dect_IL07_0io_RNO[0]                ORCALUT4     Z        Out     0.343     3.358       -         
+N_587_i                                   Net          -        -       -         -           1         
+error_dect_IL07_0io[0]                    OFS1P3DX     D        In      0.000     3.358       -         
+========================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      3.055
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         2.844
+
+    - Propagation time:                      3.358
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.514
+
+    Number of logic level(s):                5
+    Starting point:                          IL07_50_0io[13] / Q
+    Ending point:                            error_dect_IL07_0io[0] / D
+    The start point is clocked by            sys_pll|CLKOP_inferred_clock [rising] on pin SCLK
+    The end   point is clocked by            sys_pll|CLKOP_inferred_clock [rising] on pin SCLK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                      Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+IL07_50_0io[13]                           IFS1P3DX     Q        Out     0.838     0.838       -         
+IL07_50[13]                               Net          -        -       -         -           3         
+error_dect_IL07_32_0_.m13_i_a2_21_1_0     ORCALUT4     B        In      0.000     0.838       -         
+error_dect_IL07_32_0_.m13_i_a2_21_1_0     ORCALUT4     Z        Out     0.523     1.361       -         
+error_dect_IL07_32_0_.m13_i_a2_21_1_0     Net          -        -       -         -           1         
+error_dect_IL07_32_0_.m13_i_a2_21         ORCALUT4     D        In      0.000     1.361       -         
+error_dect_IL07_32_0_.m13_i_a2_21         ORCALUT4     Z        Out     0.608     1.969       -         
+N_117                                     Net          -        -       -         -           3         
+error_dect_IL07_0io_RNO_5[0]              ORCALUT4     A        In      0.000     1.969       -         
+error_dect_IL07_0io_RNO_5[0]              ORCALUT4     Z        Out     0.523     2.492       -         
+error_dect_IL07_0io_RNO_5[0]              Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_1[0]              ORCALUT4     C        In      0.000     2.492       -         
+error_dect_IL07_0io_RNO_1[0]              ORCALUT4     Z        Out     0.523     3.015       -         
+g0_5_1                                    Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO[0]                ORCALUT4     C        In      0.000     3.015       -         
+error_dect_IL07_0io_RNO[0]                ORCALUT4     Z        Out     0.343     3.358       -         
+N_587_i                                   Net          -        -       -         -           1         
+error_dect_IL07_0io[0]                    OFS1P3DX     D        In      0.000     3.358       -         
+========================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: sys_pll|CLKOS_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                      Starting                                                                    Arrival           
+Instance              Reference                        Type         Pin     Net                   Time        Slack 
+                      Clock                                                                                         
+--------------------------------------------------------------------------------------------------------------------
+IL07_125_0io[4]       sys_pll|CLKOS_inferred_clock     IFS1P3DX     Q       IL07_125[4]           0.898       -0.610
+IL07_125_0io[6]       sys_pll|CLKOS_inferred_clock     IFS1P3DX     Q       IL07_125[6]           0.898       -0.610
+IL07_125_0io[20]      sys_pll|CLKOS_inferred_clock     IFS1P3DX     Q       IL07_125[20]          0.898       -0.610
+IL07_125[25]          sys_pll|CLKOS_inferred_clock     FD1S3AX      Q       IL07_125[25]          0.863       -0.575
+IL07_125[33]          sys_pll|CLKOS_inferred_clock     FD1S3AX      Q       IL07_125[33]          0.863       -0.575
+IL07_125[35]          sys_pll|CLKOS_inferred_clock     FD1S3AX      Q       IL07_125[35]          0.863       -0.575
+IL07_125[41]          sys_pll|CLKOS_inferred_clock     FD1S3AX      Q       IL07_125[41]          0.863       -0.575
+IL07_125_0io[10]      sys_pll|CLKOS_inferred_clock     IFS1P3DX     Q       IL07_125[10]          0.863       -0.575
+IL07_125_0io[26]      sys_pll|CLKOS_inferred_clock     IFS1P3DX     Q       IL07_125[26]          0.863       -0.575
+IL07_125_fast[12]     sys_pll|CLKOS_inferred_clock     FD1S3AX      Q       IL07_125_fast[12]     0.798       -0.510
+====================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                           Starting                                                                           Required           
+Instance                   Reference                        Type         Pin     Net                          Time         Slack 
+                           Clock                                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------
+error_dect_IL07_0io[1]     sys_pll|CLKOS_inferred_clock     OFS1P3DX     D       N_554_i                      3.246        -0.610
+data_rx_flag_IL07[1]       sys_pll|CLKOS_inferred_clock     FD1S3AX      D       N_2156_0                     3.246        -0.137
+IL12_125[0]                sys_pll|CLKOS_inferred_clock     FD1P3AX      SP      un1_counter_12516_1_i        3.274        1.703 
+IL12_125[1]                sys_pll|CLKOS_inferred_clock     FD1P3AX      SP      un1_counter_12516_1_i        3.274        1.703 
+IL12_125[4]                sys_pll|CLKOS_inferred_clock     FD1P3AX      SP      un1_counter_12516_1_i        3.274        1.703 
+IL12_125[5]                sys_pll|CLKOS_inferred_clock     FD1P3AX      SP      un1_counter_12516_1_i        3.274        1.703 
+IL12_125[8]                sys_pll|CLKOS_inferred_clock     FD1P3AX      SP      un1_counter_12516_1_i        3.274        1.703 
+IL12_125[12]               sys_pll|CLKOS_inferred_clock     FD1P3AX      SP      un1_counter_12516_1_i        3.274        1.703 
+counter_IL07_125[0]        sys_pll|CLKOS_inferred_clock     FD1P3AY      SP      un1_counter_IL07_12520_i     3.274        1.723 
+counter_IL07_125[1]        sys_pll|CLKOS_inferred_clock     FD1P3AX      SP      un1_counter_IL07_12520_i     3.274        1.723 
+=================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      3.457
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.246
+
+    - Propagation time:                      3.856
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.610
+
+    Number of logic level(s):                6
+    Starting point:                          IL07_125_0io[4] / Q
+    Ending point:                            error_dect_IL07_0io[1] / D
+    The start point is clocked by            sys_pll|CLKOS_inferred_clock [rising] on pin SCLK
+    The end   point is clocked by            sys_pll|CLKOS_inferred_clock [rising] on pin SCLK
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                              Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+IL07_125_0io[4]                   IFS1P3DX     Q        Out     0.898     0.898       -         
+IL07_125[4]                       Net          -        -       -         -           7         
+error_dect_IL07_0io_RNO_72[1]     ORCALUT4     A        In      0.000     0.898       -         
+error_dect_IL07_0io_RNO_72[1]     ORCALUT4     Z        Out     0.523     1.421       -         
+g0_8_1                            Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_52[1]     ORCALUT4     D        In      0.000     1.421       -         
+error_dect_IL07_0io_RNO_52[1]     ORCALUT4     Z        Out     0.523     1.944       -         
+N_169                             Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_24[1]     ORCALUT4     C        In      0.000     1.944       -         
+error_dect_IL07_0io_RNO_24[1]     ORCALUT4     Z        Out     0.523     2.467       -         
+error_dect_IL07_0io_RNO_24[1]     Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_5[1]      ORCALUT4     B        In      0.000     2.467       -         
+error_dect_IL07_0io_RNO_5[1]      ORCALUT4     Z        Out     0.523     2.990       -         
+N_8_0                             Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_0[1]      ORCALUT4     B        In      0.000     2.990       -         
+error_dect_IL07_0io_RNO_0[1]      ORCALUT4     Z        Out     0.523     3.513       -         
+N_4_i_1                           Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO[1]        ORCALUT4     A        In      0.000     3.513       -         
+error_dect_IL07_0io_RNO[1]        ORCALUT4     Z        Out     0.343     3.856       -         
+N_554_i                           Net          -        -       -         -           1         
+error_dect_IL07_0io[1]            OFS1P3DX     D        In      0.000     3.856       -         
+================================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      3.457
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.246
+
+    - Propagation time:                      3.856
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.610
+
+    Number of logic level(s):                6
+    Starting point:                          IL07_125_0io[6] / Q
+    Ending point:                            error_dect_IL07_0io[1] / D
+    The start point is clocked by            sys_pll|CLKOS_inferred_clock [rising] on pin SCLK
+    The end   point is clocked by            sys_pll|CLKOS_inferred_clock [rising] on pin SCLK
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                              Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+IL07_125_0io[6]                   IFS1P3DX     Q        Out     0.898     0.898       -         
+IL07_125[6]                       Net          -        -       -         -           7         
+error_dect_IL07_0io_RNO_72[1]     ORCALUT4     B        In      0.000     0.898       -         
+error_dect_IL07_0io_RNO_72[1]     ORCALUT4     Z        Out     0.523     1.421       -         
+g0_8_1                            Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_52[1]     ORCALUT4     D        In      0.000     1.421       -         
+error_dect_IL07_0io_RNO_52[1]     ORCALUT4     Z        Out     0.523     1.944       -         
+N_169                             Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_24[1]     ORCALUT4     C        In      0.000     1.944       -         
+error_dect_IL07_0io_RNO_24[1]     ORCALUT4     Z        Out     0.523     2.467       -         
+error_dect_IL07_0io_RNO_24[1]     Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_5[1]      ORCALUT4     B        In      0.000     2.467       -         
+error_dect_IL07_0io_RNO_5[1]      ORCALUT4     Z        Out     0.523     2.990       -         
+N_8_0                             Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_0[1]      ORCALUT4     B        In      0.000     2.990       -         
+error_dect_IL07_0io_RNO_0[1]      ORCALUT4     Z        Out     0.523     3.513       -         
+N_4_i_1                           Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO[1]        ORCALUT4     A        In      0.000     3.513       -         
+error_dect_IL07_0io_RNO[1]        ORCALUT4     Z        Out     0.343     3.856       -         
+N_554_i                           Net          -        -       -         -           1         
+error_dect_IL07_0io[1]            OFS1P3DX     D        In      0.000     3.856       -         
+================================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      3.457
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.246
+
+    - Propagation time:                      3.856
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.610
+
+    Number of logic level(s):                6
+    Starting point:                          IL07_125_0io[20] / Q
+    Ending point:                            error_dect_IL07_0io[1] / D
+    The start point is clocked by            sys_pll|CLKOS_inferred_clock [rising] on pin SCLK
+    The end   point is clocked by            sys_pll|CLKOS_inferred_clock [rising] on pin SCLK
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                              Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+IL07_125_0io[20]                  IFS1P3DX     Q        Out     0.898     0.898       -         
+IL07_125[20]                      Net          -        -       -         -           7         
+error_dect_IL07_0io_RNO_72[1]     ORCALUT4     C        In      0.000     0.898       -         
+error_dect_IL07_0io_RNO_72[1]     ORCALUT4     Z        Out     0.523     1.421       -         
+g0_8_1                            Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_52[1]     ORCALUT4     D        In      0.000     1.421       -         
+error_dect_IL07_0io_RNO_52[1]     ORCALUT4     Z        Out     0.523     1.944       -         
+N_169                             Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_24[1]     ORCALUT4     C        In      0.000     1.944       -         
+error_dect_IL07_0io_RNO_24[1]     ORCALUT4     Z        Out     0.523     2.467       -         
+error_dect_IL07_0io_RNO_24[1]     Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_5[1]      ORCALUT4     B        In      0.000     2.467       -         
+error_dect_IL07_0io_RNO_5[1]      ORCALUT4     Z        Out     0.523     2.990       -         
+N_8_0                             Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_0[1]      ORCALUT4     B        In      0.000     2.990       -         
+error_dect_IL07_0io_RNO_0[1]      ORCALUT4     Z        Out     0.523     3.513       -         
+N_4_i_1                           Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO[1]        ORCALUT4     A        In      0.000     3.513       -         
+error_dect_IL07_0io_RNO[1]        ORCALUT4     Z        Out     0.343     3.856       -         
+N_554_i                           Net          -        -       -         -           1         
+error_dect_IL07_0io[1]            OFS1P3DX     D        In      0.000     3.856       -         
+================================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      3.457
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.246
+
+    - Propagation time:                      3.821
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.575
+
+    Number of logic level(s):                6
+    Starting point:                          IL07_125[25] / Q
+    Ending point:                            error_dect_IL07_0io[1] / D
+    The start point is clocked by            sys_pll|CLKOS_inferred_clock [rising] on pin CK
+    The end   point is clocked by            sys_pll|CLKOS_inferred_clock [rising] on pin SCLK
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                              Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+IL07_125[25]                      FD1S3AX      Q        Out     0.863     0.863       -         
+IL07_125[25]                      Net          -        -       -         -           4         
+error_dect_IL07_0io_RNO_74[1]     ORCALUT4     A        In      0.000     0.863       -         
+error_dect_IL07_0io_RNO_74[1]     ORCALUT4     Z        Out     0.523     1.386       -         
+g0_16_N_4L5_1                     Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_70[1]     ORCALUT4     D        In      0.000     1.386       -         
+error_dect_IL07_0io_RNO_70[1]     ORCALUT4     Z        Out     0.523     1.909       -         
+error_dect_IL07_0io_RNO_70[1]     Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_45[1]     ORCALUT4     D        In      0.000     1.909       -         
+error_dect_IL07_0io_RNO_45[1]     ORCALUT4     Z        Out     0.523     2.432       -         
+error_dect_IL07_0io_RNO_45[1]     Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_19[1]     ORCALUT4     D        In      0.000     2.432       -         
+error_dect_IL07_0io_RNO_19[1]     ORCALUT4     Z        Out     0.523     2.955       -         
+g1_0_1                            Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_3[1]      ORCALUT4     D        In      0.000     2.955       -         
+error_dect_IL07_0io_RNO_3[1]      ORCALUT4     Z        Out     0.523     3.478       -         
+N_7                               Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO[1]        ORCALUT4     D        In      0.000     3.478       -         
+error_dect_IL07_0io_RNO[1]        ORCALUT4     Z        Out     0.343     3.821       -         
+N_554_i                           Net          -        -       -         -           1         
+error_dect_IL07_0io[1]            OFS1P3DX     D        In      0.000     3.821       -         
+================================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      3.457
+    - Setup time:                            0.211
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.246
+
+    - Propagation time:                      3.821
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.575
+
+    Number of logic level(s):                6
+    Starting point:                          IL07_125[33] / Q
+    Ending point:                            error_dect_IL07_0io[1] / D
+    The start point is clocked by            sys_pll|CLKOS_inferred_clock [rising] on pin CK
+    The end   point is clocked by            sys_pll|CLKOS_inferred_clock [rising] on pin SCLK
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                              Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+IL07_125[33]                      FD1S3AX      Q        Out     0.863     0.863       -         
+IL07_125[33]                      Net          -        -       -         -           4         
+error_dect_IL07_0io_RNO_74[1]     ORCALUT4     B        In      0.000     0.863       -         
+error_dect_IL07_0io_RNO_74[1]     ORCALUT4     Z        Out     0.523     1.386       -         
+g0_16_N_4L5_1                     Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_70[1]     ORCALUT4     D        In      0.000     1.386       -         
+error_dect_IL07_0io_RNO_70[1]     ORCALUT4     Z        Out     0.523     1.909       -         
+error_dect_IL07_0io_RNO_70[1]     Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_45[1]     ORCALUT4     D        In      0.000     1.909       -         
+error_dect_IL07_0io_RNO_45[1]     ORCALUT4     Z        Out     0.523     2.432       -         
+error_dect_IL07_0io_RNO_45[1]     Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_19[1]     ORCALUT4     D        In      0.000     2.432       -         
+error_dect_IL07_0io_RNO_19[1]     ORCALUT4     Z        Out     0.523     2.955       -         
+g1_0_1                            Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO_3[1]      ORCALUT4     D        In      0.000     2.955       -         
+error_dect_IL07_0io_RNO_3[1]      ORCALUT4     Z        Out     0.523     3.478       -         
+N_7                               Net          -        -       -         -           1         
+error_dect_IL07_0io_RNO[1]        ORCALUT4     D        In      0.000     3.478       -         
+error_dect_IL07_0io_RNO[1]        ORCALUT4     Z        Out     0.343     3.821       -         
+N_554_i                           Net          -        -       -         -           1         
+error_dect_IL07_0io[1]            OFS1P3DX     D        In      0.000     3.821       -         
+================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                           Arrival             
+Instance         Reference     Type        Pin          Net         Time        Slack   
+                 Clock                                                                  
+----------------------------------------------------------------------------------------
+__.PLLInst_0     System        EHXPLLL     CLKINTFB     CLKFB_t     0.000       1000.000
+========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                 Starting                                        Required             
+Instance         Reference     Type        Pin       Net         Time         Slack   
+                 Clock                                                                
+--------------------------------------------------------------------------------------
+__.PLLInst_0     System        EHXPLLL     CLKFB     CLKFB_t     1000.000     1000.000
+======================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1000.000
+
+    - Propagation time:                      0.000
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 1000.000
+
+    Number of logic level(s):                0
+    Starting point:                          __.PLLInst_0 / CLKINTFB
+    Ending point:                            __.PLLInst_0 / CLKFB
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                 Pin          Pin               Arrival     No. of    
+Name               Type        Name         Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------
+__.PLLInst_0       EHXPLLL     CLKINTFB     Out     0.000     0.000       -         
+CLKFB_t            Net         -            -       -         -           1         
+__.PLLInst_0       EHXPLLL     CLKFB        In      0.000     0.000       -         
+====================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 160MB peak: 161MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 160MB peak: 161MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfe5u_85f-8
+
+Register bits: 137 of 83640 (0%)
+PIC Latch:       0
+I/O cells:       294
+
+
+Details:
+EHXPLLL:        1
+FD1P3AX:        16
+FD1P3AY:        3
+FD1S3AX:        45
+GSR:            1
+IB:             72
+IFS1P3DX:       71
+OB:             222
+OFS1P3DX:       2
+ORCALUT4:       191
+PUR:            1
+VHI:            1
+VLO:            2
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 32MB peak: 161MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Tue Jun 27 13:04:24 2017
+
+###########################################################]

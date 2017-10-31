@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "FPGA10_impl1.log"
+-o "FPGA10_impl1.csv"
+-pr "FPGA10_impl1.prf"
